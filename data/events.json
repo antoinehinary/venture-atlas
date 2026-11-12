@@ -1,0 +1,1296 @@
+[
+  {
+    "id": "palantir-founded-in-q-tel-backing",
+    "date": "2003-05-06",
+    "title": "Palantir founded; In-Q-Tel puts in about $2M early",
+    "detail": "The CIA-affiliated venture firm In-Q-Tel became an early backer of Palantir, investing about $2 million. Palantir was the first modern venture-backed company to become a core government and defence software supplier. Its alumni (Trae Stephens, Brian Schimpf, Joe Lonsdale) later founded or funded Anduril and Epirus.",
+    "kind": "market",
+    "domains": [
+      "defence",
+      "ml-ai"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Palantir_Technologies",
+    "check": "confirmed",
+    "checkNote": "Founding date May 6, 2003 is in the infobox (body says only 2003). In-Q-Tel's 1999 creation is not on the page (whole page searched), so that parenthesis is removed. Page confirms Lonsdale co-founded Epirus and names Brian Schimpf 'of Anduril Industries' and Trae Stephens; it does not spell out that Stephens or Schimpf are Palantir alumni who founded Anduril (context clause left as is)."
+  },
+  {
+    "id": "ansari-x-prize-won",
+    "date": "2004-10-04",
+    "title": "SpaceShipOne wins the $10M Ansari X Prize",
+    "detail": "A privately built, reusable crewed vehicle reached space twice within two weeks. More than $100M was invested in pursuit of the prize, and it showed investors that spaceflight was no longer only a government activity.",
+    "kind": "technology",
+    "domains": [
+      "space"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Ansari_X_Prize",
+    "check": "confirmed",
+    "checkNote": "Page: prize won on October 4, 2004 by SpaceShipOne; US$10,000,000; 'launch a reusable crewed spacecraft into space twice within two weeks'."
+  },
+  {
+    "id": "darpa-grand-challenge-2005",
+    "date": "2005-10-08",
+    "title": "Stanford's Stanley wins the DARPA Grand Challenge",
+    "detail": "After no vehicle finished the first desert race in March 2004, Stanford's Stanley won the $2M prize in 2005 ahead of two Carnegie Mellon robots; CMU's Boss then won the 2007 Urban Challenge in simulated city traffic. Alumni of these teams founded or led the first self-driving programmes and startups: Argo AI co-founder Bryan Salesky came from CMU's Urban Challenge team.",
+    "kind": "technology",
+    "domains": [
+      "ml-ai",
+      "robotics",
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/DARPA_Grand_Challenge",
+    "check": "confirmed",
+    "checkNote": "Page: first race March 13, 2004; 2005 race on October 8, 2005 won by Stanford's Stanley with Carnegie Mellon's Sandstorm and H1ghlander second and third; prize raised to $2 million; Tartan Racing's Boss won the 2007 Urban Challenge. Bryan Salesky and Argo AI are not mentioned on the page (context clause, left unverified)."
+  },
+  {
+    "id": "nasa-cots-awards",
+    "date": "2006-08-18",
+    "title": "NASA awards first COTS contracts to SpaceX and Kistler",
+    "detail": "NASA paid milestone-based sums under Space Act Agreements ($278M awarded to SpaceX, $207M to Rocketplane Kistler, later replaced by Orbital Sciences) for commercial cargo vehicles instead of owning the design. It became the template for government-as-anchor-customer that later space startups pitched to investors.",
+    "kind": "policy",
+    "domains": [
+      "space"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Commercial_Orbital_Transportation_Services",
+    "check": "confirmed",
+    "checkNote": "Date 18 August 2006 and both award amounts confirmed. The page does not call the COTS agreements fixed-price (it says NASA moved to fixed-price contracts after COTS), so 'fixed-price' is removed. Kistler received only $32.1M before termination; SpaceX's award later rose to $396M."
+  },
+  {
+    "id": "universal-robots-first-cobot",
+    "date": "2008",
+    "title": "Universal Robots sells the first commercially viable cobot",
+    "detail": "The UR5 went on sale in Denmark and Germany in 2008. A light, cheap arm that small manufacturers could install themselves created the collaborative-robot category and later a cluster of robotics startups around Odense.",
+    "kind": "technology",
+    "domains": [
+      "robotics"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Universal_Robots",
+    "check": "confirmed",
+    "checkNote": "Page: 'In 2008, the first UR5 cobots were available on the Danish and German markets.' Company founded and based in Odense. The later Odense startup cluster is not described on the page (context clause)."
+  },
+  {
+    "id": "falcon-1-reaches-orbit",
+    "date": "2008-09-28",
+    "title": "Falcon 1 is first private liquid-fuel rocket to reach orbit",
+    "detail": "After three failures and with SpaceX nearly out of money, the fourth flight reached orbit. It proved a venture-funded company could build an orbital launcher, the precedent behind every later small-launch startup.",
+    "kind": "technology",
+    "domains": [
+      "space"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Falcon_1",
+    "check": "confirmed",
+    "checkNote": "Page: fourth flight succeeded on September 28, 2008 'after three failed launch attempts'; Musk quoted that it was 'the last money that we had for Falcon 1'."
+  },
+  {
+    "id": "ros-1-0-release",
+    "date": "2010-01",
+    "title": "ROS 1.0 released by Willow Garage",
+    "detail": "ROS 1.0 came out in January 2010 and the first versioned distribution, Box Turtle, on 2 March 2010; Willow Garage also gave eleven PR2 robots to research labs that year. A shared open-source software stack (\"Linux for robotics\") cut the cost of starting a robot company; Rethink's Baxter (2012) was the first commercial robot to run it.",
+    "kind": "technology",
+    "domains": [
+      "robotics"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Robot_Operating_System",
+    "check": "confirmed",
+    "checkNote": "Page: ROS 1.0 released in January 2010; 'They ended up awarding eleven PR2s to different institutions'; 'Linux for robotics'; 'Baxter, the first commercial robot to run ROS, was announced by Rethink Robotics' (2012 from paragraph context)."
+  },
+  {
+    "id": "industrie-4-0-hannover-2011",
+    "date": "2011",
+    "title": "Germany introduces 'Industrie 4.0' at the Hannover Fair",
+    "detail": "The term came out of the German government's high-tech strategy and was presented at the Hannover Fair in 2011; the working group's final report followed on 8 April 2013. It gave European manufacturers, vendors and founders a shared agenda for connected factories and framed a decade of industrial-software startups.",
+    "kind": "policy",
+    "domains": [
+      "automation",
+      "robotics"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Industry_4.0",
+    "check": "confirmed",
+    "checkNote": "Page: 'publicly introduced in the same year at the Hannover Fair'; 'On 8 April 2013 at the Hannover Fair, the final report of the Working Group Industry 4.0 was presented.'"
+  },
+  {
+    "id": "amazon-acquires-kiva",
+    "date": "2012-03-19",
+    "title": "Amazon buys Kiva Systems for $775 million",
+    "detail": "Amazon paid about $775 million in cash for the maker of shelf-carrying warehouse robots, which had raised $33 million. Kiva then stopped marketing its systems to other companies, taking the leading goods-to-person robot off the open market.",
+    "kind": "exit",
+    "domains": [
+      "robotics",
+      "automation"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Amazon_Robotics",
+    "check": "confirmed",
+    "checkNote": "March 19, 2012 is the announcement date; the page gives no completion date. Page: 'had raised $33 million from investors'; 'After the acquisition, Kiva stopped marketing its systems'."
+  },
+  {
+    "id": "dragon-berths-iss",
+    "date": "2012-05-25",
+    "title": "SpaceX Dragon becomes first commercial craft to berth at ISS",
+    "detail": "COTS Demo Flight 2 launched on 22 May 2012 and Dragon was berthed to the ISS on 25 May. The berthing completed NASA's commercial cargo bet and validated public-private partnerships as a way to fund space hardware.",
+    "kind": "technology",
+    "domains": [
+      "space"
+    ],
+    "source": "https://en.wikipedia.org/wiki/SpaceX_COTS_Demo_Flight_2",
+    "check": "confirmed",
+    "checkNote": "22 May 2012 is the launch date, not the berthing date. The original source gives only 22 May for the flight and has no 'first commercial' statement; the Demo Flight 2 page gives berthing on 25 May 2012 and says 'It was also the first commercial spacecraft to rendezvous and berth with another spacecraft.'"
+  },
+  {
+    "id": "alexnet-imagenet-2012",
+    "date": "2012-09-30",
+    "title": "AlexNet wins ImageNet and starts the deep-learning boom",
+    "detail": "Krizhevsky, Sutskever and Hinton's GPU-trained network won ILSVRC 2012 with a 15.3% top-5 error, more than 10.8 points ahead of the runner-up. It popularised GPU training and made computer vision investable; the authors' company DNNresearch was sold to Google, and a wave of vision startups followed.",
+    "kind": "technology",
+    "domains": [
+      "ml-ai",
+      "robotics",
+      "automation"
+    ],
+    "source": "https://en.wikipedia.org/wiki/AlexNet",
+    "check": "confirmed",
+    "checkNote": "September 30, 2012 is the date the team submitted AlexNet to ILSVRC per the page; the page gives no separate date for the announcement of the win. Page: 'more than 10.8% points better than the runner-up'; the authors 'sold the company, and the AlexNet source code along with it, to Google'."
+  },
+  {
+    "id": "google-acquires-boston-dynamics",
+    "date": "2013-12-13",
+    "title": "Google X acquires Boston Dynamics",
+    "detail": "Google bought Boston Dynamics for an undisclosed price and put it under Andy Rubin, signalling that a large technology company saw robotics as strategic. The business was later sold to SoftBank (announced June 2017) and then to Hyundai, which bought an 80% stake for about $880 million in December 2020.",
+    "kind": "exit",
+    "domains": [
+      "robotics"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Boston_Dynamics",
+    "check": "confirmed",
+    "checkNote": "Page: 'for an unknown price'; managed by Andy Rubin; SoftBank sale announced June 8, 2017; in December 2020 Hyundai 'acquired an 80% stake in the company from SoftBank for approximately $880 million' (completed June 2021; a reference title on the page says '$1.1B deal')."
+  },
+  {
+    "id": "google-acquires-deepmind-2014",
+    "date": "2014-01-26",
+    "title": "Google buys DeepMind for a reported $400-650M",
+    "detail": "A three-year-old London lab with no product, backed by Founders Fund and Horizons Ventures, was bought for a reported $400M to $650M. It set the price of AI research talent and showed European founders and investors that a research-first AI company could exit.",
+    "kind": "exit",
+    "domains": [
+      "ml-ai"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Google_DeepMind",
+    "check": "confirmed",
+    "checkNote": "Page: 'On 26 January 2014, Google confirmed its acquisition of DeepMind'; founded in the UK on 15 November 2010, headquartered in London; 'Horizons Ventures and Founders Fund invested in the company'. 'No product' is not stated on the page."
+  },
+  {
+    "id": "russia-annexes-crimea",
+    "date": "2014-03-18",
+    "title": "Russia annexes Crimea",
+    "detail": "Russian forces without insignia seized Crimea from 27 February 2014 and Putin signed the accession treaty on 18 March. It restarted the European security debate; Helsing co-founder Torsten Reil cites it as part of the motivation for founding the company.",
+    "kind": "conflict",
+    "domains": [
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Annexation_of_Crimea_by_the_Russian_Federation",
+    "check": "confirmed",
+    "checkNote": "Page: 'On 27 February, Russian special forces without insignia began seizing strategic sites across Crimea' (it also mentions soldiers without insignia from 26 February). Helsing and Torsten Reil are not mentioned in the part of the page read (first 100,000 characters); that context clause is unverified."
+  },
+  {
+    "id": "google-buys-skybox",
+    "date": "2014-06-10",
+    "title": "Google agrees to buy Skybox Imaging for $500M",
+    "detail": "A $500M exit for a smallsat imaging startup founded only in 2009 showed that Earth-observation companies could return venture capital. Google sold the unit, renamed Terra Bella, to Planet in 2017.",
+    "kind": "exit",
+    "domains": [
+      "space"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Terra_Bella",
+    "check": "confirmed",
+    "checkNote": "Page: announced 10 June 2014 for $500 million, completed 1 August 2014; founded in 2009; renamed Terra Bella on 8 March 2016; 'In 2017, Google sold Terra Bella and its SkySat satellite constellation to Planet Labs.'"
+  },
+  {
+    "id": "made-in-china-2025",
+    "date": "2015-05",
+    "title": "China launches Made in China 2025",
+    "detail": "Signed by Premier Li Keqiang and directly inspired by Industry 4.0, the plan targeted 70% domestic content in core materials by 2025 across robotics, semiconductors and other sectors. Western reaction (tariffs, export controls, later the CHIPS Act) became the strategic backdrop for reshoring and automated-factory startups.",
+    "kind": "policy",
+    "domains": [
+      "automation",
+      "robotics"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Made_in_China_2025",
+    "check": "confirmed",
+    "checkNote": "Page: 'signed by Chinese Premier Li Keqiang in May 2015'; 'directly inspired by Germany's proposed Industry 4.0 strategy'; robotics and IT among the ten sectors; US tariffs (2018), strengthened export control authorities and the CHIPS and Science Act (2022) are listed among US responses."
+  },
+  {
+    "id": "teradyne-acquires-universal-robots",
+    "date": "2015-05",
+    "title": "Teradyne buys Universal Robots for $285 million",
+    "detail": "Teradyne paid $285 million in cash plus up to $65 million if performance targets were met through 2018, for a company that had run out of money and into serious debt in 2008. The exit proved the cobot market and returned capital and experienced operators to the Odense robotics cluster; Teradyne bought Mobile Industrial Robots, founded by Universal Robots alumni, three years later.",
+    "kind": "exit",
+    "domains": [
+      "robotics"
+    ],
+    "source": "https://www.therobotreport.com/deciding-what-not-to-do-is-as-important-as-deciding-what-to-do/",
+    "check": "confirmed",
+    "checkNote": "Date, price and earn-out confirmed. The 'DKK 10 million' rescue figure is not on the page: it says the company 'ran out of money and into serious debt' in 2008 and that the Danish Growth Fund funded it, and gives only a later '$1.5 million of equity funding'. Mobile Industrial Robots is not mentioned on the page (context clause, left unverified)."
+  },
+  {
+    "id": "oneweb-500m-round",
+    "date": "2015-06-25",
+    "title": "OneWeb raises $500M for a 600+ satellite LEO constellation",
+    "detail": "Airbus, Qualcomm, Virgin, Bharti, Intelsat, Hughes and Coca-Cola backed the megaconstellation, with orders for 39 LauncherOne and 21 Soyuz launches. It started the LEO broadband race and created demand for mass-produced satellites and small launchers.",
+    "kind": "round",
+    "domains": [
+      "space"
+    ],
+    "source": "https://www.nbcnews.com/science/space/oneweb-wins-500-million-backing-internet-satellite-network-n381691",
+    "check": "confirmed",
+    "checkNote": "Published June 25, 2015. Investors on the page: Airbus Group, Bharti Enterprises, Hughes Network Systems, Intelsat, Qualcomm, Coca-Cola, Virgin Group and Totalplay (Totalplay is not in the detail). 'more than 600 satellites'; 39 Virgin Galactic launches and 21 Soyuz launches."
+  },
+  {
+    "id": "diux-established",
+    "date": "2015-08",
+    "title": "Pentagon sets up DIUx to buy from commercial tech startups",
+    "detail": "Defense Secretary Ash Carter created the Defense Innovation Unit Experimental to speed military use of commercial technology. In 2016 it pioneered the Commercial Solutions Opening process for fast prototype contracts under Other Transaction Authority, which gave startups such as Shield AI (first DIU contract 2016) a first route to defence revenue. It was made permanent as DIU in August 2017.",
+    "kind": "policy",
+    "domains": [
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Defense_Innovation_Unit",
+    "check": "confirmed",
+    "checkNote": "Page: founded by Ash Carter; in 2016 it 'pioneered a process called the Commercial Solutions Opening' awarding prototype contracts through Other Transaction Authority; re-designated DIU in August 2017 to indicate permanence. Shield AI and its first contract year are not on the page (context clause, left unverified)."
+  },
+  {
+    "id": "ge-digital-predix-2015",
+    "date": "2015-09-14",
+    "title": "GE founds GE Digital to push its Predix industrial IoT platform",
+    "detail": "GE reportedly spent over $7 billion on Predix and forecast $15 billion in software revenue by 2020, launching the platform to market in 2016. The bet legitimised the industrial IoT platform category and pulled venture money into industrial data and predictive-maintenance startups.",
+    "kind": "market",
+    "domains": [
+      "automation"
+    ],
+    "source": "https://en.wikipedia.org/wiki/GE_Digital",
+    "check": "confirmed",
+    "checkNote": "Split across two pages. The original Predix page has 'GE invested over $7 billion' and the $15 billion by 2020 forecast (made in 2016) but no founding date and no launch date. The GE Digital page gives the founding date September 14, 2015 (infobox only) and '2016: GE launches Predix to the market'. 'Reportedly' is the record's wording; the page states the $7 billion as fact."
+  },
+  {
+    "id": "falcon-9-first-landing",
+    "date": "2015-12-22",
+    "title": "Falcon 9 first stage lands: first orbital booster recovery",
+    "detail": "Flight 20 delivered 11 Orbcomm satellites and returned its first stage to Landing Zone 1. Reuse promised much cheaper launch, which underpins the business cases of constellation, in-space transport and satellite-manufacturing startups.",
+    "kind": "technology",
+    "domains": [
+      "space"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Falcon_9_flight_20",
+    "check": "confirmed",
+    "checkNote": "22 December 2015 is the UTC date (01:29 UTC; 21 December local time). Page: 'It carried 11 Orbcomm-OG2 satellites'; first stage 'landed intact at Landing Zone 1'."
+  },
+  {
+    "id": "gm-acquires-cruise-2016",
+    "date": "2016-03-11",
+    "title": "GM buys 40-person Cruise for a reported $1B",
+    "detail": "Cruise had raised just over $18M and was last valued at about $90M post-money when GM bought it in a cash-and-stock deal that a source close to the situation valued at north of $1B; GM did not disclose the price. The multiple made self-driving startups a venture category: Ford committed $1B to Argo AI eleven months later.",
+    "kind": "exit",
+    "domains": [
+      "ml-ai",
+      "robotics"
+    ],
+    "source": "http://fortune.com/2016/03/11/gm-buying-self-driving-tech-startup-for-more-than-1-billion/",
+    "check": "confirmed",
+    "checkNote": "Published March 11, 2016. Page confirms 'About 40 people work at Cruise Automation', 'raised over $18 million' and 'post-money valuation of around $90 million'. The '$581M' later-reported figure is not on the page and is removed. The Ford/Argo AI sentence is not on the page (context clause, left unverified)."
+  },
+  {
+    "id": "sea-hunter-christened",
+    "date": "2016-04-07",
+    "title": "DARPA christens Sea Hunter, an uncrewed warship prototype",
+    "detail": "Built by Leidos under DARPA's ACTUV programme for about $20M and later handed to the Office of Naval Research, Sea Hunter showed a navy would pay for ocean-going uncrewed ships, the premise later startups such as Saronic and Blue Water Autonomy raised on.",
+    "kind": "technology",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Sea_Hunter",
+    "check": "confirmed",
+    "checkNote": "Page: 'designed and built by Leidos' (manufacturing subcontracted to Christensen Shipyards, later Vigor Industrial); DARPA ACTUV program; 'built at a cost of $20 million'; reported 1 February 2018 that DARPA handed it to the Office of Naval Research. Saronic and Blue Water Autonomy are not on the page (context clause)."
+  },
+  {
+    "id": "boeing-acquires-liquid-robotics",
+    "date": "2016-12-06",
+    "title": "Boeing acquires Wave Glider maker Liquid Robotics",
+    "detail": "The first notable exit for a venture-backed uncrewed-surface-vessel company: the Wave Glider maker became a subsidiary of Boeing Defense, Space & Security, signalling that primes would buy long-endurance ocean robots. Price not disclosed in the source.",
+    "kind": "exit",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Liquid_Robotics",
+    "check": "confirmed",
+    "checkNote": "Page: 'designs, manufactures and sells the Wave Glider'; 'part of Boeing's Defense, Space and Security organization'; no price given. 'First notable exit' is the record's interpretation, not on the page."
+  },
+  {
+    "id": "intel-acquires-mobileye-2017",
+    "date": "2017-03",
+    "title": "Intel agrees to buy Mobileye for $15.3B",
+    "detail": "An Israeli vision-chip and driver-assistance company that had listed in 2014, raising $890M, was bought for $15.3B. It validated camera-based perception and edge vision silicon as a category, six months after Intel had also bought Dublin's Movidius.",
+    "kind": "exit",
+    "domains": [
+      "ml-ai"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Mobileye",
+    "check": "confirmed",
+    "checkNote": "Page: 'Mobileye went public on the New York Stock Exchange in 2014. It raised $890 million.' Movidius is not mentioned on the page (context clause, left unverified)."
+  },
+  {
+    "id": "yara-birkeland-announced",
+    "date": "2017-05",
+    "title": "Yara announces Yara Birkeland, a zero-emission autonomous ship",
+    "detail": "Yara's electric container feeder, with Kongsberg navigation systems and a NOK 133.6M Norwegian state grant in September 2017, became the reference project for commercial ship autonomy. It entered service around 2021-2022 with crew still aboard, showing how slowly regulation lets autonomy replace crews.",
+    "kind": "technology",
+    "domains": [
+      "maritime"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Yara_Birkeland",
+    "check": "confirmed",
+    "checkNote": "The month May 2017 and the words 'zero emission' appear on the page only through the cited Yara press release (9 May 2017, 'The first ever zero emission, autonomous ship'); the article body says only 'Ordered: 2017'. Page: 'navigation equipment by Kongsberg Maritime'; grant from the Norwegian Government in September 2017; infobox 'In service: 2022' while a cited source says operations began in 2021 with a full crew; 'Crew: manned'."
+  },
+  {
+    "id": "transformer-paper-2017",
+    "date": "2017-06-12",
+    "title": "\"Attention Is All You Need\" introduces the Transformer",
+    "detail": "Eight Google researchers published the architecture that underlies most modern large language models, and later vision-language-action robot models. All eight subsequently left Google to join or found other companies.",
+    "kind": "technology",
+    "domains": [
+      "ml-ai"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Attention_Is_All_You_Need",
+    "check": "confirmed",
+    "checkNote": "Page: submitted to arXiv on 2017-06-12; 'underlies most modern large language models'; 'each of the authors left Google to join other companies or to found startups'. Vision-language-action robot models are not checked on the page (context)."
+  },
+  {
+    "id": "ge-digital-retreat-2018",
+    "date": "2018",
+    "title": "GE retreats from Predix, plans to carve out its IIoT business",
+    "detail": "GE announced a separate $1.2 billion industrial IoT company and the sale of a majority stake in ServiceMax, then dropped the standalone plan in October 2019; the Predix name was retired in 2022. The retreat showed that a horizontal platform owned by one OEM would not win, opening room for independent industrial-data startups.",
+    "kind": "market",
+    "domains": [
+      "automation"
+    ],
+    "source": "https://en.wikipedia.org/wiki/GE_Digital",
+    "check": "confirmed",
+    "checkNote": "Page (2018, no month): the $1.2 billion independent company and 'intended sale of a majority stake of ServiceMax'; 'Following the GE October 2019 earnings call, Culp announced GE would retain its digital business'. The Predix name retirement is not on this page but is on https://en.wikipedia.org/wiki/Predix_(software): 'In 2022, the Predix name was retired.'"
+  },
+  {
+    "id": "softbank-cruise-2018",
+    "date": "2018-05-31",
+    "title": "SoftBank Vision Fund puts $2.25B into GM Cruise",
+    "detail": "The Vision Fund took 19.6% of Cruise for $2.25B, with GM adding $1.1B. It opened the era of billion-dollar self-driving financings: Honda into Cruise later that year, Volkswagen's $2.6B into Argo AI in 2019, Toyota's $400M into Pony.ai in 2020.",
+    "kind": "round",
+    "domains": [
+      "ml-ai"
+    ],
+    "source": "https://techcrunch.com/2018/05/31/gms-cruise-gets-2-25b-from-softbanks-vision-fund-1-1b-from-gm/",
+    "check": "confirmed",
+    "checkNote": "Published May 31, 2018. The investment is staged: $900 million at closing and $1.35 billion when Cruise is ready for commercial deployment; 19.6-percent stake 'when closed'; GM adds $1.1 billion at closing. The later financings (Honda, Volkswagen/Argo AI, Toyota/Pony.ai) are not on the page (context clause, left unverified)."
+  },
+  {
+    "id": "rethink-robotics-shuts-down",
+    "date": "2018-10-03",
+    "title": "Rethink Robotics closes after raising $149.5 million",
+    "detail": "The maker of Baxter and Sawyer ran low on cash after sales fell short and a planned acquisition collapsed. It showed investors that a famous founder and $149.5 million could not make up for a robot that was not precise enough for industrial users; Universal Robots had sold several times as many units.",
+    "kind": "market",
+    "domains": [
+      "robotics"
+    ],
+    "source": "https://www.therobotreport.com/rethink-robotics-shutdown/",
+    "check": "confirmed",
+    "checkNote": "Page: 'shut down on October 3'; 'short on cash as its sales failed to meet expectations'; an acquisition 'fell through at the last minute'; robots 'not known for their precision'. Unit comparison: UR 'had sold more than 8,000 cobots by the end of 2015' against Rethink passing 'the 1,000 sales mark' in 2015; Rethink's final total is not given."
+  },
+  {
+    "id": "bright-machines-series-a-2018",
+    "date": "2018-10-23",
+    "title": "Bright Machines launches with a $179M Series A",
+    "detail": "Incubated inside Flex and led by Eclipse, with a former Autodesk co-CEO in charge and over 300 employees at launch, it was a landmark bet on software-driven robotics for manufacturing.",
+    "kind": "round",
+    "domains": [
+      "automation",
+      "robotics"
+    ],
+    "source": "https://techcrunch.com/2018/10/23/bright-machines-lands-179m-to-bring-smarter-robotics-to-manufacturing/",
+    "check": "confirmed",
+    "checkNote": "Published October 23, 2018; 'Eclipse led the round'; 'began life as incubated project inside Flex'. The page does not mention 'microfactories' or any SPAC, so the '2021 SPAC at $1.6B was later called off' sentence is removed as unverified on this source."
+  },
+  {
+    "id": "nasa-clps-selection",
+    "date": "2018-11-29",
+    "title": "NASA names nine CLPS lunar delivery providers",
+    "detail": "Indefinite-delivery contracts worth up to $2.6B over ten years made NASA a paying customer for commercial lunar landers; first task orders went to Astrobotic, Intuitive Machines and OrbitBeyond in May 2019.",
+    "kind": "policy",
+    "domains": [
+      "space"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Commercial_Lunar_Payload_Services",
+    "check": "confirmed",
+    "checkNote": "Page: IDIQ contracts with 'a combined maximum contract value of $2.6 billion over ten years'; first awards to Astrobotic, Intuitive Machines and OrbitBeyond in May 2019 (the page gives both May 21 and May 31, 2019)."
+  },
+  {
+    "id": "virgin-galactic-spac-listing",
+    "date": "2019-10-28",
+    "title": "Virgin Galactic lists via SPAC, opening the space SPAC era",
+    "detail": "Virgin Galactic began trading on the NYSE after a SPAC merger that raised $450M. The deal became the model for the 2020-2021 run of space SPACs (Momentus, Rocket Lab, Planet and Virgin Orbit among them).",
+    "kind": "market",
+    "domains": [
+      "space"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Virgin_Galactic",
+    "check": "confirmed",
+    "checkNote": "Page: 'On Monday, October 28, 2019, Virgin Galactic listed on the New York Stock Exchange.' The later space SPACs (Momentus, Rocket Lab, Planet, Virgin Orbit) are not on the part of the page read (context clause, left unverified)."
+  },
+  {
+    "id": "covid-supply-chain-shock",
+    "date": "2020",
+    "title": "COVID-19 breaks global supply chains",
+    "detail": "Factory shutdowns in early 2020, then demand surges, port backlogs and a chip shortage through 2021-2023 exposed lean, offshore manufacturing. The shock drove interest in remote operations software, labour-saving automation and domestic production capacity.",
+    "kind": "market",
+    "domains": [
+      "automation",
+      "robotics"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2021%E2%80%932023_global_supply_chain_crisis",
+    "check": "confirmed",
+    "checkNote": "Page supports manufacturers pausing work in early 2020, a later demand surge, port congestion by mid-2021, the related chip shortage, and lean manufacturing cited as a source of disruption. Offshore manufacturing and the effect on automation or domestic production are not stated on the page (interpretive)."
+  },
+  {
+    "id": "imo-2020-sulphur-cap",
+    "date": "2020-01-01",
+    "title": "IMO 2020 global sulphur cap takes effect",
+    "detail": "The global limit on sulphur in marine fuel fell from 3.5% to 0.5%, forcing changes across the shipping and oil industries. Fuel cost and compliance pressure made efficiency measures such as hull cleaning, voyage optimisation and alternative propulsion easier to sell.",
+    "kind": "policy",
+    "domains": [
+      "maritime"
+    ],
+    "source": "https://en.wikipedia.org/wiki/IMO_2020",
+    "check": "confirmed",
+    "checkNote": "Date 1 January 2020 and both limits confirmed ('dropped from an allowed 3.5% sulphur in marine fuels to 0.5%', outside emission control areas). The page names the 'shipping and oil industries', not refining; minor wording correction."
+  },
+  {
+    "id": "oneweb-chapter-11",
+    "date": "2020-03-27",
+    "title": "OneWeb files for Chapter 11 after raising billions",
+    "detail": "OneWeb blamed the financial impact of COVID-19. The UK government and Bharti Global bought it out of bankruptcy for $500M each in July 2020, an early case of a state treating a commercial constellation as strategic infrastructure.",
+    "kind": "exit",
+    "domains": [
+      "space"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Eutelsat_OneWeb",
+    "check": "confirmed",
+    "checkNote": "Page: 'because of the financial impact of the COVID-19 pandemic'; US$1.7 billion raised by 2017 plus US$1.25 billion in March 2019; on 3 July 2020 the Bharti Global and UK government consortium won the auction, to 'invest US$500 million each for equal stakes'; the sale closed in November 2020."
+  },
+  {
+    "id": "gpt-3-api-2020",
+    "date": "2020-06-11",
+    "title": "OpenAI opens the GPT-3 API",
+    "detail": "A 175-billion-parameter language model became available through an API, two weeks after the paper. Startups could build products on a foundation model without training one; GitHub Copilot and a first wave of generative-AI applications were built on it.",
+    "kind": "technology",
+    "domains": [
+      "ml-ai",
+      "automation"
+    ],
+    "source": "https://en.wikipedia.org/wiki/GPT-3",
+    "check": "confirmed",
+    "checkNote": "Page: API beta June 11, 2020; arXiv preprint May 28, 2020 (infobox says May 29), i.e. two weeks earlier. GitHub Copilot was based on the Codex model derived from GPT-3 ('was the basis for GitHub Copilot'), not on the base GPT-3 API model."
+  },
+  {
+    "id": "aveva-acquires-osisoft",
+    "date": "2020-08",
+    "title": "AVEVA agrees to buy OSIsoft for about $5B",
+    "detail": "The maker of the PI System, the operational data historian found in most process plants, was bought by AVEVA in a deal completed on 19 March 2021. It set a price for industrial data infrastructure and marked the layer that newer process-AI startups build on.",
+    "kind": "exit",
+    "domains": [
+      "automation"
+    ],
+    "source": "https://en.wikipedia.org/wiki/OSIsoft",
+    "check": "confirmed",
+    "checkNote": "Page: 'a deal worth $5 billion' (final consideration £3,831.4 million); 'completed on 19 March 2021'. The page calls the PI System 'application software for real-time data management'; it does not use 'data historian' or say it is found in most process plants (description not verified)."
+  },
+  {
+    "id": "nagorno-karabakh-drone-war",
+    "date": "2020-09-27",
+    "title": "Second Nagorno-Karabakh War shows drones can decide a war",
+    "detail": "In 44 days (27 September to 10 November 2020) Azerbaijan's widespread use of reconnaissance drones, attack drones and loitering munitions destroyed Armenian armour, artillery and air defences and was seen as crucial to the outcome. It made loitering munitions and counter-drone defence procurement priorities well before Ukraine.",
+    "kind": "conflict",
+    "domains": [
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Second_Nagorno-Karabakh_War",
+    "check": "confirmed",
+    "checkNote": "Page: 27 September – 10 November 2020; 'The war lasted for 44 days'; attack drones, loitering munitions and reconnaissance drones 'inflicting heavy losses upon Armenian tanks, artillery, air defence systems'. Page says 'heavy losses' and 'crucial', not 'decide'; the title's wording is the record's interpretation."
+  },
+  {
+    "id": "palantir-direct-listing",
+    "date": "2020-09-30",
+    "title": "Palantir lists on the NYSE",
+    "detail": "Palantir's direct listing on 30 September 2020 (ticker PLTR) gave venture investors a public exit from a company built on government and defence software, 17 years after its founding.",
+    "kind": "exit",
+    "domains": [
+      "defence",
+      "ml-ai"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Palantir_Technologies",
+    "check": "confirmed",
+    "checkNote": "Page: direct listing on the NYSE, ticker PLTR; founded 2003, so 17 years. The page also says the stock moved to Nasdaq effective November 26, 2024."
+  },
+  {
+    "id": "helsing-series-a-prima-materia",
+    "date": "2021",
+    "title": "Helsing raises €102.5M Series A led by Daniel Ek's Prima Materia",
+    "detail": "A nine-figure first institutional round for a months-old European defence AI company, led by the Spotify founder's investment firm, broke the taboo on venture investment in European defence and set the reference point for later European rounds.",
+    "kind": "round",
+    "domains": [
+      "defence",
+      "ml-ai"
+    ],
+    "source": "https://techcrunch.com/2023/09/14/defence-ai-startup-helsing-breaks-the-record-for-european-ai-raising-a-223m-series-b/",
+    "check": "confirmed",
+    "checkNote": "The page gives no Series A date beyond 'It was back in 2021 that we reported' on Ek using 'Prima Materia, his investment company, to back Helsing with €100 million' (so both €102.5M and €100M appear). Helsing's founding date is not on the page, so 'months-old' is unverified."
+  },
+  {
+    "id": "pandemic-labour-shortages",
+    "date": "2021",
+    "title": "Pandemic labour shortages lift automation investment",
+    "detail": "Automation companies saw a boost in investor interest during the COVID-19 pandemic, with labour shortages and fears of disease transmission cited as drivers. Soft Robotics, for example, raised a $10M extension of its $23M Series B in June 2021, with Tyson Ventures, the investment arm of existing customer Tyson Foods, joining the round.",
+    "kind": "market",
+    "domains": [
+      "robotics",
+      "automation"
+    ],
+    "source": "https://techcrunch.com/2021/06/29/soft-robotics-raises-another-10m-citing-pandemic-related-demand/",
+    "check": "confirmed",
+    "checkNote": "Published June 29, 2021. The page has no statement about Soft Robotics' sales, so 'the four largest sales quarters in its history' is removed. It does confirm 'due to labor shortages and fears of disease transmission' and that 'Tyson ... is an existing customer'. Food and logistics operators are not specifically named as the ones pushed toward robots."
+  },
+  {
+    "id": "uipath-ipo-2021",
+    "date": "2021-04-21",
+    "title": "UiPath lists on the NYSE, raising $1.3B",
+    "detail": "Founded in Bucharest in 2005, UiPath went from a $30M Series A in 2017 to a $3B valuation in 2018 and an IPO in 2021. Its rise made 'automation' a mainstream venture category and proved a European-born automation company could reach US public markets.",
+    "kind": "exit",
+    "domains": [
+      "automation"
+    ],
+    "source": "https://en.wikipedia.org/wiki/UiPath",
+    "check": "confirmed",
+    "checkNote": "Page: founded in 2005 in Bucharest; $30 million Series A in April 2017; $3 billion valuation on September 18, 2018 (and $1.1 billion in March 2018); 'became public on April 21, 2021' on the NYSE."
+  },
+  {
+    "id": "edf-regulation-in-force",
+    "date": "2021-05",
+    "title": "European Defence Fund starts with €7.3B for 2021-2027",
+    "detail": "The EDF regulation took effect in May 2021: nearly €7.3B for collaborative defence research and capability development, with bonuses for SMEs and smaller consortia allowed for disruptive technologies. It was the first EU-budget money for defence R&D and a non-dilutive funding source for European defence startups.",
+    "kind": "policy",
+    "domains": [
+      "defence"
+    ],
+    "source": "https://defence-industry-space.ec.europa.eu/eu-defence-industry/european-defence-fund-edf-official-webpage-european-commission_en",
+    "check": "confirmed",
+    "checkNote": "Page: 'Since the EDF Regulation came into force in May 2021'; €2.7 billion for collaborative defence research and €5.3 billion for collaborative capability development; 'a bonus system that considers SMEs, mid-caps'; 'Calls for disruptive technologies allow smaller consortia'. 'First EU-budget money for defence R&D' is not stated on the page (interpretive)."
+  },
+  {
+    "id": "cognite-tcv-unicorn-2021",
+    "date": "2021-05-19",
+    "title": "Cognite raises $150M from TCV at a $1.6B valuation",
+    "detail": "The Aker-born industrial data platform became a unicorn seven months after a $75M Accel round, signalling that growth investors would pay software multiples for industrial DataOps.",
+    "kind": "round",
+    "domains": [
+      "automation"
+    ],
+    "source": "https://siliconangle.com/2021/05/19/industrial-saas-startup-cognite-raises-150m-unicorn-valuation-1-6b/",
+    "check": "confirmed",
+    "checkNote": "Dated May 19, 2021; $150 million. Page calls it a Series A led by TCV, names Aker as majority shareholder and mentions 'a round led by Accel of $75 million' in October (year not stated; October 2020 would be seven months earlier)."
+  },
+  {
+    "id": "nato-agrees-diana",
+    "date": "2021-06-14",
+    "title": "NATO agrees to create the DIANA accelerator",
+    "detail": "Allies agreed in Brussels to set up the Defence Innovation Accelerator for the North Atlantic for dual-use emerging technologies. Its first call opened on 19 June 2023 and the first cohort of 44 companies (from about 1,300 applicants, €100,000 grant each) was announced on 30 November 2023; by March 2024 it had 23 accelerator sites and 182 test centres.",
+    "kind": "policy",
+    "domains": [
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Defence_Innovation_Accelerator_for_the_North_Atlantic",
+    "check": "confirmed",
+    "checkNote": "Page: first call for proposals on 19 June 2023; 'On 30 November 2023, DIANA announced the first 44 companies selected out of 1,300 applicants'; grant of €100,000 each; 'By 14 March 2024, DIANA had 23 accelerator sites and 182 test centres.'"
+  },
+  {
+    "id": "anduril-series-d-450m",
+    "date": "2021-06-17",
+    "title": "Anduril raises $450M Series D at a $4.6B valuation",
+    "detail": "Four years after founding, Anduril's Series D led by Elad Gil with Andreessen Horowitz, Founders Fund, 8VC, General Catalyst and Lux Capital showed a venture-backed defence hardware company could reach multi-billion scale, and became the template other founders and funds pointed to.",
+    "kind": "round",
+    "domains": [
+      "defence"
+    ],
+    "source": "https://techcrunch.com/2021/06/17/anduril-funding-series-d-valuation/",
+    "check": "confirmed",
+    "checkNote": "Published June 17, 2021. 'The new Series D round was led by angel investor and serial entrepreneur Elad Gil'; Andreessen Horowitz, Founders Fund, 8VC, General Catalyst and Lux Capital are named, along with Valor Equity Partners and D1 Capital Partners (not in the detail)."
+  },
+  {
+    "id": "zebra-acquires-fetch-robotics",
+    "date": "2021-07-01",
+    "title": "Zebra Technologies buys Fetch Robotics for $290 million",
+    "detail": "Zebra paid $290 million for the 95% of Fetch it did not already own. Fetch had raised about $94 million and had an annualised sales run-rate of about $10 million, setting a reference price for warehouse mobile-robot companies at the peak of pandemic e-commerce demand.",
+    "kind": "exit",
+    "domains": [
+      "robotics",
+      "automation"
+    ],
+    "source": "https://www.therobotreport.com/fetch-robotics-acquired-by-zebra-technologies-for-290m/",
+    "check": "confirmed",
+    "checkNote": "July 1, 2021 is the announcement date: the page says 'The acquisition is expected to close in the third quarter of 2021', so the deal was not yet closed on that date. Page confirms $290 million, Zebra's existing 5% stake, 'had raised about $94 million' and 'annualized run-rate sales of approximately $10 million'."
+  },
+  {
+    "id": "tesla-announces-optimus",
+    "date": "2021-08-19",
+    "title": "Tesla announces its humanoid robot at AI Day",
+    "detail": "Tesla announced the Tesla Bot (Optimus) on 19 August 2021 and displayed prototypes in September 2022, one of which walked on stage. A carmaker committed publicly to a general-purpose humanoid; Figure was founded the following year and 1X turned to humanoids for the home in 2022.",
+    "kind": "technology",
+    "domains": [
+      "robotics",
+      "ml-ai"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Optimus_(robot)",
+    "check": "confirmed",
+    "checkNote": "Page says prototypes were displayed in September 2022; one walked, the second could not yet stand on its own. Figure founded 2022 (CNBC, Wikipedia Figure AI) and 1X's 2022 shift to domestic robotics (Wikipedia 1X Technologies) were checked on other pages."
+  },
+  {
+    "id": "rocket-lab-spac-listing",
+    "date": "2021-08-25",
+    "title": "Rocket Lab lists on Nasdaq via SPAC with $777M in gross cash",
+    "detail": "The Vector Acquisition merger was the peak of the space SPAC boom and funded Rocket Lab's move beyond small launch. Momentus closed its SPAC the same month despite SEC charges, and Planet followed in December 2021.",
+    "kind": "market",
+    "domains": [
+      "space"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Rocket_Lab",
+    "check": "confirmed",
+    "checkNote": "Momentus/Planet are not on the source page. Planet: Wikipedia Planet Labs says 'The business combination was completed on December 7, 2021'. Momentus: Wikipedia Momentus Space supports August 2021 closing and July 2021 SEC charges only through citation titles. 'Peak of the SPAC boom' is interpretation."
+  },
+  {
+    "id": "aukus-announced",
+    "date": "2021-09-15",
+    "title": "AUKUS pact announced by Australia, the UK and the US",
+    "detail": "Beyond nuclear submarines, Pillar 2 commits the three countries to joint work on undersea capabilities and AI and autonomy, including a maritime autonomy experimentation series and launching uncrewed underwater vehicles from submarines - a demand signal and grant source for undersea startups.",
+    "kind": "policy",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/AUKUS",
+    "check": "confirmed",
+    "checkNote": "Page says 'launch and recover undersea vehicles from torpedo tubes'. 'Grant source' is interpretation."
+  },
+  {
+    "id": "samsara-ipo-2021",
+    "date": "2021-12",
+    "title": "Samsara IPO values connected-operations leader at $11.5B",
+    "detail": "Founded in 2015, Samsara raised about $805M on the NYSE under the ticker IOT. The listing validated IoT-plus-software for physical operations as a large public-market category.",
+    "kind": "exit",
+    "domains": [
+      "automation"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Samsara_(company)",
+    "check": "confirmed"
+  },
+  {
+    "id": "exotec-series-d-unicorn",
+    "date": "2022-01-17",
+    "title": "Exotec raises $335M at a $2B valuation",
+    "detail": "Goldman Sachs Asset Management led the Series D for the French maker of rack-climbing warehouse robots. It made Exotec France's first industrial unicorn, with global retail customers such as Gap and Decathlon.",
+    "kind": "round",
+    "domains": [
+      "robotics",
+      "automation"
+    ],
+    "source": "https://www.exotec.com/news/robotics-pioneer-exotec-raises-335m-series-d-to-improve-supplychain-resilience-for-global-retailers/",
+    "check": "confirmed",
+    "checkNote": "Company release confirms date, amount, valuation, Goldman Sachs Asset Management (Growth Equity) as lead, and Gap and Decathlon as customers. 'France's first industrial unicorn' is not in the release; Wikipedia Exotec says the valuation made it 'the country's first industrial unicorn'."
+  },
+  {
+    "id": "russia-invades-ukraine",
+    "date": "2022-02-24",
+    "title": "Russia launches its full-scale invasion of Ukraine",
+    "detail": "The invasion of 24 February 2022 turned cheap drones, electronic warfare and counter-drone systems into mass-consumption items and gave startups a live proving ground. Many companies in this slice date from it or pivoted because of it: Quantum Systems, Alpine Eagle, Tytan, STARK, Origin, Buntar and Valkyrie Dynamics.",
+    "kind": "conflict",
+    "domains": [
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Russian_invasion_of_Ukraine",
+    "check": "confirmed",
+    "checkNote": "The list of companies and the drone/EW market effect are interpretation and are not on the page (first 100k characters read)."
+  },
+  {
+    "id": "zeitenwende-speech",
+    "date": "2022-02-27",
+    "title": "Scholz's Zeitenwende speech: €100B fund for the Bundeswehr",
+    "detail": "Three days after the invasion Chancellor Olaf Scholz announced an off-budget €100B fund to modernise the Bundeswehr and a commitment to spend more than 2% of GDP on defence. Germany became the largest new customer for European defence startups; Munich and Berlin companies such as Helsing, Quantum Systems, Tytan and STARK later won Bundeswehr contracts.",
+    "kind": "policy",
+    "domains": [
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Zeitenwende_speech",
+    "check": "confirmed",
+    "checkNote": "Speech on 27 February 2022; page also calls it an 'off-budget €100 billion Sondervermögen Bundeswehr fund'. Later Bundeswehr contracts for the named startups are not on the page."
+  },
+  {
+    "id": "chips-and-science-act",
+    "date": "2022-08-09",
+    "title": "US CHIPS and Science Act signed",
+    "detail": "The act appropriated $52.7B for semiconductors, including $39B in manufacturing subsidies and a 25% investment tax credit. It anchored a US reshoring wave that lifted demand for factory automation and the startups building new domestic production.",
+    "kind": "policy",
+    "domains": [
+      "automation",
+      "robotics"
+    ],
+    "source": "https://en.wikipedia.org/wiki/CHIPS_and_Science_Act",
+    "check": "confirmed"
+  },
+  {
+    "id": "inflation-reduction-act",
+    "date": "2022-08-16",
+    "title": "US Inflation Reduction Act signed",
+    "detail": "Its advanced-manufacturing tax credit (45X) and wider climate incentives were followed by 181 announced clean-tech manufacturing investments worth $116B by November 2024, adding to demand for automated plants and industrial energy optimisation.",
+    "kind": "policy",
+    "domains": [
+      "automation"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Inflation_Reduction_Act",
+    "check": "confirmed",
+    "checkNote": "Signed August 16, 2022. The 181/$116B count is attributed on the page to analyst Jack Conness and carries an 'update' tag. Page mentions the Section 45X advanced manufacturing credit."
+  },
+  {
+    "id": "nord-stream-sabotage",
+    "date": "2022-09-26",
+    "title": "Nord Stream pipelines sabotaged in the Baltic Sea",
+    "detail": "Underwater explosions near Bornholm disabled three of the four Nord Stream pipes; Sweden confirmed explosive residue and classified it as sabotage. The attack put seabed infrastructure protection on government agendas and created a market for underwater surveillance and inspection vehicles.",
+    "kind": "conflict",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Nord_Stream_pipelines_sabotage",
+    "check": "confirmed",
+    "checkNote": "Infobox: 'Central Baltic Sea, near Bornholm, Denmark'. Swedish authorities: 'remains of explosives were found at the site of the leaks' and confirmed sabotage (18 November 2022)."
+  },
+  {
+    "id": "us-chip-export-controls-2022",
+    "date": "2022-10-07",
+    "title": "US restricts advanced AI chip exports to China",
+    "detail": "The Bureau of Industry and Security put advanced computing chips and chipmaking equipment under licence for China from October 2022. It turned AI compute into a geopolitical asset, a backdrop for domestic chip makers in China and for sovereign-compute funding such as the EuroHPC DARE grant to Axelera AI.",
+    "kind": "policy",
+    "domains": [
+      "ml-ai",
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/United_States_New_Export_Controls_on_Advanced_Computing_and_Semiconductors_to_China",
+    "check": "confirmed",
+    "checkNote": "The EuroHPC DARE / Axelera AI reference is context not on the page and was not checked."
+  },
+  {
+    "id": "argo-ai-shutdown-2022",
+    "date": "2022-10-26",
+    "title": "Argo AI shuts down as Ford and VW pull funding",
+    "detail": "After raising more than $2.6B and reaching 2,000 employees, Argo was dissolved; Ford took a $2.7B impairment and said it would focus on L2+/L3 driver assistance instead of robotaxis. A marker for the end of the first robotaxi funding cycle.",
+    "kind": "market",
+    "domains": [
+      "ml-ai",
+      "robotics"
+    ],
+    "source": "https://techcrunch.com/2022/10/26/ford-vw-backed-argo-ai-is-shutting-down/",
+    "check": "confirmed",
+    "checkNote": "Published October 26, 2022. Page says 'more than 2,000 employees'; VW 'will no longer invest in Argo AI'; Ford to develop 'L2+ and L3 applications'."
+  },
+  {
+    "id": "sevastopol-sea-drone-attack",
+    "date": "2022-10-29",
+    "title": "Sea and aerial drones attack Russia's fleet in Sevastopol",
+    "detail": "On 29 October 2022 aerial drones and drone boats attacked the Black Sea Fleet in Sevastopol; the Russian-installed governor counted nine aerial drones and seven uncrewed surface vessels, and Russia blamed Ukraine. It showed that naval bases were vulnerable to low-cost drone boats and reset how navies and investors valued small uncrewed surface vessels.",
+    "kind": "conflict",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2022_drone_attack_on_the_Sevastopol_Naval_Base",
+    "check": "confirmed",
+    "checkNote": "The 9 + 7 count is a statement by the Russian-installed Sevastopol governor; GeoConfirmed estimated six to eight drone boats and at least three ships hit. In the part of the page read (first 100k characters) Russia blames Ukraine (and the UK) and no official Ukrainian claim is reported, so the title's attribution was neutralised."
+  },
+  {
+    "id": "chatgpt-release",
+    "date": "2022-11-30",
+    "title": "OpenAI releases ChatGPT",
+    "detail": "ChatGPT reached 100 million monthly users in two months and made large language models an expected product feature. Industrial software vendors and new startups began adding copilots for operators, maintenance and engineering work.",
+    "kind": "technology",
+    "domains": [
+      "automation",
+      "ml-ai"
+    ],
+    "source": "https://en.wikipedia.org/wiki/ChatGPT",
+    "check": "confirmed",
+    "checkNote": "Released November 30, 2022."
+  },
+  {
+    "id": "chatgpt-launch-2022",
+    "date": "2022-11-30",
+    "title": "ChatGPT launches and reaches 100M users in two months",
+    "detail": "One million users in five days and 100 million in two months accelerated the AI investment boom, pulling capital and talent into foundation models, AI infrastructure and chips.",
+    "kind": "technology",
+    "domains": [
+      "ml-ai",
+      "automation",
+      "robotics"
+    ],
+    "source": "https://en.wikipedia.org/wiki/ChatGPT",
+    "check": "confirmed",
+    "checkNote": "Released November 30, 2022."
+  },
+  {
+    "id": "imo-2023-ghg-strategy",
+    "date": "2023",
+    "title": "IMO adopts 2023 GHG Strategy: net-zero shipping around 2050",
+    "detail": "Adopted at MEPC 80, the strategy targets net-zero emissions from international shipping around 2050, with checkpoints of at least 20% by 2030 and 70% by 2040 versus 2008 and at least 5% zero or near-zero fuels by 2030, anchoring the investment case for efficiency and decarbonisation technology.",
+    "kind": "policy",
+    "domains": [
+      "maritime"
+    ],
+    "source": "https://www.imo.org/en/MediaCentre/HotTopics/Pages/Cutting-GHG-emissions.aspx",
+    "check": "confirmed",
+    "checkNote": "Adopted at MEPC 80; page gives only the year 2023. Checkpoints are relative to 2008."
+  },
+  {
+    "id": "openai-backs-1x",
+    "date": "2023-03",
+    "title": "OpenAI Startup Fund leads 1X's $23.5M round",
+    "detail": "OpenAI's fund led the Series A2 of the Norwegian humanoid maker 1X (formerly Halodi Robotics), with Tiger Global. An AI lab backing robot hardware linked large language models to humanoids in investors' minds; 1X raised $100 million ten months later.",
+    "kind": "round",
+    "domains": [
+      "robotics",
+      "ml-ai"
+    ],
+    "source": "https://tech.eu/2023/03/27/norways-1x-raises-235-million-in-openai-led-round",
+    "check": "confirmed",
+    "checkNote": "The original TechCrunch page (6 April 2023) confirms the $23.5M round led by OpenAI's Startup Fund with Tiger Global but gives no round date or series name; tech.eu supplies March 2023 and 'Series A2'. 1X's own Medium post returned 403. '$100 million ten months later': Wikipedia 1X Technologies gives a $100 million Series B in January 2024."
+  },
+  {
+    "id": "gpt-4-release",
+    "date": "2023-03-14",
+    "title": "GPT-4 makes LLM code generation usable for engineers",
+    "detail": "GPT-4 and tools built on it, such as GitHub Copilot X and autonomous coding agents, showed that models could write and debug real code. That capability underpins the wave of startups generating PLC logic, CAM programs and engineering workflows.",
+    "kind": "technology",
+    "domains": [
+      "automation",
+      "ml-ai"
+    ],
+    "source": "https://en.wikipedia.org/wiki/GPT-4",
+    "check": "confirmed",
+    "checkNote": "Page also describes AutoGPT as an autonomous agent that can iteratively write code. The PLC/CAM startup clause is interpretation."
+  },
+  {
+    "id": "virgin-orbit-bankruptcy",
+    "date": "2023-04-04",
+    "title": "Virgin Orbit files for Chapter 11: the SPAC bust arrives",
+    "detail": "Virgin Orbit had raised only $228M of an expected $483M in its December 2021 SPAC, lost a rocket on its first UK launch in January 2023 and could not secure financing. Its assets were sold piecemeal to Rocket Lab ($16M), Stratolaunch ($17M), Launcher ($3M) and Firefly ($3.8M), a warning for small-launch business models.",
+    "kind": "exit",
+    "domains": [
+      "space"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Virgin_Orbit",
+    "check": "confirmed",
+    "checkNote": "Rocket Lab $16 million, Stratolaunch $17 million, Launcher $3 million, Firefly $3.8 million (15 June) all on the page; UK launch failed on January 9, 2023; SPAC merger December 30, 2021."
+  },
+  {
+    "id": "deepmind-rt-2",
+    "date": "2023-07-28",
+    "title": "Google DeepMind publishes RT-2 vision-language-action model",
+    "detail": "RT-2 showed that a model trained on web data and robot data could output robot actions directly, lifting success on unseen scenarios from 32% (RT-1) to 62% across more than 6,000 trials. Researchers from Google DeepMind went on to co-found Physical Intelligence in February 2024 to build such models as a company.",
+    "kind": "technology",
+    "domains": [
+      "robotics",
+      "ml-ai"
+    ],
+    "source": "https://deepmind.google/discover/blog/rt-2-new-model-translates-vision-and-language-into-action/",
+    "check": "confirmed",
+    "checkNote": "Published July 28, 2023. Physical Intelligence clause checked on Wikipedia (Physical Intelligence Inc.): founded February 2024, with Karol Hausman, Brian Ichter and Quan Vuong 'of Google DeepMind' among the founders."
+  },
+  {
+    "id": "european-chips-act",
+    "date": "2023-09",
+    "title": "European Chips Act enters into force",
+    "detail": "First announced in February 2022, the regulation aims at a 20% EU share of the global semiconductor market by 2030, backed by about €43B of public investment. It is Europe's counterpart to US industrial policy and part of the case for European manufacturing and automation startups.",
+    "kind": "policy",
+    "domains": [
+      "automation"
+    ],
+    "source": "https://en.wikipedia.org/wiki/European_Chips_Act",
+    "check": "confirmed",
+    "checkNote": "The 20% target appears as the 'Digital Decade target of a 20% EU share in the global market value chain by revenue' by 2030; the page also reports the Court of Auditors finding it very unlikely to be met."
+  },
+  {
+    "id": "red-sea-crisis-begins",
+    "date": "2023-10-19",
+    "title": "Red Sea crisis: Houthi attacks on commercial shipping begin",
+    "detail": "Houthi forces attacked and hijacked merchant ships around the Bab-el-Mandeb strait, damaging at least 30 and sinking four, and disrupting international trade; the US-led Operation Prosperity Guardian began on 18 December 2023. The crisis raised demand for ship protection, surveillance and navigation-safety technology.",
+    "kind": "conflict",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Red_Sea_crisis",
+    "check": "confirmed",
+    "checkNote": "Infobox date '19 October 2023 – present'. Four cargo ships sunk (one UK-owned, three Greek-owned); two ships hijacked. Only the first 100k characters of the page were read."
+  },
+  {
+    "id": "european-launcher-challenge-announced",
+    "date": "2023-11",
+    "title": "ESA launches the European Launcher Challenge in Seville",
+    "detail": "ESA's council decided to buy launch services competitively from new private rockets, with up to EUR 169M per company. In July 2025 it preselected Isar Aerospace, MaiaSpace, Orbex, PLD Space and Rocket Factory Augsburg, and expected subscriptions doubled to EUR 900M at the November 2025 ministerial.",
+    "kind": "policy",
+    "domains": [
+      "space"
+    ],
+    "source": "https://en.wikipedia.org/wiki/European_Launcher_Challenge",
+    "check": "confirmed",
+    "checkNote": "Preselection on 7 July 2025 of Isar Aerospace, MaiaSpace, Orbex, PLD Space and Rocket Factory Augsburg is on the page. The page does not give the earlier subscription figure behind 'doubled'."
+  },
+  {
+    "id": "eu-ets-extended-to-shipping",
+    "date": "2024-01",
+    "title": "EU Emissions Trading System extended to shipping",
+    "detail": "From January 2024 ships of 5,000 gross tonnage and above calling at EU ports pay for CO2: 40% of 2024 emissions surrendered in 2025, 70% in 2026 and 100% from 2027. A direct carbon price turned fuel savings from hull cleaning, routing and wind assist into a quantifiable return.",
+    "kind": "policy",
+    "domains": [
+      "maritime"
+    ],
+    "source": "https://climate.ec.europa.eu/eu-action/transport-decarbonisation/reducing-emissions-shipping-sector_en",
+    "check": "confirmed",
+    "checkNote": "Phase-in on page: 2025 for 40% of 2024 emissions, 2026 for 70% of 2025 emissions, 2027 onwards 100%. Methane and N2O included from 2026. Page notes a targeted ETS revision proposed on 17 July 2026."
+  },
+  {
+    "id": "magura-v5-sinks-ivanovets",
+    "date": "2024-02-01",
+    "title": "MAGURA V5 sea drones sink Russian corvette Ivanovets",
+    "detail": "Ukrainian MAGURA V5 uncrewed surface vessels, costing about $273,000 each, sank the corvette Ivanovets, then the landing ship Tsezar Kunikov on 14 February and the patrol ship Sergey Kotov on 5 March 2024. The cost exchange became the standard argument in funding pitches for attritable naval drones.",
+    "kind": "conflict",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/MAGURA_V5",
+    "check": "confirmed",
+    "checkNote": "Tsezar Kunikov (14 February 2024) and Sergey Kotov (5 March 2024) are on the page. Unit cost $273,000 is from the infobox, unsourced there."
+  },
+  {
+    "id": "figure-675m-round",
+    "date": "2024-02-29",
+    "title": "Figure raises $675M at $2.6B from Bezos, Nvidia, OpenAI",
+    "detail": "A two-year-old humanoid company raised $675 million from Jeff Bezos, Nvidia, Microsoft, OpenAI and Intel's venture arm. The round set the scale of the humanoid funding wave; Figure reached a $39 billion valuation eighteen months later.",
+    "kind": "round",
+    "domains": [
+      "robotics",
+      "ml-ai"
+    ],
+    "source": "https://www.cnbc.com/2024/02/29/robot-startup-figure-valued-at-2point6-billion-by-bezos-amazon-nvidia.html",
+    "check": "confirmed",
+    "checkNote": "Published 29 February 2024; Key Points name Jeff Bezos, Nvidia, Microsoft and OpenAI, body names Intel's venture fund; 'Founded in 2022'. $39 billion: Wikipedia Figure AI cites a Series C at $39B post-money dated 16 September 2025 (about 18.5 months later)."
+  },
+  {
+    "id": "wayve-series-c-2024",
+    "date": "2024-05-06",
+    "title": "Wayve raises $1.05B led by SoftBank",
+    "detail": "A $1.05B Series C with Nvidia and Microsoft participating, for end-to-end learned driving without HD maps. It marked the return of very large autonomy rounds under the label of embodied AI, with software licensed to carmakers instead of owned robotaxi fleets.",
+    "kind": "round",
+    "domains": [
+      "ml-ai",
+      "robotics"
+    ],
+    "source": "https://techcrunch.com/2024/05/06/wayve-raises-1-billion-led-by-softbank-to-take-self-driving-to-cars-and-robots/",
+    "check": "confirmed",
+    "checkNote": "Published May 6, 2024. Page says 'mapless' and 'end-to-end', and that Wayve 'plans to sell its autonomous driving model to a variety of auto OEMs' (no automotive partners announced at the time)."
+  },
+  {
+    "id": "nato-innovation-fund-first-investments",
+    "date": "2024-06-18",
+    "title": "€1B NATO Innovation Fund makes its first investments",
+    "detail": "The fund backed by 24 Allies announced its first direct deals (ARX Robotics, Fractile, iCOMAT, Isar Aerospace, Space Forge) and fund commitments (Alpine Space Ventures, OTB Ventures, Join Capital, Vsquared Ventures). It later invested in Tekever, co-led Tytan's Series A and joined STARK's Series C, giving European defence startups a sovereign-backed lead investor.",
+    "kind": "market",
+    "domains": [
+      "defence",
+      "space"
+    ],
+    "source": "https://www.nif.fund/news/nato-innovation-fund-makes-first-investments-to-secure-the-future-of-the-alliances-1-billion-citizens/",
+    "check": "confirmed",
+    "checkNote": "All five companies and four funds are named on the page. The later investments (Tekever, Tytan Series A co-lead, STARK Series C) are not on this page and were not checked."
+  },
+  {
+    "id": "softbank-acquires-graphcore-2024",
+    "date": "2024-07-11",
+    "title": "SoftBank buys Graphcore after its challenge to Nvidia fails",
+    "detail": "The UK AI-chip maker, valued at $2.8B in 2020, became a wholly owned SoftBank subsidiary for an undisclosed price reported at around $500M to $600M. A cautionary exit for data-centre AI chip startups competing head-on with Nvidia.",
+    "kind": "exit",
+    "domains": [
+      "ml-ai"
+    ],
+    "source": "https://www.graphcore.ai/posts/graphcore-joins-softbank-group-to-build-next-generation-of-ai-compute",
+    "check": "confirmed",
+    "checkNote": "Company post (Jul 11, 2024) gives no price or valuation. Wikipedia Graphcore: 'agreed to acquire Graphcore for around $500 million'; artificialintelligence-news.com (July 12, 2024): 'reportedly valued at about $600 million'. The $2.8B 2020 valuation was found only as a Guardian headline in Wikipedia's references ('UK chipmaker Graphcore valued at $2.8bn after it raises $222m', 29 Dec 2020)."
+  },
+  {
+    "id": "eu-ai-act-in-force-2024",
+    "date": "2024-08-01",
+    "title": "EU AI Act enters into force",
+    "detail": "The first comprehensive AI law: banned practices from February 2025, general-purpose model obligations from August 2025 and high-risk system duties phased in afterwards (later postponed to 2027-2028). It created compliance costs and a market for assurance tooling for European AI companies.",
+    "kind": "policy",
+    "domains": [
+      "ml-ai",
+      "robotics",
+      "automation",
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Artificial_Intelligence_Act",
+    "check": "confirmed",
+    "checkNote": "Page says a 2026 regulation postponed high-risk obligations to 2 December 2027 (Annex III) and 2 August 2028 (Annex I)."
+  },
+  {
+    "id": "amazon-covariant-licence",
+    "date": "2024-08-30",
+    "title": "Amazon licenses Covariant's models and hires its founders",
+    "detail": "Amazon took a non-exclusive licence to Covariant's robot foundation models and hired three of its co-founders and about a quarter of its staff. A later whistleblower complaint reported by CNBC put the cost above $400 million; CNBC reported that a \"skeleton crew\" of about 10% to 15% of the workforce remained at Covariant.",
+    "kind": "exit",
+    "domains": [
+      "robotics",
+      "ml-ai"
+    ],
+    "source": "https://www.aboutamazon.com/news/company-news/amazon-covariant-ai-robots",
+    "check": "confirmed",
+    "checkNote": "Amazon page (August 30, 2024) confirms the licence, the three founders (Pieter Abbeel, Peter Chen, Rocky Duan) and about a quarter of staff. CNBC (https://www.cnbc.com/2025/08/19/how-ai-zombie-deals-work-meta-google.html) confirms 'Amazon spent more than $400 million' per the whistleblower complaint, but does not give $222 million raised (it says 'reportedly been valued at $625 million in a 2023 funding round') and does not use the phrase 'reverse acquihire' in its text; it reports a 'skeleton c"
+  },
+  {
+    "id": "physical-intelligence-pi0-2024",
+    "date": "2024-11-04",
+    "title": "Physical Intelligence: pi0 model and $400M at $2.4B",
+    "detail": "Eight months after emerging, Physical Intelligence showed a generalist robot policy (pi0) and raised $400M from Jeff Bezos, Thrive, Lux and OpenAI at $2.4B. A reference round for the robot-foundation-model wave; European entrants Flexion, mimic and Sereact raised their large rounds in the following 18 months.",
+    "kind": "round",
+    "domains": [
+      "ml-ai",
+      "robotics"
+    ],
+    "source": "https://www.therobotreport.com/physical-intelligence-raises-400m-for-foundation-models-for-robotics/",
+    "check": "confirmed",
+    "checkNote": "Published November 4, 2024; Jeff Bezos led with Thrive Capital and Lux Capital, OpenAI among investors thanked; valuation is company-reported. The page does not say when the company emerged: Wikipedia gives founding in February 2024 (nine months earlier), so 'eight months after emerging' is not verified. Later European rounds (Flexion, mimic, Sereact) not checked."
+  },
+  {
+    "id": "gm-ends-cruise-robotaxi-2024",
+    "date": "2024-12",
+    "title": "GM stops funding Cruise robotaxis",
+    "detail": "Fourteen months after a pedestrian-dragging incident cost Cruise its California driverless permits, GM ended robotaxi funding and folded the work into driver assistance for personal vehicles. With Argo AI closed in 2022, both carmaker-backed US robotaxi programmes were gone.",
+    "kind": "market",
+    "domains": [
+      "ml-ai",
+      "robotics"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Cruise_(autonomous_vehicle)",
+    "check": "confirmed",
+    "checkNote": "Dragging incident October 2, 2023; California DMV suspension October 24, 2023 (fourteen months before). Work 'to be incorporated into development of advanced driver assistance systems for personal vehicles'."
+  },
+  {
+    "id": "iris2-contract-signed",
+    "date": "2024-12-16",
+    "title": "EU signs IRIS2 concession with SES, Eutelsat and Hispasat",
+    "detail": "The SpaceRISE consortium is to build a 348-satellite sovereign secure-connectivity constellation (budget EUR 10.5B at signing), with government services expected from 2030. It anchors European demand for satcom hardware, optical links and launch.",
+    "kind": "policy",
+    "domains": [
+      "space"
+    ],
+    "source": "https://en.wikipedia.org/wiki/IRIS%C2%B2",
+    "check": "confirmed",
+    "checkNote": "The constellation was 290 satellites at signing; the page says it was raised to 348 (330 LEO, 18 MEO) in August 2026, and the cost estimate was later revised to €15.6 billion."
+  },
+  {
+    "id": "estlink-2-cable-cut",
+    "date": "2024-12-25",
+    "title": "Estlink 2 power cable and telecom cables cut in the Gulf of Finland",
+    "detail": "The Estonia-Finland power link failed and four telecom cables were disrupted; Finland seized the tanker Eagle S, suspected of dragging its anchor, and NATO said it would increase its military presence in the Baltic Sea. The incident drove European demand for persistent uncrewed surveillance of seabed infrastructure.",
+    "kind": "conflict",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/2024_Estlink_2_incident",
+    "check": "confirmed",
+    "checkNote": "25 December 2024; Finnish police took Eagle S into possession; anchor dragging suspected."
+  },
+  {
+    "id": "saronic-600m-series-c",
+    "date": "2025-02",
+    "title": "Saronic raises $600M Series C at a $4B valuation",
+    "detail": "Led by Elad Gil with General Catalyst, a16z, Caffeinated Capital and 8VC, seven months after its $175M Series B, to build the Port Alpha autonomous shipyard. It made autonomous naval shipbuilding a venture category in its own right.",
+    "kind": "round",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "source": "https://www.therobotreport.com/saronic-raises-600m-expand-autonomous-shipbuilding/",
+    "check": "confirmed",
+    "checkNote": "Published February 19, 2025; General Catalyst, a16z, Caffeinated Capital, 8VC and Port Alpha on the page. The page gives no month for the $175M Series B; a separate Robot Report article on it is dated July 21, 2024, which supports 'seven months'."
+  },
+  {
+    "id": "rearm-europe-readiness-2030",
+    "date": "2025-03-04",
+    "title": "EU unveils ReArm Europe plan to mobilise up to €800B",
+    "detail": "Commission president Ursula von der Leyen proposed mobilising up to €800B for European defence, including €150B in defence loans for joint projects such as air and missile defence, in response to the war in Ukraine and uncertainty over US support. It signalled durable European demand to investors.",
+    "kind": "policy",
+    "domains": [
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Readiness_2030",
+    "check": "confirmed"
+  },
+  {
+    "id": "us-maritime-dominance-executive-order",
+    "date": "2025-04-09",
+    "title": "US executive order: Restoring America's Maritime Dominance",
+    "detail": "Executive Order 14269 ordered a Maritime Action Plan, proposed a Maritime Security Trust Fund, shipbuilding grants and loans, and Maritime Prosperity Zones, and streamlined vessel procurement. It put federal weight behind new US shipbuilders and autonomous-vessel makers.",
+    "kind": "policy",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "source": "https://www.whitehouse.gov/presidential-actions/2025/04/restoring-americas-maritime-dominance/",
+    "check": "confirmed",
+    "checkNote": "Dated April 9, 2025. Financial incentives programme with grants, loans and loan guarantees; maritime prosperity zones; 'Improve Procurement Efficiency' section all on the page."
+  },
+  {
+    "id": "operation-spiderweb",
+    "date": "2025-06-01",
+    "title": "Operation Spiderweb: smuggled FPV drones hit Russian bombers",
+    "detail": "Ukraine's SBU launched up to 117 FPV drones from trucks parked near air bases as far as 4,300 km from Ukraine, hitting strategic bombers that are no longer produced. It made the case for cheap autonomous strike drones and for counter-drone protection of every base and critical site.",
+    "kind": "conflict",
+    "domains": [
+      "defence"
+    ],
+    "source": "https://en.wikipedia.org/wiki/Operation_Spider%27s_Web",
+    "check": "confirmed",
+    "checkNote": "117 is the Ukrainian officials' figure. Tu-95 and Tu-22M3 'have not been produced since the dissolution of the Soviet Union in 1991'."
+  },
+  {
+    "id": "physical-intelligence-series-b",
+    "date": "2025-11",
+    "title": "Physical Intelligence raises $600M at $5.6B",
+    "detail": "CapitalG led the Series B with Lux Capital, taking the two-year-old robot-model lab to about $1.1 billion raised with no product on sale. It confirmed that investors would fund hardware-agnostic \"robot brains\" at foundation-model-lab scale.",
+    "kind": "round",
+    "domains": [
+      "robotics",
+      "ml-ai"
+    ],
+    "source": "https://www.therobotreport.com/physical-intelligence-raises-600m-advance-robot-foundation-models/",
+    "check": "confirmed",
+    "checkNote": "Published November 25, 2025; CapitalG led 'with Lux Capital'. Page says 'Founded in 2024', so 'two-year-old' is generous (under two years). 'No product on sale' is not stated on the page."
+  },
+  {
+    "id": "orbex-administration",
+    "date": "2026-02-11",
+    "title": "Orbex collapses after rescue takeover falls through",
+    "detail": "The UK launcher, one of five European Launcher Challenge preselectees, filed to appoint administrators after The Exploration Company's planned purchase failed and fundraising ran dry. Its Prime rocket never flew: evidence that public preselection does not replace private capital.",
+    "kind": "exit",
+    "domains": [
+      "space"
+    ],
+    "source": "https://europeanspaceflight.com/orbex-fails-after-planned-purchase-falls-through/",
+    "check": "confirmed",
+    "checkNote": "Published February 11, 2026. The Launcher Challenge preselection is not in this article but is confirmed by Wikipedia European Launcher Challenge (Orbex among five). Prime had not flown."
+  },
+  {
+    "id": "imo-mass-code-adopted",
+    "date": "2026-05",
+    "title": "IMO adopts non-mandatory code for autonomous ships (MASS)",
+    "detail": "After a regulatory scoping exercise completed in 2021, the IMO adopted the non-mandatory MASS Code in May 2026 (in effect 1 July 2026), with a mandatory code expected to be adopted by 2030 and in force in 2032. It is the first international rulebook for remote and autonomous ship operation.",
+    "kind": "policy",
+    "domains": [
+      "maritime"
+    ],
+    "source": "https://www.imo.org/en/MediaCentre/HotTopics/Pages/Autonomous-shipping.aspx",
+    "check": "confirmed",
+    "checkNote": "RSE completed 2021; 'By 1 July 2030 – Expected adoption of the IMO's first mandatory MASS Code, for entry into force on 1 Jan 2032'."
+  },
+  {
+    "id": "anduril-series-h-5b",
+    "date": "2026-05-13",
+    "title": "Anduril raises $5B Series H at a $61B valuation",
+    "detail": "Led by Thrive Capital and Andreessen Horowitz, the round doubled the $30.5B valuation set in June 2025 and came as Shield AI raised a $1.5B Series G at $12.7B and Helsing was reported close to raising $1.2B at about $18B, marking the peak so far of late-stage capital in defence technology.",
+    "kind": "round",
+    "domains": [
+      "defence"
+    ],
+    "source": "https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/",
+    "check": "confirmed",
+    "checkNote": "Published May 13, 2026; led by Thrive Capital and Andreessen Horowitz; Shield AI figures on page. Helsing's round is described as reported and not closed. The page dates the $30.5B valuation as 'just under a year ago' (the linked article URL is dated 2025/06/05)."
+  },
+  {
+    "id": "isar-aerospace-series-d",
+    "date": "2026-06-09",
+    "title": "Isar Aerospace raises EUR 270M Series D for sovereign launch",
+    "detail": "Raised from Island Green Capital, Molten Ventures and existing investors before Spectrum had reached orbit (it did so on 5 September 2026), showing that European sovereignty and defence demand now drive late-stage space funding.",
+    "kind": "round",
+    "domains": [
+      "space"
+    ],
+    "source": "https://isaraerospace.com/press/isar-aerospace-secures-eur-270m-to-provide-sovereign-space-capabilities-globally",
+    "check": "confirmed",
+    "checkNote": "Release dated 09 Jun 2026; no lead named. The release itself only announces an upcoming qualification flight; the 5 September 2026 orbit date rests on a sidebar headline on the same page dated 05 Sep 2026 ('reaches orbit and deploys payloads on second flight'), not on an article that was opened."
+  },
+  {
+    "id": "neura-robotics-series-c",
+    "date": "2026-06-10",
+    "title": "Neura Robotics announces Series C of up to $1.4B",
+    "detail": "The German cobot and humanoid maker announced up to $1.4 billion from investors including Tether, Amazon, Nvidia, Qualcomm, Bosch, Schaeffler and the European Investment Bank, which the company called the largest round ever for a full-stack robotics company.",
+    "kind": "round",
+    "domains": [
+      "robotics",
+      "ml-ai"
+    ],
+    "source": "https://tech.eu/2026/06/10/neura-robotics-secures-up-to-14b-series-c-to-scale-physical-ai-and-cognitive-robotics-platform/",
+    "check": "confirmed",
+    "checkNote": "Published 10 June 2026; all seven named investors are on the page (plus imec.xpand, Lingotto Horizon, InterAlpen Partners). Page calls it 'the German robotics company'; 'cobot and humanoid maker' is not stated there."
+  },
+  {
+    "id": "schneider-acquires-cognite",
+    "date": "2026-06-30",
+    "title": "Schneider Electric agrees to buy Cognite at $3.1B",
+    "detail": "Aker announced the sale of 100% of Cognite at an enterprise value of USD 3.1 billion, about 20x its invested capital, subject to regulatory approvals. It is the largest reported exit for a European industrial data startup and a reference price for the category.",
+    "kind": "exit",
+    "domains": [
+      "automation"
+    ],
+    "source": "https://www.inderes.fi/en/releases/aker-asa-agreement-to-sell-cognite-to-schneider-electric",
+    "check": "confirmed",
+    "checkNote": "Release dated 2026-06-30; sellers are Aker and the other Cognite shareholders; subject to customary regulatory approvals. 'Largest reported exit' is not on the page."
+  },
+  {
+    "id": "kraken-technology-unicorn-series-b",
+    "date": "2026-07",
+    "title": "Kraken Technology Group raises $175M Series B at $1B valuation",
+    "detail": "Led by DTCP with the British Business Bank, NATO Innovation Fund, Rheinmetall and Inocea, the round made the UK maker of uncrewed naval craft a unicorn and the European counterpart to Saronic, which had raised $1.75B at a $9.25B valuation that spring.",
+    "kind": "round",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "source": "https://www.therobotreport.com/kraken-technology-raises-series-b-funding-autonomous-vessels/",
+    "check": "confirmed",
+    "checkNote": "The article is dated July 27, 2026 and says only 'this month'; the day (9 July) is not supported. DTCP lead, British Business Bank, NATO Innovation Fund, Rheinmetall and Inocea are on the page; 'unicorn' is not used. Saronic's $1.75B Series D at $9.25B is confirmed by a Robot Report article dated March 31, 2026."
+  },
+  {
+    "id": "shield-to-acquire-echodyne",
+    "date": "2026-11-05",
+    "title": "Shield agrees to buy radar maker Echodyne for $5.3B",
+    "detail": "A definitive agreement valued at $5.3B ($4.8B at closing plus up to $500M contingent), financed alongside a $1B Series H at a $28.8B valuation, and expected to close in early 2027. One of the largest announced exits of a venture-backed defence sensor company, and a sign of consolidation among scaled defence startups.",
+    "kind": "exit",
+    "domains": [
+      "defence"
+    ],
+    "source": "https://www.echodyne.com/newsroom/shield-to-acquire-echodyne",
+    "check": "confirmed",
+    "checkNote": "Dated November 5, 2026; $4.8 billion at closing, up to $500 million contingent; $1 billion Series H at $28.8 billion post-money; expected to close in early 2027."
+  }
+]

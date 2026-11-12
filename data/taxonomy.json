@@ -1,0 +1,451 @@
+{
+  "version": 1,
+  "note": "Set \"enabled\": false on a subsector to prune it from the UI (companies stay in the data files). ML/AI is a proposal: prune freely.",
+  "domains": [
+    {
+      "id": "defence",
+      "name": "Defence",
+      "tagline": "Security, deterrence and dual-use",
+      "color": "#ff6b4a",
+      "subsectors": [
+        {
+          "id": "defence/counter-drone",
+          "name": "Counter-drone (C-UAS)",
+          "description": "Detecting, tracking and defeating drones: sensors, effectors, interceptors",
+          "enabled": true
+        },
+        {
+          "id": "defence/uas-strike",
+          "name": "Drones & loitering munitions",
+          "description": "Tactical UAS, FPV, one-way attack and strike drones",
+          "enabled": true
+        },
+        {
+          "id": "defence/autonomy-software",
+          "name": "Autonomy & mission software",
+          "description": "AI pilots, mission autonomy, battle-management and defence AI platforms",
+          "enabled": true
+        },
+        {
+          "id": "defence/isr-sensing",
+          "name": "ISR & sensing",
+          "description": "Radar, EO/IR, acoustic and other sensors, surveillance platforms and towers",
+          "enabled": true
+        },
+        {
+          "id": "defence/ew-rf",
+          "name": "Electronic warfare & RF",
+          "description": "Jamming, spectrum sensing, signals intelligence, RF hardware",
+          "enabled": true
+        },
+        {
+          "id": "defence/pnt",
+          "name": "Navigation & PNT",
+          "description": "GPS-denied navigation, inertial, visual and quantum navigation, anti-jam",
+          "enabled": true
+        },
+        {
+          "id": "defence/c2-comms",
+          "name": "C2 & tactical comms",
+          "description": "Command and control, mesh radios, tactical networks, edge compute",
+          "enabled": true
+        },
+        {
+          "id": "defence/ground-robotics",
+          "name": "Ground robotics",
+          "description": "Uncrewed ground vehicles and robotic land systems",
+          "enabled": true
+        },
+        {
+          "id": "defence/missiles-munitions",
+          "name": "Missiles, munitions & propulsion",
+          "description": "Low-cost missiles, interceptors, energetics, hypersonics, solid rocket motors",
+          "enabled": true
+        },
+        {
+          "id": "defence/defence-manufacturing",
+          "name": "Defence manufacturing & readiness",
+          "description": "Software-defined production, sustainment, simulation and training",
+          "enabled": true
+        }
+      ],
+      "keywords": [
+        "defence tech",
+        "dual-use",
+        "counter-drone",
+        "autonomy",
+        "NATO"
+      ]
+    },
+    {
+      "id": "space",
+      "name": "Space",
+      "tagline": "Launch, orbit and what flies there",
+      "color": "#4db8ff",
+      "subsectors": [
+        {
+          "id": "space/launch",
+          "name": "Launch",
+          "description": "Small, medium and heavy launch vehicles, spaceplanes",
+          "enabled": true
+        },
+        {
+          "id": "space/earth-observation",
+          "name": "Earth observation",
+          "description": "Optical, SAR, hyperspectral, thermal imaging constellations and analytics",
+          "enabled": true
+        },
+        {
+          "id": "space/satcom",
+          "name": "Satellite communications",
+          "description": "Broadband, IoT and direct-to-device constellations, optical links",
+          "enabled": true
+        },
+        {
+          "id": "space/in-space-transport",
+          "name": "In-space transport & servicing",
+          "description": "Orbital transfer vehicles, tugs, refuelling, life extension",
+          "enabled": true
+        },
+        {
+          "id": "space/satellite-systems",
+          "name": "Satellite buses & subsystems",
+          "description": "Bus makers, propulsion, avionics, components",
+          "enabled": true
+        },
+        {
+          "id": "space/ssa-debris",
+          "name": "Space situational awareness & debris",
+          "description": "Tracking, traffic management, debris removal",
+          "enabled": true
+        },
+        {
+          "id": "space/ground-segment",
+          "name": "Ground segment & space software",
+          "description": "Ground stations as a service, mission software, data platforms",
+          "enabled": true
+        },
+        {
+          "id": "space/rf-pnt",
+          "name": "RF sensing & PNT from orbit",
+          "description": "RF geolocation, alternative PNT constellations, GNSS reflectometry",
+          "enabled": true
+        },
+        {
+          "id": "space/lunar-exploration",
+          "name": "Lunar & deep space",
+          "description": "Landers, rovers, cislunar infrastructure",
+          "enabled": true
+        },
+        {
+          "id": "space/stations-reentry",
+          "name": "Stations, re-entry & in-space manufacturing",
+          "description": "Commercial stations, return capsules, microgravity manufacturing",
+          "enabled": true
+        }
+      ],
+      "keywords": [
+        "new space",
+        "launch",
+        "satellites",
+        "Earth observation"
+      ]
+    },
+    {
+      "id": "robotics",
+      "name": "Industrial robotics",
+      "tagline": "Machines that do physical work",
+      "color": "#a78bfa",
+      "subsectors": [
+        {
+          "id": "robotics/warehouse-logistics",
+          "name": "Warehouse & logistics robots",
+          "description": "AMRs, goods-to-person, robotic picking and sortation",
+          "enabled": true
+        },
+        {
+          "id": "robotics/arms-cobots",
+          "name": "Arms, cobots & manipulation",
+          "description": "Collaborative robots, industrial arms, manipulation cells",
+          "enabled": true
+        },
+        {
+          "id": "robotics/humanoids",
+          "name": "Humanoids & general-purpose robots",
+          "description": "Bipedal and wheeled general-purpose robots",
+          "enabled": true
+        },
+        {
+          "id": "robotics/robot-software",
+          "name": "Robot software & brains",
+          "description": "Robot OS, programming, fleet orchestration, robot AI stacks",
+          "enabled": true
+        },
+        {
+          "id": "robotics/inspection",
+          "name": "Inspection & maintenance robots",
+          "description": "Legged, crawling and flying robots for industrial inspection",
+          "enabled": true
+        },
+        {
+          "id": "robotics/construction",
+          "name": "Construction robots",
+          "description": "Site layout, bricklaying, drilling, 3D printing, autonomous machines",
+          "enabled": true
+        },
+        {
+          "id": "robotics/agriculture",
+          "name": "Agricultural robots",
+          "description": "Weeding, harvesting and autonomous field machines",
+          "enabled": true
+        },
+        {
+          "id": "robotics/outdoor-autonomy",
+          "name": "Off-road & heavy autonomy",
+          "description": "Autonomous mining, yard, forestry and industrial vehicles",
+          "enabled": true
+        },
+        {
+          "id": "robotics/components",
+          "name": "Components & end-effectors",
+          "description": "Actuators, grippers, tactile and 3D sensors",
+          "enabled": true
+        },
+        {
+          "id": "robotics/manufacturing-cells",
+          "name": "Robotic manufacturing",
+          "description": "Welding, machining, assembly and finishing robots",
+          "enabled": true
+        }
+      ],
+      "keywords": [
+        "industrial robots",
+        "humanoids",
+        "warehouse automation",
+        "cobots"
+      ]
+    },
+    {
+      "id": "automation",
+      "name": "Automation",
+      "tagline": "Factories, labs and operations that run themselves",
+      "color": "#f5c451",
+      "subsectors": [
+        {
+          "id": "automation/industrial-software",
+          "name": "Industrial software & data",
+          "description": "MES, industrial data platforms, IIoT, frontline tooling",
+          "enabled": true
+        },
+        {
+          "id": "automation/machine-vision-qc",
+          "name": "Machine vision & quality",
+          "description": "Visual inspection, metrology, defect detection",
+          "enabled": true
+        },
+        {
+          "id": "automation/process-control",
+          "name": "AI process control",
+          "description": "Autonomous plants, advanced control, predictive maintenance",
+          "enabled": true
+        },
+        {
+          "id": "automation/software-defined-factories",
+          "name": "Software-defined factories",
+          "description": "Vertically integrated automated manufacturing",
+          "enabled": true
+        },
+        {
+          "id": "automation/lab-automation",
+          "name": "Lab automation",
+          "description": "Robotic labs, liquid handling, self-driving laboratories",
+          "enabled": true
+        },
+        {
+          "id": "automation/engineering-automation",
+          "name": "Engineering & PLC automation",
+          "description": "AI for CAD, PLC code, commissioning and robot programming",
+          "enabled": true
+        },
+        {
+          "id": "automation/logistics-automation",
+          "name": "Logistics & fulfilment automation",
+          "description": "Automated storage, micro-fulfilment, yard and port automation",
+          "enabled": true
+        },
+        {
+          "id": "automation/enterprise-automation",
+          "name": "Enterprise process automation",
+          "description": "RPA and agentic workflow automation",
+          "enabled": true
+        },
+        {
+          "id": "automation/connected-operations",
+          "name": "Connected operations & IoT",
+          "description": "Fleet, asset and field operations platforms",
+          "enabled": true
+        },
+        {
+          "id": "automation/energy-buildings",
+          "name": "Energy & building automation",
+          "description": "Grid, building and infrastructure control",
+          "enabled": true
+        }
+      ],
+      "keywords": [
+        "industrial automation",
+        "smart factory",
+        "lab automation",
+        "IIoT"
+      ]
+    },
+    {
+      "id": "ml-ai",
+      "name": "ML / AI",
+      "tagline": "Proposed scope: physical and perception AI first",
+      "color": "#3ddc97",
+      "subsectors": [
+        {
+          "id": "ml-ai/foundation-models",
+          "name": "Foundation model labs",
+          "description": "Frontier and open-weight general model developers",
+          "enabled": true
+        },
+        {
+          "id": "ml-ai/embodied-ai",
+          "name": "Embodied AI & robot foundation models",
+          "description": "General robot policies, world models for physical agents",
+          "enabled": true
+        },
+        {
+          "id": "ml-ai/computer-vision",
+          "name": "Computer vision",
+          "description": "Vision platforms, video analytics, 3D reconstruction",
+          "enabled": true
+        },
+        {
+          "id": "ml-ai/perception-sensor-fusion",
+          "name": "Perception & sensor fusion",
+          "description": "Radar, lidar and multi-sensor perception stacks, SLAM, spatial AI",
+          "enabled": true
+        },
+        {
+          "id": "ml-ai/autonomous-driving",
+          "name": "Autonomous driving",
+          "description": "Self-driving stacks for cars and trucks",
+          "enabled": true
+        },
+        {
+          "id": "ml-ai/ai-chips-edge",
+          "name": "AI chips & edge compute",
+          "description": "Accelerators, neuromorphic and edge inference hardware",
+          "enabled": true
+        },
+        {
+          "id": "ml-ai/simulation-synthetic-data",
+          "name": "Simulation & synthetic data",
+          "description": "Simulators, synthetic data, digital twins for ML",
+          "enabled": true
+        },
+        {
+          "id": "ml-ai/geospatial-ai",
+          "name": "Geospatial AI",
+          "description": "Models and analytics on satellite, aerial and location data",
+          "enabled": true
+        },
+        {
+          "id": "ml-ai/ml-infrastructure",
+          "name": "ML infrastructure & data",
+          "description": "Labelling, training, evaluation and deployment tooling",
+          "enabled": true
+        },
+        {
+          "id": "ml-ai/ai-agents",
+          "name": "AI agents & coding",
+          "description": "Agentic software and code generation",
+          "enabled": true
+        }
+      ],
+      "keywords": [
+        "physical AI",
+        "computer vision",
+        "foundation models",
+        "AI chips"
+      ]
+    },
+    {
+      "id": "maritime",
+      "name": "Maritime",
+      "tagline": "Ships, ports and the ocean",
+      "color": "#22d3ee",
+      "subsectors": [
+        {
+          "id": "maritime/usv",
+          "name": "Uncrewed surface vessels",
+          "description": "Autonomous boats for defence, survey and data collection",
+          "enabled": true
+        },
+        {
+          "id": "maritime/uuv",
+          "name": "Underwater vehicles",
+          "description": "AUVs, gliders, ROVs and undersea drones",
+          "enabled": true
+        },
+        {
+          "id": "maritime/vessel-autonomy",
+          "name": "Vessel autonomy & navigation",
+          "description": "Autonomous navigation, collision avoidance, remote operation, perception for ships",
+          "enabled": true
+        },
+        {
+          "id": "maritime/maritime-intelligence",
+          "name": "Maritime intelligence",
+          "description": "AIS and satellite analytics, dark-vessel detection, risk and compliance",
+          "enabled": true
+        },
+        {
+          "id": "maritime/ocean-sensing",
+          "name": "Ocean data & sensing",
+          "description": "Sensors, buoys, seabed mapping, acoustic systems",
+          "enabled": true
+        },
+        {
+          "id": "maritime/shipping-software",
+          "name": "Shipping & fleet software",
+          "description": "Voyage optimisation, fleet operations, freight platforms",
+          "enabled": true
+        },
+        {
+          "id": "maritime/decarbonisation",
+          "name": "Propulsion & decarbonisation",
+          "description": "Wind assist, electric and foiling vessels, alternative fuels, efficiency tech",
+          "enabled": true
+        },
+        {
+          "id": "maritime/subsea-inspection",
+          "name": "Hull, subsea & offshore robotics",
+          "description": "Hull cleaning, subsea inspection and intervention robots",
+          "enabled": true
+        },
+        {
+          "id": "maritime/ports-terminals",
+          "name": "Ports & terminals",
+          "description": "Port automation, terminal software, mooring and logistics",
+          "enabled": true
+        },
+        {
+          "id": "maritime/naval-shipbuilding",
+          "name": "Naval systems & shipbuilding",
+          "description": "New-generation shipyards, naval autonomy and undersea defence",
+          "enabled": true
+        }
+      ],
+      "keywords": [
+        "maritime tech",
+        "uncrewed vessels",
+        "shipping software",
+        "ocean data"
+      ]
+    }
+  ]
+}

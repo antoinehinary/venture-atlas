@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "venture-atlas/event",
+  "title": "External event shown on the timeline",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "date", "title", "kind", "domains", "source"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "date": { "type": "string", "pattern": "^(19|20)\\d\\d(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\\d|3[01]))?)?$" },
+    "title": { "type": "string", "maxLength": 70 },
+    "detail": { "type": ["string", "null"], "description": "Why it mattered for company formation or funding" },
+    "kind": { "enum": ["conflict", "policy", "technology", "round", "exit", "market"] },
+    "domains": { "type": "array", "minItems": 1, "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" } },
+    "source": { "type": "string", "pattern": "^https?://" },
+    "check": { "enum": ["confirmed", "unreachable", null], "description": "Independent source check of date, title and the facts in detail" },
+    "checkNote": { "type": ["string", "null"] }
+  }
+}

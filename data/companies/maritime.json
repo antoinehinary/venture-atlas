@@ -1,0 +1,4280 @@
+[
+  {
+    "id": "bedrock-ocean-exploration",
+    "name": "Bedrock Ocean Exploration",
+    "aliases": [
+      "Bedrock",
+      "Bedrock Ocean"
+    ],
+    "website": "https://bedrockocean.com",
+    "pitch": "Maps the seafloor with its own autonomous underwater vehicles and delivers the survey data through a cloud platform.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/ocean-sensing",
+      "maritime/uuv"
+    ],
+    "founded": {
+      "date": "2020",
+      "source": "https://techcrunch.com/2021/03/11/ocean-floor-mapping-robotics-startup-bedrock-announces-an-8m-raise/amp/",
+      "checkNote": "Article dated March 11, 2021, so 'last year' = 2020. The page does not state a headquarters city.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": null,
+      "country": "US",
+      "lat": null,
+      "lon": null
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Co-founded in 2020 by Anthony DiMare, who had earlier co-founded shipping-software startup Nautilus Labs, and roboticist Charles Chiau. They set out to replace crewed survey ships with a vertically integrated service: electric AUVs that collect sonar and magnetic data and a cloud platform that delivers it. The first target markets were subsea cable routes and offshore wind sites, explicitly not oil companies.",
+    "founders": [
+      {
+        "name": "Anthony DiMare",
+        "role": "Co-founder and CEO",
+        "background": "Co-founder of Nautilus Labs (fleet-efficiency software, $11M Series A in 2019)"
+      },
+      {
+        "name": "Charles Chiau",
+        "role": "Co-founder and CTO",
+        "background": "Robotics engineer"
+      }
+    ],
+    "product": "Battery-powered AUV (up to 12 hours, sonar and magnetometer, under $1M each) plus a cloud platform for bathymetry, backscatter, side-scan and magnetic survey data.",
+    "wedge": "Seafloor surveys for offshore wind developers and subsea cable routes, sold as data rather than as vehicles.",
+    "became": "A seafloor-data provider doing paid surveys for offshore wind, oil and gas and environmental assessments, with US Navy interest (2025).",
+    "differentiator": "Owns both the AUV and the data platform; the company says two of its AUVs cover the ground of one traditional survey ship.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2021-03-11",
+        "type": "seed",
+        "label": null,
+        "amount": {
+          "value": 8000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Eniac Ventures",
+          "Primary Venture Partners",
+          "Quiet Capital",
+          "R7"
+        ],
+        "investors": [],
+        "source": "https://techcrunch.com/2021/03/11/ocean-floor-mapping-robotics-startup-bedrock-announces-an-8m-raise/amp/",
+        "check": "confirmed"
+      },
+      {
+        "date": "2023-07-12",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 25500000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Northzone",
+          "Primary Venture Partners"
+        ],
+        "investors": [
+          "Valor Equity Partners",
+          "Eniac Ventures",
+          "Quiet Capital",
+          "R7"
+        ],
+        "source": "https://oceannews.com/news/subsea-and-survey/bedrock-raises-25-5-million-in-series-a-funding-round-to-revolutionize-seafloor-exploration-and-accelerate-offshore-wind-energy-development/",
+        "checkNote": "Page: 'secured $25.5 million in its Series A funding round ... with significant participation from Valor Equity Partners, and existing investors Eniac, Quiet Capital, and R7'. Dated 12 July 2023.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-06-10",
+        "type": "series-a",
+        "label": "Series A-2",
+        "amount": {
+          "value": 25000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Primary Venture Partners",
+          "Northzone"
+        ],
+        "investors": [
+          "Autopilot",
+          "Costanoa Ventures",
+          "Harmony Partners",
+          "Katapult",
+          "Mana Ventures"
+        ],
+        "source": "https://techcrunch.com/2025/06/10/bedrock-ocean-dredges-up-25m-to-map-the-seafloor-with-robots",
+        "checkNote": "Date is the article publication date (June 10, 2025); the page says the round 'recently closed'. 'Autopilot, Costanoa Ventures, Harmony Partners, Katapult, and Mana Ventures participated.'",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": {
+      "value": 33500000,
+      "currency": "USD",
+      "asOf": "2023-07-12",
+      "source": "https://oceannews.com/news/subsea-and-survey/bedrock-raises-25-5-million-in-series-a-funding-round-to-revolutionize-seafloor-exploration-and-accelerate-offshore-wind-energy-development/",
+      "checkNote": "As of the 12 July 2023 article; does not include the later 2025 Series A-2.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": {
+      "kind": "team-only",
+      "note": "The seed coverage names no prototype or customer; it rests on the founders (a repeat maritime founder plus a roboticist) and a team that included Ocean Discovery XPrize participants.",
+      "source": "https://techcrunch.com/2021/03/11/ocean-floor-mapping-robotics-startup-bedrock-announces-an-8m-raise/amp/"
+    },
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2021/03/11/ocean-floor-mapping-robotics-startup-bedrock-announces-an-8m-raise/amp/",
+        "title": "Ocean floor mapping robotics startup Bedrock announces an $8M raise (TechCrunch)"
+      },
+      {
+        "url": "https://oceannews.com/news/subsea-and-survey/bedrock-raises-25-5-million-in-series-a-funding-round-to-revolutionize-seafloor-exploration-and-accelerate-offshore-wind-energy-development/",
+        "title": "Bedrock raises $25.5 million in Series A (Ocean News & Technology)"
+      },
+      {
+        "url": "https://offshorewind.biz/2023/07/12/us-auv-developer-marks-first-step-towards-techs-commercialisation-aims-to-accelerate-seafloor-data-acquisition-for-offshore-wind",
+        "title": "US AUV developer marks first step towards tech's commercialisation (offshoreWIND.biz)"
+      },
+      {
+        "url": "https://techcrunch.com/2025/06/10/bedrock-ocean-dredges-up-25m-to-map-the-seafloor-with-robots",
+        "title": "Bedrock Ocean dredges up $25M to map the seafloor with robots (TechCrunch)"
+      },
+      {
+        "url": "https://bedrockocean.com/about",
+        "title": "Bedrock: About"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "blue-water-autonomy",
+    "name": "Blue Water Autonomy",
+    "aliases": [],
+    "website": null,
+    "pitch": "Designs and builds long-range, fully uncrewed ships of roughly 100-150 feet for the US Navy.",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "subsectors": [
+      "maritime/naval-shipbuilding",
+      "maritime/usv",
+      "defence/autonomy-software"
+    ],
+    "founded": {
+      "date": "2024",
+      "source": "https://fortune.com/2025/08/26/exclusive-blue-water-autonomy-raises-gv-led-50-million-series-a-to-build-unmanned-ships",
+      "checkNote": "Year from the Fortune source. Fortune does not state the city; Boston, Massachusetts is stated on the WorkBoat page (https://www.workboat.com/startup-raises-50-million-to-build-autonomous-naval-ships).",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Boston",
+      "country": "US",
+      "lat": 42.36,
+      "lon": -71.06
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Founded in 2024 in Boston by Rylan Hamilton, Austin Gray and Scott N. Miller. Hamilton is a third-generation Navy veteran who served on a mine-hunting amphibious ship and a frigate, then spent 15 years in robotics startups and sold 6 River Systems for $450M in 2019. The company emerged from stealth in April 2025 with the Navy as its first intended customer, applying commercial technology and fast iteration to uncrewed ships.",
+    "founders": [
+      {
+        "name": "Rylan Hamilton",
+        "role": "Co-founder and CEO",
+        "background": "US Navy veteran; ex-Kiva Systems; sold robotics company 6 River Systems for $450M in 2019"
+      },
+      {
+        "name": "Austin Gray",
+        "role": "Co-founder",
+        "background": null
+      },
+      {
+        "name": "Scott N. Miller",
+        "role": "Co-founder",
+        "background": null
+      }
+    ],
+    "product": "A single class of highly producible, long-range autonomous ship about half a football field long, designed to travel thousands of miles with no crew.",
+    "wedge": "US Navy R&D contracts and on-water engineering tests ahead of a first full-scale ship planned for 2026.",
+    "became": null,
+    "differentiator": "A team combining robotics founders with Navy veterans and shipbuilders who delivered more than 30 ships to the Navy, focused on one producible ship class.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2025-04",
+        "type": "seed",
+        "label": null,
+        "amount": {
+          "value": 14000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [],
+        "source": "https://www.workboat.com/startup-raises-50-million-to-build-autonomous-naval-ships",
+        "checkNote": "WorkBoat says the seed round was announced in April 2025; no seed investors are named on the page.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-08-26",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 50000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "GV"
+        ],
+        "investors": [
+          "Eclipse",
+          "Riot",
+          "Impatient Ventures"
+        ],
+        "source": "https://fortune.com/2025/08/26/exclusive-blue-water-autonomy-raises-gv-led-50-million-series-a-to-build-unmanned-ships",
+        "checkNote": "'Eclipse Ventures, Riot, and Impatient Ventures, all existing investors, participated in the round.' Published August 26, 2025.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": {
+      "value": 64000000,
+      "currency": "USD",
+      "asOf": "2025-08-26",
+      "source": "https://www.workboat.com/startup-raises-50-million-to-build-autonomous-naval-ships",
+      "checkNote": "WorkBoat page (published August 28, 2025) gives $64 million total; the verbatim quote is from the Fortune article dated August 26, 2025, which states the same figure.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "US Navy",
+        "date": null,
+        "note": "Holds Navy R&D contracts; Navy is the first targeted customer",
+        "source": "https://fortune.com/2025/08/26/exclusive-blue-water-autonomy-raises-gv-led-50-million-series-a-to-build-unmanned-ships"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://fortune.com/2025/08/26/exclusive-blue-water-autonomy-raises-gv-led-50-million-series-a-to-build-unmanned-ships",
+        "title": "Blue Water Autonomy raises GV-led $50 million Series A to build unmanned ships"
+      },
+      {
+        "url": "https://www.workboat.com/startup-raises-50-million-to-build-autonomous-naval-ships",
+        "title": "Startup raises $50 million to build autonomous naval ships"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "blueye-robotics",
+    "name": "Blueye Robotics",
+    "aliases": [
+      "Blueye"
+    ],
+    "website": "https://www.blueyerobotics.com",
+    "pitch": "User-friendly professional underwater drones (mini-ROVs) for inspection by aquaculture, shipping, energy and coast guards.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/uuv",
+      "maritime/subsea-inspection"
+    ],
+    "founded": {
+      "date": "2015",
+      "source": "https://assets.ctfassets.net/qpo1z0ycuc50/6lpp6eakccR6ekuOvWa2qP/8471ffacbede78d60b7e0d670adfdcd2/20200618_-_Pressemelding_kapitalinnhenting_Blueye_Robotics.pdf",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Trondheim",
+      "country": "NO",
+      "lat": 63.43,
+      "lon": 10.4
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "A technology company started in Trondheim in 2015 to make underwater technology easy for professionals to use. It developed all its products with its own resources and by mid-2020 had delivered more than 700 units to over 35 countries with a team of 19.",
+    "founders": [],
+    "product": "Blueye Pioneer, Pro, X3 and later X7 / X3 Ultra underwater drones, plus Blueye Cloud.",
+    "wedge": "The Blueye Pioneer underwater drone, used in fish farming and in November 2018 to assist the Norwegian Armed Forces at a capsized frigate.",
+    "became": "A supplier of inspection ROVs to the Norwegian Coast Guard fleet (2023), Norwegian Customs and the Royal Netherlands Navy (2025), and to Equinor, Salmar and Inchcape Shipping Services.",
+    "differentiator": "Consumer-grade ease of use in a professional inspection ROV.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2020-06-18",
+        "type": "venture",
+        "label": "Share issue of '10 million' (currency not stated in the release) from existing shareholders, significantly oversubscribed",
+        "amount": null,
+        "valuation": null,
+        "leads": [],
+        "investors": [],
+        "source": "https://assets.ctfassets.net/qpo1z0ycuc50/6lpp6eakccR6ekuOvWa2qP/8471ffacbede78d60b7e0d670adfdcd2/20200618_-_Pressemelding_kapitalinnhenting_Blueye_Robotics.pdf",
+        "checkNote": "The release body carries no date and no currency; the date 2020-06-18 comes only from the PDF file name ('20200618 - Pressemelding kapitalinnhenting') and its creation metadata. The release adds that an extraordinary general meeting still had to formally vote on the issue. Currency is presumably NOK but is not stated.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "Inchcape Shipping Services",
+        "date": "2019-05",
+        "note": "Partnership announced 6 May 2019",
+        "source": "https://www.blueye.no/press"
+      },
+      {
+        "name": "Norwegian Coast Guard",
+        "date": "2023-04",
+        "note": "Major order announced April 2023",
+        "source": "https://www.blueye.no/press"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://assets.ctfassets.net/qpo1z0ycuc50/6lpp6eakccR6ekuOvWa2qP/8471ffacbede78d60b7e0d670adfdcd2/20200618_-_Pressemelding_kapitalinnhenting_Blueye_Robotics.pdf",
+        "title": "Blueye styrker kapitalbasen for videre vekst (press release, 18 June 2020)"
+      },
+      {
+        "url": "https://www.blueye.no/press",
+        "title": "Blueye - Press"
+      },
+      {
+        "url": "https://www.blueyerobotics.com/",
+        "title": "Blueye Robotics homepage"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "bound4blue",
+    "name": "bound4blue",
+    "aliases": [
+      "Bound 4 Blue"
+    ],
+    "website": "https://bound4blue.com",
+    "pitch": "Suction sails (eSAIL) that retrofit onto cargo ships to cut fuel use with wind-assisted propulsion.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/decarbonisation"
+    ],
+    "founded": {
+      "date": "2015",
+      "source": "https://bound4blue.com/about/",
+      "checkNote": "The page says the idea was 'born in 2015', not a formal incorporation date. It lists both 'Cantabria HQ' and 'Barcelona HQ' (plus Singapore, Suzhou, Shanghai offices), so Barcelona is not stated as the sole headquarters.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Barcelona",
+      "country": "ES",
+      "lat": 41.39,
+      "lon": 2.17
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "The idea dates from 2015: the founders wanted to build a sail-driven ship that would generate energy at sea. While developing the rigid sail they realised it could co-propel ordinary cargo and passenger ships and cut their fuel bills, and the company refocused on that. After prototyping (2015-2018), CFD and wind-tunnel validation (2019) and a first full-scale 12-metre unit built with wind-turbine suppliers (2020), the first eSAIL went onto a fishing vessel in June 2021. Early money came from Valderaduey Inversiones (co-investing with the European Investment Fund), a group of maritime professionals and a Barcelona family office during prototyping; a commercialisation round after June 2021 added Aciturri Aeronáutica, CDTI-Innvierte, Ocean Born Foundation and Climate-KIC (amounts not disclosed).",
+    "founders": [
+      {
+        "name": "José M. Bermúdez",
+        "role": "Co-founder and CEO",
+        "background": null
+      },
+      {
+        "name": "Cristina Aleixendri",
+        "role": "Co-founder and COO",
+        "background": "EIT Woman Award 2020"
+      }
+    ],
+    "product": "eSAIL suction sails (wind-assisted propulsion) retrofitted to tankers, ro-ro, general cargo and fishing vessels; units of 12, 17 and 22 metres have been installed.",
+    "wedge": "A 12-metre eSAIL on the longliner Balueiro II (June 2021), then a 17-metre unit on the general cargo ship La Naumon (December 2021).",
+    "became": "A wind-propulsion supplier with installations or orders from Amasus, Louis Dreyfus Armateurs, Odfjell, Marubeni, Eastern Pacific Shipping and Marflet Marine, and offices in Spain, Singapore and China.",
+    "differentiator": "Suction sails produce high lift from a compact, autonomous unit that can be retrofitted.",
+    "competitors": [
+      "Norsepower"
+    ],
+    "rounds": [
+      {
+        "date": "2023-09",
+        "type": "series-a",
+        "label": "€22.4M including €6.5M in grants",
+        "amount": {
+          "value": 22400000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "European Commission"
+        ],
+        "source": "https://bound4blue.com/about/",
+        "checkNote": "On the timeline the €22.4M entry carries the label 'September 2023'; 'August 2023' belongs to the preceding Odfjell entry (labels follow each entry's body text). Headline: 'bound4blue raises €22.4 million from the European Commission, major corporate investors and VC'; no other investor is named and no lead is stated.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "Balueiro II (fishing longliner)",
+        "date": "2021-06",
+        "note": "First eSAIL installation, in Panama; described as the first fishing vessel to sail with the technology.",
+        "source": "https://bound4blue.com/about/"
+      },
+      {
+        "name": "La Naumon (general cargo vessel)",
+        "date": "2021-12",
+        "note": "17-metre eSAIL installed in Spain.",
+        "source": "https://bound4blue.com/about/"
+      },
+      {
+        "name": "Amasus (Eems Traveller)",
+        "date": "2023-07",
+        "note": "Installation on a general cargo ship.",
+        "source": "https://bound4blue.com/about/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://bound4blue.com/about/",
+        "title": "bound4blue: About (history, investors, milestones)"
+      },
+      {
+        "url": "https://bound4blue.com/",
+        "title": "bound4blue"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "candela",
+    "name": "Candela",
+    "aliases": [
+      "Candela Technology"
+    ],
+    "website": "https://candela.com",
+    "pitch": "Electric hydrofoil boats and ferries that fly above the water to cut energy use by around 80%.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/decarbonisation"
+    ],
+    "founded": {
+      "date": "2014",
+      "source": "https://candela.com/about/",
+      "checkNote": "The about page dates the company's start to 2014 (not a formal incorporation statement) and says 'Designed and made in Sweden'. It does not state a headquarters city (Stockholm is not on this page; the company's press releases are datelined Stockholm, Sweden).",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Stockholm",
+      "country": "SE",
+      "lat": 59.33,
+      "lon": 18.07
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "In 2014 Gustav Hasselskog set out to find out why electric boats could not beat fossil-fuel ones, and concluded the answer was computer-controlled hydrofoils that lift the hull out of the water. After about five years of R&D on the control and sensor system the first boat, the C-7 leisure craft, flew. Candela then moved from leisure boats (C-7, C-8) to the P-12 passenger ferry, first put into Stockholm's public transport.",
+    "founders": [
+      {
+        "name": "Gustav Hasselskog",
+        "role": "Founder and chairman",
+        "background": null
+      }
+    ],
+    "product": "C-Foil computer-controlled hydrofoil system and C-POD electric motors, sold in C-7 and C-8 leisure boats and the P-12 ferry (Shuttle, Voyager and Business versions).",
+    "wedge": "A premium electric leisure boat, the C-7, described by the company as the best-selling electric boat in Europe.",
+    "became": "An electric ferry maker with over 65 vessels on order and P-12 deployments or orders in Stockholm, Norway, Berlin, Lake Tahoe, NEOM, the Maldives and Mumbai (2026).",
+    "differentiator": "Active hydrofoils give electric boats long range at speed; the company claims 80% less energy than conventional vessels.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2024-11-21",
+        "type": "series-c",
+        "label": "Final close of $40M Series C; the last $14M tranche was led by SEB Private Equity",
+        "amount": {
+          "value": 40000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "SEB Private Equity",
+          "EQT Ventures",
+          "KanDela AB"
+        ],
+        "source": "https://candela.com/newsroom/candela-secures-funding-to-expand-electric-hydrofoil-innovation/",
+        "checkNote": "Headline gives '$40m Series C'; the subheading is looser: 'Announcing an additional $14M raised in its Series C round, Candela has secured over $40 million in funding in 2024', so $40M is best read as approximate/floor for 2024. The page says 'The new $14 million investment is led by by SEB Private Equity' with existing investors EQT Ventures and KanDela AB; no lead is stated for the round as a whole. Dateline 21 November 2024.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2026-03-18",
+        "type": "venture",
+        "label": "Largest round to date; IFC contributed €8M",
+        "amount": {
+          "value": 30000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "EQT Ventures",
+          "SEB Private Equity",
+          "KanDela AB",
+          "Ocean Zero",
+          "International Finance Corporation"
+        ],
+        "source": "https://candela.com/newsroom/flying-electric-vessel-maker-candela-raises-e30m-amid-soaring-oil-prices/",
+        "checkNote": "€30M per headline ('Candela raises €30M amid soaring oil prices'), dated March 18, 2026; described as 'Candela's largest funding round to date'; IFC is the new investor 'which contributed €8 million'. No round name and no lead stated.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": {
+      "value": 129000000,
+      "currency": "EUR",
+      "asOf": "2026-03-18",
+      "source": "https://candela.com/newsroom/flying-electric-vessel-maker-candela-raises-e30m-amid-soaring-oil-prices/",
+      "checkNote": "As of the March 18, 2026 release.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "Stockholm public transport",
+        "date": null,
+        "note": "First P-12 ferry in service, operating as the 'Nova'.",
+        "source": "https://candela.com/about/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://candela.com/about/",
+        "title": "Candela: About"
+      },
+      {
+        "url": "https://candela.com/newsroom/candela-secures-funding-to-expand-electric-hydrofoil-innovation/",
+        "title": "Candela holds final close on $40m Series C funding (company newsroom)"
+      },
+      {
+        "url": "https://candela.com/newsroom/flying-electric-vessel-maker-candela-raises-e30m-amid-soaring-oil-prices/",
+        "title": "Flying electric vessel maker Candela raises €30M (company newsroom)"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "captain-ai",
+    "name": "Captain AI",
+    "aliases": [],
+    "website": "https://www.captainai.com",
+    "pitch": "Rotterdam startup building deep-learning autopilot, route-planning and collision-warning software for port and inland vessels.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/vessel-autonomy"
+    ],
+    "founded": {
+      "date": "2018",
+      "source": "https://www.captainai.com/news/captain-ai-ontvangt-uniiq-investering-voor-ontwikkeling-autonoom-varen/",
+      "checkNote": "Page also says 'gevestigd in de haven van Rotterdam'.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Rotterdam",
+      "country": "NL",
+      "lat": 51.92,
+      "lon": 4.48
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Founded in 2018 in the Port of Rotterdam by Vincent Wegener, Gerard Kruisheer, Gerard Simons and Niels Stamhuis to build autonomous shipping on deep-learning algorithms. The team trained its software in VSTEP's Nautis simulator and tested sensors and algorithms on a patrol vessel made available by the Port of Rotterdam Authority.",
+    "founders": [
+      {
+        "name": "Vincent Wegener",
+        "role": "Co-founder and CEO",
+        "background": null
+      },
+      {
+        "name": "Gerard Kruisheer",
+        "role": "Co-founder and CTO",
+        "background": null
+      },
+      {
+        "name": "Gerard Simons",
+        "role": "Co-founder",
+        "background": null
+      },
+      {
+        "name": "Niels Stamhuis",
+        "role": "Co-founder",
+        "background": null
+      }
+    ],
+    "product": "Captain AI Autopilot, Route Planner ('the Google Maps for the waterways') and a collision-warning system.",
+    "wedge": "A pilot on the Port of Rotterdam Authority's floating-lab vessel, followed in September 2020 by a KOTUG Rotortug sailing the Nieuwe Maas autonomously on its route planner and autopilot.",
+    "became": "A small supplier of decision-support and autonomy software: a collision-warning system for Watertaxi Rotterdam (2024), a remote hydrographic survey system with Aquatic Drones (2023) and a partner in the European PROACTIF project (2025).",
+    "differentiator": "Simulator-trained deep learning, developed inside Europe's busiest port with the port authority as test partner.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2018",
+        "type": "unknown",
+        "label": "Early investment by VSTEP and Post & Co (amount undisclosed)",
+        "amount": null,
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "VSTEP",
+          "Post & Co"
+        ],
+        "source": "https://www.captainai.com/news/captain-ai-will-make-safe-autonomous-shipping-a-reality/",
+        "checkNote": "Page (dated 04/10/2018) names VSTEP and Post & Co as the investors; no amount, round name or investment date is given, so 2018 rests on the publication date.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2019-07-04",
+        "type": "unknown",
+        "label": "UNIIQ proof-of-concept investment",
+        "amount": {
+          "value": 300000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [
+          "UNIIQ"
+        ],
+        "investors": [],
+        "source": "https://www.captainai.com/news/captain-ai-ontvangt-uniiq-investering-voor-ontwikkeling-autonoom-varen/",
+        "checkNote": "Dateline 'Rotterdam, 4 juli 2019' (page header shows 05/07/2019). UNIIQ is the only investor, so 'lead' is trivially true; the page does not use the phrase 'proof-of-concept' in the passages read and does not specify the instrument.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2019-12",
+        "type": "unknown",
+        "label": "Citylab010 funding (City of Rotterdam)",
+        "amount": {
+          "value": 121000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Citylab010"
+        ],
+        "source": "https://www.captainai.com/news/captain-ai-receives-funding-from-citylab010/",
+        "checkNote": "Amount (EUR 121,000), funder (Citylab010, an initiative of the municipality of Rotterdam) and date (page dated 27/12/2019) are confirmed. The page only says 'funding'; the words grant/subsidy do not appear, so type 'grant' is an inference (a plausible one: 34 of 300 initiatives were selected by a jury), not something the page states.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": {
+      "kind": "pilot",
+      "note": "At the UNIIQ investment in July 2019 the first tests were running at the Port of Rotterdam Authority's Floating Lab; no completed autonomous voyage yet. What it had at the earlier VSTEP / Post & Co investment is not stated.",
+      "source": "https://www.captainai.com/news/captain-ai-ontvangt-uniiq-investering-voor-ontwikkeling-autonoom-varen/"
+    },
+    "firstCustomers": [
+      {
+        "name": "Port of Rotterdam Authority",
+        "date": "2018",
+        "note": "Pilot partner providing a vessel for testing sensors and algorithms",
+        "source": "https://www.captainai.com/news/captain-ai-will-make-safe-autonomous-shipping-a-reality/"
+      },
+      {
+        "name": "KOTUG International / Rotortug",
+        "date": "2020-09",
+        "note": "RT Borkum sailed autonomously in Rotterdam; agreement to further develop and commercialise the software",
+        "source": "https://www.captainai.com/news/kotug-international-rotortug-and-captain-ai-take-an-important-step-towards-fully-autonomous-sailing/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.captainai.com/news/captain-ai-will-make-safe-autonomous-shipping-a-reality/",
+        "title": "Captain AI will make safe autonomous shipping a reality"
+      },
+      {
+        "url": "https://www.captainai.com/news/captain-ai-ontvangt-uniiq-investering-voor-ontwikkeling-autonoom-varen/",
+        "title": "Captain AI ontvangt UNIIQ-investering voor ontwikkeling autonoom varen"
+      },
+      {
+        "url": "https://www.captainai.com/news/captain-ai-receives-funding-from-citylab010/",
+        "title": "Captain AI receives funding from Citylab010"
+      },
+      {
+        "url": "https://www.captainai.com/news/kotug-international-rotortug-and-captain-ai-take-an-important-step-towards-fully-autonomous-sailing/",
+        "title": "KOTUG International, RotorTug and Captain AI take an important step towards fully autonomous sailing"
+      },
+      {
+        "url": "https://www.captainai.com/news",
+        "title": "Captain AI - News"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "fleetzero",
+    "name": "Fleetzero",
+    "aliases": [],
+    "website": "https://www.fleetzero.com",
+    "pitch": "Battery-electric and hybrid cargo ships built around swappable container-sized batteries, now with autonomy software.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/decarbonisation",
+      "maritime/vessel-autonomy"
+    ],
+    "founded": {
+      "date": "2021",
+      "source": "https://www.ycombinator.com/companies/fleetzero",
+      "checkNote": "The YC page confirms founding year 2021 but gives the location as Houston, TX, not New Orleans. This is the current location on the page, not explicitly a founding city.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Houston",
+      "country": "US",
+      "lat": 29.76,
+      "lon": -95.37
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Founded in 2021 by two US Merchant Marine Academy marine engineers, Steven Henderson and Mike Carter, who had run ships and offshore facilities. Their idea was to electrify shipping with batteries shaped like shipping containers that are loaded like cargo and swapped in port. The company went through Y Combinator (Winter 2022), won the Harvard Business School New Venture Competition, and began looking for a first vessel to convert. It later moved to Houston and broadened into building hybrid-electric ships with its own propulsion and remote-operation software.",
+    "founders": [
+      {
+        "name": "Steven Henderson",
+        "role": "Co-founder",
+        "background": "Marine engineer (US Merchant Marine Academy, Harvard MBA) who managed cargo ships, a hospital ship and a Gulf of Mexico offshore facility; US Navy Reserve Strategic Sealift Officer"
+      },
+      {
+        "name": "Mike Carter",
+        "role": "Co-founder",
+        "background": "Marine engineer (US Merchant Marine Academy, Rice MBA) with ship operations and energy-shipping sales experience; Navy Reserve officer"
+      }
+    ],
+    "product": "Leviathan containerised battery and electric propulsion system, OctoDrive autonomous navigation and remote-operations software, and hybrid-electric cargo vessels.",
+    "wedge": "Retrofit auxiliary vessels first: put container batteries on the back deck of a roughly 250-foot platform supply vessel, wired in within weeks and without a dry dock.",
+    "became": "A US builder of modular hybrid-electric cargo ships; selected in 2025 to build what it calls the world's longest-range hybrid-electric vessel.",
+    "differentiator": "Batteries handled as standard containers and swapped in port, and a plan to serve smaller ports that large container lines cannot use.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2022",
+        "type": "venture",
+        "label": "Round name not stated",
+        "amount": {
+          "value": 15500000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Breakthrough Energy Ventures"
+        ],
+        "investors": [
+          "Founders Fund",
+          "McKinley Capital"
+        ],
+        "source": "https://techcrunch.com/2022/06/30/fleetzero-begins-its-search-for-the-first-giant-ship-to-convert-to-battery-power/",
+        "checkNote": "'$15.5 million in new funding'; 'Founders Fund, McKinley Capital and previous investors also contributed.' Published June 30, 2022; round name not stated.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2023",
+        "type": "series-a",
+        "label": null,
+        "amount": null,
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Maersk Growth",
+          "Breakthrough Energy Ventures",
+          "Obvious Ventures"
+        ],
+        "source": "https://www.fleetzero.com/",
+        "checkNote": "Listed under 2023 on the company homepage; no amount and no lead given. The text says 'Breakthrough Energy' (the logo wall shows Breakthrough Energy Ventures).",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://www.ycombinator.com/companies/fleetzero",
+        "title": "Fleetzero (Y Combinator)"
+      },
+      {
+        "url": "https://techcrunch.com/2022/06/30/fleetzero-begins-its-search-for-the-first-giant-ship-to-convert-to-battery-power/",
+        "title": "Fleetzero begins its search for the first giant ship to convert to battery power (TechCrunch)"
+      },
+      {
+        "url": "https://www.fleetzero.com/",
+        "title": "Fleetzero"
+      },
+      {
+        "url": "https://www.maritime-executive.com/editorials/new-orleans-startup-seeks-to-develop-swappable-battery-electric-ships",
+        "title": "New Orleans Startup Seeks to Develop Swappable-Battery Electric Ships (The Maritime Executive)"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "greywing",
+    "name": "Greywing",
+    "aliases": [],
+    "website": "https://grey-wing.com",
+    "pitch": "Software that helps ship operators plan crew changes, assess route risk and manage port agents.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/shipping-software",
+      "maritime/maritime-intelligence"
+    ],
+    "founded": {
+      "date": "2019",
+      "source": "https://www.ycombinator.com/companies/greywing",
+      "checkNote": "TechCrunch also says 'Founded in 2019, Singapore-based'.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Singapore",
+      "country": "SG",
+      "lat": 1.35,
+      "lon": 103.82
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Nick Clarke and Hrishi Olickel met at Entrepreneur First in Singapore and started Greywing in 2019 to give shipping companies fast intelligence on piracy risk in the Gulf of Guinea and off Somalia. When COVID-19 stranded seafarers on ships, clients asked for help with crew changes, and the team reused its risk methodology to launch Crew Change in July 2021. It went through Y Combinator (Winter 2021) and raised a $2.5M seed that October.",
+    "founders": [
+      {
+        "name": "Nick Clarke",
+        "role": "Co-founder and CEO",
+        "background": null
+      },
+      {
+        "name": "Hrishi Olickel",
+        "role": "Co-founder and CTO",
+        "background": "Background in parametric insurance and robotics; new to maritime"
+      }
+    ],
+    "product": "Platform for ship operators: crew change planning (including emissions of crew travel), predictive route and piracy risk reporting, vessel monitoring and port-agent communication; SeaGPT email assistant for crew managers (2023).",
+    "wedge": "Piracy and route-risk reports for fleet security officers, then COVID-era crew change planning built on 30 public and private data APIs.",
+    "became": "A crew-operations automation tool; Y Combinator lists it as active with a team of 2.",
+    "differentiator": null,
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2021-10-06",
+        "type": "seed",
+        "label": null,
+        "amount": {
+          "value": 2500000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Flexport",
+          "Transmedia Capital",
+          "Signal Ventures",
+          "Motion Ventures",
+          "Rebel Ventures",
+          "Y Combinator",
+          "Entrepreneur First"
+        ],
+        "source": "https://techcrunch.com/2021/10/06/maritime-intelligence-platform-greywing-raises-seed-funding-from-investors-like-flexport/",
+        "checkNote": "Published October 6, 2021. Investors named: Flexport, Transmedia Capital, Signal Ventures, Motion Ventures, Rebel Ventures, Y Combinator, Entrepreneur First. No lead stated.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://www.ycombinator.com/companies/greywing",
+        "title": "Greywing (Y Combinator)"
+      },
+      {
+        "url": "https://techcrunch.com/2021/10/06/maritime-intelligence-platform-greywing-raises-seed-funding-from-investors-like-flexport/",
+        "title": "Maritime intelligence platform Greywing raises seed funding from investors like Flexport (TechCrunch)"
+      },
+      {
+        "url": "https://techcrunch.com/2021/07/27/greywing-launches-crew-change-to-help-shipping-companies-navigate-covid-19-regulations/",
+        "title": "Greywing launches Crew Change (TechCrunch)"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "havocai",
+    "name": "HavocAI",
+    "aliases": [
+      "Havoc"
+    ],
+    "website": "https://www.havocai.com",
+    "pitch": "Low-cost autonomous boats and collaborative-autonomy software that lets one operator command large numbers of uncrewed vessels.",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "subsectors": [
+      "maritime/usv",
+      "maritime/vessel-autonomy",
+      "defence/autonomy-software"
+    ],
+    "founded": {
+      "date": "2024-01",
+      "source": "https://fortune.com/2025/10/09/havocai-85-million-autonomous-vessels-funding/",
+      "checkNote": "Fortune only says 'a Rhode Island–based startup'; Providence appears as the dateline ('PROVIDENCE, R.I.') of the company's Sept. 20, 2024 PR Newswire release, not as an explicit HQ statement.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Providence",
+      "country": "US",
+      "lat": 41.82,
+      "lon": -71.41
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Co-founded in January 2024 in Rhode Island by Paul Lwin, a former Navy EA-6B Prowler aviator who had been CTO of an earlier autonomous-systems company, and Joe Turner, a former naval surface officer who co-founded that earlier company. HavocAI retrofits commercial boats with its autonomy software, focusing on fast and affordable manufacturing.",
+    "founders": [
+      {
+        "name": "Paul Lwin",
+        "role": "Co-founder and CEO",
+        "background": "Former US Navy EA-6B Prowler aviator; previously CTO of an earlier autonomous systems company"
+      },
+      {
+        "name": "Joe Turner",
+        "role": "Co-founder and COO",
+        "background": "Former US Navy surface officer; co-founder of an earlier autonomous systems company"
+      }
+    ],
+    "product": "Rampage 14-foot autonomous surface vessel and collaborative autonomy software for swarms of uncrewed assets.",
+    "wedge": "The 14-foot Rampage boat shown at the US Navy's Silent Swarm experimentation event, after which the Navy bought a dozen at about $100,000 each.",
+    "became": "An all-domain autonomy company renamed Havoc: over 30 autonomous surface vessels delivered to the US Department of Defense, acquisitions of Mavrik (aerial) and Teleo (ground autonomy), and partnerships with Leidos, Lockheed Martin and SAIC.",
+    "differentiator": "Very low unit cost by putting autonomy on commercial hulls, and software aimed at one operator supervising thousands of assets.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2024-09-20",
+        "type": "seed",
+        "label": null,
+        "amount": {
+          "value": 11000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Scout Ventures",
+          "Trousdale Ventures"
+        ],
+        "investors": [
+          "Outlander VC",
+          "The Veteran Fund",
+          "BV.VC",
+          "Decisive Point",
+          "Alumni Ventures",
+          "New North Ventures"
+        ],
+        "source": "https://prnewswire.com/news-releases/havocai-closes-11m-seed-round-to-revolutionize-autonomous-uncrewed-surface-vessel-operations-302254210.html",
+        "checkNote": "Release dated Sept. 20, 2024: $11 million seed, led by Scout Ventures with Trousdale Ventures as co-lead; other investors Outlander VC, The Veteran Fund, BV.VC, Decisive Point, Alumni Ventures, New North Ventures.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-10",
+        "type": "venture",
+        "label": "$85M in new capital (closed end of September 2025)",
+        "amount": {
+          "value": 85000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "B Capital",
+          "UP.Partners",
+          "Scout Ventures",
+          "Outlander VC",
+          "In-Q-Tel",
+          "Lockheed Martin",
+          "Taiwania Capital"
+        ],
+        "source": "https://fortune.com/2025/10/09/havocai-85-million-autonomous-vessels-funding/",
+        "checkNote": "Article published October 9, 2025 says the round closed 'at the end of September' (so the close was 2025-09, the announcement 2025-10). Investors named: B Capital, Up.Partners, Scout Ventures, Outlander Ventures, In-Q-Tel, Lockheed Martin, Taiwania Capital. No lead and no round name stated.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2026-05-12",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 100000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "CCM Capital Markets",
+          "Clear Street",
+          "Cobalt Capital",
+          "Boardman Bay Capital Management",
+          "Meet Perry",
+          "Mute Ventures",
+          "Soren Ventures",
+          "SAIC",
+          "JA Green",
+          "Outlander VC",
+          "Scout Ventures",
+          "B Capital",
+          "Lockheed Martin",
+          "Taiwania Capital",
+          "UP.Partners",
+          "The Veteran Fund",
+          "Vanderbilt University endowment"
+        ],
+        "source": "https://www.workboat.com/autonomous-systems-startup-havoc-raises-100-million",
+        "checkNote": "Published May 12, 2026. New investors: CCM Capital Markets, Clear Street LLC, Cobalt Capital, Boardman Bay Capital Management, Meet Perry, Mute Ventures, Soren Ventures, SAIC, JA Green. Returning: Outlander VC, Scout VC, B Capital, Lockheed Martin, Taiwania Capital, UP.Partners, The Veteran Fund, Vanderbilt University's endowment. No lead stated.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": {
+      "value": 200000000,
+      "currency": "USD",
+      "asOf": "2026-05-12",
+      "source": "https://www.workboat.com/autonomous-systems-startup-havoc-raises-100-million",
+      "checkNote": "Approximate figure ('roughly'), as of the May 12, 2026 article.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "US Navy",
+        "date": null,
+        "note": "Bought a dozen Rampage vessels at about $100,000 each after the Silent Swarm event, per Fortune",
+        "source": "https://fortune.com/2025/10/09/havocai-85-million-autonomous-vessels-funding/"
+      },
+      {
+        "name": "US Army, US Navy and Defense Innovation Unit",
+        "date": null,
+        "note": "Operated 20 more boats as a contractor",
+        "source": "https://fortune.com/2025/10/09/havocai-85-million-autonomous-vessels-funding/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://prnewswire.com/news-releases/havocai-closes-11m-seed-round-to-revolutionize-autonomous-uncrewed-surface-vessel-operations-302254210.html",
+        "title": "HavocAI Closes $11M Seed Round"
+      },
+      {
+        "url": "https://fortune.com/2025/10/09/havocai-85-million-autonomous-vessels-funding/",
+        "title": "HavocAI $85 million autonomous vessels funding (Fortune)"
+      },
+      {
+        "url": "https://www.workboat.com/autonomous-systems-startup-havoc-raises-100-million",
+        "title": "Autonomous systems startup Havoc raises $100 million"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "kraken-technology-group",
+    "name": "Kraken Technology Group",
+    "aliases": [
+      "Kraken Technology"
+    ],
+    "website": "https://www.krakentechnologygroup.com",
+    "pitch": "British maker of modular, low-cost uncrewed surface and surface-subsurface combat craft for navies and special forces.",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "subsectors": [
+      "maritime/usv",
+      "maritime/naval-shipbuilding",
+      "defence/uas-strike"
+    ],
+    "founded": {
+      "date": "2020",
+      "source": "https://www.therobotreport.com/kraken-technology-raises-series-b-funding-autonomous-vessels/",
+      "checkNote": "Page also says the company 'is based in Fareham, U.K.'",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Fareham",
+      "country": "GB",
+      "lat": 50.85,
+      "lon": -1.18
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Founded in 2020 in Hampshire by Mal Crease, who spent about 20 years pursuing offshore powerboat records before turning to defence. The company applied composite fast-boat know-how to dual-use uncrewed craft built to be modular, scalable and affordable.",
+    "founders": [
+      {
+        "name": "Mal Crease",
+        "role": "Founder and CEO",
+        "background": "About 20 years chasing offshore powerboat records before moving into defence in 2020"
+      }
+    ],
+    "product": "K3 SCOUT modular uncrewed surface vessel, K4 MANTA uncrewed surface/subsurface platform, K5 KRAKEN precision-engagement gunship and K7 SABRE.",
+    "wedge": "The K3 SCOUT, a low-cost uncrewed surface vessel with a modular payload bay, delivered in production orders to NATO countries.",
+    "became": "A defence unicorn (about $1B valuation) in July 2026, with contracts from the UK Ministry of Defence, NATO European partners and USSOCOM and manufacturing partnerships with Rheinmetall, Anduril and Davie Shipbuilding.",
+    "differentiator": "Builds through established manufacturers in each market rather than owning shipyards, in contrast to Saronic.",
+    "competitors": [
+      "Saronic"
+    ],
+    "rounds": [
+      {
+        "date": "2025-06-27",
+        "type": "venture",
+        "label": "Investment by NATO Innovation Fund and NSSIF (amount undisclosed)",
+        "amount": null,
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "NATO Innovation Fund",
+          "National Security Strategic Investment Fund"
+        ],
+        "source": "https://www.nif.fund/news/nato-innovation-fund-invests-in-kraken-technology-group-to-expand-the-alliances-autonomous-maritime-capabilities/",
+        "checkNote": "Published June 27, 2025. Amount not disclosed, no round name, no lead stated. The page uses only the acronym NSSIF and never spells out 'National Security Strategic Investment Fund'.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2026-07-09",
+        "type": "series-b",
+        "label": null,
+        "amount": {
+          "value": 175000000,
+          "currency": "USD"
+        },
+        "valuation": {
+          "value": 1000000000,
+          "currency": "USD"
+        },
+        "leads": [
+          "DTCP"
+        ],
+        "investors": [
+          "British Business Bank",
+          "NATO Innovation Fund",
+          "Rheinmetall",
+          "Inocea Group",
+          "HICO",
+          "Thesiger Capital Group",
+          "BOKA Capital",
+          "Supernova Invest",
+          "Hakluyt Capital",
+          "National Security Strategic Investment Fund",
+          "SmartCap",
+          "Notion Capital",
+          "Speedinvest"
+        ],
+        "source": "https://www.dtcp.capital/news-and-insights/detail/dtcp-defence-leads-175-million-series-b-financing-round-in-kraken-technology-group/",
+        "checkNote": "The original Robot Report source is dated July 27, 2026 and only says Kraken 'this month raised $175 million in Series B funding', so it does not support the exact day. DTCP's own release, dated 9 July 2026, confirms $175 million Series B led by DTCP (via its DTCP Defence fund) and names all 13 other investors in the claim.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "NATO countries",
+        "date": "2025-06",
+        "note": "Described as already delivering scale production orders to NATO countries",
+        "source": "https://www.nif.fund/news/nato-innovation-fund-invests-in-kraken-technology-group-to-expand-the-alliances-autonomous-maritime-capabilities/"
+      },
+      {
+        "name": "UK Ministry of Defence, NATO European partners, USSOCOM",
+        "date": null,
+        "note": "Contracts won in the year before the July 2026 Series B",
+        "source": "https://thenextweb.com/news/kraken-technology-maritime-defence-unicorn-series-b"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.nif.fund/news/nato-innovation-fund-invests-in-kraken-technology-group-to-expand-the-alliances-autonomous-maritime-capabilities/",
+        "title": "NATO Innovation Fund invests in Kraken Technology Group"
+      },
+      {
+        "url": "https://www.therobotreport.com/kraken-technology-raises-series-b-funding-autonomous-vessels/",
+        "title": "Kraken Technology raises Series B funding for autonomous vessels"
+      },
+      {
+        "url": "https://thenextweb.com/news/kraken-technology-maritime-defence-unicorn-series-b",
+        "title": "From powerboat records to a $1bn war chest: meet Europe's newest defence unicorn"
+      },
+      {
+        "url": "https://www.dtcp.capital/news-and-insights/detail/dtcp-defence-leads-175-million-series-b-financing-round-in-kraken-technology-group/",
+        "title": null
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "liquid-robotics",
+    "name": "Liquid Robotics",
+    "aliases": [],
+    "website": "https://www.liquid-robotics.com",
+    "pitch": "Maker of the Wave Glider, a wave- and solar-powered uncrewed surface vehicle for long-duration ocean sensing.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/usv",
+      "maritime/ocean-sensing"
+    ],
+    "founded": {
+      "date": "2007-01",
+      "source": "https://en.wikipedia.org/wiki/Liquid_Robotics",
+      "checkNote": "Wikipedia also says 'The company was founded in 2007 in Sunnyvale, California.' The references Wikipedia cites for this (web.archive.org copy of marinesanctuary.org; roboticsbusinessreview.com, 403) could not be opened. Boeing's Dec. 6, 2016 release independently confirms only the year ('since its founding in 2007'). Month and city therefore rest on Wikipedia alone; the article carries conflict-of-interest maintenance banners.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Sunnyvale",
+      "country": "US",
+      "lat": 37.37,
+      "lon": -122.04
+    },
+    "status": "acquired",
+    "statusEvent": {
+      "type": "acquired",
+      "date": "2016-12",
+      "amount": null,
+      "acquirer": {
+        "name": "Boeing",
+        "city": null,
+        "country": "US",
+        "lat": null,
+        "lon": null
+      },
+      "causeCategory": null,
+      "note": "Boeing acquired Liquid Robotics on 6 December 2016; it became a wholly owned subsidiary within Boeing Defense, Space & Security. No purchase price is given in the source.",
+      "source": "https://boeing.mediaroom.com/2016-12-06-Boeing-to-Acquire-Liquid-Robotics-to-Enhance-Autonomous-Seabed-to-Space-Information-Services",
+      "checkNote": "Wikipedia says 'On December 6, 2016, Boeing acquired Liquid Robotics', but Boeing's own release of that date shows 2016-12-06 is the signing/announcement date: completion 'is subject to satisfaction of customary closing conditions' and 'The terms of the agreement were not disclosed.' No page stating the actual closing date was found (LA Times and WSJ references not fetchable). The deal did close: Wikipedia's infobox lists Type 'Subsidiary', Parent 'Boeing'. Suggested correction keeps December 20",
+      "check": "confirmed"
+    },
+    "story": "In 2003 Joe Rizzi, chairman of the Jupiter Research Foundation, wanted a system that could hold position at sea without an anchor to record humpback whale songs and send them to shore. Roger Hine, a Stanford mechanical engineer and roboticist, invented the Wave Glider in 2005, and the two co-founded Liquid Robotics in January 2007 in Sunnyvale, California.",
+    "founders": [
+      {
+        "name": "Roger Hine",
+        "role": "Co-founder",
+        "background": "Mechanical engineer and robotics expert from Stanford University; inventor of the Wave Glider"
+      },
+      {
+        "name": "Joe Rizzi",
+        "role": "Co-founder",
+        "background": "Chairman of the Jupiter Research Foundation"
+      }
+    ],
+    "product": "Wave Glider, an uncrewed surface vehicle propelled by wave motion and powered by solar panels, carrying atmospheric, oceanographic, seismic and acoustic sensors.",
+    "wedge": "A station-keeping platform built to record whale songs, proven with a nine-day circumnavigation of Hawaii's Big Island in January 2009.",
+    "became": "A Boeing subsidiary supplying persistent uncrewed surface vehicles for defence and ocean monitoring.",
+    "differentiator": "Harvested wave energy for propulsion, giving effectively unlimited endurance without fuel.",
+    "competitors": [],
+    "rounds": [],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Liquid_Robotics",
+        "title": "Liquid Robotics - Wikipedia"
+      },
+      {
+        "url": "https://boeing.mediaroom.com/2016-12-06-Boeing-to-Acquire-Liquid-Robotics-to-Enhance-Autonomous-Seabed-to-Space-Information-Services",
+        "title": null
+      }
+    ],
+    "confidence": "medium",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "nautilus-labs",
+    "name": "Nautilus Labs",
+    "aliases": [],
+    "website": null,
+    "pitch": "Machine-learning voyage optimisation and fleet performance software for ocean shipping; platform sold to Danelec in 2023.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/shipping-software"
+    ],
+    "founded": {
+      "date": null,
+      "source": null
+    },
+    "hq": {
+      "city": "New York",
+      "country": "US",
+      "lat": 40.71,
+      "lon": -74.01
+    },
+    "status": "acquired",
+    "statusEvent": {
+      "type": "acquired",
+      "date": "2023-11-24",
+      "amount": null,
+      "acquirer": {
+        "name": "Danelec",
+        "city": "Copenhagen",
+        "country": "DK",
+        "lat": 55.68,
+        "lon": 12.57
+      },
+      "causeCategory": null,
+      "note": "Danelec, a Verdane-backed Danish maker of ship data recorders, bought Nautilus Labs' AI technology platform (described elsewhere as a divestiture rather than a purchase of the whole company) for an undisclosed price and took on its team. Danelec said it was building on the analytics platform Nautilus had spent seven years developing; the platform kept running for existing customers. No source read gives the reason for the sale.",
+      "source": "https://danelec.com/newsroom/danelec-acquires-nautilus-labs-ai-technology-platform-to-gain-deeper-insights-within-sustainability-and-safety",
+      "checkNote": "Dated November 24, 2023; price not disclosed. Important nuance: the page describes Danelec acquiring Nautilus Labs' technology platform (an asset deal), not the company as a legal entity, and does not carry an explicit completion statement (present tense 'acquires'; the platform 'will continue in its current form').",
+      "check": "confirmed"
+    },
+    "story": "A New York maritime software company co-founded by Anthony DiMare, who later left to start Bedrock Ocean Exploration. It built a platform combining machine learning with naval-architecture models to predict voyage outcomes in real time and cut fuel use. After about seven years of development its platform and team were sold to Danelec in November 2023, with Matt Heider as CEO at the time.",
+    "founders": [
+      {
+        "name": "Anthony DiMare",
+        "role": "Co-founder",
+        "background": "Went on to co-found seafloor-mapping company Bedrock Ocean Exploration in 2020"
+      }
+    ],
+    "product": "Voyage optimisation and fleet performance platform that predicts voyage outcomes in real time from vessel data, using machine learning and naval-architecture models.",
+    "wedge": null,
+    "became": "Part of Danelec's vessel-data suite, alongside its onboard data capture and shaft power metering products.",
+    "differentiator": null,
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2019",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 11000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [],
+        "source": "https://techcrunch.com/2021/03/11/ocean-floor-mapping-robotics-startup-bedrock-announces-an-8m-raise/amp/",
+        "checkNote": "Passing mention in a TechCrunch article about Bedrock (a secondary source for this fact). No investors are named in the text.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://danelec.com/newsroom/danelec-acquires-nautilus-labs-ai-technology-platform-to-gain-deeper-insights-within-sustainability-and-safety",
+        "title": "Danelec acquires Nautilus Labs AI technology platform (Danelec newsroom)"
+      },
+      {
+        "url": "https://techcrunch.com/2021/03/11/ocean-floor-mapping-robotics-startup-bedrock-announces-an-8m-raise/amp/",
+        "title": "TechCrunch on Bedrock, citing Nautilus Labs' $11M Series A in 2019"
+      },
+      {
+        "url": "https://offshore-energy.biz/2023/11/24/danalec-acquires-nautilus-labs",
+        "title": "Danelec acquires Nautilus Labs (Offshore Energy)"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "norsepower",
+    "name": "Norsepower",
+    "aliases": [
+      "Norsepower Oy"
+    ],
+    "website": "https://www.norsepower.com",
+    "pitch": "Rotor sails, a modernised Flettner rotor, that use wind to cut fuel consumption on large ships.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/decarbonisation"
+    ],
+    "founded": {
+      "date": "2012",
+      "source": "https://www.norsepower.com/ourstory/",
+      "checkNote": "The page does not use the word headquarters; Helsinki appears as the contact address (Tammasaarenlaituri 3, FI-00180 Helsinki).",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Helsinki",
+      "country": "FI",
+      "lat": 60.17,
+      "lon": 24.94
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Tuomas Riski left an IT company in 2012 to co-found Norsepower and led it through its startup phase; founding board members Moray Martin and Erik Floman helped shape the business concept, and Finnish naval architect Kai Levander supplied the core mechanical ideas for the rotor. The company modernised the 1920s Flettner rotor into a product it named the 'rotor sail'. Lifeline Ventures was its first venture investor. Under later CEO Heikki Pöntynen it moved to industrial production, opening a factory in Dafeng, China in October 2024.",
+    "founders": [
+      {
+        "name": "Tuomas Riski",
+        "role": "Co-founder, first CEO",
+        "background": "Came from an IT company"
+      },
+      {
+        "name": "Moray Martin",
+        "role": "Founding board member",
+        "background": "MB Martin and Partners"
+      },
+      {
+        "name": "Erik Floman",
+        "role": "Founding board member",
+        "background": "Korkia Venture Insight"
+      }
+    ],
+    "product": "Norsepower Rotor Sail: spinning cylinders that generate thrust from the Magnus effect, fitted to tankers, bulk carriers, gas carriers, ro-ro and passenger ships.",
+    "wedge": null,
+    "became": "The largest rotor-sail supplier: 45 rotor sails on 25 ships as of Q1 2026, 39 more units ordered for 16 ships, and its own factory in China.",
+    "differentiator": "First to commercialise a modern rotor sail; the company says it has sold most of the rotor sails delivered worldwide.",
+    "competitors": [
+      "bound4blue"
+    ],
+    "rounds": [],
+    "totalRaised": {
+      "value": 50000000,
+      "currency": "USD",
+      "asOf": "2026",
+      "source": "https://www.norsepower.com/ourstory/",
+      "checkNote": "Floor, not an exact figure ('more than $50 million'). The page gives no as-of date; 2026 is only the date the page was read (November 2026).",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": null,
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://www.norsepower.com/ourstory/",
+        "title": "Norsepower: Our Story (founders, investors, 'more than $50 million' raised)"
+      },
+      {
+        "url": "https://www.norsepower.com/norsepower/",
+        "title": "Norsepower: About us"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "orca-ai",
+    "name": "Orca AI",
+    "aliases": [],
+    "website": "https://www.orca-ai.io",
+    "pitch": "Computer-vision lookout and collision-avoidance platform for commercial ships, a stepping stone to autonomous navigation.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/vessel-autonomy"
+    ],
+    "founded": {
+      "date": "2018",
+      "source": "https://www.orca-ai.io/about/",
+      "checkNote": "The about page does not state a headquarters or any office location. London appears only as the dateline of the May 6, 2025 press release ('LONDON, May 6, 2025').",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "London",
+      "country": "GB",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Yarden Gross and Dor Raviv, described as naval technology experts, had known each other for years and asked whether the autonomy, AI and computer vision changing cars, satellites and aviation could be applied to shipping. They founded Orca AI in 2018 to digitise navigation and lay the groundwork for autonomous ships. The founding city is not stated in the company's materials; its 2025 funding release is datelined London.",
+    "founders": [
+      {
+        "name": "Yarden Gross",
+        "role": "Co-founder and CEO",
+        "background": "Naval technology background"
+      },
+      {
+        "name": "Dor Raviv",
+        "role": "Co-founder and CTO",
+        "background": "Skipper, AI algorithms engineer and maritime navigation instructor who led autonomous ship projects"
+      }
+    ],
+    "product": "SeaPod camera unit and an AI situational-awareness platform that detects targets, warns crews of close encounters and feeds fleet-level safety and fuel analytics.",
+    "wedge": "A collision-avoidance watchkeeping aid for crewed ships; early customers named in 2021 were Kirby, Ray Car Carriers and NYK.",
+    "became": "A platform on about 2,000 vessels for owners such as MSC, NYK, Maersk and Seaspan, which powered NYK's 2022 autonomous commercial voyage in congested waters and is expanding into defence and newbuild integration with Samsung Heavy Industries.",
+    "differentiator": "Started with a safety product that pays back on crewed ships today while collecting a large marine visual dataset (over 80 million nautical miles by 2025).",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2021-04-22",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 13000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "OCV Partners"
+        ],
+        "investors": [
+          "Mizmaa Ventures",
+          "Playfair Capital"
+        ],
+        "source": "https://www.orca-ai.io/resource/autonomous-marine-navigation-startup-orca-ai-raises-13million-series-a/",
+        "checkNote": "Dated April 22, 2021. 'The round was led by OCV Partners'; 'Mizmaa Ventures and Playfair Capital also featured'.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2024-05-23",
+        "type": "venture",
+        "label": null,
+        "amount": {
+          "value": 23000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "OCV Partners",
+          "Mizmaa Ventures"
+        ],
+        "investors": [
+          "Ankona Capital Partners",
+          "Santa Barbara Venture Partners",
+          "Playfair Capital"
+        ],
+        "source": "https://www.orca-ai.io/resource/orca-ai-raises-23-million-to-propel-autonomous-shipping/",
+        "checkNote": "Dated May 23, 2024: '$23 million in new funding', no round name. Other investors: 'Ankona Capital Partners and Santa Barbara Venture Partners, Playfair Capital and strategic investors' (the strategic investors are unnamed).",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-05-06",
+        "type": "series-b",
+        "label": null,
+        "amount": {
+          "value": 72500000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Brighton Park Capital"
+        ],
+        "investors": [
+          "Ankona Capital",
+          "Hyperlink Ventures"
+        ],
+        "source": "https://www.orca-ai.io/resource/orca-ai-secures-72-5-million-investment-to-scale-autonomous-shipping-solutions/",
+        "checkNote": "Dated May 6, 2025: $72.5 million Series B led by Brighton Park Capital, with existing backers Ankona Capital and Hyperlink Ventures participating.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": {
+      "value": 111000000,
+      "currency": "USD",
+      "asOf": "2025-05-06",
+      "source": "https://www.orca-ai.io/resource/orca-ai-secures-72-5-million-investment-to-scale-autonomous-shipping-solutions/",
+      "checkNote": "As of the May 6, 2025 release.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "Kirby, Ray Car Carriers, NYK",
+        "date": "2021",
+        "note": "Named as customers in the Series A announcement",
+        "source": "https://www.orca-ai.io/resource/autonomous-marine-navigation-startup-orca-ai-raises-13million-series-a/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.orca-ai.io/about/",
+        "title": "Orca AI - About"
+      },
+      {
+        "url": "https://www.orca-ai.io/resource/autonomous-marine-navigation-startup-orca-ai-raises-13million-series-a/",
+        "title": "Autonomous marine navigation startup Orca AI raises $13million Series A"
+      },
+      {
+        "url": "https://www.orca-ai.io/resource/orca-ai-raises-23-million-to-propel-autonomous-shipping/",
+        "title": "Orca AI Raises $23 Million to Propel Autonomous Shipping"
+      },
+      {
+        "url": "https://www.orca-ai.io/resource/orca-ai-secures-72-5-million-investment-to-scale-autonomous-shipping-solutions/",
+        "title": "Orca AI secures $72.5 million investment to scale autonomous shipping solutions"
+      },
+      {
+        "url": "https://www.orca-ai.io/",
+        "title": "Orca AI homepage"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "portchain",
+    "name": "Portchain",
+    "aliases": [
+      "Portchain ApS"
+    ],
+    "website": "https://www.portchain.com",
+    "pitch": "Berth planning and carrier-terminal schedule alignment software that enables just-in-time container port calls.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/ports-terminals",
+      "maritime/shipping-software"
+    ],
+    "founded": {
+      "date": null,
+      "source": null
+    },
+    "hq": {
+      "city": "Copenhagen",
+      "country": "DK",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    "status": "acquired",
+    "statusEvent": {
+      "type": "acquired",
+      "date": "2026-10-30",
+      "amount": null,
+      "acquirer": {
+        "name": "StormGeo (Alfa Laval)",
+        "city": null,
+        "country": null,
+        "lat": null,
+        "lon": null
+      },
+      "causeCategory": null,
+      "note": "StormGeo, part of Alfa Laval, acquired Portchain to combine its weather routing with Portchain's berth-alignment network for just-in-time voyage optimisation. Price not disclosed. At closing the Portchain Network connected more than 200 terminals, which the company put at over 40% of global container terminal capacity.",
+      "source": "https://portchain.com/insights/stormgeo-acquires-portchain-to-advance-just-in-time-voyage-optimization-at-scale",
+      "checkNote": "'StormGeo, part of Alfa Laval, has acquired Portchain.' Price not disclosed.",
+      "check": "confirmed"
+    },
+    "story": "Founded in Copenhagen by three McKinsey project managers who had advised container lines and terminals and saw berth schedules being aligned through spreadsheets, emails and phone calls. One of them had managed a McKinsey SaaS product that predicted vessel arrivals for terminals. They built a shared digital channel between carriers and terminals to make just-in-time arrivals possible, launching the Portchain Network in 2022.",
+    "founders": [
+      {
+        "name": "Niels Kristiansen",
+        "role": "Co-founder and CEO",
+        "background": "McKinsey, advising container terminals and lines; led McKinsey's first internal startup; MIT MBA"
+      },
+      {
+        "name": "Anders Olivarius",
+        "role": "Co-founder and CIO",
+        "background": "McKinsey; product manager of a machine-learning SaaS tool predicting vessel arrivals for container terminals"
+      },
+      {
+        "name": "Thor Thorup",
+        "role": "Co-founder and CCO",
+        "background": "McKinsey, leading digital transformations for shipping and logistics clients; MSc from the Technical University of Denmark"
+      }
+    ],
+    "product": "Portchain Quay (scenario-based berth planning for terminals) and Portchain Connect (digital ETA/ETD handshake between terminals and shipping lines).",
+    "wedge": null,
+    "became": "A network linking 200+ container terminals with carriers such as Hapag-Lloyd and Ocean Network Express, acquired by StormGeo in October 2026.",
+    "differentiator": "A two-sided carrier-terminal network rather than a single-terminal planning tool.",
+    "competitors": [],
+    "rounds": [],
+    "totalRaised": {
+      "value": 14000000,
+      "currency": "USD",
+      "asOf": "2026",
+      "source": "https://www.portchain.com/",
+      "checkNote": "Floor, not an exact figure ('$14M+'). The homepage gives no as-of date and names no investors; 2026 is only the date the page was read.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": null,
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://www.portchain.com/",
+        "title": "Portchain (states '$14M+ raised in investment')"
+      },
+      {
+        "url": "https://portchain.com/about-us-portchain",
+        "title": "Portchain: About us"
+      },
+      {
+        "url": "https://portchain.com/insights/stormgeo-acquires-portchain-to-advance-just-in-time-voyage-optimization-at-scale",
+        "title": "StormGeo acquires Portchain (company announcement)"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "rovco",
+    "name": "Rovco",
+    "aliases": [
+      "Beam",
+      "Vaarst"
+    ],
+    "website": null,
+    "pitch": "Subsea robotics and engineering firm (trading as Beam after merging with Vaarst) offering autonomous, AI-driven underwater inspection.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/subsea-inspection",
+      "maritime/uuv"
+    ],
+    "founded": {
+      "date": null,
+      "source": null
+    },
+    "hq": {
+      "city": "Bristol",
+      "country": "GB",
+      "lat": 51.45,
+      "lon": -2.59
+    },
+    "status": "dead",
+    "statusEvent": {
+      "type": "shutdown",
+      "date": "2025-05",
+      "amount": null,
+      "acquirer": {
+        "name": "Rosenxt",
+        "city": "Stans",
+        "country": "CH",
+        "lat": 46.96,
+        "lon": 8.37
+      },
+      "causeCategory": null,
+      "note": "Rovco Limited, trading as Beam after the 2024 merger of Rovco and Vaarst, ceased operations in May 2025 in what the buyer called an 'abrupt closure'. On 4 July 2025 Rosenxt UK Ltd announced it had acquired selected assets and talent; terms were not disclosed and the deal was not a continuation of all Beam's operations. The source gives no cause for the closure.",
+      "source": "https://www.rosen-nxt.com/en/newsroom/news-and-media/press-release/beam",
+      "checkNote": "Shutdown in May 2025 is confirmed (the page also speaks of Beam's 'abrupt closure'). But Rosenxt did not shut the company down or acquire it: per the July 4, 2025 release, Rosenxt UK Ltd. acquired 'selected assets and talent from Rovco Limited, doing business also as Beam', which 'does not constitute a continuation of all Beam's former operations'. The shutdown was of Beam (formed 2024 by merging Rovco and Vaarst). Rosenxt should be recorded as buyer of selected assets (announced 2025-07-04), no",
+      "check": "confirmed"
+    },
+    "story": "Rovco was a subsea robotics and engineering firm based in Bristol and Aberdeen. In 2024 it merged with Vaarst to form Beam, offering autonomous subsea systems and AI-powered technologies. Beam ceased operations in May 2025.",
+    "founders": [],
+    "product": "Autonomous subsea systems and AI-powered technologies for underwater inspection.",
+    "wedge": null,
+    "became": "Merged with Vaarst into Beam in 2024; closed in May 2025, with selected assets and staff taken over by Rosenxt.",
+    "differentiator": null,
+    "competitors": [],
+    "rounds": [],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://www.rosen-nxt.com/en/newsroom/news-and-media/press-release/beam",
+        "title": "Rosenxt acquires selected assets and talent of Beam (press release, 4 July 2025)"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "saildrone",
+    "name": "Saildrone",
+    "aliases": [],
+    "website": "https://www.saildrone.com",
+    "pitch": "Wind- and solar-powered uncrewed surface vehicles that collect ocean data and provide maritime surveillance as a service.",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "subsectors": [
+      "maritime/usv",
+      "maritime/ocean-sensing",
+      "defence/isr-sensing"
+    ],
+    "founded": {
+      "date": "2012",
+      "source": "https://en.wikipedia.org/wiki/Saildrone_(company)",
+      "checkNote": "Wikipedia: 'an American company based in Alameda, California' (base, not explicitly founding city). The cited references (Inc., NYT) could not be opened (403/blocked); the company's own Sept. 5, 2016 release (prnewswire.co.uk, dateline ALAMEDA, California) independently says 'founding Saildrone in 2012'.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Alameda",
+      "country": "US",
+      "lat": 37.77,
+      "lon": -122.24
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Founded in 2012 by engineer Richard Jenkins in Alameda, California. Its early years were spent working closely with NOAA scientists: in 2014 it began a Cooperative Research and Development Agreement with NOAA's Pacific Marine Environmental Laboratory for fisheries surveys and metocean data. Before its Series A it received mission-related investment from The Schmidt Family Foundation.",
+    "founders": [
+      {
+        "name": "Richard Jenkins",
+        "role": "Founder and CEO",
+        "background": "Engineer"
+      }
+    ],
+    "product": "Fleet of autonomous sailing USVs (Explorer, Voyager, Surveyor) sold as a data and surveillance service.",
+    "wedge": "Climate-quality ocean and fisheries data collected for NOAA under a 2014 cooperative research agreement.",
+    "became": "A defence and maritime-security supplier: US Navy 5th and 4th Fleet operations from 2021-2023, Surveyors built by Austal USA, a Danish Armed Forces contract in the Baltic and a $50M Lockheed Martin investment to arm the Surveyor in 2025.",
+    "differentiator": "Wind propulsion and solar power gave months-long endurance; by 2021 the fleet had logged over 15,000 days at sea and 500,000 nautical miles.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2016",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 14000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Social Capital"
+        ],
+        "investors": [
+          "Capricorn Investment Group",
+          "Lux Capital"
+        ],
+        "source": "https://www.prnewswire.co.uk/news-releases/saildrone-inc-raises-14-million-in-series-a-funding-to-expand-its-fleet-of-sailing-drones-and-ocean-data-services-592324991.html",
+        "checkNote": "Wikipedia states the claim; its cited reference (finsmes.com) returned 403. Confirmed on the company's primary press release dated Sept. 5, 2016 ('closed a $14 million in Series A funding'), which allows a more precise date of 2016-09-05.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2018-05-15",
+        "type": "series-b",
+        "label": null,
+        "amount": {
+          "value": 60000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Horizons Ventures"
+        ],
+        "investors": [
+          "Capricorn's Technology Impact Fund",
+          "Lux Capital",
+          "Social Capital",
+          "Exor Seeds",
+          "The Schmidt Family Foundation"
+        ],
+        "source": "https://www.saildrone.com/news/step-towards-quantified-planet-announcing-60-million-series-b-funding",
+        "checkNote": "Published May 15, 2018. Other investors named: Capricorn's Technology Impact Fund, Social Capital, Exor Seeds, The Schmidt Family Foundation; the page reader rendered the Lux entity as 'Lux Ventures' rather than 'Lux Capital' - worth a manual glance. Page says total raised since inception was then 'almost $90 million'.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2021-10-18",
+        "type": "series-c",
+        "label": null,
+        "amount": {
+          "value": 100000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "BOND"
+        ],
+        "investors": [
+          "XN",
+          "Standard Investments",
+          "Emerson Collective",
+          "Crowley Maritime Corporation",
+          "Capricorn's Technology Impact Fund",
+          "Lux Capital",
+          "Social Capital",
+          "Tribe Capital"
+        ],
+        "source": "https://saildrone.com/news/saildrone-advance-ocean-intelligence-series-c-funding",
+        "checkNote": "Published October 18, 2021. Led by BOND; new investors XN, Standard Investments, Emerson Collective, Crowley Maritime Corporation; existing Capricorn's Technology Impact Fund, Lux Capital, Social Capital, Tribe Capital.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-05-14",
+        "type": "venture",
+        "label": "Investment round to expand into Europe",
+        "amount": {
+          "value": 60000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "EIFO"
+        ],
+        "investors": [
+          "Lux Capital",
+          "Washington Harbor Partners",
+          "Crowley",
+          "Academy Securities",
+          "Pinegrove",
+          "BZH Capital",
+          "What If Ventures",
+          "Calm Ventures"
+        ],
+        "source": "https://iconnect007.com/article/145338/saildrone-closes-60m-financing-to-bring-maritime-autonomy-to-europe/145335/aep",
+        "checkNote": "Business Wire release dated May 14, 2025: '$60 million investment round', no round name. Existing: Lux Capital, Washington Harbor Partners, Crowley, Academy Securities; new: Pinegrove, BZH Capital, What If Ventures, Calm Ventures.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-10",
+        "type": "strategic",
+        "label": "Lockheed Martin investment",
+        "amount": {
+          "value": 50000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Lockheed Martin"
+        ],
+        "investors": [],
+        "source": "https://www.washingtontechnology.com/companies/2025/10/lockheed-invest-50m-maritime-drone-maker/409155",
+        "checkNote": "Published October 29, 2025. The page says Lockheed Martin 'has agreed to invest' - an agreement; it does not say the funds were transferred, does not use the word 'strategic' or name a round (it is tied to a partnership integrating Lockheed's Quad Launcher on Saildrone vessels), and names no other investors.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": {
+      "value": 190000000,
+      "currency": "USD",
+      "asOf": "2021-10-18",
+      "source": "https://saildrone.com/news/saildrone-advance-ocean-intelligence-series-c-funding",
+      "checkNote": "As of October 18, 2021. Stale: does not include the $60M round of May 2025 or Lockheed Martin's $50M agreed in October 2025.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "NOAA Pacific Marine Environmental Laboratory",
+        "date": "2014",
+        "note": "Cooperative Research and Development Agreement covering acoustic fisheries surveys and metocean data collection",
+        "source": "https://en.wikipedia.org/wiki/Saildrone_(company)"
+      },
+      {
+        "name": "US Naval Forces Central Command",
+        "date": "2021",
+        "note": "Operational testing of Saildrone USVs in the Gulf of Aqaba",
+        "source": "https://en.wikipedia.org/wiki/Saildrone_(company)"
+      },
+      {
+        "name": "Danish Armed Forces",
+        "date": "2025-06",
+        "note": "First four Saildrone Voyagers scheduled to deploy in the Baltic Sea under contract",
+        "source": "https://iconnect007.com/article/145338/saildrone-closes-60m-financing-to-bring-maritime-autonomy-to-europe/145335/aep"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Saildrone_(company)",
+        "title": "Saildrone (company) - Wikipedia"
+      },
+      {
+        "url": "https://www.saildrone.com/news/step-towards-quantified-planet-announcing-60-million-series-b-funding",
+        "title": "A Step Towards A Quantified Planet: Announcing Our $60 Million Series B"
+      },
+      {
+        "url": "https://saildrone.com/news/saildrone-advance-ocean-intelligence-series-c-funding",
+        "title": "Saildrone Ready to Advance Ocean Intelligence with $100M Series C Funding Round"
+      },
+      {
+        "url": "https://iconnect007.com/article/145338/saildrone-closes-60m-financing-to-bring-maritime-autonomy-to-europe/145335/aep",
+        "title": "Saildrone Closes $60M Financing to Bring Maritime Autonomy to Europe"
+      },
+      {
+        "url": "https://www.washingtontechnology.com/companies/2025/10/lockheed-invest-50m-maritime-drone-maker/409155",
+        "title": "Lockheed to invest $50M in maritime drone maker"
+      },
+      {
+        "url": "https://www.prnewswire.co.uk/news-releases/saildrone-inc-raises-14-million-in-series-a-funding-to-expand-its-fleet-of-sailing-drones-and-ocean-data-services-592324991.html",
+        "title": null
+      }
+    ],
+    "confidence": "medium",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "saronic",
+    "name": "Saronic",
+    "aliases": [
+      "Saronic Technologies"
+    ],
+    "website": "https://www.saronic.com",
+    "pitch": "Designs and mass-produces autonomous surface vessels for the US Navy, from 6-foot craft to 180-foot ships, in its own shipyards.",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "subsectors": [
+      "maritime/usv",
+      "maritime/naval-shipbuilding",
+      "defence/autonomy-software"
+    ],
+    "founded": {
+      "date": "2022",
+      "source": "https://washingtontechnology.com/companies/2024/07/saronic-fetches-175m-series-b-round/398166",
+      "checkNote": "Page states founded 2022 and Austin, Texas headquarters.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Austin",
+      "country": "US",
+      "lat": 30.27,
+      "lon": -97.74
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Founded in 2022 in Austin by Dino Mavrookas, a veteran of the Navy's SEAL Team 6, and Rob Lehman, a Marine Corps veteran, with 8VC's Joe Lonsdale described as a co-founder through the 8VC Build program. The company says it worked closely with the Navy to build low-cost autonomous surface vessels that operate in communication- and GPS-denied environments, and that it designs vessels for autonomy from the keel up.",
+    "founders": [
+      {
+        "name": "Dino Mavrookas",
+        "role": "Co-founder and CEO",
+        "background": "Veteran of the US Navy's SEAL Team 6"
+      },
+      {
+        "name": "Rob Lehman",
+        "role": "Co-founder and Chief Commercial Officer",
+        "background": "US Marine Corps veteran"
+      },
+      {
+        "name": "Joe Lonsdale",
+        "role": "Co-founder (via 8VC Build)",
+        "background": "Managing partner of 8VC"
+      }
+    ],
+    "product": "A family of autonomous surface vessels (Spyglass 6 ft, Cutlass 13-14 ft, Corsair 24 ft, Mirage, Marauder 180 ft) with remotely updatable software and modular payloads.",
+    "wedge": "Two small prototype autonomous boats, the 6-foot Spyglass and 13-foot Cutlass, built with the US Navy; a Spyglass prototype completed a full mission profile in its first open-water exercise with the Navy before the Series A.",
+    "became": "A vertically integrated autonomous shipbuilder: acquired a Louisiana shipyard (with a $300M expansion), is developing the Port Alpha shipyard, and reported a $392M US Navy production contract in 2025; valued at $9.25B in March 2026.",
+    "differentiator": "Vessels designed for autonomy from the keel up and built with commercial manufacturing practices in company-owned yards rather than through established shipbuilders.",
+    "competitors": [
+      "Kraken Technology Group"
+    ],
+    "rounds": [
+      {
+        "date": "2023-10-10",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 55000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Caffeinated Capital"
+        ],
+        "investors": [
+          "8VC",
+          "U.S. Innovative Technology Fund",
+          "Andreessen Horowitz",
+          "Lightspeed Venture Partners",
+          "Point72 Ventures",
+          "Silent Ventures",
+          "Overmatch Ventures",
+          "Ensemble VC",
+          "Cubit Capital"
+        ],
+        "source": "https://prnewswire.com/news-releases/naval-maritime-autonomy-company-raises-55-million-in-series-a-fundraise-301951085.html",
+        "checkNote": "Release dated Oct. 10, 2023; all nine other investors named.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2024-07",
+        "type": "series-b",
+        "label": null,
+        "amount": {
+          "value": 175000000,
+          "currency": "USD"
+        },
+        "valuation": {
+          "value": 1000000000,
+          "currency": "USD"
+        },
+        "leads": [
+          "Andreessen Horowitz"
+        ],
+        "investors": [
+          "8VC",
+          "Caffeinated Capital",
+          "Elad Gil",
+          "NightDragon"
+        ],
+        "source": "https://washingtontechnology.com/companies/2024/07/saronic-fetches-175m-series-b-round/398166",
+        "checkNote": "Article dated July 19, 2024; about $175M Series B; 8VC, Caffeinated Capital, Elad Gil and NightDragon named.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-02",
+        "type": "series-c",
+        "label": null,
+        "amount": {
+          "value": 600000000,
+          "currency": "USD"
+        },
+        "valuation": {
+          "value": 4000000000,
+          "currency": "USD"
+        },
+        "leads": [
+          "Elad Gil"
+        ],
+        "investors": [
+          "General Catalyst",
+          "Andreessen Horowitz",
+          "Caffeinated Capital",
+          "8VC"
+        ],
+        "source": "https://www.therobotreport.com/saronic-raises-600m-expand-autonomous-shipbuilding/",
+        "checkNote": "Published February 19, 2025; 'closed a Series C round of $600 million'; General Catalyst new; a16z, Caffeinated Capital, 8VC existing.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2026-03-31",
+        "type": "series-d",
+        "label": null,
+        "amount": {
+          "value": 1750000000,
+          "currency": "USD"
+        },
+        "valuation": {
+          "value": 9250000000,
+          "currency": "USD"
+        },
+        "leads": [
+          "Kleiner Perkins"
+        ],
+        "investors": [
+          "Advent International",
+          "Bessemer Venture Partners",
+          "DFJ Growth",
+          "BAM Elevate",
+          "8VC",
+          "Caffeinated Capital",
+          "Andreessen Horowitz",
+          "Elad Gil",
+          "Franklin Templeton"
+        ],
+        "source": "https://www.therobotreport.com/saronic-raises-1-75b-build-autonomous-ships-scale/",
+        "checkNote": "Published March 31, 2026; led by Kleiner Perkins; page also says 'and other new partners' (unnamed).",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "US Navy",
+        "date": "2023",
+        "note": "Prototype Spyglass completed a full mission profile in its first open-water exercise with the Navy (no contract value given)",
+        "source": "https://prnewswire.com/news-releases/naval-maritime-autonomy-company-raises-55-million-in-series-a-fundraise-301951085.html"
+      },
+      {
+        "name": "US Navy",
+        "date": "2025",
+        "note": "$392M production contract",
+        "source": "https://www.therobotreport.com/saronic-raises-1-75b-build-autonomous-ships-scale/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://prnewswire.com/news-releases/naval-maritime-autonomy-company-raises-55-million-in-series-a-fundraise-301951085.html",
+        "title": "Naval Maritime Autonomy Company Raises $55 Million in Series A Fundraise"
+      },
+      {
+        "url": "https://washingtontechnology.com/companies/2024/07/saronic-fetches-175m-series-b-round/398166",
+        "title": "Saronic fetches $175M in Series B round"
+      },
+      {
+        "url": "https://www.therobotreport.com/saronic-raises-600m-expand-autonomous-shipbuilding/",
+        "title": "Saronic raises $600M to expand autonomous shipbuilding"
+      },
+      {
+        "url": "https://www.therobotreport.com/saronic-raises-1-75b-build-autonomous-ships-scale/",
+        "title": "Saronic raises $1.75B to build autonomous ships at scale"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "sea-machines-robotics",
+    "name": "Sea Machines Robotics",
+    "aliases": [
+      "Sea Machines"
+    ],
+    "website": "https://sea-machines.com",
+    "pitch": "Autonomous command and remote-helm control systems retrofitted to workboats, tugs and commercial vessels.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/vessel-autonomy"
+    ],
+    "founded": {
+      "date": "2015",
+      "source": "https://sea-machines.com/sea-machines-leader-in-autonomous-marine-technology-completes-a-20-million-b-round-fundraise",
+      "checkNote": "Wikipedia; also confirmed on the company's own release ('Founded in 2015', 'Headquartered in the global tech hub of Boston').",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Boston",
+      "country": "US",
+      "lat": 42.36,
+      "lon": -71.06
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Founded in 2015 in Boston by marine engineer Michael G. Johnson, who had the idea while working on an oil-spill response team in the Arctic. The company built autonomy and remote-control kits for existing commercial vessels rather than new boats.",
+    "founders": [
+      {
+        "name": "Michael G. Johnson",
+        "role": "Founder and CEO",
+        "background": "Marine engineer; worked on an Arctic oil-spill response team"
+      }
+    ],
+    "product": "SM300 autonomous command and remote-helm control system (2018), SM200 wireless remote-helm control, and JETsense voyage control developed with HamiltonJet.",
+    "wedge": "Retrofit autonomy for workboats: an April 2018 trial with A.P. Moller-Maersk aboard a container ship, then oil-spill response craft, search-and-rescue vessels and US-flag tugs.",
+    "became": "A supplier of class-approved remote and autonomous control systems to commercial and government customers, with Huntington Ingalls Industries as a strategic investor and a US Department of Defense autonomous-barge project.",
+    "differentiator": "A retrofit product for the existing commercial fleet, with early approvals from USCG, ABS and Bureau Veritas.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2018",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 10000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Accomplice",
+          "Eniac Ventures"
+        ],
+        "investors": [
+          "Toyota AI Ventures",
+          "Brunswick Corporation",
+          "NextGen Venture Partners",
+          "Geekdom Fund",
+          "LaunchCapital",
+          "LDV Capital"
+        ],
+        "source": "https://sea-machines.com/sea-machines-raises-10-million-in-series-a-funding",
+        "checkNote": "Wikipedia's sentence blurs leads and participants; its cited references (Wired, Xconomy) could not be opened. The company's own press release (December 17, 2018) names only Accomplice and Eniac Ventures as leads; Toyota AI Ventures and Brunswick (via TechNexus) participated. Release also says 'and others'.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2020-07-22",
+        "type": "series-b",
+        "label": "Series B, first close",
+        "amount": {
+          "value": 15000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Accomplice"
+        ],
+        "investors": [
+          "Huntington Ingalls Industries",
+          "Toyota AI Ventures",
+          "Brunswick Corporation",
+          "Geekdom Fund",
+          "NextGen Venture Partners",
+          "Eniac Ventures",
+          "LaunchCapital"
+        ],
+        "source": "https://www.marinelink.com/news/sea-machines-raises-mln-partners-480377",
+        "checkNote": "MarineLink (July 22, 2020) does not call it Series B or a first close; that naming comes from the company's October 30, 2020 release (also opened), which describes a $15M first close in July within a $20M B round. MarineLink also says 'and others'.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2020-10-30",
+        "type": "series-b",
+        "label": "Series B, second close (round total $20M)",
+        "amount": {
+          "value": 5000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Brunswick Corporation",
+          "Toyota AI Ventures",
+          "NextGen Venture Partners",
+          "Dolby Family Ventures"
+        ],
+        "source": "https://sea-machines.com/sea-machines-leader-in-autonomous-marine-technology-completes-a-20-million-b-round-fundraise",
+        "checkNote": "Release dated October 30, 2020: $5M second close after $15M first close; Dolby Family Ventures new; Brunswick (with TechNexus), Toyota AI Ventures, NextGen Venture Partners follow-on; no lead named.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "A.P. Moller-Maersk",
+        "date": "2018-04",
+        "note": "Trial aboard a container ship",
+        "source": "https://en.wikipedia.org/wiki/Sea_Machines_Robotics"
+      },
+      {
+        "name": "US Department of Defense",
+        "date": "2020-10",
+        "note": "Engaged for autonomous barge kits; $3.1M allocated in August 2021",
+        "source": "https://en.wikipedia.org/wiki/Sea_Machines_Robotics"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://en.wikipedia.org/wiki/Sea_Machines_Robotics",
+        "title": "Sea Machines Robotics - Wikipedia"
+      },
+      {
+        "url": "https://www.marinelink.com/news/sea-machines-raises-mln-partners-480377",
+        "title": "Sea Machines Raises $15 Mln, Partners with HII"
+      },
+      {
+        "url": "https://sea-machines.com/sea-machines-leader-in-autonomous-marine-technology-completes-a-20-million-b-round-fundraise",
+        "title": "Sea Machines completes a $20 million B round fundraise"
+      },
+      {
+        "url": "https://sea-machines.com/sea-machines-raises-10-million-in-series-a-funding",
+        "title": null
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "seabound",
+    "name": "Seabound",
+    "aliases": [
+      "Seabound Carbon"
+    ],
+    "website": "https://www.seabound.co",
+    "pitch": "Retrofittable carbon capture for ships that locks exhaust CO2 into solid limestone pebbles offloaded in port.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/decarbonisation"
+    ],
+    "founded": {
+      "date": "2021",
+      "source": "https://www.ycombinator.com/companies/seabound",
+      "checkNote": "As listed on the YC company page.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "London",
+      "country": "GB",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Founded in 2021 by Alisha Fredriksson, who had helped start maritime e-fuel company Liquid Wind, and Roujia Wen, who had built AI products at Amazon. Their bet was that existing ships need a retrofit rather than new fuels: pass exhaust through calcium oxide pebbles on board and process the resulting limestone on land. The company went through Y Combinator (Winter 2022) and raised a seed led by Lowercarbon Capital while still prototyping.",
+    "founders": [
+      {
+        "name": "Alisha Fredriksson",
+        "role": "Co-founder and CEO",
+        "background": "Helped start maritime e-fuel startup Liquid Wind; earlier at Generation, a non-profit founded by McKinsey"
+      },
+      {
+        "name": "Roujia Wen",
+        "role": "Co-founder (CTO at the seed, later advisor)",
+        "background": "Worked on AI products at Amazon"
+      }
+    ],
+    "product": "Retrofittable onboard carbon capture units using calcium oxide pebbles; target capture rates of 25-95%, with captured CO2 offloaded as solid carbonate at port.",
+    "wedge": "Letters of intent from six shipowners, then a pilot agreement with shipowner Lomar (April 2023); a container-ship test reported in February 2024 claimed a 78% capture rate.",
+    "became": "Built its first full-scale maritime capture units (February 2026) and partnered with a cement plant to use the captured material.",
+    "differentiator": "Does the capture on board but the CO2 separation on land, avoiding the solvent regeneration and liquefaction plant that other shipboard systems need.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2022-05-20",
+        "type": "seed",
+        "label": null,
+        "amount": {
+          "value": 4400000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Lowercarbon Capital"
+        ],
+        "investors": [
+          "Eastern Pacific Shipping",
+          "Emles Venture Partners",
+          "Hawktail",
+          "Rebel Fund",
+          "Soma Capital"
+        ],
+        "source": "https://techcrunch.com/2022/05/20/carbon-capture-container-ships",
+        "checkNote": "Published May 20, 2022. The article calls Seabound 'a Y Combinator-backed startup' but does not list Y Combinator among the investors in this round; removed from the round's investors.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2023-04-20",
+        "type": "strategic",
+        "label": "Investment from shipowner Lomar's technology fund, alongside a pilot agreement",
+        "amount": null,
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Lomar"
+        ],
+        "source": "https://www.seabound.co/news",
+        "checkNote": "Supported only by a headline (TradeWinds, 4/20/2023) on Seabound's news index; no amount given; the underlying article was not opened.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2026-02-03",
+        "type": "grant",
+        "label": "European Space Agency award",
+        "amount": {
+          "value": 1500000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "European Space Agency"
+        ],
+        "source": "https://www.seabound.co/news",
+        "checkNote": "Supported by the headline of Seabound's own post dated 2/3/2026 on the news index; the date is the post date, the award date itself is not separately stated.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": {
+      "kind": "loi",
+      "note": "At the $4.4M seed it was still prototyping and had six letters of intent from major shipowners.",
+      "source": "https://techcrunch.com/2022/05/20/carbon-capture-container-ships"
+    },
+    "firstCustomers": [
+      {
+        "name": "Lomar",
+        "date": "2023-04",
+        "note": "Agreement to pilot the capture system on Lomar vessels; Lomar's tech fund also invested.",
+        "source": "https://www.seabound.co/news"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2022/05/20/carbon-capture-container-ships",
+        "title": "Carbon capture is headed for the high seas (TechCrunch)"
+      },
+      {
+        "url": "https://www.ycombinator.com/companies/seabound",
+        "title": "Seabound (Y Combinator)"
+      },
+      {
+        "url": "https://www.seabound.co/news",
+        "title": "Seabound: News"
+      },
+      {
+        "url": "https://www.seabound.co/",
+        "title": "Seabound"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "shipfix",
+    "name": "Shipfix",
+    "aliases": [],
+    "website": "https://shipfix.com",
+    "pitch": "AI email and data workspace for shipbrokers, charterers and commodity traders; acquired by Veson Nautical in 2023.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/shipping-software"
+    ],
+    "founded": {
+      "date": "2018",
+      "source": "https://veson.com/news/veson-nautical-acquires-shipfix/",
+      "checkNote": "Page does not name a headquarters city; it lists '4 offices globally in Paris, London, Singapore and Tbilisi'. Paris as HQ is not stated on this page.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Paris",
+      "country": "FR",
+      "lat": 48.86,
+      "lon": 2.35
+    },
+    "status": "acquired",
+    "statusEvent": {
+      "type": "acquired",
+      "date": "2023-12-14",
+      "amount": null,
+      "acquirer": {
+        "name": "Veson Nautical",
+        "city": "Boston",
+        "country": "US",
+        "lat": 42.36,
+        "lon": -71.06
+      },
+      "causeCategory": null,
+      "note": "Veson Nautical, maker of the IMOS voyage-management platform, bought Shipfix to add collaboration and data analytics; terms were not disclosed. It was Veson's second acquisition of 2023. At the sale Shipfix had more than 70 clients and over 1,000 users.",
+      "source": "https://veson.com/news/veson-nautical-acquires-shipfix/",
+      "checkNote": "Dated December 14, 2023; no price disclosed. Page uses done-deal wording ('Shipfix joins forces with Veson Nautical') and no pending/closing conditions, but never explicitly says 'completed'.",
+      "check": "confirmed"
+    },
+    "story": "Founded in 2018 by co-CEOs Serge Alleyne and Antoine Grisay to bring structure to the email traffic on which dry-bulk and tanker chartering runs. The platform went live in 2018 and grew to offices in Paris, London, Singapore and Tbilisi before Veson Nautical bought it in December 2023.",
+    "founders": [
+      {
+        "name": "Serge Alleyne",
+        "role": "Co-founder and co-CEO",
+        "background": null
+      },
+      {
+        "name": "Antoine Grisay",
+        "role": "Co-founder and co-CEO",
+        "background": null
+      }
+    ],
+    "product": "Collaborative workflow and data platform with AI tools for shipowners, commodity traders, industrials, freight forwarders and shipbrokers.",
+    "wedge": null,
+    "became": "A Veson Nautical product, with 70+ clients and 1,000+ users at acquisition.",
+    "differentiator": null,
+    "competitors": [],
+    "rounds": [],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://veson.com/news/veson-nautical-acquires-shipfix/",
+        "title": "Veson Nautical acquires Shipfix (press release)"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "sofar-ocean",
+    "name": "Sofar Ocean",
+    "aliases": [
+      "Sofar Ocean Technologies",
+      "Spoondrift",
+      "OpenROV"
+    ],
+    "website": "https://www.sofarocean.com",
+    "pitch": "Runs a global network of low-cost Spotter buoys and sells ocean weather data and ship routing built on it.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/ocean-sensing",
+      "maritime/shipping-software"
+    ],
+    "founded": {
+      "date": "2019",
+      "source": "https://techcrunch.com/2019/03/27/sofar-ocean-technologies/",
+      "checkNote": "Article (March 27, 2019) describes Sofar as a new startup formed from the OpenROV/Spoondrift merger but gives no formation date, so month precision is not supported; year only. The page states no city for Sofar (San Francisco not on the page).",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "San Francisco",
+      "country": "US",
+      "lat": 37.77,
+      "lon": -122.42
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Sofar was formed in March 2019 by merging Spoondrift, a 2016 startup building affordable solar-powered ocean sensors, with OpenROV, a maker of low-cost underwater drones. The merger was orchestrated by SolarCity co-founder Peter Rive, who led the $7M Series A and became chairman. The combined company concentrated on the Spotter buoy network and on selling the resulting ocean data, mainly to shipping companies for routing.",
+    "founders": [
+      {
+        "name": "Tim Janssen",
+        "role": "Co-founder and CEO",
+        "background": "Previously at Spoondrift, the ocean-sensor startup that merged into Sofar"
+      },
+      {
+        "name": "David Lang",
+        "role": "Co-founder",
+        "background": "Co-founder of OpenROV, whose Trident underwater drone was bought in volume by National Geographic"
+      }
+    ],
+    "product": "Spotter solar-powered buoys (about $4,900 at the 2019 merger) reporting waves and weather over satellite, an ocean-intelligence data platform, and the open Bristlemouth hardware standard developed with DARPA.",
+    "wedge": "A $4,900 solar-powered wave and weather buoy (Spotter) and a roughly $1,700 underwater drone (Trident), both far cheaper than incumbent instruments.",
+    "became": "An ocean data company with thousands of drifting buoys across all five oceans, selling data and voyage routing to shipping and supply-chain companies.",
+    "differentiator": "Cheap, mass-deployable sensors that produce a proprietary real-time ocean dataset rather than one-off instrument sales.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2019-03",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 7000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Peter Rive"
+        ],
+        "investors": [
+          "True Ventures",
+          "Craft Ventures"
+        ],
+        "source": "https://techcrunch.com/2019/03/27/sofar-ocean-technologies/",
+        "checkNote": "Published March 27, 2019; led by Peter Rive; 'fellow investors True Ventures and David Sacks' Craft Ventures'.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2021-11",
+        "type": "series-b",
+        "label": null,
+        "amount": {
+          "value": 39000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Union Square Ventures",
+          "Foundry Group"
+        ],
+        "investors": [],
+        "source": "https://techcrunch.com/2021/11/03/sofar-nets-a-39m-round-b-to-grow-its-ocean-monitoring-autonomous-buoy-network",
+        "checkNote": "Published November 3, 2021; headline calls it 'round B'.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": {
+      "kind": "revenue",
+      "note": "At the 2019 Series A both merged companies were already selling hardware: OpenROV's Trident drone (National Geographic a major buyer) and Spoondrift's Spotter buoy. Before the merger OpenROV had raised $1.3M (True Ventures, National Geographic) and Spoondrift $350K.",
+      "source": "https://techcrunch.com/2019/03/27/sofar-ocean-technologies/"
+    },
+    "firstCustomers": [
+      {
+        "name": "National Geographic",
+        "date": null,
+        "note": "One of the biggest buyers of OpenROV's Trident drone before the merger.",
+        "source": "https://techcrunch.com/2019/03/27/sofar-ocean-technologies/"
+      },
+      {
+        "name": "MetOcean Solutions",
+        "date": null,
+        "note": "Cited as a Spotter buoy user in 2019.",
+        "source": "https://techcrunch.com/2019/03/27/sofar-ocean-technologies/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2019/03/27/sofar-ocean-technologies/",
+        "title": "Ocean drone startup merger spawns Sofar, the DJI of the sea (TechCrunch)"
+      },
+      {
+        "url": "https://techcrunch.com/2021/11/03/sofar-nets-a-39m-round-b-to-grow-its-ocean-monitoring-autonomous-buoy-network",
+        "title": "Sofar nets a $39M round B to grow its ocean-monitoring autonomous buoy network (TechCrunch)"
+      },
+      {
+        "url": "https://www.finsmes.com/?p=210783",
+        "title": "Sofar Ocean secures $39M in Series B funding (FinSMEs)"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "spinergie",
+    "name": "Spinergie",
+    "aliases": [],
+    "website": "https://www.spinergie.com",
+    "pitch": "Data and operations software for offshore and maritime fleets: vessel market intelligence, emissions and performance.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/shipping-software",
+      "maritime/maritime-intelligence"
+    ],
+    "founded": {
+      "date": null,
+      "source": null
+    },
+    "hq": {
+      "city": "Paris",
+      "country": "FR",
+      "lat": 48.86,
+      "lon": 2.35
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Founded by Jean Cristofari and Louis Jozon, both from the offshore industry and fleet management. Their first product was a market-intelligence tool for finding, selecting and benchmarking offshore vessels; in 2021 they added an Operations suite for monitoring vessels and automating regulatory reporting. The company built its position in offshore wind and took no outside money until an €11M Series A in June 2022.",
+    "founders": [
+      {
+        "name": "Jean Cristofari",
+        "role": "Co-founder and CEO",
+        "background": "Offshore industry and fleet optimisation"
+      },
+      {
+        "name": "Louis Jozon",
+        "role": "Co-founder and CPO",
+        "background": "Offshore industry and fleet management"
+      }
+    ],
+    "product": "Maritime Market Intelligence (vessel search, selection and benchmarking) and Operations (fleet monitoring, optimisation and regulatory reporting), plus tug fleet scheduling and analytics.",
+    "wedge": "Vessel market intelligence for the offshore wind supply chain, used by developers and contractors such as Orsted, GE, Boskalis and Nexans.",
+    "became": "A maritime SaaS company with more than 100 customers and offices in Paris, London, Austin and Singapore.",
+    "differentiator": null,
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2022-06-28",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 11000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [
+          "Iris Capital",
+          "SWEN Blue Ocean"
+        ],
+        "investors": [
+          "Polytechnique Ventures",
+          "Sanne Manders",
+          "Jean-Gabriel Levon",
+          "Antoine de Chassy"
+        ],
+        "source": "https://www.spinergie.com/press/spinergie-raises-a-eu11-million-series-a-round",
+        "checkNote": "Published June 28, 2022; led by Iris Capital and SWEN Capital Partners' Blue Ocean fund; Polytechnique Ventures and the three named angels listed.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": {
+      "kind": "revenue",
+      "note": "The Series A was its first outside round; by then it had two products in market and customers including Orsted, GE, Boskalis and Nexans.",
+      "source": "https://www.spinergie.com/press/spinergie-raises-a-eu11-million-series-a-round"
+    },
+    "firstCustomers": [
+      {
+        "name": "Orsted",
+        "date": null,
+        "note": "Named among customers at the June 2022 Series A, with GE, Boskalis and Nexans.",
+        "source": "https://www.spinergie.com/press/spinergie-raises-a-eu11-million-series-a-round"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.spinergie.com/press/spinergie-raises-a-eu11-million-series-a-round",
+        "title": "Spinergie raises a €11 million Series A round (press release)"
+      },
+      {
+        "url": "https://www.spinergie.com/about",
+        "title": "Spinergie: About"
+      },
+      {
+        "url": "https://www.spinergie.com/",
+        "title": "Spinergie"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "starboard-maritime-intelligence",
+    "name": "Starboard Maritime Intelligence",
+    "aliases": [
+      "Starboard",
+      "SMI"
+    ],
+    "website": "https://www.starboardintelligence.com",
+    "pitch": "Maritime domain awareness software used by governments to spot illegal fishing, smuggling and threats to subsea cables.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/maritime-intelligence"
+    ],
+    "founded": {
+      "date": "2019",
+      "source": "https://www.startupdaily.net/topic/funding/ai-powered-maritime-safety-startup-ships-20-7-million-series-a/",
+      "checkNote": "Page states founded in 2019.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Wellington",
+      "country": "NZ",
+      "lat": -41.29,
+      "lon": 174.78
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Starboard began as a product of Xerra Earth Observation Institute, a New Zealand regional research institute; the first prototype was built in late 2019 with the Ministry for Primary Industries as the working partner. Xerra launched it commercially in 2021 and spun it out as Starboard Maritime Intelligence Ltd in April 2023 to commercialise the IP and take outside investment. No individual founders are named in the sources read; the CEO is Trent Fulcher.",
+    "founders": [],
+    "product": "SaaS maritime domain awareness platform that combines vessel tracking and other data so analysts can do days of analysis in minutes; used for fisheries, customs, biosecurity, defence and subsea-cable protection.",
+    "wedge": "A fisheries and border-monitoring tool built with the New Zealand Ministry for Primary Industries, then sold to the Australian Fisheries Management Authority and Pacific governments.",
+    "became": "A platform used by governments, defence agencies and commercial operators in more than 30 countries, covering over 840,000 km of subsea cable (September 2025).",
+    "differentiator": null,
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2024-04-04",
+        "type": "seed",
+        "label": null,
+        "amount": {
+          "value": 5000000,
+          "currency": "NZD"
+        },
+        "valuation": null,
+        "leads": [
+          "Altered Capital"
+        ],
+        "investors": [
+          "Icehouse Ventures",
+          "Invest South",
+          "Soul Capital",
+          "Whakatupu Aotearoa Foundation",
+          "SeaAhead"
+        ],
+        "source": "https://scoop.co.nz/stories/SC2404/S00004/new-zealand-tech-helping-to-protect-our-oceans-secures-investment.htm",
+        "checkNote": "Published 4 April 2024; 'Altered Capital (lead)'; all five other investors named.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-09-08",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 23000000,
+          "currency": "NZD"
+        },
+        "valuation": null,
+        "leads": [
+          "Altered Capital",
+          "OIF Ventures",
+          "King River Capital"
+        ],
+        "investors": [
+          "Co:Act Capital",
+          "Icehouse Ventures",
+          "Whakatupu Aotearoa Foundation"
+        ],
+        "source": "https://www.startupdaily.net/topic/funding/ai-powered-maritime-safety-startup-ships-20-7-million-series-a/",
+        "checkNote": "Published September 8, 2025; NZ$23 million (A$20.7m) Series A. The co-lead sentence is slightly ambiguous: it reads as Altered co-leading with OIF Ventures and King River Capital, but the latter two are labelled 'new investors' rather than explicitly 'co-leads'.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": {
+      "kind": "revenue",
+      "note": "At the April 2024 seed it already had government and intergovernmental users in New Zealand, Australia and the Pacific, a 26-person team, and annual recurring revenue expected to double to $4M over the following year.",
+      "source": "https://www.rnz.co.nz/news/top/513403/starboard-maritime-intelligence-attracts-weighty-backers-for-expansion-plans"
+    },
+    "firstCustomers": [
+      {
+        "name": "New Zealand Ministry for Primary Industries",
+        "date": "2021",
+        "note": "Described by Starboard as its founding customer at commercial launch; had worked with the team since the first prototype in late 2019.",
+        "source": "https://starboard.nz/news-mpi-contract"
+      },
+      {
+        "name": "Australian Fisheries Management Authority",
+        "date": null,
+        "note": "First international contract.",
+        "source": "https://starboard.nz/news-afma-subscription"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://scoop.co.nz/stories/SC2404/S00004/new-zealand-tech-helping-to-protect-our-oceans-secures-investment.htm",
+        "title": "New Zealand Tech Helping To Protect Our Oceans Secures Investment (press release on Scoop)"
+      },
+      {
+        "url": "https://www.startupdaily.net/topic/funding/ai-powered-maritime-safety-startup-ships-20-7-million-series-a/",
+        "title": "AI-powered maritime safety startup ships $20.7 million Series A (Startup Daily)"
+      },
+      {
+        "url": "https://www.rnz.co.nz/news/top/513403/starboard-maritime-intelligence-attracts-weighty-backers-for-expansion-plans",
+        "title": "Starboard Maritime Intelligence attracts weighty backers for expansion plans (RNZ)"
+      },
+      {
+        "url": "https://www.mbie.govt.nz/science-and-technology/science-and-innovation/funding-information-and-opportunities/investment-funds/regional-research-institutes/xerra-earth-observation-institute/starboard-platform",
+        "title": "Starboard platform (MBIE, Xerra Earth Observation Institute)"
+      },
+      {
+        "url": "https://starboard.nz/news-mpi-contract",
+        "title": "Starboard: MPI contract"
+      },
+      {
+        "url": "https://starboard.nz/news-afma-subscription",
+        "title": "AFMA subscribes to Starboard"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "syrenna",
+    "name": "Syrenna",
+    "aliases": [
+      "Syrenna AS"
+    ],
+    "website": null,
+    "pitch": "Built the WaterDrone, a tethered depth-controlling robot meant to act as an underwater weather station.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/ocean-sensing",
+      "maritime/uuv"
+    ],
+    "founded": {
+      "date": "2022",
+      "source": "https://techcrunch.com/2024/03/01/syrennas-waterdrone-is-the-ocean-monitoring-underwater-weather-station-of-the-future",
+      "checkNote": "TechCrunch describes it as Oslo-based. The Norwegian registry page (21st.ai) shows operations from Jul 11, 2022 and a registered address in Kolsås (near Oslo).",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Oslo",
+      "country": "NO",
+      "lat": 59.91,
+      "lon": 10.75
+    },
+    "status": "dead",
+    "statusEvent": {
+      "type": "shutdown",
+      "date": "2025-12-24",
+      "amount": null,
+      "acquirer": null,
+      "causeCategory": null,
+      "note": "A Norwegian company-registry aggregator lists Syrenna AS as closed on 24 December 2025 by voluntary liquidation. A PitchBook snippet instead records a liquidation dated 26 September 2025. No source that could be opened states the cause; in March 2024 the company was pre-commercial and said it needed a much larger round to fund manufacturing.",
+      "source": "https://21st.ai/en/companies/418291/no/kolsaas/architectural-and-engineering-activities-technical-testing-and-analysis/org-number-929475739-syrenna-as/summary",
+      "checkNote": "Voluntary liquidation, not bankruptcy.",
+      "check": "confirmed"
+    },
+    "story": "The WaterDrone came out of Prof. Alex Alcocer's research at Oslo Metropolitan University's OceanLab, co-invented with Moustafa Elkolali. In 2022 Alcocer joined Ester Strømmen and Becky Wightman through Antler's programme in Oslo to commercialise it. The company came out of stealth in March 2024 with pilots in the Oslofjord and offshore western Norway, targeting offshore wind and environmental monitoring, and was liquidated in late 2025.",
+    "founders": [
+      {
+        "name": "Ester Strømmen",
+        "role": "Co-founder and CEO",
+        "background": null
+      },
+      {
+        "name": "Alex Alcocer",
+        "role": "Co-founder and CTO",
+        "background": "Professor at Oslo Metropolitan University; the WaterDrone is based on his OceanLab research"
+      },
+      {
+        "name": "Becky Wightman",
+        "role": "Co-founder and COO",
+        "background": null
+      },
+      {
+        "name": "Moustafa Elkolali",
+        "role": "Co-founder, Head of Engineering",
+        "background": "Co-inventor of the WaterDrone with Alcocer"
+      }
+    ],
+    "product": "WaterDrone: a sealed robot about the size of a bedside table that holds position on a proprietary tether, changes depth with a swim-bladder-style mechanism, runs about a year on battery and reports over Iridium satellite.",
+    "wedge": "Year-long water-column monitoring pilots with Norwegian research institutes NIVA and IMR in the Oslofjord.",
+    "became": "Never got past pilots; planned direct sales of robots to offshore wind and monitoring customers.",
+    "differentiator": "Persistent, stationary profiling at a fraction of the cost of autonomous vehicles or crewed ships.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2024-03",
+        "type": "unknown",
+        "label": "Round of 'just over $1 million' combining private and public money; exact amount not disclosed",
+        "amount": null,
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Antler",
+          "Katapult",
+          "Harald Norvik",
+          "Innovation Norway",
+          "Research Council of Norway",
+          "ESA BIC Norway"
+        ],
+        "source": "https://techcrunch.com/2024/03/01/syrennas-waterdrone-is-the-ocean-monitoring-underwater-weather-station-of-the-future",
+        "checkNote": "Published March 1, 2024; no round name; all six funders named on the page.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": {
+      "kind": "research",
+      "note": "Antler was the initial investor in 2022, backing a team formed around a university research prototype from OsloMet's OceanLab.",
+      "source": "https://techcrunch.com/2024/03/01/syrennas-waterdrone-is-the-ocean-monitoring-underwater-weather-station-of-the-future"
+    },
+    "firstCustomers": [
+      {
+        "name": "NIVA and IMR (Norwegian research institutes)",
+        "date": null,
+        "note": "Pilot deployment in the Oslofjord; no commercial customers were named.",
+        "source": "https://techcrunch.com/2024/03/01/syrennas-waterdrone-is-the-ocean-monitoring-underwater-weather-station-of-the-future"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2024/03/01/syrennas-waterdrone-is-the-ocean-monitoring-underwater-weather-station-of-the-future",
+        "title": "Syrenna's WaterDrone is the ocean-monitoring 'underwater weather station' of the future (TechCrunch)"
+      },
+      {
+        "url": "https://commercialisation.esa.int/?p=6484",
+        "title": "Syrenna (ESA Commercialisation Gateway)"
+      },
+      {
+        "url": "https://21st.ai/en/companies/418291/no/kolsaas/architectural-and-engineering-activities-technical-testing-and-analysis/org-number-929475739-syrenna-as/summary",
+        "title": "SYRENNA AS, org. no. 929 475 739 (registry summary)"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "ulysses",
+    "name": "Ulysses",
+    "aliases": [
+      "Ulysses Ecosystem Engineering"
+    ],
+    "website": "https://www.ulysses.inc",
+    "pitch": "Autonomous underwater and surface vehicles for ocean work, which began with robots that plant seagrass.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/uuv",
+      "maritime/usv"
+    ],
+    "founded": {
+      "date": "2023",
+      "source": "https://www.irishtimes.com/business/2026/04/16/irish-founded-ulysses-raises-38m-in-series-a-funding/",
+      "checkNote": "Irish Times does not state an HQ city; TechCrunch (7 Nov 2024, also opened) says 'San Francisco-based Ulysses' but also that it 'launched in early 2024'.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "San Francisco",
+      "country": "US",
+      "lat": 37.77,
+      "lon": -122.42
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "The idea came on a 2023 surf trip in Scotland, when a friend described 40 volunteers hand-planting seagrass that the weather then washed away. Jamie Wedderburn proposed automating it, and he, Akhil Voorakkara and Irish brothers Will and Colm O'Brien - robotics engineers, none of them marine biologists - built a leaky 3D-printed prototype that could inject seeds and consulted restoration experts. The company launched in early 2024 in San Francisco.",
+    "founders": [
+      {
+        "name": "Akhil Voorakkara",
+        "role": "Co-founder and CEO",
+        "background": "Robotics engineer"
+      },
+      {
+        "name": "Jamie Wedderburn",
+        "role": "Co-founder and CTO",
+        "background": "Robotics engineer; originated the idea"
+      },
+      {
+        "name": "Will O'Brien",
+        "role": "Co-founder",
+        "background": "Robotics engineer"
+      },
+      {
+        "name": "Colm O'Brien",
+        "role": "Co-founder",
+        "background": "Robotics engineer"
+      }
+    ],
+    "product": "Mako autonomous underwater vehicle, Leviathan autonomous surface vessel and Kraken launch-and-recovery system.",
+    "wedge": "An autonomous robot that plants seagrass seed about 100x faster than volunteers, sold to restoration projects with government agencies in Florida and Australia.",
+    "became": "A general ocean-autonomy company with over $5M in customer revenue and customers including the US Navy, the Australian government, the Great Barrier Reef Foundation and The Nature Conservancy.",
+    "differentiator": "Had nearly $1M in revenue and a working robot when it raised a $2M pre-seed, unusually early traction for ocean hardware.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2024-11-07",
+        "type": "pre-seed",
+        "label": null,
+        "amount": {
+          "value": 2000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Lowercarbon Capital"
+        ],
+        "investors": [
+          "Superorganism",
+          "ReGen Ventures"
+        ],
+        "source": "https://techcrunch.com/2024/11/07/ulysses-is-using-robots-to-restore-seagrass-populations/",
+        "checkNote": "Published November 7, 2024; led by Lowercarbon Capital; Superorganism and ReGen Ventures participated, plus unnamed angels.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2026-04-16",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 38000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Andreessen Horowitz"
+        ],
+        "investors": [
+          "Booz Allen Ventures",
+          "Harpoon Ventures"
+        ],
+        "source": "https://www.irishtimes.com/business/2026/04/16/irish-founded-ulysses-raises-38m-in-series-a-funding/",
+        "checkNote": "Published 16 April 2026 (page misspells the lead's name); Booz Allen Ventures and Harpoon Ventures participated.",
+        "check": "confirmed"
+      },
+      {
+        "date": null,
+        "type": "seed",
+        "label": "Seed round disclosed alongside the Series A; date not given",
+        "amount": {
+          "value": 8000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Pebblebed"
+        ],
+        "investors": [
+          "Genius Ventures",
+          "Lowercarbon Capital",
+          "Superorganism",
+          "ReGen Ventures"
+        ],
+        "source": "https://www.irishtimes.com/business/2026/04/16/irish-founded-ulysses-raises-38m-in-series-a-funding/",
+        "checkNote": "Seed disclosed in the 16 April 2026 Irish Times article; no date given for the seed; Genius Ventures, Lowercarbon Capital, Superorganism, ReGen Ventures participated.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": {
+      "value": 46000000,
+      "currency": "USD",
+      "asOf": "2026-04-16",
+      "source": "https://www.irishtimes.com/business/2026/04/16/irish-founded-ulysses-raises-38m-in-series-a-funding/",
+      "checkNote": "Body text says $46 million (= $38M + $8M); a photo caption on the same page says $48m, an internal inconsistency.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": {
+      "kind": "revenue",
+      "note": "At the $2M pre-seed it had a team of five, a working seed-planting robot, nearly $1M in revenue from private companies and government organisations, and partnerships with agencies in Florida and Australia.",
+      "source": "https://techcrunch.com/2024/11/07/ulysses-is-using-robots-to-restore-seagrass-populations/"
+    },
+    "firstCustomers": [
+      {
+        "name": "Government agencies in Florida and Australia",
+        "date": "2024",
+        "note": "Partnerships for large-scale seagrass restoration projects",
+        "source": "https://techcrunch.com/2024/11/07/ulysses-is-using-robots-to-restore-seagrass-populations/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2024/11/07/ulysses-is-using-robots-to-restore-seagrass-populations/",
+        "title": "Ulysses is using robots to restore seagrass populations"
+      },
+      {
+        "url": "https://www.irishtimes.com/business/2026/04/16/irish-founded-ulysses-raises-38m-in-series-a-funding/",
+        "title": "Irish-founded Ulysses raises $38m in Series A funding"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "unseenlabs",
+    "name": "Unseenlabs",
+    "aliases": [],
+    "website": "https://unseenlabs.com",
+    "pitch": "Satellite constellation that geolocates ships from their radio-frequency emissions, including vessels with AIS switched off.",
+    "domains": [
+      "maritime",
+      "space",
+      "defence"
+    ],
+    "subsectors": [
+      "maritime/maritime-intelligence",
+      "space/rf-pnt",
+      "defence/ew-rf"
+    ],
+    "founded": {
+      "date": "2015",
+      "source": "https://tech.eu/2021/04/27/french-spacetech-unseenlabs-raises-e20-million-in-series-b-round-all-systems-go-on-constellation-deployment",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Rennes",
+      "country": "FR",
+      "lat": 48.11,
+      "lon": -1.68
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Founded in Rennes in 2015 by brothers Clément and Jonathan Galic to intercept radio-frequency signals from space and use them to track maritime traffic, including ships that turn off their identification systems. It had 3 satellites in orbit at its 2021 Series B and 11 by its €85M round in February 2024.",
+    "founders": [
+      {
+        "name": "Clément Galic",
+        "role": "Co-founder and CEO",
+        "background": null
+      },
+      {
+        "name": "Jonathan Galic",
+        "role": "Co-founder",
+        "background": null
+      }
+    ],
+    "product": "RF-sensing nanosatellites and a data service that detects and geolocates vessels from their emissions, sold to maritime surveillance users and to insurance, shipping and energy customers.",
+    "wedge": "RF detection of 'dark' ships from a single small satellite, sold as maritime surveillance data.",
+    "became": "An 11-satellite RF constellation (February 2024) with reported total funding of about €120M.",
+    "differentiator": "First French private cubesat operator, built with French defence-fund (Definvest) and regional backing.",
+    "competitors": [
+      "HawkEye 360",
+      "Kleos Space"
+    ],
+    "rounds": [
+      {
+        "date": "2018",
+        "type": "venture",
+        "label": null,
+        "amount": {
+          "value": 7500000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Definvest (Bpifrance / DGA)",
+          "Nexeya",
+          "Breizh Up"
+        ],
+        "source": "https://fr.wikipedia.org/wiki/Unseenlabs",
+        "checkNote": "Confirmed on fr.wikipedia. The three references Wikipedia cites (Ouest-France, L'Usine Digitale, Les Echos) could not be opened (403). An aggregator page (nordic9, dated 10 September 2018) that was opened also says 'Unseenlabs to raise €7.5M from Definvest, Breizh Up and Nexeya'. Wikipedia's wording 'financement complet' may mean the figure is a full financing package rather than pure equity.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2021-04-27",
+        "type": "series-b",
+        "label": null,
+        "amount": {
+          "value": 20000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "360 Capital",
+          "Omnes Capital",
+          "Blue Oceans Partners",
+          "Definvest",
+          "Breizh Up"
+        ],
+        "source": "https://www.omnescapital.com/press-release/unseenlabs-announces-a-series-b-e20m-venture-funding-round-the-company-is-cementing-its-status-as-a-european-leader-in-the-interception-of-radiofrequency-signals-from-space-establishing-itself-as-a",
+        "checkNote": "CONFLICT ON LEAD: the original tech.eu source says 'The round was led by Avolta Partners', which the claim (leads empty) omits. The Omnes Capital press release (27 April 2021, an investor in the round) names no lead, never mentions Avolta, and says the round was 'carried out with the 360 Capital fund'; it lists 360 Capital, Omnes, Blue Oceans Partners, Breizh Up and Definvest (and mentions Hemeria as a traditional partner). Leaving leads empty is the safe reading; do not add Avolta Partners with",
+        "check": "confirmed"
+      },
+      {
+        "date": "2024-02",
+        "type": "venture",
+        "label": "€85M round (called Series C by some outlets)",
+        "amount": {
+          "value": 85000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Supernova Invest",
+          "ISALT",
+          "UNEXO",
+          "360 Capital",
+          "Omnes Capital",
+          "Bpifrance",
+          "Breizh Up",
+          "S2G Ventures"
+        ],
+        "source": "https://payloadspace.com/unseenlabs-raises-e85m-for-maritime-tracking/",
+        "checkNote": "Payload, published February 28, 2024; no round name and no lead; new: Supernova Invest, ISALT, UNEXO; previous: 360 Capital, OMNES, Bpifrance, Breizh Up, S2G Ventures.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": {
+      "value": 120000000,
+      "currency": "EUR",
+      "asOf": "2024-02",
+      "source": "https://www.electronicspecifier.com/?p=30430",
+      "checkNote": "Article dated 27 February 2024.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": {
+      "kind": "research",
+      "note": "Before the 2018 round the company had won a grand prize at the 2016 i-Lab national competition; no satellite had flown yet (BRO-1 launched in August 2019).",
+      "source": "https://fr.wikipedia.org/wiki/Unseenlabs"
+    },
+    "firstCustomers": [
+      {
+        "name": "French state maritime authorities (action de l'Etat en mer)",
+        "date": null,
+        "note": "Cited among civil and military clients",
+        "source": "https://fr.wikipedia.org/wiki/Unseenlabs"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://tech.eu/2021/04/27/french-spacetech-unseenlabs-raises-e20-million-in-series-b-round-all-systems-go-on-constellation-deployment",
+        "title": "Unseenlabs raises €20 million in Series B round (Tech.eu)"
+      },
+      {
+        "url": "https://payloadspace.com/unseenlabs-raises-e85m-for-maritime-tracking/",
+        "title": "Unseenlabs raises €85M for maritime tracking (Payload)"
+      },
+      {
+        "url": "https://www.electronicspecifier.com/?p=30430",
+        "title": "Pioneer in space-based radio frequency signal detection raises €85 million (Electronic Specifier)"
+      },
+      {
+        "url": "https://fr.wikipedia.org/wiki/Unseenlabs",
+        "title": "Unseenlabs - Wikipedia (FR)"
+      },
+      {
+        "url": "https://unseenlabs.com/en/press-center/press-releases/unseenlabs-announces-funding-round/",
+        "title": "Unseenlabs Announces Funding Round (April 2021)"
+      },
+      {
+        "url": "https://unseenlabs.com/en/press-center/press-releases/unseenlabs-announces-record-breaking-e85m-fundraising/",
+        "title": "Unseenlabs Announces Record-Breaking EUR 85M Fundraising"
+      },
+      {
+        "url": "https://unseenlabs.com/en/press-center/press-releases/press-release-3/",
+        "title": "Unseenlabs to Become the First French Private Cubesatellite Operator"
+      },
+      {
+        "url": "https://unseenlabs.com/en/press-center/press-releases/",
+        "title": "Unseenlabs press releases index"
+      },
+      {
+        "url": "https://www.omnescapital.com/press-release/unseenlabs-announces-a-series-b-e20m-venture-funding-round-the-company-is-cementing-its-status-as-a-european-leader-in-the-interception-of-radiofrequency-signals-from-space-establishing-itself-as-a",
+        "title": null
+      }
+    ],
+    "confidence": "medium",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "vake",
+    "name": "Vake",
+    "aliases": [
+      "VAKE"
+    ],
+    "website": null,
+    "pitch": "Machine learning on satellite imagery to find ships that hide their position, sold as maritime domain awareness.",
+    "domains": [
+      "maritime",
+      "space"
+    ],
+    "subsectors": [
+      "maritime/maritime-intelligence",
+      "space/earth-observation"
+    ],
+    "founded": {
+      "date": "2019",
+      "source": "https://www.eurisy.eu/stories/vake-improving-maritime-situational-awareness-using-satellite-data-and-machine-learning/",
+      "checkNote": "Page names no city, only 'a Norwegian company'.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": null,
+      "country": "NO",
+      "lat": null,
+      "lon": null
+    },
+    "status": "acquired",
+    "statusEvent": {
+      "type": "acquired",
+      "date": "2024-03-20",
+      "amount": null,
+      "acquirer": {
+        "name": "Kongsberg Satellite Services (KSAT)",
+        "city": "Tromsø",
+        "country": "NO",
+        "lat": 69.65,
+        "lon": 18.96
+      },
+      "causeCategory": null,
+      "note": "KSAT acquired a 70% majority stake; price not disclosed. KSAT said it had followed Vake since the company was founded and would fold its vessel detection into KSAT's maritime monitoring services for authorities, coast guards and energy companies.",
+      "source": "https://www.ksat.no/news/news-archive/2024/ksat-has-acquired-majority-stake-in-norwegian-startup-vake/",
+      "checkNote": "Dated 20 Mar 2024; KSAT 'has acquired' a 70% majority stake, not 100% of the company; price not disclosed.",
+      "check": "confirmed"
+    },
+    "story": "A Norwegian space startup that has worked since 2018 on detecting vessels in satellite imagery with machine learning and cross-checking them against AIS to flag 'dark' ships. It was supported early by an ESA innovation award (2019), Norwegian Space Agency funding (2020) and Copernicus funds to put its detections into the government's Barentswatch portal (2021). KSAT bought 70% in March 2024; the CEO at the time was Thomas Leira.",
+    "founders": [],
+    "product": "Dashboard for area monitoring and vessel tracking that detects ships in Copernicus Sentinel-2 imagery, matches them to AIS and reports dark vessels with size and heading.",
+    "wedge": "Dark-vessel detection on free Sentinel-2 imagery for national authorities, delivered through Norway's Barentswatch portal and trialled with the Netherlands Coast Guard.",
+    "became": "KSAT's vessel-detection unit ('Vake powered by KSAT').",
+    "differentiator": null,
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2020",
+        "type": "grant",
+        "label": "Norwegian Space Agency funding to adapt the technology for use on satellites; amount not disclosed",
+        "amount": null,
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Norwegian Space Agency"
+        ],
+        "source": "https://www.spaceagency.no/success-stories/tracking-hidden-maritime-traffic-from-space",
+        "checkNote": "No amount stated.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2021",
+        "type": "grant",
+        "label": "Norwegian Space Agency Copernicus funds to implement the service in Barentswatch; amount not disclosed",
+        "amount": null,
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Norwegian Space Agency"
+        ],
+        "source": "https://www.spaceagency.no/success-stories/tracking-hidden-maritime-traffic-from-space",
+        "checkNote": "No amount stated.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "Barentswatch",
+        "date": "2021",
+        "note": "Integration of Vake's traffic monitoring into the Norwegian Barentswatch web portal, funded through Copernicus funds.",
+        "source": "https://www.spaceagency.no/success-stories/tracking-hidden-maritime-traffic-from-space"
+      },
+      {
+        "name": "Netherlands Coast Guard",
+        "date": null,
+        "note": "Named as a user Vake was working with.",
+        "source": "https://www.eurisy.eu/stories/vake-improving-maritime-situational-awareness-using-satellite-data-and-machine-learning/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.ksat.no/news/news-archive/2024/ksat-has-acquired-majority-stake-in-norwegian-startup-vake/",
+        "title": "KSAT has acquired majority stake in Norwegian startup VAKE"
+      },
+      {
+        "url": "https://www.eurisy.eu/stories/vake-improving-maritime-situational-awareness-using-satellite-data-and-machine-learning/",
+        "title": "VAKE: Improving maritime situational awareness (Eurisy)"
+      },
+      {
+        "url": "https://www.spaceagency.no/success-stories/tracking-hidden-maritime-traffic-from-space",
+        "title": "Tracking hidden maritime traffic from space (Norwegian Space Agency)"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "vatn-systems",
+    "name": "Vatn Systems",
+    "aliases": [
+      "Vatn"
+    ],
+    "website": "https://www.vatn.com",
+    "pitch": "Builds low-cost autonomous underwater vehicles at scale for the US military, allied navies and commercial customers.",
+    "domains": [
+      "maritime",
+      "defence"
+    ],
+    "subsectors": [
+      "maritime/uuv",
+      "maritime/naval-shipbuilding",
+      "defence/autonomy-software"
+    ],
+    "founded": {
+      "date": null,
+      "source": null
+    },
+    "hq": {
+      "city": "Portsmouth",
+      "country": "US",
+      "lat": 41.6,
+      "lon": -71.25
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "A Rhode Island autonomous-underwater-vehicle startup described as two years old when it raised its Series A in December 2025. It builds AUVs (the Skelmir S12 among them) intended to be produced at scale for underwater naval warfare.",
+    "founders": [],
+    "product": "Skelmir family of autonomous underwater vehicles.",
+    "wedge": "Partnerships with the US Navy and Marine Corps for its autonomous underwater vehicles.",
+    "became": "By its December 2025 Series A it had won a first international contract in Singapore and counted Hanwha, Airbus Ventures, Lockheed Martin Ventures and SAIC Ventures among its backers.",
+    "differentiator": "Designing underwater vehicles for volume production rather than as bespoke, high-cost systems.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2024-11-12",
+        "type": "seed",
+        "label": null,
+        "amount": {
+          "value": 13000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "DYNE Ventures"
+        ],
+        "investors": [
+          "Lockheed Martin Ventures",
+          "RTX Ventures",
+          "In-Q-Tel",
+          "Propeller Ventures",
+          "SAIC Ventures",
+          "Cubit Capital",
+          "Fortitude Ventures",
+          "Centre Street Partners",
+          "The Veteran Fund",
+          "Blue Collective",
+          "Decisive Point"
+        ],
+        "source": "https://prnewswire.com/news-releases/vatn-systems-raises-13-million-seed-round-to-advance-autonomous-underwater-vehicles-for-us-defense-302301937.html",
+        "checkNote": "Original source (GoLocalProv) returned 403 twice. The company's press release (Nov. 12, 2024) confirms amount, type and month, and additionally names the lead and investors that the claim left empty. Release says total funding then $16.5M.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-12-10",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 60000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "BVVC"
+        ],
+        "investors": [
+          "Hanwha",
+          "Geodesic Capital",
+          "Airbus Ventures",
+          "Dauntless Ventures",
+          "Trousdale Ventures",
+          "Veteran Ventures Capital",
+          "DYNE Ventures",
+          "Propeller Ventures",
+          "Decisive Point Ventures",
+          "SAIC Ventures",
+          "Centre Street Partners",
+          "Cubit Capital",
+          "Lockheed Martin Ventures"
+        ],
+        "source": "https://www.marinetechnologynews.com/news/systems-raises-million-series-656422",
+        "checkNote": "Published December 10, 2025; led by BVVC; all thirteen other investors named (six new, seven existing).",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": {
+      "value": 76500000,
+      "currency": "USD",
+      "asOf": "2025-12-10",
+      "source": "https://www.marinetechnologynews.com/news/systems-raises-million-series-656422",
+      "checkNote": "Article dated December 10, 2025.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "US Navy and US Marine Corps",
+        "date": null,
+        "note": "Described as partnerships being deepened at the time of the Series A",
+        "source": "https://www.marinetechnologynews.com/news/systems-raises-million-series-656422"
+      },
+      {
+        "name": "Singapore (customer not named)",
+        "date": "2025",
+        "note": "First international contract",
+        "source": "https://www.marinetechnologynews.com/news/systems-raises-million-series-656422"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.marinetechnologynews.com/news/systems-raises-million-series-656422",
+        "title": "Vatn Systems Raises $60 Million Series A to Redefine Underwater Naval Warfare at Scale"
+      },
+      {
+        "url": "https://www.golocalprov.com/business/two-year-old-ri-based-vatn-raises-60m-series-a-round-expects-major-growth-i",
+        "title": "Two-Year-Old RI-Based Vatn Raises $60M Series A Round"
+      },
+      {
+        "url": "https://pbn.com/vatn-systems-raises-60m-in-series-a-funding/",
+        "title": "Vatn Systems raises $60M in Series A funding"
+      },
+      {
+        "url": "https://prnewswire.com/news-releases/vatn-systems-raises-13-million-seed-round-to-advance-autonomous-underwater-vehicles-for-us-defense-302301937.html",
+        "title": null
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "windward",
+    "name": "Windward",
+    "aliases": [
+      "Windward Ltd",
+      "Windward AI"
+    ],
+    "website": "https://windward.ai",
+    "pitch": "Maritime AI platform that scores vessel risk and behaviour for governments, insurers, traders and shippers.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/maritime-intelligence"
+    ],
+    "founded": {
+      "date": "2010",
+      "source": "https://www.calcalistech.com/articles/0,7340,L-3741420,00.html",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Tel Aviv",
+      "country": "IL",
+      "lat": 32.08,
+      "lon": 34.78
+    },
+    "status": "acquired",
+    "statusEvent": {
+      "type": "acquired",
+      "date": "2025-03-18",
+      "amount": {
+        "value": 216000000,
+        "currency": "GBP"
+      },
+      "acquirer": {
+        "name": "FTV Capital",
+        "city": null,
+        "country": "US",
+        "lat": null,
+        "lon": null
+      },
+      "causeCategory": null,
+      "note": "Recommended cash offer of 215p per share (about £216M / $271M) from a fund of US growth-equity firm FTV Capital, announced 24 Dec 2024; close to a 50% premium on the last close and roughly 40% above the December 2021 AIM IPO price. Completion was expected by end of Q1 2025, after which Windward left AIM.",
+      "source": "https://ftvcapital.com/2025/ftv-capital-completes-acquisition-of-maritime-ai-leader-windward/",
+      "checkNote": "The original source (24 Dec 2024) only reports an agreed deal: 'Completion of the acquisition requires the approval by a simple majority of Windward shareholders', expected by end of Q1 2025. 2024-12-24 is the announcement date. FTV Capital's own release dated March 18, 2025 confirms the close. Price 'valued at £216 million ($271 million) or 215 pence per share' is from the original source; the FTV page gives no price.",
+      "check": "confirmed"
+    },
+    "story": "Started by two partners after their service in the Israeli Navy to turn ship-tracking data into behavioural analysis of vessels. It sold first to government, navy, coast guard and intelligence users, then shifted towards marine insurers around 2018. It listed on London's AIM in December 2021 and was taken private by FTV Capital in a deal announced in December 2024.",
+    "founders": [
+      {
+        "name": "Ami Daniel",
+        "role": "Co-founder and CEO",
+        "background": "Israeli Navy service before founding Windward"
+      },
+      {
+        "name": "Matan Peled",
+        "role": "Co-founder",
+        "background": null
+      }
+    ],
+    "product": "Subscription platform that fuses vessel-tracking data and machine-learning models to assess maritime risk, compliance and supply-chain exposure.",
+    "wedge": "Vessel-behaviour analytics sold mostly to government clients: coast guards, navies and intelligence agencies.",
+    "became": "A listed (AIM, 2021) maritime-AI company serving insurers, compliance and supply-chain users as well as governments, bought by FTV Capital for about £216M.",
+    "differentiator": null,
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2018-07-01",
+        "type": "series-c",
+        "label": null,
+        "amount": {
+          "value": 16500000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "XL Innovate"
+        ],
+        "investors": [],
+        "source": "https://www.calcalistech.com/articles/0,7340,L-3741420,00.html",
+        "checkNote": "Dated 01.07.18 (DD.MM.YY, i.e. 1 July 2018); led by XL Innovate; existing investors participated but are not named.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2021-12-06",
+        "type": "ipo",
+        "label": "AIM admission at 155p; £26.3M new money for the company within a £34.5M gross placing",
+        "amount": {
+          "value": 26300000,
+          "currency": "GBP"
+        },
+        "valuation": {
+          "value": 126500000,
+          "currency": "GBP"
+        },
+        "leads": [],
+        "investors": [],
+        "source": "https://kalkinemedia.com/uk/news/ipo/windward-wnwd-what-led-to-israeli-maritime-firms-decent-lse-debut",
+        "checkNote": "The original City AM page only gives '£34.5m' and '155p' without the split. Kalkine Media (opened) gives the split: £26.3M for the company, £8.2M for existing shareholders and option holders, £34.5M total at £1.55, debut 6 December 2021. Canaccord Genuity's deal page (opened) confirms admission on 6 December 2021 at 155 pence and £34.5M total.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": {
+      "value": 39000000,
+      "currency": "USD",
+      "asOf": "2018-07",
+      "source": "https://www.calcalistech.com/articles/0,7340,L-3741420,00.html",
+      "checkNote": "Article dated 01.07.18 (1 July 2018); figure is equity funding including the Series C.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": null,
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://www.calcalistech.com/articles/0,7340,L-3741420,00.html",
+        "title": "Marine Data Company Windward Raises $16.5 Million (CTech)"
+      },
+      {
+        "url": "https://maritime-executive.com/article/windward-maritime-intelligence-business-agrees-to-buyout-from-u-s-investor",
+        "title": "Windward agrees to buyout from U.S. investor (The Maritime Executive)"
+      },
+      {
+        "url": "https://www.cityam.com/?p=1812984",
+        "title": "Israeli maritime firm Windward floats on LSE after raising £34.5m (City A.M.)"
+      },
+      {
+        "url": "https://www.cityam.com/?p=1811280",
+        "title": "Israeli AI firm Windward to list on London AIM with £126m market cap (City A.M.)"
+      },
+      {
+        "url": "https://www.uktech.news/ai/maritime-ai-firm-windward-bought-by-ftv-capital-in-216m-deal-20241224",
+        "title": "Maritime AI firm Windward bought by FTV Capital in £216m deal (UKTN)"
+      },
+      {
+        "url": "https://ftvcapital.com/2025/ftv-capital-completes-acquisition-of-maritime-ai-leader-windward/",
+        "title": null
+      },
+      {
+        "url": "https://kalkinemedia.com/uk/news/ipo/windward-wnwd-what-led-to-israeli-maritime-firms-decent-lse-debut",
+        "title": null
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "wsense",
+    "name": "WSense",
+    "aliases": [
+      "Wsense"
+    ],
+    "website": "https://wsense.it",
+    "pitch": "Underwater wireless networks ('subsea Wi-Fi') that link sensors and robots for real-time ocean data.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/ocean-sensing"
+    ],
+    "founded": {
+      "date": "2017",
+      "source": "https://tech.eu/2025/10/23/wsense-raises-10m-to-scale-subsea-wi-fi-and-expand-underwater-iot-tech/",
+      "checkNote": "tech.eu states 2017 but does not state a founding/HQ city; Rome is not on this page.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Rome",
+      "country": "IT",
+      "lat": 41.9,
+      "lon": 12.5
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "WSense is a spin-out of Sapienza University of Rome built on patented underwater wireless communication research. It is led by co-founder Chiara Petrioli, a professor of computer engineering at Sapienza who has been CEO since 2022. It grew from research deployments into commercial networks for aquaculture, energy, defence and environmental monitoring, with offices in Italy, Norway and the UK.",
+    "founders": [
+      {
+        "name": "Chiara Petrioli",
+        "role": "Co-founder and CEO (CEO since 2022)",
+        "background": "Professor of Computer Engineering at Sapienza University of Rome"
+      }
+    ],
+    "product": "Patented acoustic and optical underwater wireless networking and an 'Internet of Underwater Things' platform for monitoring critical infrastructure, the environment and aquaculture sites, and for networking underwater robots.",
+    "wedge": "Wireless sensor networks for underwater monitoring, sold to aquaculture, energy and research customers such as Leroy, Saipem, Leonardo and the UK National Oceanography Centre.",
+    "became": "A subsea-networking supplier with more than €25M raised and shipbuilder Fincantieri among its shareholders (2025).",
+    "differentiator": null,
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2022",
+        "type": "seed",
+        "label": null,
+        "amount": {
+          "value": 4000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [],
+        "source": "https://axonpartnersgroup.com/italian-scale-up-wsense-closes-a-e7-2m-pre-series-b-round-to-accelerate-expansion-of-underwater-wireless-communications/",
+        "checkNote": "Stated in passing by the CEO in the April 2025 Axon release; no investors or precise date given.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2023-10-23",
+        "type": "series-a",
+        "label": "Announced as €9M; investor Axon later described the 2023 Series A as €11M",
+        "amount": {
+          "value": 9000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [
+          "SWEN Blue Ocean"
+        ],
+        "investors": [
+          "CDP Venture Capital",
+          "RunwayFBU",
+          "Axon Partners Group",
+          "Katapult Ocean",
+          "CoreAngels Climate",
+          "Moonstone"
+        ],
+        "source": "https://tech.eu/2023/10/23/wsense-raises-eur9m-for-underwater-wireless-communicatio/",
+        "checkNote": "tech.eu (23 October 2023) gives €9M, led by SWEN Blue Ocean, with the six other investors, but does not name the series. The 'Series A' name comes from the Axon release (opened), which calls it 'the €11 million Series A round in 2023', a different amount, as the claim's label already notes.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-04-23",
+        "type": "venture",
+        "label": "Pre-Series B",
+        "amount": {
+          "value": 7200000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Fincantieri",
+          "Rypples",
+          "CDP Venture Capital",
+          "SWEN Blue Ocean",
+          "RunwayFBU",
+          "Axon Partners Group"
+        ],
+        "source": "https://axonpartnersgroup.com/italian-scale-up-wsense-closes-a-e7-2m-pre-series-b-round-to-accelerate-expansion-of-underwater-wireless-communications/",
+        "checkNote": "Dated 23 April 2025; no lead; existing Series A investors CDP Venture Capital SGR, SWEN's Blue Ocean, RunwayFBU, Axon Partners Group, plus Fincantieri and Rypples. Release says total funding then 'over 22 million euros'.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-10-23",
+        "type": "venture",
+        "label": "Pre-Series B (second tranche)",
+        "amount": {
+          "value": 10000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Indico Capital Partners",
+          "SIMEST",
+          "CDP Venture Capital",
+          "SWEN Blue Ocean",
+          "RunwayFBU",
+          "Axon Partners Group",
+          "Fincantieri",
+          "Rypples"
+        ],
+        "source": "https://tech.eu/2025/10/23/wsense-raises-10m-to-scale-subsea-wi-fi-and-expand-underwater-iot-tech/",
+        "checkNote": "DOUBLE-COUNT RISK: tech.eu (23 October 2025) reports €10M pre-Series B with new investors Indico Capital Partners and SIMEST, but says nothing about a 'second tranche'. Total funding went from 'over 22 million euros' (April 2025, after the €7.2M) to 'over €25 million' (October 2025), which implies the €10M most likely INCLUDES the April €7.2M (about €2.8M new money) rather than being €10M on top. The page does not settle this; summing round:2 and round:3 probably overstates funding by about €7.2",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": {
+      "value": 25000000,
+      "currency": "EUR",
+      "asOf": "2025-10-23",
+      "source": "https://tech.eu/2025/10/23/wsense-raises-10m-to-scale-subsea-wi-fi-and-expand-underwater-iot-tech/",
+      "checkNote": "'over €25 million' supports 25000000 only as a floor.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "Leroy",
+        "date": null,
+        "note": "Named as a customer at the October 2023 round, alongside Leonardo, Saipem and the National Oceanography Centre.",
+        "source": "https://tech.eu/2023/10/23/wsense-raises-eur9m-for-underwater-wireless-communicatio/"
+      },
+      {
+        "name": "Saipem",
+        "date": null,
+        "note": "Named as a customer at the October 2023 round.",
+        "source": "https://tech.eu/2023/10/23/wsense-raises-eur9m-for-underwater-wireless-communicatio/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://tech.eu/2023/10/23/wsense-raises-eur9m-for-underwater-wireless-communicatio/",
+        "title": "WSense raise €9M for underwater wireless communication (Tech.eu)"
+      },
+      {
+        "url": "https://axonpartnersgroup.com/italian-scale-up-wsense-closes-a-e7-2m-pre-series-b-round-to-accelerate-expansion-of-underwater-wireless-communications/",
+        "title": "WSense closes a €7.2M pre-Series B round (Axon Partners Group)"
+      },
+      {
+        "url": "https://tech.eu/2025/10/23/wsense-raises-10m-to-scale-subsea-wi-fi-and-expand-underwater-iot-tech/",
+        "title": "WSense raises €10M to scale subsea Wi-Fi (Tech.eu)"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "xocean",
+    "name": "XOCEAN",
+    "aliases": [
+      "XOcean",
+      "Xocean"
+    ],
+    "website": "https://xocean.com",
+    "pitch": "Collects ocean and seabed survey data for offshore wind and energy clients using a fleet of uncrewed surface vessels.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/usv",
+      "maritime/ocean-sensing"
+    ],
+    "founded": {
+      "date": "2017",
+      "source": "https://www.irishtimes.com/business/2024/06/11/louth-based-ocean-data-company-xocean-raises-30m-in-funding-round",
+      "checkNote": "Page calls the company 'Louth-based'; it does not say where it was founded.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "County Louth",
+      "country": "IE",
+      "lat": 53.92,
+      "lon": -6.49
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Founded in 2017 in County Louth, Ireland, by James Ives, the former chief executive of OpenHydro. It is described as an ocean data company, operating a fleet of uncrewed surface vessels to collect the data.",
+    "founders": [
+      {
+        "name": "James Ives",
+        "role": "Founder and CEO",
+        "background": "Former chief executive of OpenHydro"
+      }
+    ],
+    "product": "Ocean data as a service: hydrographic and geophysical surveys delivered by remotely supervised USVs.",
+    "wedge": "Survey projects for energy companies and agencies: by late 2019 it cited recent projects for BP, Equinor, PX Group and the UK Maritime and Coastguard Agency.",
+    "became": "A global ocean-data provider for offshore wind, with clients including SSE Renewables, Orsted, BP and Shell in more than 23 territories; its data supported 43GW of new offshore wind capacity by 2024.",
+    "differentiator": "Positions itself as an ocean-data provider operating its own uncrewed fleet rather than as a vessel manufacturer.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2019-11",
+        "type": "venture",
+        "label": "Funding round fully subscribed by existing shareholders",
+        "amount": {
+          "value": 7900000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [],
+        "source": "https://marineindustrynews.co.uk/?p=37311",
+        "checkNote": "Article dated November 21, 2019; no investors named.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2024-06-11",
+        "type": "series-b",
+        "label": "Series B, reported together with EUR 20M of venture debt from the European Investment Bank",
+        "amount": {
+          "value": 30000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [
+          "VentureWave Capital"
+        ],
+        "investors": [
+          "Endeavor Catalyst",
+          "Enterprise Ireland",
+          "European Investment Bank"
+        ],
+        "source": "https://www.irishtimes.com/business/2024/06/11/louth-based-ocean-data-company-xocean-raises-30m-in-funding-round",
+        "checkNote": "Published 11 June 2024; €30M 'Series B funding round ... led by Venturewave Capital with co-investors including Endeavor Catalyst and Enterprise Ireland'. The page does not say whether the EIB €20M debt is inside the €30M or on top of it; if inside, equity is only about €10M. EIB is a lender, not an equity investor.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-01-09",
+        "type": "venture",
+        "label": null,
+        "amount": {
+          "value": 115000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "S2G Ventures",
+          "Climate Investment",
+          "Morgan Stanley 1GT",
+          "CC Industries"
+        ],
+        "source": "https://www.irishtimes.com/business/2025/01/09/xocean-raises-115m-to-boost-global-growth",
+        "checkNote": "Published 9 January 2025; no round name, no lead; S2G, Climate Investment, Morgan Stanley's 1GT fund and an affiliate of the Crown Family's CC Industries named.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "BP, Equinor, PX Group, UK Maritime and Coastguard Agency",
+        "date": "2019",
+        "note": "Named as recent projects at the time of the EUR 7.9M round; USVs then operating in the UK, Azerbaijan, Trinidad and Canada",
+        "source": "https://marineindustrynews.co.uk/?p=37311"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://marineindustrynews.co.uk/?p=37311",
+        "title": "XOCEAN secures EUR 7.9 million funding to support expansion"
+      },
+      {
+        "url": "https://www.irishtimes.com/business/2024/06/11/louth-based-ocean-data-company-xocean-raises-30m-in-funding-round",
+        "title": "Louth-based ocean data company Xocean raises EUR 30m in funding round"
+      },
+      {
+        "url": "https://www.irishtimes.com/business/2025/01/09/xocean-raises-115m-to-boost-global-growth",
+        "title": "XOcean raises EUR 115m to boost global growth"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "zeabuz",
+    "name": "Zeabuz",
+    "aliases": [
+      "Zeabuz AS"
+    ],
+    "website": "https://www.zeabuz.com",
+    "pitch": "Autonomy and docking-assist software for urban ferries, road ferries and workboats, spun out of NTNU in Trondheim.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/vessel-autonomy"
+    ],
+    "founded": {
+      "date": "2019",
+      "source": "https://www.zeabuz.com/torghatten-and-zeabuz-make-history-in-stockholm/",
+      "checkNote": "Trondheim appears only as the main office address, not as a stated founding city.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Trondheim",
+      "country": "NO",
+      "lat": 63.43,
+      "lon": 10.4
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "Founded in 2019 as a spin-off of the Norwegian University of Science and Technology's research centre for autonomous marine operations and systems. Seven co-founders, several with doctorates, set out to commercialise autonomy for small electric passenger ferries, with NTNU faculty as advisors.",
+    "founders": [
+      {
+        "name": "Øyvind Smogeli",
+        "role": "Co-founder and CEO (previously CTO)",
+        "background": null
+      },
+      {
+        "name": "Henrik Stray",
+        "role": "Co-founder and COO",
+        "background": null
+      },
+      {
+        "name": "Tobias R. Torben",
+        "role": "Co-founder and CTO",
+        "background": null
+      },
+      {
+        "name": "Halvor Platou",
+        "role": "Co-founder and Senior Systems Architect",
+        "background": null
+      },
+      {
+        "name": "Erik Wilthil",
+        "role": "Co-founder and Lead Developer, situational awareness",
+        "background": null
+      },
+      {
+        "name": "Thomas Skarshaug",
+        "role": "Co-founder and Autonomy Engineer",
+        "background": null
+      },
+      {
+        "name": "Kjetil Vasstein",
+        "role": "Co-founder",
+        "background": "NTNU PhD student in simulation of autonomous systems"
+      }
+    ],
+    "product": "ZeaMate, ZeaWatch (situational awareness and docking assist) and ZeaControl (station-keeping, autopilot and joystick control), plus a Virtual Cable Ferry system.",
+    "wedge": "Autonomy for a small electric city ferry: MF Estelle, operated by Torghatten in Stockholm from June 2023 and billed as the world's first commercial, emission-free, autonomous passenger ferry.",
+    "became": "A supplier of autonomy and docking systems to ferries, aquaculture workboats and dual-use vessels, with partners Damen and Yinson GreenTech and a first Virtual Cable Ferry deployed for the Government of Aland in 2026.",
+    "differentiator": "Research-grade autonomy from NTNU applied to short, repetitive ferry crossings where full autonomy is tractable, verified with DNV simulation-based testing.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2026-04-15",
+        "type": "venture",
+        "label": "Largest capital raise to date",
+        "amount": {
+          "value": 40000000,
+          "currency": "NOK"
+        },
+        "valuation": null,
+        "leads": [
+          "Grieg Kapital"
+        ],
+        "investors": [
+          "Eitzen AS",
+          "Barclay Holding AS"
+        ],
+        "source": "https://www.zeabuz.com/zeabuz-as-secures-nok-40-million-in-a-funding-round-led-by-grieg-kapital-to-support-rapid-international-deployment-and-scaling/",
+        "checkNote": "Published April 15, 2026; 'with participation from Eitzen AS and Barclay Holding AS' (page also once writes 'Barclay Holdings AS') plus unnamed existing shareholders; 'largest capital raise to date'; no round name.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "Torghatten",
+        "date": "2023-06",
+        "note": "MF Estelle autonomous electric passenger ferry inaugurated in Stockholm on 8 June 2023",
+        "source": "https://www.zeabuz.com/torghatten-and-zeabuz-make-history-in-stockholm/"
+      },
+      {
+        "name": "Government of Aland",
+        "date": "2025-07",
+        "note": "Selected Zeabuz to deliver a Virtual Cable Ferry solution",
+        "source": "https://www.zeabuz.com/press/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.zeabuz.com/zeabuz-as-secures-nok-40-million-in-a-funding-round-led-by-grieg-kapital-to-support-rapid-international-deployment-and-scaling/",
+        "title": "Zeabuz AS secures NOK 40 million in a funding round led by Grieg Kapital"
+      },
+      {
+        "url": "https://www.zeabuz.com/torghatten-and-zeabuz-make-history-in-stockholm/",
+        "title": "Torghatten and Zeabuz make history in Stockholm"
+      },
+      {
+        "url": "https://www.zeabuz.com/about-us/",
+        "title": "Zeabuz - About us"
+      },
+      {
+        "url": "https://www.zeabuz.com/press/",
+        "title": "Zeabuz - Press"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  },
+  {
+    "id": "zeronorth",
+    "name": "ZeroNorth",
+    "aliases": [],
+    "website": "https://www.zeronorth.com",
+    "pitch": "Voyage, vessel and bunker optimisation software that helps ship operators cut fuel use and CO2.",
+    "domains": [
+      "maritime"
+    ],
+    "subsectors": [
+      "maritime/shipping-software"
+    ],
+    "founded": {
+      "date": "2020",
+      "source": "https://siliconcanals.com/zeronorth-bags-46-8m-from-psg/",
+      "checkNote": "'a Copenhagen-based company'.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Copenhagen",
+      "country": "DK",
+      "lat": 55.68,
+      "lon": 12.57
+    },
+    "status": "active",
+    "statusEvent": null,
+    "story": "ZeroNorth was spun out of Maersk Tankers in 2020 under CEO Søren Meyer, with A.P. Moller Holding and Cargill as shareholders. It started from the voyage-optimisation software Maersk Tankers ran on its own pool and sold it to other owners, operators and charterers. In June 2022 it raised over $50M to fund product development and acquisitions.",
+    "founders": [
+      {
+        "name": "Søren Meyer",
+        "role": "Founder and first CEO",
+        "background": "Led the spin-off from Maersk Tankers"
+      }
+    ],
+    "product": "SaaS platform spanning voyage optimisation, vessel reporting, emissions analytics, bunker procurement and pricing, electronic bunker delivery notes and a ship-management ERP.",
+    "wedge": "Voyage optimisation for tanker operators, born inside Maersk Tankers and backed by cargo owner Cargill.",
+    "became": "A multi-product shipping platform that the company said was on course to cut over half a million tonnes of CO2 in 2022, up from 218,000 tonnes in 2021.",
+    "differentiator": "Launched with an owner-operator's data and two industry shareholders as anchor users.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2022-06-02",
+        "type": "series-b",
+        "label": "Reported as 'over $50 million'",
+        "amount": {
+          "value": 50000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "PSG Equity"
+        ],
+        "investors": [
+          "A.P. Moller Holding",
+          "Cargill"
+        ],
+        "source": "https://www.zeronorth.com/press/zeronorth-secures-over-usd50-million-in-series-b-investment",
+        "checkNote": "'over $50 million' supports 50000000 only as a floor. ZeroNorth's own release (June 2, 2022) names the Series B, PSG Equity as new investor and A.P. Moller Holding and Cargill as participating existing shareholders, but the lead role for PSG Equity was only found on Silicon Canals (opened): 'a Series B round of funding led by PSG Equity'.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://www.zeronorth.com/press/zeronorth-secures-over-usd50-million-in-series-b-investment",
+        "title": "ZeroNorth secures over $50 million in Series B investment (company press release)"
+      },
+      {
+        "url": "https://siliconcanals.com/zeronorth-bags-46-8m-from-psg/",
+        "title": "Maersk Tankers spin-off ZeroNorth bags €46.8M from PSG, others (Silicon Canals)"
+      },
+      {
+        "url": "https://tech.eu/2022/06/02/the-new-funding-will-allow-zeronorth-to-ramp-up-operations-and-invest-in-product-innovation-to-expand-its-customer-facing-teams-and-pursuing-ma-deals",
+        "title": "ZeroNorth Series B (Tech.eu)"
+      }
+    ],
+    "confidence": "high",
+    "lastVerified": "2026-11-12"
+  }
+]

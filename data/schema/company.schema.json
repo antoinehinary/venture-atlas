@@ -1,0 +1,124 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "venture-atlas/company",
+  "title": "Venture Atlas company record",
+  "description": "One company. Unknown facts are null, never guessed. Every funding amount, date and investor list carries a source URL.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "name", "pitch", "domains", "subsectors", "founded", "hq", "status", "rounds", "sources", "confidence", "lastVerified"],
+  "definitions": {
+    "checkNote": { "type": ["string", "null"], "description": "Caveat recorded by the independent checker, e.g. the figure is a floor, may overlap another round, or is an announcement date" },
+    "check": { "enum": ["confirmed", "unreachable", null], "description": "Independent source check. confirmed: a page opened by a second checker states this fact. unreachable: no page could be opened to check it. Absent/null: not checked yet." },
+    "url": { "type": "string", "pattern": "^https?://" },
+    "nurl": { "anyOf": [{ "$ref": "#/definitions/url" }, { "type": "null" }] },
+    "nstr": { "type": ["string", "null"] },
+    "date": { "type": "string", "pattern": "^(19|20)\\d\\d(-(0[1-9]|1[0-2])(-(0[1-9]|[12]\\d|3[01]))?)?$", "description": "YYYY, YYYY-MM or YYYY-MM-DD, as precise as the source allows" },
+    "ndate": { "anyOf": [{ "$ref": "#/definitions/date" }, { "type": "null" }] },
+    "money": {
+      "description": "Amount in the currency the source reports. value is in whole units (not millions).",
+      "anyOf": [
+        { "type": "null" },
+        { "type": "object", "additionalProperties": false, "required": ["value", "currency"], "properties": { "value": { "type": "number", "exclusiveMinimum": 0 }, "currency": { "type": "string", "pattern": "^[A-Z]{3}$" } } }
+      ]
+    }
+  },
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "Lowercase slug of the name" },
+    "name": { "type": "string", "minLength": 1 },
+    "aliases": { "type": "array", "items": { "type": "string" } },
+    "website": { "$ref": "#/definitions/nurl" },
+    "pitch": { "type": "string", "maxLength": 160, "description": "One line: what they do" },
+    "domains": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" }, "description": "Field ids from data/taxonomy.json. First entry is the primary field" },
+    "subsectors": { "type": "array", "minItems": 1, "uniqueItems": true, "items": { "type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9-]+$" }, "description": "Taxonomy ids such as defence/counter-drone. At least one per domain listed." },
+    "founded": {
+      "type": "object", "additionalProperties": false, "required": ["date", "source"],
+      "properties": { "date": { "$ref": "#/definitions/ndate" }, "source": { "$ref": "#/definitions/nurl" }, "check": { "$ref": "#/definitions/check" }, "checkNote": { "$ref": "#/definitions/checkNote" } }
+    },
+    "hq": {
+      "type": "object", "additionalProperties": false, "required": ["city", "country", "lat", "lon"],
+      "description": "Where the company was founded (falls back to current HQ if the founding place is unknown). If the city is unknown, lat and lon must be null: the company is then left off the globe rather than placed at a guess.",
+      "properties": {
+        "city": { "$ref": "#/definitions/nstr" },
+        "country": { "type": "string", "pattern": "^[A-Z]{2}$", "description": "ISO 3166-1 alpha-2" },
+        "lat": { "type": ["number", "null"], "minimum": -90, "maximum": 90 },
+        "lon": { "type": ["number", "null"], "minimum": -180, "maximum": 180 }
+      }
+    },
+    "status": { "enum": ["active", "acquired", "public", "dead"] },
+    "statusEvent": {
+      "description": "The acquisition, listing or shutdown that produced a non-active status",
+      "anyOf": [
+        { "type": "null" },
+        {
+          "type": "object", "additionalProperties": false, "required": ["type", "date", "source"],
+          "properties": {
+            "type": { "enum": ["acquired", "ipo", "spac", "direct-listing", "shutdown", "bankruptcy"] },
+            "date": { "$ref": "#/definitions/ndate" },
+            "amount": { "$ref": "#/definitions/money" },
+            "acquirer": {
+              "anyOf": [{ "type": "null" }, {
+                "type": "object", "additionalProperties": false, "required": ["name"],
+                "properties": { "name": { "type": "string" }, "city": { "$ref": "#/definitions/nstr" }, "country": { "type": ["string", "null"], "pattern": "^[A-Z]{2}$" }, "lat": { "type": ["number", "null"] }, "lon": { "type": ["number", "null"] } }
+              }]
+            },
+            "causeCategory": { "description": "For shutdown/bankruptcy: the main cause as reported", "enum": ["ran-out-of-cash", "no-market", "technology-failed", "outcompeted", "regulatory", "customer-concentration", "unit-economics", "founder-conflict", "macro", "other", null] },
+            "note": { "$ref": "#/definitions/nstr", "description": "What happened and why, as reported by the source" },
+            "check": { "$ref": "#/definitions/check" }, "checkNote": { "$ref": "#/definitions/checkNote" },
+            "source": { "$ref": "#/definitions/nurl" }
+          }
+        }
+      ]
+    },
+    "story": { "$ref": "#/definitions/nstr", "description": "Origin story in 2-5 sentences" },
+    "founders": {
+      "type": "array",
+      "items": { "type": "object", "additionalProperties": false, "required": ["name"], "properties": { "name": { "type": "string" }, "role": { "$ref": "#/definitions/nstr" }, "background": { "$ref": "#/definitions/nstr", "description": "What made them credible" } } }
+    },
+    "product": { "$ref": "#/definitions/nstr" },
+    "wedge": { "$ref": "#/definitions/nstr", "description": "The narrow first product or customer they started with" },
+    "became": { "$ref": "#/definitions/nstr", "description": "What the company grew into" },
+    "differentiator": { "$ref": "#/definitions/nstr", "description": "Why they stood out at the time" },
+    "competitors": { "type": "array", "items": { "type": "string" }, "description": "Names of competitors they faced early on" },
+    "rounds": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["date", "type", "amount", "leads", "investors", "source"],
+        "properties": {
+          "date": { "$ref": "#/definitions/ndate" },
+          "type": { "enum": ["grant", "pre-seed", "seed", "series-a", "series-b", "series-c", "series-d", "series-e", "series-f+", "growth", "venture", "debt", "strategic", "ipo", "contract", "unknown"] },
+          "label": { "$ref": "#/definitions/nstr", "description": "Round name as reported, if it differs from type" },
+          "amount": { "$ref": "#/definitions/money" },
+          "valuation": { "$ref": "#/definitions/money" },
+          "leads": { "type": "array", "items": { "type": "string" } },
+          "investors": { "type": "array", "items": { "type": "string" }, "description": "Other participants, excluding leads" },
+          "check": { "$ref": "#/definitions/check" }, "checkNote": { "$ref": "#/definitions/checkNote" },
+          "source": { "$ref": "#/definitions/url" }
+        }
+      }
+    },
+    "totalRaised": {
+      "description": "Reported cumulative funding, only if a source states it. Otherwise null and the UI sums known rounds.",
+      "anyOf": [
+        { "type": "null" },
+        { "type": "object", "additionalProperties": false, "required": ["value", "currency", "source"], "properties": { "value": { "type": "number", "exclusiveMinimum": 0 }, "currency": { "type": "string", "pattern": "^[A-Z]{3}$" }, "asOf": { "$ref": "#/definitions/ndate" }, "source": { "$ref": "#/definitions/url" }, "check": { "$ref": "#/definitions/check" }, "checkNote": { "$ref": "#/definitions/checkNote" } } }
+      ]
+    },
+    "firstRaiseEvidence": {
+      "description": "What they had to show at their first raise",
+      "anyOf": [
+        { "type": "null" },
+        { "type": "object", "additionalProperties": false, "required": ["kind"], "properties": { "kind": { "enum": ["nothing", "team-only", "research", "prototype", "demo", "pilot", "loi", "contract", "revenue"] }, "note": { "$ref": "#/definitions/nstr" }, "source": { "$ref": "#/definitions/nurl" } } }
+      ]
+    },
+    "firstCustomers": {
+      "type": "array",
+      "items": { "type": "object", "additionalProperties": false, "required": ["name"], "properties": { "name": { "type": "string" }, "date": { "$ref": "#/definitions/ndate" }, "note": { "$ref": "#/definitions/nstr" }, "source": { "$ref": "#/definitions/nurl" } } }
+    },
+    "sources": {
+      "type": "array",
+      "items": { "type": "object", "additionalProperties": false, "required": ["url"], "properties": { "url": { "$ref": "#/definitions/url" }, "title": { "$ref": "#/definitions/nstr" } } }
+    },
+    "confidence": { "enum": ["high", "medium", "low"], "description": "After a source check: high = every sourced fact confirmed on a non-Wikipedia page; medium = confirmed but partly resting on Wikipedia, or a fact could not be confirmed; low = most facts not confirmed. For records not yet checked it is the researcher's own estimate." },
+    "lastVerified": { "$ref": "#/definitions/ndate", "description": "Date the record was last checked against its sources. null = unverified." }
+  }
+}
