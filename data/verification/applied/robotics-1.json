@@ -1,0 +1,892 @@
+[
+ {
+  "id": "1x-technologies",
+  "key": "founded",
+  "verdict": "corrected",
+  "quote": "founded in 2014 by Norwegian roboticist Bernt Øivind Børnich under the name Halodi Robotics",
+  "newSource": null,
+  "correction": {
+   "city": "San Carlos"
+  },
+  "note": "Year 2014 confirmed. Wikipedia names no founding city; it states 'The company is headquartered in San Carlos, California' and mentions Moss, Norway only as a manufacturing site. Moss as founding/HQ city is not stated on the page. Apply the city correction only if the field means current HQ."
+ },
+ {
+  "id": "1x-technologies",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "1X's total fundraising now stands at an enviable $125 million",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch (2024-01-11) states $125M. VentureBeat of the same day says 'nearly $137 million', so sources disagree."
+ },
+ {
+  "id": "1x-technologies",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$23.5 million ... Series A2 funding round ... OpenAI's Startup Fund ... Tiger Global, Sandwater, Alliance Ventures, and Skagerak Capital",
+  "newSource": "https://tech.eu/2023/03/27/norways-1x-raises-235-million-in-openai-led-round",
+  "correction": null,
+  "note": "Original TechCrunch source (2023-04-06) only gives $23.5M, OpenAI Startup Fund lead and Tiger Global, with no round name or date. tech.eu article dated 27 March 2023 states every element."
+ },
+ {
+  "id": "1x-technologies",
+  "key": "round:1",
+  "verdict": "corrected",
+  "quote": "participation from EQT Ventures and other notable global investors",
+  "newSource": "https://www.1x.tech/discover/1x-secures-100m-in-series-b-funding",
+  "correction": {
+   "leads": [],
+   "investors": [
+    "EQT Ventures",
+    "Samsung NEXT",
+    "Nistad Group",
+    "Skagerak Capital",
+    "Sandwater"
+   ]
+  },
+  "note": "$100M Series B, January 2024 confirmed. TechCrunch only says EQT Ventures got 'top billing'; the company's own release (1x.tech, dated Jan 13 2024) and VentureBeat do not name a lead (only Wikipedia says 'led by EQT Ventures'). Named investors on the company release/VentureBeat: EQT Ventures, Samsung NEXT, Nistad Group, Skagerak Capital, Sandwater (Sandwater partly via secondary). OpenAI Startup Fund and Tiger Global are not named as Series B participants on the opened pages (TechCrunch only implies OpenAI is still on the list)."
+ },
+ {
+  "id": "abundant-robotics",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Hayward, Calif.-based agricultural robotics company founded in 2016",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "abundant-robotics",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "On June 29, 2021, Abundant put up for sale all of its intellectual property and assets",
+  "newSource": null,
+  "correction": null,
+  "note": "Article (July 6, 2021) gives no explicit shutdown date; June 2021 rests on the June 29 asset sale. Stated reason: 'was unable to develop the market traction necessary to support its business during the pandemic'."
+ },
+ {
+  "id": "abundant-robotics",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "It raised a total of $12 million, according to Crunchbase",
+  "newSource": null,
+  "correction": null,
+  "note": "Figure attributed to Crunchbase by the article (published 2021-07-06)."
+ },
+ {
+  "id": "abundant-robotics",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$2 million from SRI Ventures in 2016",
+  "newSource": null,
+  "correction": null,
+  "note": "As summarized by the page reader; TechCrunch 2017 also says 'had raised $2 million in seed funding'."
+ },
+ {
+  "id": "abundant-robotics",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "GV (formerly Google Ventures) is leading a $10 million investment",
+  "newSource": null,
+  "correction": null,
+  "note": "Series A, published May 3, 2017. BayWa AG and Tellus Partners named as joining; Yamaha Motor, KPCB Edge and Comet Labs are described as earlier backers also in the round."
+ },
+ {
+  "id": "aerones",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "subsequently secured €2.7 million in funding",
+  "newSource": null,
+  "correction": {
+   "date": null,
+   "investors": []
+  },
+  "note": "€2.7M is stated, but the page does not date it to 2018 (2018 is the year of the YC programme and Slush; funding came 'subsequently', undated) and does not say Y Combinator invested in it. Date not given on page."
+ },
+ {
+  "id": "aerones",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$1.6 million ... seed investment ... Change Ventures, YCombinator, and Sensum Group ... Paul Buchheit and Janis Krums",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 16 June 2020. No lead stated."
+ },
+ {
+  "id": "aerones",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "a $9 million seed round ... led by Future Positive Capital and Change Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "aerones",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "secured $30 million in growth capital ... The funding round was co-led by investors Lightrock and Haniel",
+  "newSource": null,
+  "correction": null,
+  "note": "Published January 25, 2023."
+ },
+ {
+  "id": "aerones",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "$62 million ... significantly oversubscribed financing ... co-led by Activate Capital and S2G Investments",
+  "newSource": null,
+  "correction": null,
+  "note": "Published Jun 6, 2025; round not named, so 'venture' is appropriate."
+ },
+ {
+  "id": "agile-robots",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "founded in Munich in 2018",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia cites Nature (not opened); Munich Startup article independently states founded 2018."
+ },
+ {
+  "id": "agile-robots",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "managed to raise a total financing amount of over US$130 million in 2020",
+  "newSource": null,
+  "correction": {
+   "investors": []
+  },
+  "note": "'Over US$130 million' is a floor. Neither the company page nor Munich Startup names the 2020 investors; the company page only says Hillhouse is 'again amongst the investors in Series C' (implying earlier participation, but not stated for 2020). Munich Startup: existing investors put in 130 million across two rounds the previous year."
+ },
+ {
+  "id": "agile-robots",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "186 Millionen Euro (220 Millionen Dollar)",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 13 September 2021 (company release dated 10.09.2021). Led by SoftBank (Vision Fund 2 per company headline); Abu Dhabi Royal Group, GL Ventures, Sequoia China, Linear Capital, Xiaomi Group, Foxconn Industrial Internet, Midas named; valuation over $1bn."
+ },
+ {
+  "id": "aldebaran",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "established in 2005 by Bruno Maisonnier",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia names no founding city explicitly; describes it as 'a now defunct French robotics company from Paris'. Robot Report calls it 'Paris-based'."
+ },
+ {
+  "id": "aldebaran",
+  "key": "statusEvent",
+  "verdict": "corrected",
+  "quote": "A judicial panel yesterday put Paris-based Aldebaran in receivership",
+  "newSource": null,
+  "correction": {
+   "acquirerName": null
+  },
+  "note": "Source (June 3, 2025) confirms receivership on June 2, 2025 (bankruptcy filing was 'mid-February') but does not mention Maxvision; it says prospective buyers fell through. Maxvision Technology Corp. bought the core assets (Nao, Pepper IP) in a separate later event, 'this week' per The Robot Report of July 19, 2025 (https://www.therobotreport.com/maxvision-buys-core-robot-assets-including-nao-pepper-aldebaran/), price undisclosed there. Maxvision is an asset buyer after the fact, not a party to the June 2 event."
+ },
+ {
+  "id": "aldebaran",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "raised US$13 million in a round of venture funding led by Intel Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "Confirmed on Wikipedia only (June 2011). The primary reference (archived Aldebaran press release on web.archive.org) could not be fetched."
+ },
+ {
+  "id": "anybotics",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2016 as from the ETH Zurich spinoff ... Zurich based ANYbotics",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "anybotics",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "$130 million since inception",
+  "newSource": null,
+  "correction": null,
+  "note": "As of article dated December 12, 2024."
+ },
+ {
+  "id": "anybotics",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "CHF 20 million ... Series A round ... led by Swisscom Ventures ... co-investors such as Ace & Company, Equity Pitcher, among others",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 03.12.2020. Investor list is stated as non-exhaustive."
+ },
+ {
+  "id": "anybotics",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "50-million-dollar Series B funding round ... led by international deep tech investors Walden Catalyst and NGP Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 2023-05-18. Swisscanto appears as 'Swisscanto Private Equity'."
+ },
+ {
+  "id": "anybotics",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "The Series B extension ... Qualcomm Ventures and Supernova Invest co-led",
+  "newSource": null,
+  "correction": null,
+  "note": "$60M extension bringing Series B to $110M; published December 12, 2024."
+ },
+ {
+  "id": "blue-river-technology",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2011 and based in Sunnyvale",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "blue-river-technology",
+  "key": "statusEvent",
+  "verdict": "corrected",
+  "quote": "Deere & Company (NYSE: DE) announced today that it has completed its acquisition of Blue River Technology",
+  "newSource": "https://ycharts.com/news/story/PRN-C1403-20170912",
+  "correction": {
+   "date": "2017-09-12"
+  },
+  "note": "2017-09-06 is the announcement date; TechCrunch says 'The acquisition is expected to be completed next month' at $305 million. Deere's release of September 12, 2017 states completion (that page does not restate the price). Deal closed; date corrected to completion date."
+ },
+ {
+  "id": "blue-river-technology",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "raised a total of $30.35 million in funding",
+  "newSource": null,
+  "correction": null,
+  "note": "Attributed to Crunchbase by TechCrunch, article dated September 6, 2017."
+ },
+ {
+  "id": "blue-river-technology",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "Steve Blank, Ulu Ventures and Stanford Angels and Entrepreneurs also participated",
+  "newSource": null,
+  "correction": {
+   "leads": [],
+   "investors": [
+    "Khosla Ventures",
+    "Steve Blank",
+    "Ulu Ventures",
+    "Stanford Angels and Entrepreneurs"
+   ]
+  },
+  "note": "$3.1M Series A on September 10, 2012 confirmed. The article says the round was raised 'from Khosla Ventures' but does not say Khosla led."
+ },
+ {
+  "id": "blue-river-technology",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Series A-1 funding round ... led by Data Collective Venture Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "$10 million, March 19, 2014; Innovation Endeavors (new) and Khosla Ventures (existing) participated."
+ },
+ {
+  "id": "built-robotics",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Built was founded in 2016",
+  "newSource": null,
+  "correction": null,
+  "note": "The Robot Report article does not state a city; the 2019 PR Newswire release is datelined San Francisco."
+ },
+ {
+  "id": "built-robotics",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "The company has raised a combined total of US$112 million through its Series A, Series B, and Series C financings",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia gives no as-of date (its cited reference, builtrobotics.com/about, returned 403). $112M equals the sum of the three rounds (15+33+64), the last in April 2022, so 2022-04 is an inference, not stated."
+ },
+ {
+  "id": "built-robotics",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "The company just raised $15 million in a funding round led by NEA",
+  "newSource": null,
+  "correction": {
+   "type": "venture"
+  },
+  "note": "CNBC (published October 19, 2017) does not name the series, so type should be venture per the rules. NEA lead, Founders Fund and Carl Bass confirmed. (Wikipedia refers generically to a Series A but gives no amount.)"
+ },
+ {
+  "id": "built-robotics",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$33 million ... Series B ... Next47",
+  "newSource": null,
+  "correction": null,
+  "note": "Release dated Sept. 19, 2019; Building Ventures plus existing Founders Fund, NEA, Lemnos, Presidio Ventures. Total funding then $48M."
+ },
+ {
+  "id": "built-robotics",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$64 million ... Series C funding ... the lead investor in the round, Tiger Global",
+  "newSource": null,
+  "correction": null,
+  "note": "Published April 6, 2022; NEA, Founders Fund, Fifth Wall, Building Ventures participated."
+ },
+ {
+  "id": "carbon-robotics",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2018 and headquartered in Seattle, Washington",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "carbon-robotics",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "more than $185 million in venture capital",
+  "newSource": null,
+  "correction": null,
+  "note": "'More than $185 million' supports 185000000 only as a floor. Article dated February 2, 2026."
+ },
+ {
+  "id": "carbon-robotics",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$8.4 million Series A raised back in 2019",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "carbon-robotics",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Carbon Robotics Closes $27 Million in Series B Financing Round Led by Anthos Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch (September 1, 2021) gives $27M and investors 'Anthos Capital, Ignition Capital, FUSE and Voyager Capital' but no series or lead; series and lead come from the Business Wire headline listed on carbonrobotics.com/news (09.01.2021). TechCrunch writes 'Ignition Capital' where the claim has Ignition Partners."
+ },
+ {
+  "id": "carbon-robotics",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$30 million Series C ... Sozo Ventures led the round",
+  "newSource": null,
+  "correction": null,
+  "note": "April 11, 2023; Anthos Capital, Fuse Venture Capital, Ignition Partners, Liquid 2, Voyager Capital."
+ },
+ {
+  "id": "carbon-robotics",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "Carbon Robotics raises additional $8M as maker of AI-powered weed zapper eyes new ag-tech product",
+  "newSource": null,
+  "correction": null,
+  "note": "Headline (GeekWire) listed on company news page dated 12.06.2023; underlying article not opened."
+ },
+ {
+  "id": "carbon-robotics",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "Carbon Robotics to Help Revolutionize Farming with AI, Using Investment from NVIDIA NVentures",
+  "newSource": null,
+  "correction": null,
+  "note": "Headline listed on company news page dated 05.07.2024; no amount given."
+ },
+ {
+  "id": "carbon-robotics",
+  "key": "round:5",
+  "verdict": "confirmed",
+  "quote": "Carbon Robotics Raises $70 Million Series D Investment Round",
+  "newSource": null,
+  "correction": null,
+  "note": "Headline listed on company news page dated 10.21.2024; no investors named there."
+ },
+ {
+  "id": "carbon-robotics",
+  "key": "round:6",
+  "verdict": "confirmed",
+  "quote": "Carbon Robotics raises $20M as LaserWeeder maker plans secretive new 'AI robot' for farms",
+  "newSource": null,
+  "correction": null,
+  "note": "Headline (GeekWire) listed on company news page dated 10.23.2025; round not named."
+ },
+ {
+  "id": "dusty-robotics",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "around $69 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Approximate figure, article dated May 16, 2022."
+ },
+ {
+  "id": "dusty-robotics",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Led by Canaan Partners ... featuring NextGen Venture Partners, Baseline Ventures, Root Ventures and Cantos Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": "$16.5 million Series A, June 15, 2021."
+ },
+ {
+  "id": "dusty-robotics",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$45 million ... Series B ... led by Scale Venture Partners",
+  "newSource": null,
+  "correction": null,
+  "note": "Published May 16, 2022."
+ },
+ {
+  "id": "ecorobotix",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Together they found Ecorobotix in October 2011",
+  "newSource": null,
+  "correction": null,
+  "note": "City appears only as the company address in the footer (1400 Yverdon-les-Bains)."
+ },
+ {
+  "id": "ecorobotix",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "€2.8 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 21 November 2016; 4FO Ventures, Investiere.ch, Business Angels Switzerland (BAS) and 'a number of others'; no round name or lead."
+ },
+ {
+  "id": "ecorobotix",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "co-led by Aqton PE and Cibus Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "$52 million Series B, 10 May 2023. Page spells the existing investor '4FOX Ventures' (claim: 4FO Ventures) and 'Swisscanto Invest/Swisscanto Growth Fund I'."
+ },
+ {
+  "id": "energy-robotics",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2019 as a spin-off of Darmstadt University of Technology",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "energy-robotics",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "a €2 million seed funding round ... led by Earlybird Venture Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "13 January 2021; angels Paul Achleitner, Gerhard Roiss, Martin Klässner, Andrej Henkler."
+ },
+ {
+  "id": "energy-robotics",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "co-led by Blue Bear Capital and Climate Investment (CI)",
+  "newSource": null,
+  "correction": null,
+  "note": "$13.5m Series A, 07 October 2025; page spells 'Hessen Capital' (claim: Hessen Kapital)."
+ },
+ {
+  "id": "exotec",
+  "key": "founded",
+  "verdict": "corrected",
+  "quote": "Exotec was founded in June 2015 by French entrepreneurs Renaud Heitz and Romain Moulin",
+  "newSource": null,
+  "correction": {
+   "city": "Wasquehal"
+  },
+  "note": "June 2015 confirmed (no inline citation on Wikipedia for the month; VentureBeat confirms 2015). Wikipedia names no founding city and gives headquarters as 'Wasquehal, France' (a commune in the Lille metropolitan area), not Lille."
+ },
+ {
+  "id": "exotec",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "€3.3 million ($3.5 million)",
+  "newSource": null,
+  "correction": {
+   "type": "venture"
+  },
+  "note": "VentureBeat (December 1, 2016) and Wikipedia ('3.3 million euros in December 2016') do not name the round; 'seed' is not stated, so type should be venture. 360 Capital Partners, Breega Capital and existing investors confirmed; no lead."
+ },
+ {
+  "id": "exotec",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Series B round led by Iris Capital with participation from existing investors, 360 Capital Partners and Breega",
+  "newSource": null,
+  "correction": null,
+  "note": "€15 million, 12 June 2018."
+ },
+ {
+  "id": "exotec",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$90 million ... led by 83North",
+  "newSource": null,
+  "correction": null,
+  "note": "tech.eu (29 September 2020) calls it only 'a new round of funding'; the Series C label is supported by Wikipedia ('In 2020, Exotec raised a 77 million euros Series C round'), which gives the amount in euros (€77M) rather than $90M. Iris Capital and Breega named as existing backers."
+ },
+ {
+  "id": "exotec",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "$335M ... Series D",
+  "newSource": null,
+  "correction": null,
+  "note": "January 17, 2022; led by Goldman Sachs Asset Management (Growth Equity); 83North and Dell Technologies Capital; $2B valuation."
+ },
+ {
+  "id": "fetch-robotics",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Fetch was founded in 2014 and is based in San Jose, Calif.",
+  "newSource": null,
+  "correction": null,
+  "note": "As summarized by the page reader."
+ },
+ {
+  "id": "fetch-robotics",
+  "key": "statusEvent",
+  "verdict": "corrected",
+  "quote": "today announced that it has completed its acquisition of",
+  "newSource": "https://investors.zebra.com/news-and-events/news/news-details/2021/Zebra-Technologies-Completes-Acquisition-of-Fetch-Robotics/default.aspx",
+  "correction": {
+   "date": "2021-08-10"
+  },
+  "note": "2021-07-01 is the announcement date; the source says the deal was expected to close in Q3 2021. Zebra's release dated 08/10/2021 states completion (no price on that page). $290 million: Zebra already owned 5% and was acquiring the remaining 95%; the source is not explicit whether $290M is for the 95% or the whole company."
+ },
+ {
+  "id": "fetch-robotics",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "$94 million",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch, July 23, 2019."
+ },
+ {
+  "id": "fetch-robotics",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "had already supplied Fetch with $3m in February 2015",
+  "newSource": null,
+  "correction": null,
+  "note": "OATV and Shasta Ventures; 'billed as a series A'."
+ },
+ {
+  "id": "fetch-robotics",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "SoftBank subsidiary SB Group led a $20m series A round for Fetch Robotics in June 2015",
+  "newSource": null,
+  "correction": null,
+  "note": "Also backed by OATV and Shasta Ventures."
+ },
+ {
+  "id": "fetch-robotics",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "The same trio returned for Fetch's $25m series B round, which was led by Sway Ventures, two years later",
+  "newSource": null,
+  "correction": null,
+  "note": "Year 2017 is derived from 'two years later' after June 2015."
+ },
+ {
+  "id": "fetch-robotics",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "Venture capital firm Fort Ross Ventures led the round",
+  "newSource": null,
+  "correction": null,
+  "note": "Global Venturing (Jul 25, 2019) names Ceas Investments, TransLink Capital, Zebra Ventures, Shasta Ventures, Sway Ventures, OATV and SoftBank Capital; Redwood Technologies is not on that page but is named in TechCrunch (July 23, 2019, https://techcrunch.com/2019/07/23/fetch-robotics-raises-46-million-to-expand-warehouse-automation-internationally/), which lists all investors."
+ },
+ {
+  "id": "figure",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Figure AI was founded in 2022 by Brett Adcock",
+  "newSource": null,
+  "correction": null,
+  "note": "No founding city named; infobox headquarters 'San Jose, California, U.S.'"
+ },
+ {
+  "id": "figure",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "$70 million Series A round",
+  "newSource": "https://www.prnewswire.com/news-releases/figure-announces-70m-series-a-to-support-commercialization-of-figure-01-humanoid-robot-301832819.html",
+  "correction": {
+   "leads": [
+    "Parkway Venture Capital"
+   ],
+   "investors": [
+    "Brett Adcock",
+    "Aliya Capital",
+    "Bold Capital Partners",
+    "Tamarack Global",
+    "FJ Labs",
+    "Till Reuter"
+   ]
+  },
+  "note": "Company release (May 24, 2023) confirms $70M Series A and says Parkway Venture Capital led. It names participants Brett Adcock, Aliya Capital, Bold Capital Partners, Tamarack Global, FJ Labs and Till Reuter. Adcock's $20M figure is on Wikipedia (citing Reuters, which could not be fetched), not in the release."
+ },
+ {
+  "id": "figure",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$675M in Series B funding",
+  "newSource": "https://www.prnewswire.com/news-releases/figure-raises-675m-at-2-6b-valuation-and-signs-collaboration-agreement-with-openai-302074897.html",
+  "correction": null,
+  "note": "CNBC (Feb 29, 2024) confirms amount, date and all eight investors but does not name the series; the company's PR Newswire release of Feb. 29, 2024 says Series B and lists Microsoft, OpenAI Startup Fund, NVIDIA, Jeff Bezos (through Bezos Expeditions), Parkway Venture Capital, Intel Capital, Align Ventures, ARK Invest. No lead named."
+ },
+ {
+  "id": "figure",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "exceeded more than $1 billion in committed capital",
+  "newSource": null,
+  "correction": null,
+  "note": "$1bn is a floor ('more than $1 billion in committed capital'). Series C, September 16, 2025, led by Parkway Venture Capital; all ten other investors named; $39B post-money."
+ },
+ {
+  "id": "flyability",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2014",
+  "newSource": null,
+  "correction": null,
+  "note": "Page names no city, only 'EPFL spinoff'; Lausanne is not stated on the page."
+ },
+ {
+  "id": "flyability",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "The Series B round was co-led by ETF Partners and Swisscom Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": "$11 million; page timestamp 'UPDATED 21:34 EST / NOVEMBER 12 2018'. Dow Chemical Co., GoBeyond, MKS (Switzerland) SA participating."
+ },
+ {
+  "id": "flyability",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "co-led by Future Industry Ventures and Swisscom Ventures, inter alia",
+  "newSource": null,
+  "correction": null,
+  "note": "EUR 7 million Series C, 18.12.2020; ETF Partners existing investor. 'First close' is not said on this page but the 2022 sUAS News article confirms CHF 7M had already been closed."
+ },
+ {
+  "id": "flyability",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "bringing total round size to CHF 22 million",
+  "newSource": null,
+  "correction": null,
+  "note": "CHF 15 million led by SBI Investment; Cargill and Verve Ventures new; Dow, ETF Partners, Swisscom, Future Industry Ventures existing. Page shows no full date; September 2022 is from the URL."
+ },
+ {
+  "id": "franka-emika",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2016 in Munich",
+  "newSource": null,
+  "correction": null,
+  "note": "As summarized by the page reader from the Munich Startup article (November 3, 2023)."
+ },
+ {
+  "id": "franka-emika",
+  "key": "statusEvent",
+  "verdict": "corrected",
+  "quote": "irreconcilable shareholder differences",
+  "newSource": null,
+  "correction": {
+   "date": "2023-11",
+   "notClosed": true
+  },
+  "note": "The Robot Report article is dated November 13, 2023 and describes the deal as in progress ('is acquiring'), approved by the creditors' committee; completion is not confirmed and no 2 November date appears (Munich Startup article is dated November 3, 2023 and mentions shareholder injunctions against the sale). Price undisclosed (Handelsblatt: 'more than 30 million euros'). Insolvency cause (shareholder dispute) confirmed."
+ },
+ {
+  "id": "gecko-robotics",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded out of Pittsburgh in 2013",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "gecko-robotics",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "$347 million",
+  "newSource": null,
+  "correction": null,
+  "note": "As summarized by the page reader from the CNBC/NBC article published June 12, 2025."
+ },
+ {
+  "id": "gecko-robotics",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$40 million ... Series B funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "December 16, 2019; Drive Capital lead; Founders Fund, Next47, Y-Combinator; angels Mark Cuban, Josh Reeves, Jake Seid. Page also lists other previous investors (Justin Kan, Gokul Rajaram, Paul Buchheit)."
+ },
+ {
+  "id": "gecko-robotics",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$73.3 million ... series C round",
+  "newSource": null,
+  "correction": null,
+  "note": "March 3, 2022; XN led; Founders Fund, XYZ, Drive Capital, Snowpoint Ventures, Mark Cuban, Joe Lonsdale, Gokul Rajaram."
+ },
+ {
+  "id": "gecko-robotics",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "has raised an additional $100 million in a Series C extension",
+  "newSource": "https://news.crunchbase.com/?p=88605",
+  "correction": null,
+  "note": "The original source and the company release (December 5, 2023) only say USIT and Founders Fund are joining the board, without calling them leads or investors. Crunchbase News (December 5, 2023) states the round was led by the US Innovative Technology Fund and Founders Fund."
+ },
+ {
+  "id": "gecko-robotics",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "Its latest round was led by new investor Cox Enterprises",
+  "newSource": null,
+  "correction": null,
+  "note": "$125 million Series D, June 12, 2025; 'investors including USIT, XN, Founders Fund and Y Combinator'; $1.25B valuation."
+ },
+ {
+  "id": "geekplus",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Zheng Yong founded Geekplus in Beijing in February 2015",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia only (page is flagged as suspected AI-generated); cited SCMP article returned 403. TechCrunch confirms 'founded in 2015'."
+ },
+ {
+  "id": "geekplus",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "raising HK$2.7 billion ($345 million)",
+  "newSource": "https://www.caixinglobal.com/2025-07-10/cx-briefing-industrial-robot-maker-debuts-in-hot-hong-kong-market-102339928.html",
+  "correction": null,
+  "note": "Caixin (July 10, 2025): 'debuted on the Hong Kong Stock Exchange on Wednesday', i.e. about July 9, 2025. Wikipedia says 'about HK$2.7 billion'."
+ },
+ {
+  "id": "geekplus",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "Warburg Pincus led the startup's previous round of $60 million in 2017",
+  "newSource": null,
+  "correction": {
+   "type": "venture"
+  },
+  "note": "The page does not name the series of the 2017 round, so type should be venture, not series-a."
+ },
+ {
+  "id": "geekplus",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$150 million ... Series B",
+  "newSource": null,
+  "correction": null,
+  "note": "November 22, 2018; Warburg Pincus led; 'other shareholders including' Volcanics Venture and Vertex Ventures."
+ },
+ {
+  "id": "geekplus",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "closed over $200 million in a Series C funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "'Over $200 million' is a floor. 2020-06 is the publication date (June 17, 2020); the round was 'completed in two parts' (GGV Capital and D1 Capital Partners separately led in summer 2019, V Fund earlier in 2020). Warburg Pincus, Redview Capital, Vertex Growth Fund named."
+ },
+ {
+  "id": "geekplus",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "participation from Intel Capital, Vertex Growth and Qingyue Capital Investment",
+  "newSource": null,
+  "correction": null,
+  "note": "$100 million Series E1, August 8, 2022; no lead named."
+ },
+ {
+  "id": "gravis-robotics",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2022",
+  "newSource": null,
+  "correction": null,
+  "note": "'a Zurich-based startup'."
+ },
+ {
+  "id": "gravis-robotics",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "The funding was led by IQ Capital and Zacua Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": "$23 million, November 28, 2025; round unnamed; Pear VC, Imad, Sunna Ventures, Armada Investment, Holcim."
+ },
+ {
+  "id": "gravis-robotics",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$200m ... Series A ... led by SoftBank",
+  "newSource": null,
+  "correction": null,
+  "note": "Published August 17, 2026; only SoftBank named."
+ },
+ {
+  "id": "humanoid",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "London, UK",
+  "newSource": null,
+  "correction": null,
+  "note": "Founded 2024 by Artem Sokolov, headquartered London, as summarized by the page reader."
+ },
+ {
+  "id": "humanoid",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "$270 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Company release dated July 21, 2026."
+ },
+ {
+  "id": "humanoid",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$152 million ... Series A",
+  "newSource": null,
+  "correction": null,
+  "note": "July 21, 2026; led by Prime Movers Lab; Schaeffler, Bosch, Fubon Financial Holding Venture Capital, Aglaé Ventures; $1.35 billion post-money."
+ }
+]

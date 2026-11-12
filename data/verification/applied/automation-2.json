@@ -1,0 +1,854 @@
+[
+ {
+  "id": "landing-ai",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in Palo Alto in 2017, Landing AI is focused on bringing artificial intelligence to manufacturing companies.",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "landing-ai",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "has led a $57 million USD Series A funding round for Landing AI",
+  "newSource": null,
+  "correction": null,
+  "note": "BetaKit (2021-11-08) also states part of the funding includes a convertible note and that the financing closed in mid-October; all nine investors are named."
+ },
+ {
+  "id": "motive",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "In 2013, Shoaib Makani, along with co-founders Ryan Johns and Obaid Khan, founded KeepTruckin",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia does not state the city in prose; San Francisco appears only via the 'Companies based in San Francisco' category."
+ },
+ {
+  "id": "motive",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "after an earlier round led by Google Ventures ... which brings their total funding to $10.3 million",
+  "newSource": null,
+  "correction": {
+   "type": "venture"
+  },
+  "note": "The page does not call the earlier round a seed; it only says 'an earlier round led by Google Ventures'. No date or amount given (10.3M total minus 8M implies about 2.3M, not stated as such). Wikipedia mentions a 2013 seed of $2.3M but with a 'citation needed' tag and no investor."
+ },
+ {
+  "id": "motive",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$8 million round led by Index Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch (2015-10-29) does not use the words 'Series A'; the Series A name comes from the Wikipedia page ('In 2015, the company received $8 million in Series A venture funding led by Index Ventures')."
+ },
+ {
+  "id": "motive",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "In 2017, the company raised $18 million in Series B venture funding led by Scale Venture Partners.",
+  "newSource": null,
+  "correction": null,
+  "note": "Confirmed on Wikipedia only (which also names Index Ventures and GV). The cited primary references (Reuters, CCJ) could not be opened (blocked/403). VentureBeat 2018 independently mentions an '$18 million round less than a year ago' without naming the lead."
+ },
+ {
+  "id": "motive",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "raised $50 million in a series C round of funding led by IVP ... participation from existing investors GV (formerly Google Ventures), Index Ventures, and Scale Venture Partners",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "motive",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "In 2019, the company received $149 million in Series D venture funding.",
+  "newSource": null,
+  "correction": null,
+  "note": "Confirmed on Wikipedia only; the lead name is garbled in the article text ('mostly from Capital'). The Forbes article in the reference list (title gives $149M and $1.4B valuation) returned 403 and could not be opened. SiliconANGLE (2022-05-25) independently mentions 'a round of $149 million in April 2019' without a series name or lead."
+ },
+ {
+  "id": "motive",
+  "key": "round:5",
+  "verdict": "confirmed",
+  "quote": "$190 million ... a Series E funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch names no lead: G2 Venture Partners 'participated', alongside existing backers Greenoaks Capital, Index Ventures, IVP, Scale Venture Partners and funds managed by BlackRock; valuation 'over $2 billion'. Wikipedia's body says $200 million led by G2VP, which contradicts its own cited sources ($190M)."
+ },
+ {
+  "id": "motive",
+  "key": "round:6",
+  "verdict": "corrected",
+  "quote": "was co-led by Insight Partners and Kleiner Perkins",
+  "newSource": "https://siliconangle.com/2022/05/25/fleet-management-software-company-motive-raises-150m-scale-development",
+  "correction": {
+   "date": "2022-05-25"
+  },
+  "note": "The round was announced on 2022-05-25 (SiliconANGLE and FreightWaves, both dated May 25, 2022; $150M Series F co-led by Insight Partners and Kleiner Perkins, $2.85B valuation per FreightWaves). The Cooley page dated 2022-06-01 is a law-firm notice and names no investors."
+ },
+ {
+  "id": "n8n",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "n8n was founded by Jan Oberhauser in Berlin, and the project launched publicly in October 2019.",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia gives the public launch as October 2019 rather than an explicit founding year; TechCrunch (2025-03-24) describes it as Berlin-based and founded in 2019."
+ },
+ {
+  "id": "n8n",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "The investment is being co-led by UK's firstminute Capital and Sequoia",
+  "newSource": null,
+  "correction": null,
+  "note": "Nan Li and Daniel Liem (of Obvious Ventures) invested individually, as the claim lists them."
+ },
+ {
+  "id": "n8n",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "has raised $12 million in a Series A round of funding",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "n8n",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "€55 million ($60 million) ... Highland Europe is leading this latest round",
+  "newSource": null,
+  "correction": null,
+  "note": "Valuation 'in the region of €250 million ($270 million)' is attributed to 'sources close to the company'."
+ },
+ {
+  "id": "n8n",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "$180 million ... C round ... led by Accel",
+  "newSource": null,
+  "correction": null,
+  "note": "SiliconANGLE also mentions 'several other backers' unnamed; Wikipedia additionally lists Visionaries Club, Evantic and T.Capital. Valuation $2.5 billion."
+ },
+ {
+  "id": "n8n",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "The parties involved are not disclosing specific sums.",
+  "newSource": "https://www.heise.de/en/news/SAP-invests-n8n-becomes-one-of-the-most-valuable-German-AI-startups-11294028.html",
+  "correction": null,
+  "note": "heise (2026-05-13) confirms SAP investment, undisclosed amount, about 1.3% stake per commercial register, $5.2B valuation reported by n8n. Currency discrepancy on the unconfirmed figure: heise (citing Handelsblatt insiders) says $60 million, Wikipedia says 'more than EUR 60 million'."
+ },
+ {
+  "id": "nest-labs",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Nest Labs was founded in 2010 by former Apple engineers Tony Fadell and Matt Rogers.",
+  "newSource": null,
+  "correction": null,
+  "note": "Palo Alto is given as headquarters in the infobox, not explicitly as founding city."
+ },
+ {
+  "id": "nest-labs",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "On January 13, 2014, Google announced plans to acquire Nest Labs for $3.2 billion in cash.",
+  "newSource": null,
+  "correction": null,
+  "note": "2014-01-13 is the announcement date, not the closing date: TechCrunch that day says investors benefit 'when the acquisition by Google officially closes'. Wikipedia states 'Google completed the acquisition the next day, on January 14, 2014' (this completion date was not checked against a primary source). The deal did close."
+ },
+ {
+  "id": "nest-labs",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Series A (September 2010) funded entirely by Shasta Ventures and Kleiner Perkins Caufield & Byers; round size not disclosed",
+  "newSource": null,
+  "correction": null,
+  "note": "Quote is the page reader's close paraphrase; no lead is named for the Series A."
+ },
+ {
+  "id": "nest-labs",
+  "key": "round:1",
+  "verdict": "corrected",
+  "quote": "Google Ventures also pulled in big money today, as it led Nest's Series B and C rounds.",
+  "newSource": null,
+  "correction": {
+   "leads": [
+    "GV"
+   ],
+   "investors": [
+    "Shasta Ventures",
+    "Kleiner Perkins",
+    "Lightspeed Venture Partners",
+    "Intertrust",
+    "Generation Investment Management"
+   ]
+  },
+  "note": "The page says Google Ventures led the Series B (August 2011); the claim listed GV only as a participant."
+ },
+ {
+  "id": "nest-labs",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "Google Ventures also pulled in big money today, as it led Nest's Series B and C rounds.",
+  "newSource": null,
+  "correction": null,
+  "note": "No date, amount or other investors given for the Series C."
+ },
+ {
+  "id": "noyes-technologies",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Munich's robotic warehousing maker ... founded earlier this year",
+  "newSource": null,
+  "correction": null,
+  "note": "Article dated 20 July 2021."
+ },
+ {
+  "id": "noyes-technologies",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "had to file for insolvency in November 2023",
+  "newSource": null,
+  "correction": null,
+  "note": "Insolvency filed November 2023 after failing to secure follow-on financing. Knapp Group then won the bidding and took over effective 1 February 2024 (via Knapp Nano Warehousing Beteiligungs GmbH), price undisclosed. So the business continues under Knapp: the November 2023 date is the insolvency, not the takeover."
+ },
+ {
+  "id": "noyes-technologies",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$3.8 million ... seed funding ... led by Vsquared Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": "Munich Startup gives the 2021 seed as 3.2 million euros, consistent with the label."
+ },
+ {
+  "id": "onomondo",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "combined investment north of €100 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated 30 September 2026. Aspirity Partners has signed a definitive agreement to acquire a majority stake; EIFO increases its investment. The page does not say the transaction has closed, gives no split between the two investors or between primary and secondary, and no valuation. 'growth' is not a round name used by the page (it is a majority-stake acquisition)."
+ },
+ {
+  "id": "opentrons",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "originated from Genspace, a community biology laboratory in Brooklyn, New York",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia infobox gives founding year 2014 ('officially launched' in 2014); headquarters listed as Long Island City, New York. Both are in New York City. Cited references (Wired, LA Times) could not be opened."
+ },
+ {
+  "id": "opentrons",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "officially launched with financial backing from HAXLR8TR, a hardware accelerator in Shenzhen, China",
+  "newSource": null,
+  "correction": null,
+  "note": "Confirmed on Wikipedia only (2014, no amount); cited Wired and LA Times references are blocked. The company's 2021 press release lists SOSV (HAX's parent) among investors."
+ },
+ {
+  "id": "opentrons",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "SoftBank Vision Fund 2 has led the company's $200 million Series C investment with participation by Khosla Ventures",
+  "newSource": "https://opentrons.com/archives/news/press-release-opentrons-announces-200-million-series-c-round-led-by-softbank",
+  "correction": null,
+  "note": "Company press release dated September 23, 2021. Khosla Ventures participated and is missing from the claim's investor list. BusinessWire copy cited by Wikipedia returned 403."
+ },
+ {
+  "id": "operations1",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Operations1 was officially established in 2017",
+  "newSource": null,
+  "correction": null,
+  "note": "Year from the OpenOcean page, which states no city. Augsburg confirmed from the company's legal notice (https://www.operations1.com/de/impressum: 'Sitz der Gesellschaft: Augsburg'). TheSaaSNews calls the company 'Frankfurt, Germany-based'."
+ },
+ {
+  "id": "operations1",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "€11.1 million ($12.5 million)",
+  "newSource": null,
+  "correction": {
+   "date": "2022-01",
+   "leads": [
+    "OpenOcean"
+   ],
+   "investors": []
+  },
+  "note": "The PYMNTS article is dated February 1, 2022, calls it only a 'funding round' and names no investors; no opened page gives the day 2022-01-31. TheSaaSNews (https://www.thesaasnews.com/news/operations1-raises-11-1-million-in-funding/) lists the funding month as January 2022 and says the round was led by OpenOcean. 'Series A' comes only from OpenOcean's own page ('OpenOcean invested in our Series A funding round in 2021', note the year 2021 there) and the PYMNTS URL slug."
+ },
+ {
+  "id": "outrider",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "was founded in 2017 ... headquartered in Golden, Colorado",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "outrider",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "raised $191 million",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch 2023-01-19: $191 million raised since founding in 2017; The Robot Report gives the same figure. The October 2024 company release says 'over $250 million in equity capital raised to date', so this total is out of date."
+ },
+ {
+  "id": "outrider",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "completed $53 million in seed and Series A rounds earlier this year",
+  "newSource": null,
+  "correction": null,
+  "note": "Quote is a close paraphrase from the page reader. The article (2020-10-28) does not name the investors or leads of the $53M; NEA, 8VC and Prologis Ventures are only described as existing backers participating in the Series B, so their attribution to this round is an inference."
+ },
+ {
+  "id": "outrider",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$65 million funding round led by Koch Disruptive Technologies",
+  "newSource": null,
+  "correction": null,
+  "note": "Article dated October 28, 2020. Total raised then $118 million. Reader did not quote the words 'Series B' verbatim; the article treats it as the round following the seed and Series A."
+ },
+ {
+  "id": "outrider",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$73 million ... Series C financing ... led by FM Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated January 19, 2023. The ADIA investor is described as 'a subsidiary of the Abu Dhabi Investment Authority'."
+ },
+ {
+  "id": "outrider",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "$62 million ... Series D financing ... led by Koch Disruptive Technologies (KDT) and New Enterprise Associates (NEA)",
+  "newSource": "https://www.prweb.com/releases/outrider-closes-62-million-series-d-financing-to-drive-growth-of-yard-automation-302285511.html",
+  "correction": null,
+  "note": "Original source returned 403; confirmed on the company press release dated Oct 24, 2024. The claim's investor list is incomplete: the release also names 8VC, ARK Invest, B37 Ventures, FM Capital, Interwoven Ventures, Goose Capital, Lineage Ventures, Presidio Ventures and Service Provider Capital (plus NVentures and Prologis Ventures)."
+ },
+ {
+  "id": "phaidra",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "A year later, in 2019, Gao, Panneershelvam, and Hoffman launched Phaidra.",
+  "newSource": null,
+  "correction": null,
+  "note": "The Helena page states no city. Seattle is supported by TheSaaSNews ('Seattle, Washington') and the Seattle dateline of the 2025 PR Newswire release."
+ },
+ {
+  "id": "phaidra",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "The round was led by Starshot Capital",
+  "newSource": "https://www.thesaasnews.com/news/phaidra-raises-25-million-in-series-a/",
+  "correction": {
+   "leads": [
+    "Starshot Capital"
+   ],
+   "investors": [
+    "Helena",
+    "Ahren Innovation Capital",
+    "Mustafa Suleyman",
+    "Flying Fish",
+    "Section 32",
+    "Character"
+   ]
+  },
+  "note": "The Helena page confirms only 'Helena was the largest investor in Phaidra's $25 million series A round' and '~$11m' invested in 2022, with no date or other investors. TheSaaSNews (updated July 18, 2022) gives the lead and full investor list. Phaidra's own news page separately headlines 'Helena leads Phaidra's Series A raise' (item dated 21 April 2023), so sources conflict on who led."
+ },
+ {
+  "id": "phaidra",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Index Ventures recently invested $12M ... Phaidra's total funding has now reached $60M.",
+  "newSource": null,
+  "correction": null,
+  "note": "News item dated 01 July 2024, headlined 'Index Ventures leads additional funding round for Phaidra'; no series name given."
+ },
+ {
+  "id": "phaidra",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "Phaidra's Series B funding round has closed at over $50M investment raised.",
+  "newSource": null,
+  "correction": null,
+  "note": "$50M is a floor: the release (Oct. 1, 2025) says 'more than $50 million'. It also mentions unnamed 'others'."
+ },
+ {
+  "id": "physicsx",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "The round, a Series A ... is being led by General Catalyst ... This is PhysicsX's first outside funding.",
+  "newSource": null,
+  "correction": null,
+  "note": "NGP is named as 'NGP' on the page."
+ },
+ {
+  "id": "physicsx",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "PhysicsX Raises $135M Series B to Usher in a New Era of AI-Native Engineering and Manufacturing",
+  "newSource": null,
+  "correction": null,
+  "note": "Newsroom headline dated 22/06/2025; the listing page shows no investors. The newsroom also lists 'PhysicsX Announces Series B Round Extension' (19/11/2025, no amount), which is not in the record."
+ },
+ {
+  "id": "physicsx",
+  "key": "round:2",
+  "verdict": "corrected",
+  "quote": "Amount raised in H1 2026: $300M",
+  "newSource": "https://www.physicsx.ai/newsroom",
+  "correction": {
+   "date": "2026-06-08",
+   "type": "series-c",
+   "label": "Series C"
+  },
+  "note": "DUPLICATE of round:3. Tech.eu only says $300M 'in H1 2026' with no month, round name or investors; the month in the claim is more precise than this page. The company newsroom shows this is the $300M Series C announced 08/06/2026, i.e. the same round as round:3. Keep only one of the two."
+ },
+ {
+  "id": "physicsx",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "PhysicsX Announces $300M Series C to Accelerate Physics AI for Industrial Engineering",
+  "newSource": null,
+  "correction": null,
+  "note": "Newsroom headline dated 08/06/2026; no investors shown on the listing page. Same round as round:2."
+ },
+ {
+  "id": "podero",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2022, we're proud to be launching next generation products alongside our ambitious utility partners.",
+  "newSource": null,
+  "correction": null,
+  "note": "Vienna appears only as the company address in the footer (Argentinierstraße 53/I, 1040 Vienna, Austria), not as a stated founding city."
+ },
+ {
+  "id": "reshape-biotech",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "founded out of Copenhagen in 2018",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "reshape-biotech",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$8.1 million ... seed funding",
+  "newSource": null,
+  "correction": null,
+  "note": "Pulse 2.0 article dated Feb 13, 2023 (headline rounds to $8 million); ACME Capital led; FundersClub, Y Combinator, Nicholas Francis and Per Falholt named."
+ },
+ {
+  "id": "reshape-biotech",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Reshape's Series A round was led by European VC firm Astanor Ventures ... with participation from YC, R7, ACME, 21stBio and Unity co-founder Nicholas Francis",
+  "newSource": null,
+  "correction": null,
+  "note": "$20 million, article dated April 9, 2024."
+ },
+ {
+  "id": "samsara",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Samsara was founded in 2015 by Sanjit Biswas and John Bicket",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia: 'headquartered in San Francisco, California'."
+ },
+ {
+  "id": "samsara",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "raising $805 million at a valuation of $11.5 billion",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia only: IPO on the NYSE under ticker IOT in December 2021, 35 million shares sold. The cited Barron's article could not be opened (blocked)."
+ },
+ {
+  "id": "samsara",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "held an initial public offering on the New York Stock Exchange under the ticker symbol \"IOT\"",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia only; cited Barron's reference blocked. Same event as statusEvent."
+ },
+ {
+  "id": "scortex",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2016",
+  "newSource": null,
+  "correction": null,
+  "note": "TRIGO page describes Scortex as a 'Paris-based start-up'; founding city not stated separately."
+ },
+ {
+  "id": "scortex",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "has acquired the industrial start-up SCORTEX",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated 06.05.2022; amount 'not disclosed'. TRIGO also says it will invest five million euros in Scortex in 2022 (not the purchase price). No separate closing date given."
+ },
+ {
+  "id": "scortex",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "a fundraising of 1.8 million euros ... The funding was led by: Notion, Alven.",
+  "newSource": null,
+  "correction": null,
+  "note": "Published Jun 15, 2017; titled seed funding. Page says 'Notion' and 'Alven'/'Alven Capital'."
+ },
+ {
+  "id": "senseye",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "co-founded the company in 2014",
+  "newSource": null,
+  "correction": null,
+  "note": "SETsquared gives the year but no city; Southampton comes from tech.eu ('Southampton-based Senseye') and eeNews Europe."
+ },
+ {
+  "id": "senseye",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "The terms of the deal were not disclosed.",
+  "newSource": null,
+  "correction": null,
+  "note": "eeNews Europe, June 10, 2022: Siemens 'is acquiring' Senseye, and Senseye 'is now part of the Customer Services Business Unit of Siemens Digital Industries'. No explicit completion date."
+ },
+ {
+  "id": "senseye",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "$19m (€18m)",
+  "newSource": null,
+  "correction": null,
+  "note": "As stated in the June 10, 2022 article."
+ },
+ {
+  "id": "senseye",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "£3.5 million ... Series A ... led by MMC Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": "tech.eu, 11 December 2017; Breed Reply, IQ Capital and Momenta Partners participated."
+ },
+ {
+  "id": "sigfox",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "founded in 2010",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia does not state a founding city; it says the company 'is based in Labège near Toulouse, France' (infobox HQ now Singapore). The cited reference is the company's own 'Our Story' page (not opened)."
+ },
+ {
+  "id": "sigfox",
+  "key": "statusEvent",
+  "verdict": "corrected",
+  "quote": "filed for bankruptcy protection in France",
+  "newSource": null,
+  "correction": {
+   "amount": {
+    "value": 25000000,
+    "currency": "EUR"
+   }
+  },
+  "note": "TechCrunch (2022-01-27) confirms the receivership filing and names no buyer; reasons given are slower-than-expected adoption, pandemic/component shortage and debt. The UnaBiz acquisition and its price come from Wikipedia: 'In April 2022' UnaBiz acquired the Sigfox 0G technology and French network operations for a 'reported €25 million ($27m)'. The price is reported, not officially disclosed; the acquisition date (2022-04) differs from the bankruptcy date (2022-01)."
+ },
+ {
+  "id": "sigfox",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "More than $300 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Floor only: the page says 'more than $300 million'."
+ },
+ {
+  "id": "sigfox",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "€150 million round in November 2016, valued at around €600 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Quote is the page reader's close paraphrase. No round name, lead or investors given on the page."
+ },
+ {
+  "id": "synera",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "2018: Founding and launch of MVP",
+  "newSource": null,
+  "correction": null,
+  "note": "The about page states no city; the April 2026 press release says founded in 2018 in Bremen, Germany."
+ },
+ {
+  "id": "synera",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "~55M €",
+  "newSource": null,
+  "correction": null,
+  "note": "Approximate figure ('~55M € of capital raised') on the about page as read on 2026-11-12; no explicit as-of date on the page."
+ },
+ {
+  "id": "synera",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "€3M seed funding",
+  "newSource": null,
+  "correction": null,
+  "note": "2019 milestone; names UVC Partners, Cherry Ventures, Venture Stars, BMW i Ventures."
+ },
+ {
+  "id": "synera",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "€14.5M Series A Funding",
+  "newSource": null,
+  "correction": null,
+  "note": "2022 milestone; Spark Capital named as lead."
+ },
+ {
+  "id": "synera",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$40 million (€35M)",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated April 14, 2026; Series B led by Revaia, 'participation from Capgemini through ISAI Cap Venture', plus existing investors UVC Partners, BMW i Ventures, Cherry Ventures, Venture Stars and Spark Capital."
+ },
+ {
+  "id": "takeoff-technologies",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "since it was founded in 2016 ... Waltham, Mass.-based developer",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "takeoff-technologies",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "filed on Thursday (Chapter 11)",
+  "newSource": null,
+  "correction": null,
+  "note": "Grocery Dive published May 31, 2024; 'Thursday' = May 30, 2024 (the linked press release is dated May 29). This is a Chapter 11 filing with a sale process (customer consortium as potential buyer, $9.6M DIP financing, orderly wind-down of unsold assets), not a confirmed liquidation; the page does not report the final outcome. Cause cited: financial difficulties and lack of additional equity funding. Quote is a close paraphrase."
+ },
+ {
+  "id": "takeoff-technologies",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "$86 million in funding",
+  "newSource": null,
+  "correction": null,
+  "note": "As of the article dated September 16, 2019."
+ },
+ {
+  "id": "takeoff-technologies",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$25 million ... Series C funding ... led by Forrestal Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "Article dated September 16, 2019."
+ },
+ {
+  "id": "terminal-industries",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "led by supply chain investor 8VC and global warehouse provider Prologis",
+  "newSource": null,
+  "correction": null,
+  "note": "FreightWaves, July 20, 2023: $17 million seed. Page says 'Prologis' (not 'Prologis Ventures') and 'Ryder Ventures'; strategic investors NFI Ventures, Lineage Logistics, Vehicle Velocity Group and the Friedkin Group named."
+ },
+ {
+  "id": "trilobio",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Trilobio was founded in 2021",
+  "newSource": null,
+  "correction": null,
+  "note": "The page states no location, so the country (US) is not supported by this source."
+ },
+ {
+  "id": "trilobio",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "has raised over $11 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Floor only ('over $11 million'), as of the article dated May 12 2025."
+ },
+ {
+  "id": "trilobio",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$8 million USD Seed investment",
+  "newSource": null,
+  "correction": null,
+  "note": "Led by Initialized Capital with Argon Ventures and Lowercarbon Capital participating. The page also names Julian Capital, Juniper and Gaingels as backers within the $11M total."
+ },
+ {
+  "id": "tulip-interfaces",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "its headquarters in Somerville, Massachusetts",
+  "newSource": null,
+  "correction": null,
+  "note": "Global Venturing: founded in 2014 out of MIT's Media Lab."
+ },
+ {
+  "id": "tulip-interfaces",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "C4 Ventures invested an undisclosed sum the year before the 2017 Series A",
+  "newSource": null,
+  "correction": null,
+  "note": "Quote is a paraphrase; the year 2016 is implied ('the year before' the 2017 Series A), not stated directly. No round name on the page."
+ },
+ {
+  "id": "tulip-interfaces",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$13 million ... Series A ... NEA",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch, June 6, 2017; Pitango Venture Capital plus unnamed 'other existing investors'."
+ },
+ {
+  "id": "tulip-interfaces",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$39.5 million ... Series B",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch, September 24, 2019, names no lead; investors NEA, Pitango Venture Capital, Vertex Ventures and DMG MORI. The article does not mention the earlier $18.4M Series B (Global Venturing, 2019-02-27, led by Vertex Ventures US), so whether $39.5M includes it is not established by either page."
+ },
+ {
+  "id": "tulip-interfaces",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "$100m ... series C round ... led by Insight Partners",
+  "newSource": null,
+  "correction": null,
+  "note": "Global Venturing, 2021-08-12; DMG Mori, Pitango Growth, Time Ventures, NEA and Vertex Ventures US also named."
+ },
+ {
+  "id": "tulip-interfaces",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "$120 million ... Series D ... Mitsubishi Electric",
+  "newSource": null,
+  "correction": null,
+  "note": "Built In Boston, Jan. 16, 2026; $1.3 billion valuation; no other investors named."
+ },
+ {
+  "id": "uipath",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "a software outsourcing company founded by UiPath's CEO Daniel Dines and Marius Tirca, its CTO, in 2005",
+  "newSource": null,
+  "correction": null,
+  "note": "Founded in Bucharest as DeskOver."
+ },
+ {
+  "id": "uipath",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "UiPath and its investors sold about 23.9 million shares at $56 apiece",
+  "newSource": null,
+  "correction": null,
+  "note": "CNBC, April 21, 2021: NYSE debut under ticker PATH, $1.34 billion raised including shares sold by existing investors."
+ },
+ {
+  "id": "uipath",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "seed round closed in August 2015, led by Earlybird, with Credo Ventures and Seedcamp; USD 1.6 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Quote is the page reader's close paraphrase of the Business Review article."
+ },
+ {
+  "id": "uipath",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "one of the biggest Series A rounds of funding in Europe in 2017",
+  "newSource": null,
+  "correction": null,
+  "note": "April 2017, USD 30 million led by Accel, with Earlybird, Credo Ventures and Seedcamp."
+ },
+ {
+  "id": "uipath",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$153 million in a Series B round ... led by previous backer Accel",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch, March 6, 2018; CapitalG and KPCB new, plus Earlybird, Credo Ventures, Seedcamp; $1.1B valuation."
+ },
+ {
+  "id": "uipath",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "a Series D round of $568 million ... This latest round of funding is being led by Coatue",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch, April 30, 2019; $7B post-money. Note the record has no Series C between the 2018 Series B and this Series D."
+ },
+ {
+  "id": "uipath",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "$225 million Series E ... Alkeon Capital led the round",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch, July 13, 2020; $10.2B valuation."
+ },
+ {
+  "id": "uipath",
+  "key": "round:5",
+  "verdict": "confirmed",
+  "quote": "$750 million ... Series F ... co-led by Alkeon Capital and Coatue",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch, February 1, 2021; $35B post-money. Lead wording is the page reader's paraphrase."
+ },
+ {
+  "id": "uipath",
+  "key": "round:6",
+  "verdict": "confirmed",
+  "quote": "The stock is trading on the New York Stock Exchange under ticker symbol \"PATH.\"",
+  "newSource": null,
+  "correction": null,
+  "note": "$1.34 billion at $56 a share; total includes shares sold by existing investors. Same event as statusEvent."
+ }
+]

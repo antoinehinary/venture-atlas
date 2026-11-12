@@ -1,0 +1,1151 @@
+[
+ {
+  "id": "adept",
+  "key": "statusEvent",
+  "verdict": "unsupported",
+  "quote": "has agreed to license its tech to Amazon ... Adept isn't closing up shop, however.",
+  "newSource": null,
+  "correction": null,
+  "note": "Source (2024-06-28) describes a technology licence plus hiring of the co-founders and part of the team, not an acquisition; Adept continues as an independent company with a new CEO. No price given. 'acquired' is not supported."
+ },
+ {
+  "id": "adept",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "total raised to $415 million",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "adept",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "emerged from stealth today with $65 million in funding ... Greylock and Addition co-led Adept's funding round",
+  "newSource": null,
+  "correction": {
+   "type": "venture"
+  },
+  "note": "Amount, date, leads and investors match. The page does not name the round, so per the rules the type must be venture, not series-a."
+ },
+ {
+  "id": "adept",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "raised $350 million in a Series B funding round ... co-led by General Catalyst and Spark Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "Article published 2023-03-15 says Adept 'yesterday announced', i.e. 2023-03-14."
+ },
+ {
+  "id": "ai-reverie",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "AI.Reverie was launched in 2017 ... a New York-based startup",
+  "newSource": null,
+  "correction": null,
+  "note": "New York is given as where the company is based, not explicitly as founding city."
+ },
+ {
+  "id": "ai-reverie",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "Facebook quietly acquires synthetic data startup AI.Reverie",
+  "newSource": null,
+  "correction": null,
+  "note": "Page gives no acquisition date; 2021-10 is the article's publication month (2021-10-11). Price not disclosed."
+ },
+ {
+  "id": "ai-reverie",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "had attracted $10 million in funding from Compound",
+  "newSource": null,
+  "correction": null,
+  "note": "As-of date is the article date (2021-10-11)."
+ },
+ {
+  "id": "ai-reverie",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "In 2020, AI.Reverie was awarded a $1.5 million research grant by AFWERX",
+  "newSource": null,
+  "correction": null,
+  "note": "The 'Phase 2 SBIR' label is not in the article body (it appears only in a hyperlink URL). Grantor named on the page is AFWERX (the Air Force innovation arm); 'U.S. Air Force' as lead is an inference."
+ },
+ {
+  "id": "aleph-alpha",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Aleph Alpha was founded in 2019 by Jonas Andrulis and Samuel Weinbach",
+  "newSource": null,
+  "correction": null,
+  "note": "Heidelberg is given in the Wikipedia infobox as headquarters. Cited reference not opened."
+ },
+ {
+  "id": "aleph-alpha",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "seed funding of €5.3 million in November 2020",
+  "newSource": null,
+  "correction": null,
+  "note": "No investors named for the seed on the page."
+ },
+ {
+  "id": "aleph-alpha",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "raises €23 million in a Series A funding ... The round was led by Earlybird VC, Lakestar and UVC Partners",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "aleph-alpha",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "raised more than 500 million US Dollars",
+  "newSource": null,
+  "correction": null,
+  "note": "'More than' USD 500M: the figure is a floor. Wikipedia (opened) states 'only 110 million euros of the total volume was genuine equity financing', the rest being research funding and order commitments, as the label says."
+ },
+ {
+  "id": "anthropic",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Date Founded: Jan. 26, 2021",
+  "newSource": "https://www.highergov.com/awardee/anthropic-pbc-782300426/",
+  "correction": null,
+  "note": "Wikipedia infobox gives January 26, 2021 (incorporation date) and San Francisco HQ; the cited HigherGov profile confirms the date and San Francisco, CA. Body text of Wikipedia only says 'January 2021'."
+ },
+ {
+  "id": "anthropic",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "The Series A round was led by Jaan Tallinn",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "anthropic",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "The Series B round was led by Sam Bankman-Fried, CEO of FTX",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "anthropic",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "raised $450 million in Series C funding led by Spark Capital",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "anthropic",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "Anthropic has raised $3.5 billion at a $61.5 billion post-money valuation. The round was led by Lightspeed Venture Partners",
+  "newSource": null,
+  "correction": null,
+  "note": "'Series E' appears in the headline."
+ },
+ {
+  "id": "anthropic",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "Series F fundraising of $13 billion ... led by ICONIQ ... co-led by Fidelity Management & Research Company and Lightspeed Venture Partners",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "anthropic",
+  "key": "round:5",
+  "verdict": "corrected",
+  "quote": "$30 billion in Series G funding ... led by GIC and Coatue ... co-led by D. E. Shaw Ventures, Dragoneer, Founders Fund, ICONIQ, and MGX",
+  "newSource": null,
+  "correction": {
+   "leads": [
+    "GIC",
+    "Coatue",
+    "D. E. Shaw Ventures",
+    "Dragoneer",
+    "Founders Fund",
+    "ICONIQ",
+    "MGX"
+   ],
+   "investors": [
+    "Accel",
+    "Addition",
+    "Alpha Wave Global",
+    "Altimeter",
+    "AMP",
+    "Appaloosa",
+    "Baillie Gifford",
+    "Bessemer Venture Partners",
+    "BlackRock",
+    "Blackstone",
+    "D1 Capital Partners",
+    "Fidelity Management & Research Company",
+    "General Catalyst",
+    "Greenoaks",
+    "Goldman Sachs Alternatives",
+    "Insight Partners",
+    "Jane Street",
+    "JPMorganChase",
+    "Lightspeed Venture Partners",
+    "Menlo Ventures",
+    "Morgan Stanley Investment Management",
+    "NX1 Capital",
+    "Qatar Investment Authority",
+    "Sands Capital",
+    "Sequoia Capital",
+    "Temasek",
+    "TowerBrook",
+    "TPG",
+    "Whale Rock Capital",
+    "XN"
+   ]
+  },
+  "note": "Amount, date, Series G and all names confirmed. But the page says the round was 'co-led by' D. E. Shaw Ventures, Dragoneer, Founders Fund, ICONIQ and MGX, which the claim lists as ordinary investors; they belong in leads (as the Series F record does for its co-leads). Page also states the round 'includes a portion of the previously announced investments from Microsoft and NVIDIA'."
+ },
+ {
+  "id": "applied-intuition",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "In January 2017, Younis started Applied Intuition",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia page gives the date but no city. Sunnyvale is supported by the VentureBeat article Wikipedia cites ('the two-year-old Sunnyvale, California-based company', Sept 2019): https://venturebeat.com/ai/applied-intuition-raises-40-million-for-autonomous-vehicle-simulation-tools/"
+ },
+ {
+  "id": "applied-intuition",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$11.5 million in Series A ... led by Marc Andreessen from Andreessen Horowitz",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated September 2018 on the page."
+ },
+ {
+  "id": "applied-intuition",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "raised $40 million in Series B financing",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "applied-intuition",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "a $125 million Series C financing round ... equal participation from each fund ... fully funded by existing investors",
+  "newSource": null,
+  "correction": null,
+  "note": "The Series C page itself names no lead; Lux Capital as lead is supported by the company's Series E announcement ('Lux Capital (Series C lead investor)', https://www.appliedintuition.com/news/series-e)."
+ },
+ {
+  "id": "applied-intuition",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "Announcing Our $175M Series D Funding Co-Led by Elad Gil, Addition, and Coatue Management",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "applied-intuition",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "has raised a $250 million Series E financing round at a $6 billion valuation",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "applied-intuition",
+  "key": "round:5",
+  "verdict": "confirmed",
+  "quote": "closed a $600 million Series F fundraise and tender offer at a $15 billion valuation ... co-led by BlackRock-managed funds and accounts and Kleiner Perkins",
+  "newSource": null,
+  "correction": null,
+  "note": "The $600M covers both the primary fundraise and the tender offer; the page does not split them."
+ },
+ {
+  "id": "argo-ai",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Argo AI was co-founded in November 2016",
+  "newSource": null,
+  "correction": null,
+  "note": "Pittsburgh is the infobox headquarters. No citation attached on Wikipedia."
+ },
+ {
+  "id": "argo-ai",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "the decision has been made that Argo AI will not continue on its mission as a company",
+  "newSource": null,
+  "correction": null,
+  "note": "Date and shutdown confirmed. The cause 'ran-out-of-cash' is NOT stated: the article attributes the shutdown to Ford and VW withdrawing funding, 'fueled by Argo's inability to attract new investors'."
+ },
+ {
+  "id": "argo-ai",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Ford announced in February 2017 that it would invest $1 billion in Argo over five years",
+  "newSource": null,
+  "correction": null,
+  "note": "Reader's paraphrase of the article; commitment over five years, not a single cash payment."
+ },
+ {
+  "id": "argo-ai",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "VW Group is investing $2.6 billion in capital and assets into Argo AI ... AID is valued at $1.6 billion",
+  "newSource": null,
+  "correction": null,
+  "note": "$1B cash + AID valued at $1.6B. 2019-07-12 is the announcement; Wikipedia (opened) says the deal was completed in June 2020 at a $7.25B valuation."
+ },
+ {
+  "id": "argo-ai",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "in exchange for a 2.5% stake in Argo AI",
+  "newSource": "https://techcrunch.com/2021/07/21/argo-ford-to-launch-self-driving-vehicles-on-lyfts-ride-hailing-app/",
+  "correction": null,
+  "note": "Lyft received a 2.5% stake in exchange for access to driving data rather than a cash investment; no amount. TechCrunch 2021-07-21 is the reference Wikipedia cites."
+ },
+ {
+  "id": "axelera-ai",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "since our founding in July 2021",
+  "newSource": null,
+  "correction": null,
+  "note": "Page does not state a founding city; Eindhoven appears only as the company address."
+ },
+ {
+  "id": "axelera-ai",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Announced $12ml seed round led by Bitfury and contributions from imec, imec.xpand and Innovation Industries",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "axelera-ai",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Announced oversubscribed $27ml series A round led by innovation industries",
+  "newSource": null,
+  "correction": null,
+  "note": "Timeline dates it 14 December 2022; Wikipedia (opened) says October 2022. Year 2022 holds either way."
+ },
+ {
+  "id": "axelera-ai",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "bringing the total amount raised to $50 million ... The new investors include CDP Venture Capital, Verve Ventures, and Fractionelera",
+  "newSource": null,
+  "correction": null,
+  "note": "Amount of the extension itself is not stated."
+ },
+ {
+  "id": "axelera-ai",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "an oversubscribed $68 million Series B financing round",
+  "newSource": null,
+  "correction": null,
+  "note": "Press release dated 2024-06-27; no lead stated."
+ },
+ {
+  "id": "axelera-ai",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "In March 2025, the company was awarded a grant of up to €61.6 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia states the grant is from the EuroHPC Joint Undertaking under DARE. The cited tech.eu article (opened) gives 'a €61.6 million raise' and EuroHPC/DARE but is ambiguous on wording; Wikipedia's Reuters reference titles say '66 million'. 'Up to': treat as a ceiling."
+ },
+ {
+  "id": "axelera-ai",
+  "key": "round:5",
+  "verdict": "confirmed",
+  "quote": "we secured more than $250 million in Series C, led by Innovation Industries",
+  "newSource": null,
+  "correction": null,
+  "note": "'More than' $250M: floor. Timeline entry dated February 24, 2026."
+ },
+ {
+  "id": "black-forest-labs",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Black Forest Labs was founded last year ... headquarters in Freiburg and San Francisco",
+  "newSource": null,
+  "correction": null,
+  "note": "Article dated 2025-12-01, so 2024."
+ },
+ {
+  "id": "black-forest-labs",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "successful closing of our Series Seed funding round of $31 million. This round was led by our main investor, Andreessen Horowitz",
+  "newSource": null,
+  "correction": null,
+  "note": "General Catalyst and MätchVC are described as having made 'follow-up investments'."
+ },
+ {
+  "id": "black-forest-labs",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "a $300 million Series B round at a $3.25 billion post-money valuation ... welcoming Salesforce Ventures and Anjney Midha (AMP) as co-leads",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "blackshark-ai",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "That brings their total raised to $35 million",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "blackshark-ai",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "has raised a $20 million round A ... led by M12 (Microsoft's venture fund) and Point72 Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "blackshark-ai",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$15 million in new funding",
+  "newSource": null,
+  "correction": null,
+  "note": "No round name or lead on the page; investor list matches."
+ },
+ {
+  "id": "cognition",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "founded in August 2023",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia is internally inconsistent on the month (infobox: November 2023; body: August 2023) but both give 2023; HQ San Francisco."
+ },
+ {
+  "id": "cognition",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "Founders Fund which provided $21 million in early 2024, valuing the company at $350 million",
+  "newSource": null,
+  "correction": {
+   "type": "venture",
+   "leads": [],
+   "investors": [
+    "Founders Fund"
+   ]
+  },
+  "note": "Page gives no round name (so type must be venture, not series-a) and does not say Founders Fund led; it only says Founders Fund 'provided' the money. Cited WSJ reference is paywalled and was not opened."
+ },
+ {
+  "id": "cognition",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "In April 2024, Founders Fund led a $175 million investment into Cognition valuing the company at $2 billion",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia only; cited reference (The Information) is paywalled and was not opened."
+ },
+ {
+  "id": "cognition",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "In March 2025, Cognition reached a valuation of $4 billion after a new funding round led by Joe Lonsdale's 8VC",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia only; cited Bloomberg reference is paywalled and was not opened."
+ },
+ {
+  "id": "cognition",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "Founders Fund, the Peter Thiel-backed VC, led Cognition's latest round",
+  "newSource": null,
+  "correction": null,
+  "note": "$400M at $10.2B valuation; round not named."
+ },
+ {
+  "id": "cognition",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "more than $1 billion",
+  "newSource": null,
+  "correction": null,
+  "note": "Floor figure ('more than $1 billion'). An update to the article clarified that 8VC was a lead."
+ },
+ {
+  "id": "cognition",
+  "key": "round:5",
+  "verdict": "corrected",
+  "quote": "The round was led by new investors Andreessen Horowitz and Accel alongside existing investors Founders Fund, General Catalyst, and Avenir.",
+  "newSource": "https://cognition.com/blog/series-e",
+  "correction": {
+   "leads": [
+    "Andreessen Horowitz",
+    "Accel"
+   ],
+   "investors": [
+    "Founders Fund",
+    "General Catalyst",
+    "Avenir",
+    "Benchmark",
+    "Bessemer",
+    "Kleiner Perkins",
+    "Greylock",
+    "Lightspeed",
+    "Altimeter",
+    "Bond Capital",
+    "Meritech",
+    "Atreides",
+    "Valor",
+    "T. Rowe Price",
+    "Lux",
+    "8VC",
+    "D1",
+    "137 Ventures",
+    "DST",
+    "Positive Sum",
+    "HOF",
+    "Soma",
+    "BoxGroup",
+    "Battery",
+    "Ribbit",
+    "Swish",
+    "Stripes",
+    "Definition",
+    "Hanabi",
+    "Journey",
+    "Bain Capital Ventures",
+    "Layer Global",
+    "A* Capital",
+    "Alpha Wave",
+    "Alkeon",
+    "Diffusion"
+   ]
+  },
+  "note": "Sources conflict. The cited TechCrunch article says '$2 billion' 'led by Andreessen Horowitz, Accel, Founders Fund, General Catalyst, and Avenir' and never uses 'Series E' in its text. Cognition's own announcement (titled 'Announcing our Series E') says 'over $2B' (floor), led by a16z and Accel only, with Founders Fund, General Catalyst and Avenir as existing investors, plus a long list of other investors. Correction follows the company's primary announcement. Date and Series E confirmed."
+ },
+ {
+  "id": "covariant",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Berkeley, Calif.-based company",
+  "newSource": null,
+  "correction": null,
+  "note": "Page says started in 2017 by researchers from UC Berkeley and OpenAI. Wikipedia (opened) lists the HQ as Emeryville, California."
+ },
+ {
+  "id": "covariant",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "$222 million",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "covariant",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "At its founding, the company was backed by $7 million in funding from Amplify Partners and other investors",
+  "newSource": null,
+  "correction": {
+   "type": "venture"
+  },
+  "note": "Amount, investor and founding year (2017) match, but Wikipedia does not call the round 'seed'; the cited NYT article could not be opened (blocked). Per the rules the type should be venture unless a page names it."
+ },
+ {
+  "id": "covariant",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "has raised $40 million in Series B funding ... Index Ventures led Covariant's Series B round",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "covariant",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "The Series C ... led by existing investor Index Ventures ... features Amplify Partners, Radical Ventures, CPPIB and Temasek",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "covariant",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "$75 million in additional Series C funds ... led by returning investors Index Ventures and Radical Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "covariant",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "$20 million in a series A round",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia only (cites WSJ, paywalled, not opened); no date or investors given, as the claim says."
+ },
+ {
+  "id": "cruise",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded October 2013",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia infobox; HQ San Francisco."
+ },
+ {
+  "id": "cruise",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "In December 2024, GM stopped funding Cruise",
+  "newSource": null,
+  "correction": null,
+  "note": "Date confirmed. The cause 'regulatory' is NOT stated on the page: it says GM was 'no longer funding autonomous taxis' and folded the work into driver-assistance development. Cruise was merged into GM ('In February 2025, the merger of Cruise into GM was completed'), so it was absorbed by its parent rather than liquidated."
+ },
+ {
+  "id": "cruise",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "raised over $18 million in venture capital funding ... Investors include Spark Capital, Maven Ventures, Founder Collective, and Y Combinator",
+  "newSource": null,
+  "correction": null,
+  "note": "Last valued at 'around $90 million' post-money."
+ },
+ {
+  "id": "cruise",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "SoftBank's Vision Fund will invest $2.25 billion in GM Cruise Holdings LLC",
+  "newSource": null,
+  "correction": null,
+  "note": "$900M at closing and $1.35B later; 19.6% stake; GM adds $1.1B at closing. 2018-05-31 is the announcement date."
+ },
+ {
+  "id": "cruise",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$750 million into the company, followed by another $2 billion over the next 12 years",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia only; cited WSJ reference is paywalled and was not opened."
+ },
+ {
+  "id": "cruise",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "raised an additional $1.15 billion in new equity in May 2019, bringing its total valuation to $19 billion",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia only (cited Verge reference blocked). Page calls it 'new equity' and names no investors; 'growth' is the record's own classification."
+ },
+ {
+  "id": "cruise",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "a combined new equity investment of more than $2 billion in Cruise",
+  "newSource": null,
+  "correction": null,
+  "note": "'More than $2 billion': floor. Microsoft 'joining GM, Honda Motor and other institutional investors'; $30B post-money. Page does not name the round type."
+ },
+ {
+  "id": "daedalean",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2016",
+  "newSource": null,
+  "correction": null,
+  "note": "Page calls Daedalean 'Zurich-based'; founding city not stated separately."
+ },
+ {
+  "id": "daedalean",
+  "key": "statusEvent",
+  "verdict": "corrected",
+  "quote": "Destinus Group BV has completed the acquisition of Daedalean AG",
+  "newSource": "https://tools.prnewswire.com/en-us/live/20813/release/20260105EN55806",
+  "correction": {
+   "date": "2026-01-05"
+  },
+  "note": "The cited 2025-08-05 page only announces a signed binding agreement ('expected to close by the end of 2025'). Completion was announced in a PR Newswire release dated 2026-01-05, CHF 180 million (approx. USD 225 million). The acquisition date should be the completion date."
+ },
+ {
+  "id": "encord",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Encord was founded in 2020 by Eric Landau ... and Ulrik Stig Hansen",
+  "newSource": null,
+  "correction": null,
+  "note": "This page does not state a city. The tech.eu 2026 article (opened) calls Encord London-based but gives 2021 as founding year, conflicting with 2020."
+ },
+ {
+  "id": "encord",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "Bringing Encord's war chest to $50 million",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "encord",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Series B round ... led by Next47",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "encord",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "In H1 2026, Encord raised €50 million in Series C funding",
+  "newSource": null,
+  "correction": null,
+  "note": "Only the half-year is given; no investors named."
+ },
+ {
+  "id": "flexion",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2024 ... Zurich-based",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "flexion",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "has now raised a total of $57.35 million in funding",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "flexion",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$7.35 million in seed funding from Frst, Moonfire, and redalpine",
+  "newSource": null,
+  "correction": null,
+  "note": "No date; 'just a few months earlier' than the Series A."
+ },
+ {
+  "id": "flexion",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "has raised $50 million in funding",
+  "newSource": null,
+  "correction": null,
+  "note": "Crunchbase News (2025-11-20) names the five investors as participants 'in the Series A financing'; The Robot Report (opened) states 'Series A funding of $50 million'. No lead named."
+ },
+ {
+  "id": "graphcore",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Graphcore was founded in 2016 by Simon Knowles and Nigel Toon",
+  "newSource": null,
+  "correction": null,
+  "note": "Bristol is the infobox headquarters. Cited Guardian reference blocked."
+ },
+ {
+  "id": "graphcore",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "the company has been acquired by SoftBank Group Corp.",
+  "newSource": null,
+  "correction": null,
+  "note": "Company post dated 2024-07-11 says Graphcore is now a wholly owned subsidiary; no price. Wikipedia (opened) reports 'around $500 million'."
+ },
+ {
+  "id": "graphcore",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "has raised $30 million ... The funding round was led by Robert Bosch Venture Capital and included Samsung",
+  "newSource": null,
+  "correction": {
+   "type": "venture"
+  },
+  "note": "Amount, date, lead and investors match, but the page does not name the round, so the type must be venture, not series-a."
+ },
+ {
+  "id": "graphcore",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "following a $30M Series B led by Atomico in July",
+  "newSource": null,
+  "correction": null,
+  "note": "Article dated November 2017, so July 2017."
+ },
+ {
+  "id": "graphcore",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "has raised $50 million in new financing led by Sequoia Capital",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "graphcore",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "$200 million Series D round ... jointly led by an existing investor, European VC Atomico, along with new investor Sofina",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "graphcore",
+  "key": "round:4",
+  "verdict": "corrected",
+  "quote": "Graphcore raises $222 million in Series E Funding Round",
+  "newSource": "https://www.graphcore.ai/posts/graphcore-raises-222-million-in-series-e-funding-round",
+  "correction": {
+   "date": "2020-12-29",
+   "type": "series-e",
+   "label": "Series E",
+   "leads": [
+    "Ontario Teachers' Pension Plan Board"
+   ],
+   "investors": [
+    "Fidelity International",
+    "Schroders",
+    "Baillie Gifford",
+    "Draper Esprit"
+   ]
+  },
+  "note": "On Wikipedia the figure appears only in a reference title (Guardian, blocked). Graphcore's own announcement (2020-12-29) confirms $222M and names it a Series E led by Ontario Teachers' Pension Plan Board, with new investors Fidelity International and Schroders and existing investors Baillie Gifford and Draper Esprit; $2.77B post-money."
+ },
+ {
+  "id": "gretel",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Gretel was founded in 2019 and is based in San Diego",
+  "newSource": null,
+  "correction": null,
+  "note": "Reader's paraphrase of the article."
+ },
+ {
+  "id": "gretel",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "has reportedly acquired Gretel",
+  "newSource": null,
+  "correction": null,
+  "note": "Reported via Wired, not officially confirmed by either company in this article; price 'said to be nine figures', exact amount undisclosed. Date is the article date (2025-03-19)."
+ },
+ {
+  "id": "gretel",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "$65.5 million",
+  "newSource": null,
+  "correction": null,
+  "note": "As of the 2021-10-07 article. The 2025 TechCrunch article says 'more than $67 million in venture capital' per Crunchbase."
+ },
+ {
+  "id": "gretel",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "a $12 million Series A led by Greylock",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "gretel",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$50 million in funding",
+  "newSource": null,
+  "correction": null,
+  "note": "Series B, Anthos Capital leading, with Section 32, Greylock and Moonshots Capital; valuation $320-350M per the article's sources."
+ },
+ {
+  "id": "h-company",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "H Company was founded in 2023 in Paris",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "h-company",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "a $220 million seed round",
+  "newSource": null,
+  "correction": null,
+  "note": "About 40% traditional equity, the rest converting later. No lead named. Aglaé Ventures is named as Bernard Arnault's vehicle; Bpifrance via its Large Venture fund."
+ },
+ {
+  "id": "horizon-robotics",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "21 July 2015",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia infobox (cites the 2024 annual report, not opened); HQ Beijing."
+ },
+ {
+  "id": "horizon-robotics",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "the offering was priced at the top of its price range raising $696 million",
+  "newSource": null,
+  "correction": null,
+  "note": "October 2024. Wikipedia only (cited Bloomberg reference is paywalled); page writes '$' without specifying USD."
+ },
+ {
+  "id": "horizon-robotics",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "the offering was priced at the top of its price range raising $696 million",
+  "newSource": null,
+  "correction": null,
+  "note": "October 2024. Wikipedia only (cited Bloomberg reference is paywalled); page writes '$' without specifying USD."
+ },
+ {
+  "id": "kayrros",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "since its inception in 2016",
+  "newSource": null,
+  "correction": null,
+  "note": "Described as Paris-based."
+ },
+ {
+  "id": "kayrros",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "has raised €72 million since its inception in 2016",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "kayrros",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "raised $9.6 million (€9 million)",
+  "newSource": null,
+  "correction": null,
+  "note": "No round name; Index Ventures, John Browne and Marcel van Poecke named; the word 'lead' is not used."
+ },
+ {
+  "id": "kayrros",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "saw the participation of",
+  "newSource": null,
+  "correction": null,
+  "note": "€40 million; no round name or lead. Kayrros's historical investors also participated (unnamed)."
+ },
+ {
+  "id": "lakera",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded out of Zurich in 2021",
+  "newSource": null,
+  "correction": null,
+  "note": "Check Point release confirms founded in 2021 and 'dual-headquartered in Zurich and San Francisco'; the quote is from the TechCrunch 2023 article (opened)."
+ },
+ {
+  "id": "lakera",
+  "key": "statusEvent",
+  "verdict": "corrected",
+  "quote": "Check Point Software Technologies has officially completed its acquisition of Lakera",
+  "newSource": "https://cxotoday.com/press-release/check-point-software-technologies-completes-acquisition-of-lakera-to-secure-the-worlds-ai-transformation/",
+  "correction": {
+   "date": "2025-11"
+  },
+  "note": "The cited 2025-09-16 release only announces an agreement ('expected to close in Q4 2025, subject to customary closing conditions'). A completion press release republished by CXOToday on 2025-11-11 confirms the deal closed; the exact closing day is not stated, so the month of that publication is used. Price not disclosed in either page."
+ },
+ {
+  "id": "lakera",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "$30 million",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "lakera",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "a hitherto undisclosed $10 million round of funding earlier this year ... Lakera's investment was led by Swiss VC Redalpine",
+  "newSource": null,
+  "correction": null,
+  "note": "Several unnamed angel investors also participated."
+ },
+ {
+  "id": "lakera",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Atomico led the funding",
+  "newSource": null,
+  "correction": null,
+  "note": "$20 million Series A; Citi Ventures, Dropbox Ventures and existing investor redalpine."
+ },
+ {
+  "id": "liveeo",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2018",
+  "newSource": null,
+  "correction": null,
+  "note": "Described as Berlin-based."
+ },
+ {
+  "id": "liveeo",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "A €5.25 million Series A in 2021",
+  "newSource": null,
+  "correction": null,
+  "note": "Reader's paraphrase of TechCrunch; Tech.eu (opened) gives €5.5 million, as the label notes."
+ },
+ {
+  "id": "liveeo",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "has raised €19 million ($19.5 million) ... Updated to correct that this is not a Series B",
+  "newSource": null,
+  "correction": null,
+  "note": "Led by MMC Ventures; Tech.eu says 'with €17 million of venture capital', the rest being public funding from the European Commission and Investitionsbank Berlin."
+ },
+ {
+  "id": "lovable",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in Stockholm in 2023",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia; no inline citation for the founding."
+ },
+ {
+  "id": "lovable",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "a $15 million pre-series A round",
+  "newSource": null,
+  "correction": null,
+  "note": "Led by Creandum in February (2025)."
+ },
+ {
+  "id": "lovable",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "has raised a $200 million Series A round led by Accel at a $1.8 billion valuation",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "lovable",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "raised $330 million in a Series B funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "CapitalG and Menlo Ventures led; other unnamed investors also participated."
+ },
+ {
+  "id": "lovable",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "at a $13.3 billion valuation",
+  "newSource": null,
+  "correction": null,
+  "note": "$400 million Series C led by Menlo Ventures and the Scaleup Europe Fund; of 'more than a dozen other investors' only Regent is named."
+ },
+ {
+  "id": "luminar-technologies",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "founded Luminar in California in 2012",
+  "newSource": null,
+  "correction": null,
+  "note": "Infobox gives December 2012 and HQ Orlando, Florida; the body says the company was founded in California, so Orlando is the headquarters, not the founding city."
+ },
+ {
+  "id": "luminar-technologies",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "has acquired former Volvo Cars lidar supplier Luminar Technologies for $33M",
+  "newSource": null,
+  "correction": null,
+  "note": "Wards (2026-02-24): MicroVision won a Section 363 bankruptcy auction (Feb. 3 filing); Volvo's termination left Luminar 'with no viable revenue streams'. The December 2025 Chapter 11 filing date comes from Wikipedia (opened), not from Wards; the asset sale itself completed in February 2026."
+ },
+ {
+  "id": "luminar-technologies",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$36 million of seed financing",
+  "newSource": null,
+  "correction": null,
+  "note": "From investors Canvas Ventures, GVA Capital, and 1517 Fund, 'among others'; no lead. Wikipedia calls it series A."
+ },
+ {
+  "id": "luminar-technologies",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "first investment of an undisclosed amount",
+  "newSource": null,
+  "correction": null,
+  "note": "Announced June 2018 per Wikipedia; cited Forbes reference not opened."
+ },
+ {
+  "id": "luminar-technologies",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "In July 2019, Luminar raised $100 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Reader's paraphrase of Wikipedia; total raised 'more than $250 million'. Cited Forbes/VentureBeat references not opened."
+ },
+ {
+  "id": "luminar-technologies",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "$400 million cash infusion",
+  "newSource": null,
+  "correction": null,
+  "note": "Went public on December 3, 2020; additional capital 'totaling $170 million' from Peter Thiel, Volvo Cars Tech Fund and Alec Gores 'among others'. Wikipedia only."
+ }
+]

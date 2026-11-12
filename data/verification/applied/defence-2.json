@@ -1,0 +1,713 @@
+[
+ {
+  "id": "infinidome",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2016 by Omer Sharar (CEO), Moshe Kaplan (CTO), and Ehud Sharar",
+  "newSource": null,
+  "correction": null,
+  "note": "Year confirmed. The page does not state a headquarters/founding city (Caesarea not verified)."
+ },
+ {
+  "id": "infinidome",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$1.6 Million Seed round of funding",
+  "newSource": null,
+  "correction": null,
+  "note": "Publication date June 10, 2020. No lead identified; the page says investors 'include' Boundary Holding, Next Gear Ventures, Aston Partners."
+ },
+ {
+  "id": "infinidome",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "closed $9M in a Series A funding round led by South Korea's Hanwha Aerospace",
+  "newSource": null,
+  "correction": null,
+  "note": "Article dated April 25, 2023; no separate closing date."
+ },
+ {
+  "id": "kela-technologies",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "the company, which was founded in July 2024 in response to the events of October 7",
+  "newSource": null,
+  "correction": null,
+  "note": "Offices in Tel Aviv per the page."
+ },
+ {
+  "id": "kela-technologies",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "raised $11 million in a seed round led by Sequoia Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "Article dated March 17, 2025; round date not given."
+ },
+ {
+  "id": "kela-technologies",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "embarked on a $28 million A round led by Lux Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "In-Q-Tel is described as 'among the investors in the company', not explicitly tied to the A round. Article dated March 17, 2025."
+ },
+ {
+  "id": "labrys-technologies",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2023 by Royal Marine veteran August Lersten and former British Army officer Luke Wattam",
+  "newSource": null,
+  "correction": null,
+  "note": "Page says only 'UK-based'; London not stated."
+ },
+ {
+  "id": "labrys-technologies",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "The new capital brings Labrys' total funding to $25.5 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Article dated 3 June 2025."
+ },
+ {
+  "id": "labrys-technologies",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "since raising its seed round in 2023",
+  "newSource": null,
+  "correction": null,
+  "note": "No amount or investors given."
+ },
+ {
+  "id": "labrys-technologies",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "has raised a $20 million Series A funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "Led by Plural; AlbionVC and Superangel participated with previous investors Project A, MDOne, Expeditions Fund, Marque Ventures. Dated 03 June 2025."
+ },
+ {
+  "id": "milrem-robotics",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2013, Milrem Robotics creates robotic solutions for use in challenging environments",
+  "newSource": null,
+  "correction": null,
+  "note": "Page says it 'will retain its Tallinn headquarters'."
+ },
+ {
+  "id": "milrem-robotics",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "has acquired a majority stake in Estonian robotic vehicle manufacturer Milrem Robotics",
+  "newSource": null,
+  "correction": null,
+  "note": "This is a MAJORITY STAKE, not a full acquisition; the same ERR article also says 'the new investor now owns 50 percent of the company' and KMW and Estonian private investors remain shareholders. Price undisclosed. The 15 February date is stated on euro-sd.com ('on 15 February', article dated 21 Feb 2023); the ERR page's date field did not render. Wording 'has acquired' implies completion; no explicit closing statement."
+ },
+ {
+  "id": "milrem-robotics",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Krauss-Maffei Wegmann, which acquired a minority stake of 24.9% in the company in mid-2021",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "monopulse",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2021",
+  "newSource": null,
+  "correction": null,
+  "note": "Page describes it as a 'Danish-Lithuanian' UAV manufacturer (MNP Technologijos, Monopulse brand); no city."
+ },
+ {
+  "id": "monopulse",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "NGL Ventures' syndicate contributed €560,000 from 68 investors",
+  "newSource": null,
+  "correction": null,
+  "note": "Amount stated only as 'over €2 million' (EUR 2,000,000 is a floor). No round name and no lead on the page; article dated 12 October 2026. Investors Coinvest Capital, Plug and Play, LitBAN, NGL Ventures all named."
+ },
+ {
+  "id": "neros",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Series C of $250 million in August 2026",
+  "newSource": null,
+  "correction": null,
+  "note": "Co-led by Sequoia Capital and American Strategic Technology Fund; other investors as claimed, all named on the page. Article published November 3, 2026."
+ },
+ {
+  "id": "nordic-air-defence",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "bringing the total to $4.4 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Article dated 03 July 2025."
+ },
+ {
+  "id": "nordic-air-defence",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "raising €1.2M in funding led by Norway's SNÖ Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": "Page does not name the round type or call it a 'first close'; pre-seed is inferred because the July 2025 round is described as an expansion of the pre-seed. Date not stated: page says July 2025 announcement 'comes around eight months after' it, which implies roughly late 2024."
+ },
+ {
+  "id": "nordic-air-defence",
+  "key": "round:1",
+  "verdict": "corrected",
+  "quote": "VC firm Inflection led the funding",
+  "newSource": null,
+  "correction": {
+   "investors": []
+  },
+  "note": "Page describes Jonas Dromberg and Hampus Särnbratt as 'NAD investor(s)' who joined the board, but does not say they invested in this $3M round. Amount, type (expansion of Pre-Seed), date and lead are confirmed."
+ },
+ {
+  "id": "origin-robotics",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "The funding comprises €2.4 million in venture capital",
+  "newSource": null,
+  "correction": null,
+  "note": "Led by Change Ventures with participation from Silicon Roundabout Ventures. Article dated 28 October 2024; total €4M. Page calls the company 'Origin'."
+ },
+ {
+  "id": "origin-robotics",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "€1.6 million in EU grants and support from the Latvian Ministry of Defence",
+  "newSource": null,
+  "correction": null,
+  "note": "The €1.6M is a combined figure for EU grants and Latvian MoD support."
+ },
+ {
+  "id": "overland-ai",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "started the company in 2022",
+  "newSource": null,
+  "correction": null,
+  "note": "Original source does not state the city; TechCrunch (2024-05-18) says 'Seattle-based Overland AI ... founded in 2022'."
+ },
+ {
+  "id": "overland-ai",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "raised a $10 million seed round led by Point72 Ventures",
+  "newSource": "https://techcrunch.com/2024/05/18/vcs-and-the-military-are-fueling-self-driving-startups-that-dont-need-roads/",
+  "correction": null,
+  "note": "Original GeekWire source returned HTTP 403 twice. Confirmed on TechCrunch (published May 18, 2024, round 'this week'). A press-release reprint (theaiinsider.tech, datelined May 20, 2024) also lists participants Shasta Ventures, Ascend VC, Pioneer Square Labs, Voyager Capital, Cubit Capital. More precise date available: 2024-05."
+ },
+ {
+  "id": "overland-ai",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "8VC led the Series A round announced Monday",
+  "newSource": null,
+  "correction": null,
+  "note": "$32 million Series A; article dated January 14, 2025; all six other investors named."
+ },
+ {
+  "id": "overland-ai",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "Overland AI has raised $100 million in new funding",
+  "newSource": null,
+  "correction": null,
+  "note": "Round not named on the page (venture is appropriate). 'The total amount raised includes a $20 million venture debt facility from TriplePoint Capital'; equity led by 8VC. Page names 'Ascend Venture Capital' and also mentions unnamed 'other institutional investors'. Published February 25, 2026."
+ },
+ {
+  "id": "quantum-systems",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Quantum-Systems wurde im Januar 2015 gegründet",
+  "newSource": "https://www.munich-startup.de/17844/7-fragen-quantum-systems/",
+  "correction": null,
+  "note": "Wikipedia states January 2015 and 'headquartered in Gilching'; confirmed on the Munich Startup reference Wikipedia cites. Neither page states the founding city separately from the HQ."
+ },
+ {
+  "id": "quantum-systems",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "announced the successful completion of its €63.6 million Series B funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "'HV Capital and DTCP are leading the investment', followed by Project A, Thiel Capital, ScaleUp Fonds Bayern, Omnes Capital, Airbus Ventures. Dated 24 October 2023."
+ },
+ {
+  "id": "quantum-systems",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "The Series C round was led by Balderton Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "€160 million; published May 7, 2025. Page names 'Notion' (not 'Notion Capital') and 'Peter Thiel' among existing investors; new investors Hensoldt, Airbus Defence and Space, Bullhound Capital, LP&E AG."
+ },
+ {
+  "id": "quantum-systems",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "has extended its Series C funding round with an additional €180 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Led by Balderton Capital; 'valuation now exceeds €3 billion'. Published December 2, 2025."
+ },
+ {
+  "id": "red-6",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Red 6, founded in 2018, is the creator of Advanced Tactical Augmented Reality System (ATARS)",
+  "newSource": null,
+  "correction": null,
+  "note": "HQ not stated explicitly; the release is datelined 'ORLANDO, Fla.'."
+ },
+ {
+  "id": "red-6",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "raising the startup's overall financing to $100 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Published June 02, 2023; the rest of the article is paywalled."
+ },
+ {
+  "id": "red-6",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "The round was led by RedBird Capital Partners",
+  "newSource": null,
+  "correction": null,
+  "note": "$70 million Series B, release dated June 1, 2023. Names appear on the page as 'Boeing's AEI Horizon X Fund', 'Lockheed Ventures', 'Accelerator Investments LLC through the Disney Accelerator program', 'Irongate', \"Robert Downey Jr.'s, Downey Labs\"; the claim's normalised names match these."
+ },
+ {
+  "id": "se3-labs",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "It follows an earlier €5.5 million investment in June",
+  "newSource": null,
+  "correction": null,
+  "note": "Year not stated; June 2026 inferred from the November 2026 article date. No round name or investors given."
+ },
+ {
+  "id": "se3-labs",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "has raised $30 million (£23 million) in Series A funding",
+  "newSource": null,
+  "correction": null,
+  "note": "Led by Accel 'with participation from Keen, Lakestar, and Seedcamp' (page says 'Keen', not 'Keen Venture Partners'). The date is the article publication date (November 12, 2026); no separate round date."
+ },
+ {
+  "id": "shield-ai",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Shield AI established in 2015 is a defense and artificial intelligence technology startup",
+  "newSource": null,
+  "correction": null,
+  "note": "Confirmed on Wikipedia only ('based in San Diego, California'). The cited Fortune article confirms 'San Diego-based' but gives no founding year; the cited shield.ai/about-us page returns 404. No primary page confirming 2015 was found."
+ },
+ {
+  "id": "shield-ai",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "led Shield AI's seed round",
+  "newSource": null,
+  "correction": null,
+  "note": "Homebrew; no amount or date given."
+ },
+ {
+  "id": "shield-ai",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "about 10 months ago",
+  "newSource": null,
+  "correction": null,
+  "note": "Disruptive led the Series D; the article reports $210M-$300M (equity and debt), final amount never confirmed. Year 2021 is inferred from 'about 10 months ago' relative to the June 2022 article, not stated."
+ },
+ {
+  "id": "shield-ai",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$90 million in Series E equity",
+  "newSource": null,
+  "correction": null,
+  "note": "$165M total = $90M equity + $75M debt; led by Snowpoint Ventures (Doug Philippone); other investors as claimed. Published June 9, 2022."
+ },
+ {
+  "id": "shield-ai",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "This latest $60 million came from a single investor, the US Innovative Technology Fund (USIT)",
+  "newSource": "https://techcrunch.com/2022/12/13/shield-ai-raises-another-60m-at-a-2-3b-valuation-for-its-military-autonomous-flying-tech/",
+  "correction": null,
+  "note": "The original source confirms the $60M USIT-only tranche and the $225M Series E total but not the date; the December 13, 2022 TechCrunch article confirms all elements ('brings the total round to $225 million')."
+ },
+ {
+  "id": "shield-ai",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "co-led by U.S. Innovation Technology Fund (USIT) and Riot Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": "$200 million Series F at $2.7B valuation; Disruptive, Snowpoint and new investor ARK Invest participated. Published October 31, 2023."
+ },
+ {
+  "id": "shield-ai",
+  "key": "round:5",
+  "verdict": "confirmed",
+  "quote": "another $300 million in equity and debt",
+  "newSource": null,
+  "correction": null,
+  "note": "$100M new equity at the Series F price plus $200M debt; 'The debt provider is Hercules Capital'; equity source not disclosed. Published December 29, 2023."
+ },
+ {
+  "id": "shield-ai",
+  "key": "round:6",
+  "verdict": "confirmed",
+  "quote": "The round's investors include L3Harris",
+  "newSource": null,
+  "correction": null,
+  "note": "$240 million round at $5.3B valuation; no series name, no lead stated; Hanwha Aerospace and Andreessen Horowitz also named. Published March 6, 2025."
+ },
+ {
+  "id": "shield-ai",
+  "key": "round:7",
+  "verdict": "confirmed",
+  "quote": "raised $1.5 billion in Series G funding",
+  "newSource": null,
+  "correction": null,
+  "note": "Led by Advent, co-led by a JPMorganChase investment group; Snowpoint Ventures, InnovationX, Riot Ventures, Disruptive, Apandion named. Plus $500M preferred shares to Blackstone-managed funds and a $250M loan. Published March 26, 2026."
+ },
+ {
+  "id": "sine-engineering",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Sine was founded in 2022 to counter Russian drone operations",
+  "newSource": null,
+  "correction": null,
+  "note": "TNW source gives no city; the inventure.com.ua page says 'Lviv-based startup Sine Engineering' and 'founded in 2022'."
+ },
+ {
+  "id": "sine-engineering",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "The first recipient of investment will be Lviv-based startup Sine Engineering",
+  "newSource": null,
+  "correction": null,
+  "note": "CAUTION: the page (24 March 2026) reports a forthcoming investment ('will be'; official announcement still expected), not a completed one. 'the amount of the investment has not yet been disclosed'. Fund is called 'American-Ukrainian Reconstruction Investment Fund' on the page."
+ },
+ {
+  "id": "skydio",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Skydio was founded in 2014 by Adam Bry, Abe Bachrach, and Matt Donahoe",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia states 2014 and 'headquartered in San Mateo, California'. The cited NYT reference could not be fetched; TechCrunch (2021-02-28) independently states founded 2014 but no HQ city."
+ },
+ {
+  "id": "skydio",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "previously led Skydio's Series A round",
+  "newSource": null,
+  "correction": null,
+  "note": "a16z; no amount or date on the page."
+ },
+ {
+  "id": "skydio",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "In July of last year",
+  "newSource": null,
+  "correction": null,
+  "note": "$100 million Series C announced with the X2 enterprise drone launch; article dated Feb 28, 2021 so July 2020. No investors named."
+ },
+ {
+  "id": "skydio",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "has raised $170 million in a Series D funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "Led by Andreessen Horowitz's Growth Fund; post-money 'north of $1 billion'; $340M total raised. The page spells the investor 'Lines Capital' (evidently Linse Capital); Next47, IVP, UP.Partners named. Published February 28, 2021."
+ },
+ {
+  "id": "skydio",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "The Series E round was led by Linse Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "$230 million Series E; existing investors a16z, Next47, IVP, DoCoMo, Nvidia, UP.Partners; Hercules Capital and Axon also invested. Published February 27, 2023."
+ },
+ {
+  "id": "skydio",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "an extension round of $170 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Extends the $230M Series E; no lead named; KDDI, Axon and Linse Capital named; 'KDDI ultimately invested about $60 million'. Published November 15, 2024."
+ },
+ {
+  "id": "skydio",
+  "key": "round:5",
+  "verdict": "confirmed",
+  "quote": "values Skydio at $5.2 billion before the investment",
+  "newSource": null,
+  "correction": null,
+  "note": "NOT YET CLOSED: expected to close in stages in Q4 2026 and Q1 2027. The source article is dated November 6, 2026 and does not state the announcement date; Axon's press release (https://investor.axon.com/2026-11-05-Axon-Invests-1-2-Billion-in-Skydio-to-Build-the-Future-of-Drone-as-First-Responder) is datelined 'Nov. 5, 2026' and confirms $1.2 billion, mix of cash and Axon stock, primary plus secondary, '$5.2 billion pre-money valuation'. 'Minority, non-voting stake' is stated on the source article."
+ },
+ {
+  "id": "stark",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "STARK was established in 2024 by a group of German technologists and entrepreneurs",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia infobox lists Berlin, Germany. The cited Die Zeit reference could not be fetched (domain blocked). Tech.eu and TNW also state 'Founded in 2024'; TNW gives Berlin."
+ },
+ {
+  "id": "stark",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "brings total funding since the company's 2024 founding to about €640 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Figure is approximate ('about'). Discrepancy: TNW (2026-06-23), citing Bloomberg, says 'more than €660 million'."
+ },
+ {
+  "id": "stark",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "co-led by Sequoia Capital and Peter Thiel's Founders Fund",
+  "newSource": "https://tech.eu/2026/06/23/stark-bags-eur500-million-in-new-funding/",
+  "correction": null,
+  "note": "Confirmed across two pages, not one. Original source: €500 million Series C, 23 June 2026, co-leads, valuation 'more than €3.5 billion', and NATO Innovation Fund, Döpfner Capital, Project A 'and others' - it does NOT mention Air Street Capital, 201 Ventures or Advent. Tech.eu (newSource) lists all eight investors including Air Street Capital, 201 Ventures and Advent, but does not name the series or a lead."
+ },
+ {
+  "id": "swebal",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2024",
+  "newSource": null,
+  "correction": null,
+  "note": "Tech.eu gives no HQ city; TNW (2025-06-18) calls it 'Stockholm-based'."
+ },
+ {
+  "id": "swebal",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Swebal has secured a €3mn investment for the plant",
+  "newSource": null,
+  "correction": null,
+  "note": "No round name; date is the article date (June 18, 2025). Thomas von Koch, Pär Svärdson, Karl Engelbrektson named."
+ },
+ {
+  "id": "swebal",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "a €30 million funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "No series name, no lead ('from several investors'); the three named investors plus unnamed Swedish family offices. Article dated 7 May 2026. The reader did not surface the 'strategic investment' wording used in the label."
+ },
+ {
+  "id": "tekever",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "It was founded in 2001 by former students of the IST engineering school",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia only; it gives HQ as 'Lisbon region', no founding city. The cited reference (portugalglobal.pt, deprecated archive) was not opened."
+ },
+ {
+  "id": "tekever",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "We first invested in TEKEVER just last November",
+  "newSource": null,
+  "correction": null,
+  "note": "Year not stated; November 2024 inferred from the May 7, 2025 publication date. No amount."
+ },
+ {
+  "id": "tekever",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "fully subscribed by existing investors, including the NATO Innovation Fund",
+  "newSource": null,
+  "correction": null,
+  "note": "'round leader Ventura Capital'; Baillie Gifford, Iberis Capital, Crescent Cove named; amount not stated; valuation above £1 billion. Date is the publication date, May 7, 2025."
+ },
+ {
+  "id": "tekever",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "first announced on 23 September 2026 at a valuation of $6.4 billion",
+  "newSource": null,
+  "correction": null,
+  "note": "$580 million Series D; no lead stated; EIFO 'has committed to joining the closing' (6 November 2026), amount undisclosed."
+ },
+ {
+  "id": "tencore",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "A U.S.-Ukrainian investment group, MITS Capital, has invested $3.74 million in Tencore",
+  "newSource": null,
+  "correction": {
+   "leads": [],
+   "investors": [
+    "MITS Capital"
+   ]
+  },
+  "note": "MITS Capital is the only investor named but the page does not say it 'led' a round, so it is moved from leads to investors. Amount, date (press release July 11; published July 11, 2025) and Diia.City direct investment confirmed. No round name on the page."
+ },
+ {
+  "id": "theseus",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "got into the \"Spring 2024 cohort\"",
+  "newSource": null,
+  "correction": null,
+  "note": "The page does not state a founding year explicitly. 2024 is inferred: founders met at a hackathon (tweet of February 18, 2024), decided a day later to apply to Y Combinator and joined the Spring 2024 cohort. 'San Francisco-based company' is stated. Quote is the reader's rendering of the YC cohort wording."
+ },
+ {
+  "id": "theseus",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "raised $4.3 million in seed funding in a round led by First Round Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "'with additional backing from Y Combinator and Lux Capital'. Published April 17, 2025."
+ },
+ {
+  "id": "tiberius-aerospace",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2022 by Chad Steelberg and Andy Baynes",
+  "newSource": null,
+  "correction": null,
+  "note": "No HQ on the page. Note: the Defence Connect article describes Tiberius as a 'US defence technology company', which conflicts with the record's GB country."
+ },
+ {
+  "id": "tiberius-aerospace",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "their US$4.5 million founders' round",
+  "newSource": null,
+  "correction": {
+   "type": "venture"
+  },
+  "note": "The page calls it a 'founders' round' and never says 'seed', so type should be venture. Investors: Beaten Zone Venture Capital Fund 1 'alongside Never Lift Ventures, Blacklake, Firedrop VC, and strategic co-investors'. The phrase 'Beaten Zone Venture Partners lead investor and founder Steve Baxter' describes the person, not clearly a round lead, so leads stay empty. Published 10 September 2025."
+ },
+ {
+  "id": "tytan-technologies",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Since its founding in 2023",
+  "newSource": null,
+  "correction": null,
+  "note": "NIF page gives no HQ; Munich Startup says 'founded in 2023 in the Bavarian state capital'."
+ },
+ {
+  "id": "tytan-technologies",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "This brings the total funding for the Munich defense startup founded in 2023 to 46 million euros",
+  "newSource": null,
+  "correction": null,
+  "note": "Published February 27, 2026."
+ },
+ {
+  "id": "tytan-technologies",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "had last raised funding in August 2025",
+  "newSource": null,
+  "correction": null,
+  "note": "Amount was undisclosed at the time; article says Tytan 'confirmed it was €16 million'. No round name or investors for that round."
+ },
+ {
+  "id": "tytan-technologies",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "The NATO Innovation Fund co-led a €30m all-European Series A financing round",
+  "newSource": null,
+  "correction": null,
+  "note": "Co-led with Armira; Visionaries Club, OTB Ventures, Lakestar, Magnetic, D3 and 10x Group named. Date is the publication date (February 24, 2026)."
+ },
+ {
+  "id": "valkyrie-dynamics",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "has raised €1 million in pre-seed funding",
+  "newSource": null,
+  "correction": null,
+  "note": "Hexa 'is leading the round which includes participation from' Better Angle, Kima Ventures, Helvetic Venture, Next Front Ventures. Published November 10, 2026 (article notes it was updated to correct one investor's name)."
+ },
+ {
+  "id": "vermeer",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Vermeer has received over $7 million in SBIR and AFWERX awards",
+  "newSource": null,
+  "correction": null,
+  "note": "'Over $7 million' is a cumulative floor; no dates given."
+ },
+ {
+  "id": "vermeer",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "has closed its $10 million Series A round, led by Draper Associates",
+  "newSource": null,
+  "correction": null,
+  "note": "'The funding brings Vermeer's total Series A capital to $10 million.' The page does not use the word 'extension'. Investor is named as 'the U.S. Air Force Techstars accelerator'. Published October 23, 2025."
+ },
+ {
+  "id": "x-bow-systems",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Originally founded in 2016",
+  "newSource": null,
+  "correction": null,
+  "note": "No HQ on the page."
+ },
+ {
+  "id": "x-bow-systems",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$27 million Series A funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "Co-led by Crosslink Capital and Razor's Edge Ventures; Lockheed Martin Ventures and Broom Ventures participated. No closing date; article published 2022-04-27."
+ },
+ {
+  "id": "x-bow-systems",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$64 million award secured in 2023",
+  "newSource": null,
+  "correction": null,
+  "note": "To increase production capacity for supplying SRMs to the Army and Navy; page adds the award was 'expanded in December' (no amount)."
+ },
+ {
+  "id": "x-bow-systems",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "has captured $105 million in Series B capital",
+  "newSource": null,
+  "correction": null,
+  "note": "Lockheed Martin led; announced Monday May 12, 2025. Boeing Ventures is not in the 'Other Series B participants included ...' list; the page says only that Lockheed 'was an early backer of X-Bow, along with Boeing Ventures and both are continuing to be involved' - its participation in this round is implied, not explicit. The other eight investors are listed explicitly."
+ }
+]

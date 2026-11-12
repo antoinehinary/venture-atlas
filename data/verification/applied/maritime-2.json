@@ -1,0 +1,594 @@
+[
+ {
+  "id": "saronic",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Austin, Texas-headquartered Saronic",
+  "newSource": null,
+  "correction": null,
+  "note": "Page states founded 2022 and Austin, Texas headquarters."
+ },
+ {
+  "id": "saronic",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$55 million ... Series A funding round ... led by Caffeinated Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "Release dated Oct. 10, 2023; all nine other investors named."
+ },
+ {
+  "id": "saronic",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "led by Andreesen Horowitz",
+  "newSource": null,
+  "correction": null,
+  "note": "Article dated July 19, 2024; about $175M Series B; 8VC, Caffeinated Capital, Elad Gil and NightDragon named."
+ },
+ {
+  "id": "saronic",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "Elad Gil led Saronic's Series C round",
+  "newSource": null,
+  "correction": null,
+  "note": "Published February 19, 2025; 'closed a Series C round of $600 million'; General Catalyst new; a16z, Caffeinated Capital, 8VC existing."
+ },
+ {
+  "id": "saronic",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "raised $1.75 billion in Series D funding",
+  "newSource": null,
+  "correction": null,
+  "note": "Published March 31, 2026; led by Kleiner Perkins; page also says 'and other new partners' (unnamed)."
+ },
+ {
+  "id": "sea-machines-robotics",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Sea Machines Robotics was founded in 2015",
+  "newSource": "https://sea-machines.com/sea-machines-leader-in-autonomous-marine-technology-completes-a-20-million-b-round-fundraise",
+  "correction": null,
+  "note": "Wikipedia; also confirmed on the company's own release ('Founded in 2015', 'Headquartered in the global tech hub of Boston')."
+ },
+ {
+  "id": "sea-machines-robotics",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "closed a $10 million Series A investment led by Accomplice and Eniac Ventures",
+  "newSource": "https://sea-machines.com/sea-machines-raises-10-million-in-series-a-funding",
+  "correction": {
+   "leads": [
+    "Accomplice",
+    "Eniac Ventures"
+   ],
+   "investors": [
+    "Toyota AI Ventures",
+    "Brunswick Corporation",
+    "NextGen Venture Partners",
+    "Geekdom Fund",
+    "LaunchCapital",
+    "LDV Capital"
+   ]
+  },
+  "note": "Wikipedia's sentence blurs leads and participants; its cited references (Wired, Xconomy) could not be opened. The company's own press release (December 17, 2018) names only Accomplice and Eniac Ventures as leads; Toyota AI Ventures and Brunswick (via TechNexus) participated. Release also says 'and others'."
+ },
+ {
+  "id": "sea-machines-robotics",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "closed a new $15 million financing round ... The investment round was led by Accomplice",
+  "newSource": null,
+  "correction": null,
+  "note": "MarineLink (July 22, 2020) does not call it Series B or a first close; that naming comes from the company's October 30, 2020 release (also opened), which describes a $15M first close in July within a $20M B round. MarineLink also says 'and others'."
+ },
+ {
+  "id": "sea-machines-robotics",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "accomplished its full $20M investment goal",
+  "newSource": null,
+  "correction": null,
+  "note": "Release dated October 30, 2020: $5M second close after $15M first close; Dolby Family Ventures new; Brunswick (with TechNexus), Toyota AI Ventures, NextGen Venture Partners follow-on; no lead named."
+ },
+ {
+  "id": "seabound",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "2021 ... London, United Kingdom",
+  "newSource": null,
+  "correction": null,
+  "note": "As listed on the YC company page."
+ },
+ {
+  "id": "seabound",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "$4.4 million in a seed round led by Chris Sacca's Lowercarbon Capital",
+  "newSource": null,
+  "correction": {
+   "investors": [
+    "Eastern Pacific Shipping",
+    "Emles Venture Partners",
+    "Hawktail",
+    "Rebel Fund",
+    "Soma Capital"
+   ]
+  },
+  "note": "Published May 20, 2022. The article calls Seabound 'a Y Combinator-backed startup' but does not list Y Combinator among the investors in this round; removed from the round's investors."
+ },
+ {
+  "id": "seabound",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Lomar's tech fund backs Wen and Fredriksson's carbon-capture start-up Seabound",
+  "newSource": null,
+  "correction": null,
+  "note": "Supported only by a headline (TradeWinds, 4/20/2023) on Seabound's news index; no amount given; the underlying article was not opened."
+ },
+ {
+  "id": "seabound",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "€1.5 million European Space Agency award at event in Doncaster",
+  "newSource": null,
+  "correction": null,
+  "note": "Supported by the headline of Seabound's own post dated 2/3/2026 on the news index; the date is the post date, the award date itself is not separately stated."
+ },
+ {
+  "id": "shipfix",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Shipfix was founded in 2018 to solve the email overload challenge",
+  "newSource": null,
+  "correction": null,
+  "note": "Page does not name a headquarters city; it lists '4 offices globally in Paris, London, Singapore and Tbilisi'. Paris as HQ is not stated on this page."
+ },
+ {
+  "id": "shipfix",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "today announced its acquisition of Shipfix",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated December 14, 2023; no price disclosed. Page uses done-deal wording ('Shipfix joins forces with Veson Nautical') and no pending/closing conditions, but never explicitly says 'completed'."
+ },
+ {
+  "id": "sofar-ocean",
+  "key": "founded",
+  "verdict": "corrected",
+  "quote": "a new startup formed from a merger he orchestrated",
+  "newSource": null,
+  "correction": {
+   "date": "2019"
+  },
+  "note": "Article (March 27, 2019) describes Sofar as a new startup formed from the OpenROV/Spoondrift merger but gives no formation date, so month precision is not supported; year only. The page states no city for Sofar (San Francisco not on the page)."
+ },
+ {
+  "id": "sofar-ocean",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "He's just led a $7 million Series A for Sofar Ocean Technologies",
+  "newSource": null,
+  "correction": null,
+  "note": "Published March 27, 2019; led by Peter Rive; 'fellow investors True Ventures and David Sacks' Craft Ventures'."
+ },
+ {
+  "id": "sofar-ocean",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "The $39 million round was led by Union Square Ventures and the Foundry Group",
+  "newSource": null,
+  "correction": null,
+  "note": "Published November 3, 2021; headline calls it 'round B'."
+ },
+ {
+  "id": "spinergie",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "€11 million series A investment round",
+  "newSource": null,
+  "correction": null,
+  "note": "Published June 28, 2022; led by Iris Capital and SWEN Capital Partners' Blue Ocean fund; Polytechnique Ventures and the three named angels listed."
+ },
+ {
+  "id": "starboard-maritime-intelligence",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Wellington-based Software-as-a-Service (SaaS) startup",
+  "newSource": null,
+  "correction": null,
+  "note": "Page states founded in 2019."
+ },
+ {
+  "id": "starboard-maritime-intelligence",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "successfully closed a NZ$5 million seed funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 4 April 2024; 'Altered Capital (lead)'; all five other investors named."
+ },
+ {
+  "id": "starboard-maritime-intelligence",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "The round was co-led by SMI's first backer, Kiwi VC Altered Capital, with new investors OIF Ventures and King River Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "Published September 8, 2025; NZ$23 million (A$20.7m) Series A. The co-lead sentence is slightly ambiguous: it reads as Altered co-leading with OIF Ventures and King River Capital, but the latter two are labelled 'new investors' rather than explicitly 'co-leads'."
+ },
+ {
+  "id": "syrenna",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "since it was founded in 2022",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch describes it as Oslo-based. The Norwegian registry page (21st.ai) shows operations from Jul 11, 2022 and a registered address in Kolsås (near Oslo)."
+ },
+ {
+  "id": "syrenna",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "Closed at December 24th, 2025, Voluntary liquidation",
+  "newSource": null,
+  "correction": null,
+  "note": "Voluntary liquidation, not bankruptcy."
+ },
+ {
+  "id": "syrenna",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "totaling just over $1 million with both private and public investments",
+  "newSource": null,
+  "correction": null,
+  "note": "Published March 1, 2024; no round name; all six funders named on the page."
+ },
+ {
+  "id": "ulysses",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "established in 2023",
+  "newSource": null,
+  "correction": null,
+  "note": "Irish Times does not state an HQ city; TechCrunch (7 Nov 2024, also opened) says 'San Francisco-based Ulysses' but also that it 'launched in early 2024'."
+ },
+ {
+  "id": "ulysses",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "the total to $46 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Body text says $46 million (= $38M + $8M); a photo caption on the same page says $48m, an internal inconsistency."
+ },
+ {
+  "id": "ulysses",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$2 million pre-seed funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "Published November 7, 2024; led by Lowercarbon Capital; Superorganism and ReGen Ventures participated, plus unnamed angels."
+ },
+ {
+  "id": "ulysses",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$8 million ... led by Pebblebed",
+  "newSource": null,
+  "correction": null,
+  "note": "Seed disclosed in the 16 April 2026 Irish Times article; no date given for the seed; Genius Ventures, Lowercarbon Capital, Superorganism, ReGen Ventures participated."
+ },
+ {
+  "id": "ulysses",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$38 million ... led by Andereesen Horowitz",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 16 April 2026 (page misspells the lead's name); Booz Allen Ventures and Harpoon Ventures participated."
+ },
+ {
+  "id": "unseenlabs",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Rennes, France-based ... Founded in 2015",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "unseenlabs",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "Unseenlabs has accumulated a total funding of €120 million since its inception",
+  "newSource": null,
+  "correction": null,
+  "note": "Article dated 27 February 2024."
+ },
+ {
+  "id": "unseenlabs",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Le financement complet mis en place est de 7,5 millions d'euros",
+  "newSource": null,
+  "correction": null,
+  "note": "Confirmed on fr.wikipedia. The three references Wikipedia cites (Ouest-France, L'Usine Digitale, Les Echos) could not be opened (403). An aggregator page (nordic9, dated 10 September 2018) that was opened also says 'Unseenlabs to raise €7.5M from Definvest, Breizh Up and Nexeya'. Wikipedia's wording 'financement complet' may mean the figure is a full financing package rather than pure equity."
+ },
+ {
+  "id": "unseenlabs",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "a total value of 20 million euros",
+  "newSource": "https://www.omnescapital.com/press-release/unseenlabs-announces-a-series-b-e20m-venture-funding-round-the-company-is-cementing-its-status-as-a-european-leader-in-the-interception-of-radiofrequency-signals-from-space-establishing-itself-as-a",
+  "correction": null,
+  "note": "CONFLICT ON LEAD: the original tech.eu source says 'The round was led by Avolta Partners', which the claim (leads empty) omits. The Omnes Capital press release (27 April 2021, an investor in the round) names no lead, never mentions Avolta, and says the round was 'carried out with the 360 Capital fund'; it lists 360 Capital, Omnes, Blue Oceans Partners, Breizh Up and Definvest (and mentions Hemeria as a traditional partner). Leaving leads empty is the safe reading; do not add Avolta Partners without further confirmation."
+ },
+ {
+  "id": "unseenlabs",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "€85M ($92.2M)",
+  "newSource": null,
+  "correction": null,
+  "note": "Payload, published February 28, 2024; no round name and no lead; new: Supernova Invest, ISALT, UNEXO; previous: 360 Capital, OMNES, Bpifrance, Breizh Up, S2G Ventures."
+ },
+ {
+  "id": "vake",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "The company was founded in 2019.",
+  "newSource": null,
+  "correction": null,
+  "note": "Page names no city, only 'a Norwegian company'."
+ },
+ {
+  "id": "vake",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "a 70 percent majority stake in VAKE",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated 20 Mar 2024; KSAT 'has acquired' a 70% majority stake, not 100% of the company; price not disclosed."
+ },
+ {
+  "id": "vake",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "In 2020, Vake received funding from the Norwegian Space Agency to improve their technology for use on satellites.",
+  "newSource": null,
+  "correction": null,
+  "note": "No amount stated."
+ },
+ {
+  "id": "vake",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "During 2021, Vake partnered with Barentswatch and secured support from the Norwegian Space Agency's Copernicus funds.",
+  "newSource": null,
+  "correction": null,
+  "note": "No amount stated."
+ },
+ {
+  "id": "vatn-systems",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "bringing total funding to $76.5M",
+  "newSource": null,
+  "correction": null,
+  "note": "Article dated December 10, 2025."
+ },
+ {
+  "id": "vatn-systems",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "oversubscribed $13 million seed round ... The round was led by DYNE Ventures",
+  "newSource": "https://prnewswire.com/news-releases/vatn-systems-raises-13-million-seed-round-to-advance-autonomous-underwater-vehicles-for-us-defense-302301937.html",
+  "correction": {
+   "date": "2024-11-12",
+   "leads": [
+    "DYNE Ventures"
+   ],
+   "investors": [
+    "Lockheed Martin Ventures",
+    "RTX Ventures",
+    "In-Q-Tel",
+    "Propeller Ventures",
+    "SAIC Ventures",
+    "Cubit Capital",
+    "Fortitude Ventures",
+    "Centre Street Partners",
+    "The Veteran Fund",
+    "Blue Collective",
+    "Decisive Point"
+   ]
+  },
+  "note": "Original source (GoLocalProv) returned 403 twice. The company's press release (Nov. 12, 2024) confirms amount, type and month, and additionally names the lead and investors that the claim left empty. Release says total funding then $16.5M."
+ },
+ {
+  "id": "vatn-systems",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "raised $60 million in Series A funding",
+  "newSource": null,
+  "correction": null,
+  "note": "Published December 10, 2025; led by BVVC; all thirteen other investors named (six new, seven existing)."
+ },
+ {
+  "id": "windward",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2010 ... Tel Aviv-headquartered",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "windward",
+  "key": "statusEvent",
+  "verdict": "corrected",
+  "quote": "today announced the successful close of its acquisition by FTV Capital",
+  "newSource": "https://ftvcapital.com/2025/ftv-capital-completes-acquisition-of-maritime-ai-leader-windward/",
+  "correction": {
+   "date": "2025-03-18"
+  },
+  "note": "The original source (24 Dec 2024) only reports an agreed deal: 'Completion of the acquisition requires the approval by a simple majority of Windward shareholders', expected by end of Q1 2025. 2024-12-24 is the announcement date. FTV Capital's own release dated March 18, 2025 confirms the close. Price 'valued at £216 million ($271 million) or 215 pence per share' is from the original source; the FTV page gives no price."
+ },
+ {
+  "id": "windward",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "total equity funding to $39 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Article dated 01.07.18 (1 July 2018); figure is equity funding including the Series C."
+ },
+ {
+  "id": "windward",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$16.5 million series C",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated 01.07.18 (DD.MM.YY, i.e. 1 July 2018); led by XL Innovate; existing investors participated but are not named."
+ },
+ {
+  "id": "windward",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "capital worth around £26.3 million for the company",
+  "newSource": "https://kalkinemedia.com/uk/news/ipo/windward-wnwd-what-led-to-israeli-maritime-firms-decent-lse-debut",
+  "correction": null,
+  "note": "The original City AM page only gives '£34.5m' and '155p' without the split. Kalkine Media (opened) gives the split: £26.3M for the company, £8.2M for existing shareholders and option holders, £34.5M total at £1.55, debut 6 December 2021. Canaccord Genuity's deal page (opened) confirms admission on 6 December 2021 at 155 pence and £34.5M total."
+ },
+ {
+  "id": "wsense",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded: 2017",
+  "newSource": null,
+  "correction": null,
+  "note": "tech.eu states 2017 but does not state a founding/HQ city; Rome is not on this page."
+ },
+ {
+  "id": "wsense",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "The new investment brings WSense's total funding to over €25 million.",
+  "newSource": null,
+  "correction": null,
+  "note": "'over €25 million' supports 25000000 only as a floor."
+ },
+ {
+  "id": "wsense",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "the previous 4 million euros Seed Round in 2022",
+  "newSource": null,
+  "correction": null,
+  "note": "Stated in passing by the CEO in the April 2025 Axon release; no investors or precise date given."
+ },
+ {
+  "id": "wsense",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "has raised a €9 million funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "tech.eu (23 October 2023) gives €9M, led by SWEN Blue Ocean, with the six other investors, but does not name the series. The 'Series A' name comes from the Axon release (opened), which calls it 'the €11 million Series A round in 2023', a different amount, as the claim's label already notes."
+ },
+ {
+  "id": "wsense",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "closed a 7.2 million euros pre-Series B Round",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated 23 April 2025; no lead; existing Series A investors CDP Venture Capital SGR, SWEN's Blue Ocean, RunwayFBU, Axon Partners Group, plus Fincantieri and Rypples. Release says total funding then 'over 22 million euros'."
+ },
+ {
+  "id": "wsense",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "has raised €10 million in a pre-Series B round",
+  "newSource": null,
+  "correction": null,
+  "note": "DOUBLE-COUNT RISK: tech.eu (23 October 2025) reports €10M pre-Series B with new investors Indico Capital Partners and SIMEST, but says nothing about a 'second tranche'. Total funding went from 'over 22 million euros' (April 2025, after the €7.2M) to 'over €25 million' (October 2025), which implies the €10M most likely INCLUDES the April €7.2M (about €2.8M new money) rather than being €10M on top. The page does not settle this; summing round:2 and round:3 probably overstates funding by about €7.2M."
+ },
+ {
+  "id": "xocean",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "founded by former OpenHydro chief executive James Ives in 2017",
+  "newSource": null,
+  "correction": null,
+  "note": "Page calls the company 'Louth-based'; it does not say where it was founded."
+ },
+ {
+  "id": "xocean",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "a €7.9 million funding round ... was fully subscribed by existing shareholders",
+  "newSource": null,
+  "correction": null,
+  "note": "Article dated November 21, 2019; no investors named."
+ },
+ {
+  "id": "xocean",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "As part of this round, Xocean secured €20 million in venture-debt funding from the European Investment Bank.",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 11 June 2024; €30M 'Series B funding round ... led by Venturewave Capital with co-investors including Endeavor Catalyst and Enterprise Ireland'. The page does not say whether the EIB €20M debt is inside the €30M or on top of it; if inside, equity is only about €10M. EIB is a lender, not an equity investor."
+ },
+ {
+  "id": "xocean",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "€115 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 9 January 2025; no round name, no lead; S2G, Climate Investment, Morgan Stanley's 1GT fund and an affiliate of the Crown Family's CC Industries named."
+ },
+ {
+  "id": "zeabuz",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Zeabuz was founded in 2019 as a spin-off of the Norwegian University of Science and Technology.",
+  "newSource": null,
+  "correction": null,
+  "note": "Trondheim appears only as the main office address, not as a stated founding city."
+ },
+ {
+  "id": "zeabuz",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "NOK 40 million ... led by Grieg Kapital AS",
+  "newSource": null,
+  "correction": null,
+  "note": "Published April 15, 2026; 'with participation from Eitzen AS and Barclay Holding AS' (page also once writes 'Barclay Holdings AS') plus unnamed existing shareholders; 'largest capital raise to date'; no round name."
+ },
+ {
+  "id": "zeronorth",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded by Søren Meyer in 2020",
+  "newSource": null,
+  "correction": null,
+  "note": "'a Copenhagen-based company'."
+ },
+ {
+  "id": "zeronorth",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "over $50 million",
+  "newSource": null,
+  "correction": null,
+  "note": "'over $50 million' supports 50000000 only as a floor. ZeroNorth's own release (June 2, 2022) names the Series B, PSG Equity as new investor and A.P. Moller Holding and Cargill as participating existing shareholders, but the lead role for PSG Equity was only found on Silicon Canals (opened): 'a Series B round of funding led by PSG Equity'."
+ }
+]

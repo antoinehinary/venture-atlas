@@ -1,0 +1,833 @@
+[
+ {
+  "id": "automata",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "founded in 2015",
+  "newSource": null,
+  "correction": null,
+  "note": "Page calls the company \"London-based\"."
+ },
+ {
+  "id": "automata",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "an earlier round in 2019 which raised $7.4m",
+  "newSource": null,
+  "correction": null,
+  "note": "Page gives no round name or investors for the 2019 round."
+ },
+ {
+  "id": "automata",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$50m in Series B funding ... led by Octopus Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": "Source article is dated 23 February 2022 and was not checked for a month; the January 2022 date comes from two other pages opened (drivesncontrols aid/7485: \"$50m raised in January 2022\"; BioSpace: \"$50m Series B round raised in January 2022\"). Page writes \"Hummingbird\" (not \"Hummingbird Ventures\") and lists In-Q-Tel under \"strategic investors including\"."
+ },
+ {
+  "id": "automata",
+  "key": "round:2",
+  "verdict": "corrected",
+  "quote": "Dimension led the round.",
+  "newSource": "https://www.biospace.com/automata-technologies-40m-fundraise-backed-by-dimension-and-a-p-moller-holding-to-expand-growing-life-science-lab-automation-offering",
+  "correction": {
+   "leads": [
+    "Dimension"
+   ],
+   "investors": [
+    "A.P. Moller Holding",
+    "Octopus Ventures",
+    "Hummingbird",
+    "Isomer Capital",
+    "Possible Ventures",
+    "Aldea Ventures"
+   ]
+  },
+  "note": "Original source (drivesncontrols, 4 October 2023) confirms $40m but names no investors and no round name. BioSpace copy of the company release (3 October 2023) says Dimension led, A.P. Moller Holding participated, and existing backers Octopus Ventures, Hummingbird, Isomer Capital, Possible Ventures and Aldea Ventures reinvested. Round name not stated, so type venture stands."
+ },
+ {
+  "id": "automata",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "$45 million ... Series C",
+  "newSource": null,
+  "correction": null,
+  "note": "Published January 29, 2026; led by Dimension; investor list ends with \"and others\"."
+ },
+ {
+  "id": "axle-energy",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "We've raised $1.6M from Picus Capital and Eka Ventures.",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated June 14, 2023; called a pre-seed round; no lead named."
+ },
+ {
+  "id": "axle-energy",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Today we're announcing our $25m Series A led by Energize Capital.",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated July 8, 2026. Page writes \"Eka\" (not \"Eka Ventures\")."
+ },
+ {
+  "id": "blue-prism",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "26 July 2001",
+  "newSource": null,
+  "correction": null,
+  "note": "Exact date is from the Wikipedia infobox and is uncited there; body text only says \"founded in 2001\". Infobox HQ is Warrington, but the article also says the company remained \"based in London\" in 2017. Diginomica (opened) says the company was \"born in ... Warrington\". No primary page found for the exact day."
+ },
+ {
+  "id": "blue-prism",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "has completed its acquisition of Blue Prism Group Plc",
+  "newSource": "https://www.prnewswire.com/news-releases/ssc-completes-acquisition-of-blue-prism-group-plc-301503933.html",
+  "correction": null,
+  "note": "SS&C release dated March 16, 2022; value \"approximately $1.6 billion (£1.25 billion)\"."
+ },
+ {
+  "id": "blue-prism",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "the company's £21.1 million ($27 million) IPO in March 2016",
+  "newSource": "https://diginomica.com/commercialising-rpa-blue-prism-chairman-technology-got-invented-uk-and-no-one-even-noticed",
+  "correction": {
+   "amount": {
+    "value": 21100000,
+    "currency": "GBP"
+   },
+   "label": "AIM listing, £21.1M IPO; market capitalisation GBP 48.5M"
+  },
+  "note": "Wikipedia confirms the date (\"On 18 March 2016, Blue Prism undertook an IPO\") and the £48.5 million market capitalisation but gives no amount raised. The diginomica article Wikipedia cites states the IPO size as £21.1 million, so the amount is not undisclosed. Diginomica gives only \"March 2016\"; the exact day rests on Wikipedia."
+ },
+ {
+  "id": "blue-prism",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "raising £100 million (approximately $130 million) by issuing new stock",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch, January 24, 2019. The placing was announced and still subject to shareholder approval on that date; page does not name a round type (\"growth\" is the record's own classification of a public share placing)."
+ },
+ {
+  "id": "brainbox-ai",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2017",
+  "newSource": null,
+  "correction": null,
+  "note": "\"Headquartered in Montreal, Canada\"."
+ },
+ {
+  "id": "brainbox-ai",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "has completed the acquisition of BrainBox AI",
+  "newSource": null,
+  "correction": null,
+  "note": "Release dated January 3, 2025; no price disclosed."
+ },
+ {
+  "id": "bright-machines",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "since its 2018 founding",
+  "newSource": null,
+  "correction": null,
+  "note": "The source says only \"Bay Area-based\"; San Francisco comes from the 2018 TechCrunch article (\"a San Francisco startup\"), also opened."
+ },
+ {
+  "id": "bright-machines",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "up to $330 million since its 2018 founding",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "bright-machines",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Eclipse led the round.",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch, October 23, 2018: $179 million Series A. Page writes \"Eclipse\"."
+ },
+ {
+  "id": "bright-machines",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "led by founder Lior Susan's own Eclipse Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": "$100 million equity of the $132M; no series name given."
+ },
+ {
+  "id": "bright-machines",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "co-led by Silicon Valley Bank and Hercules Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "$32 million debt."
+ },
+ {
+  "id": "celonis",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Celonis was founded back in 2011",
+  "newSource": null,
+  "correction": null,
+  "note": "\"Munich-based\"."
+ },
+ {
+  "id": "celonis",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$27.5 million",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch June 7, 2016; Series A led by Accel and 83North."
+ },
+ {
+  "id": "celonis",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "from Accel and 83North",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch June 26, 2018; $50 million Series B; this page names no lead (VentureBeat 2019 article describes Accel and 83North as leads of that round)."
+ },
+ {
+  "id": "celonis",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "Qualtrics CEO Ryan Smith and Procore founder Tooey Courtemanche",
+  "newSource": null,
+  "correction": null,
+  "note": "VentureBeat November 21, 2019; $290 million series C led by Arena Holdings."
+ },
+ {
+  "id": "celonis",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "raised a $1bn series D investment at $11bn valuation",
+  "newSource": "https://celonis.com/news/press/celonis-announces-1-billion-round-to-meet-industry-wide-demand-for-execution-management",
+  "correction": null,
+  "note": "Wikipedia confirms June 2021. Its Forbes reference returned 403 twice; Celonis's own release (June 2, 2021) confirms $1 billion Series D and adds that it was co-led by Durable Capital Partners LP and T. Rowe Price, with Franklin Templeton, Splunk Ventures and Arena Holdings participating. The record has no leads or investors; these could be added."
+ },
+ {
+  "id": "celonis",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "QIA has led a $400 million cash equity Series D extension",
+  "newSource": "https://www.qia.qa/en/Newsroom/Pages/QIA-leads-Series-D-extension-in-Celonis,-market-leader-in-process-mining.aspx",
+  "correction": null,
+  "note": "QIA release dated 23 August 2022; post-money valuation $13 billion. The release also names Activant Capital, Neuberger Berman, Alta Park Capital, Commonfund, Arena Holdings, T. Rowe Price, Franklin Templeton, Durable Capital Partners, TCV, 83North, Accel and Sator Grove as participants (the record lists none)."
+ },
+ {
+  "id": "chemify",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2022 as a spin-out from the University of Glasgow",
+  "newSource": null,
+  "correction": null,
+  "note": "No HQ city stated explicitly; Glasgow comes from the dateline (\"GLASGOW, Scotland\")."
+ },
+ {
+  "id": "chemify",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "over $50 million",
+  "newSource": null,
+  "correction": null,
+  "note": "USD 50,000,000 is a floor: the page says \"over $50 million\". Dated October 21, 2025; co-led by Wing Venture Capital and Insight Partners. Page writes \"Blueyard\"."
+ },
+ {
+  "id": "cloudnc",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Saville launched CloudNC in 2015",
+  "newSource": null,
+  "correction": null,
+  "note": "Page says only \"U.K.-based\"; no city."
+ },
+ {
+  "id": "cloudnc",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "bringing its lifetime total amount raised to $128 million",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "cloudnc",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "quietly raised £9 million in Series A funding",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch June 7, 2018; Atomico led; Episode 1 and Entrepreneur First named as existing investors."
+ },
+ {
+  "id": "cloudnc",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$20 million Series B extension round",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch September 8, 2026; \"Nimble Ventures, which led the round\". Page writes \"Entrepreneurs First\" and describes LM Capital as Lockheed Martin's venture arm."
+ },
+ {
+  "id": "cognite",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Cognite was established by Aker, John Markus Lervik, Geir Engdahl and Stein Danielsen in 2017",
+  "newSource": null,
+  "correction": null,
+  "note": "The release does not state Cognite's HQ city; Oslo is not confirmed by this page."
+ },
+ {
+  "id": "cognite",
+  "key": "statusEvent",
+  "verdict": "corrected",
+  "quote": "The transaction is subject to customary regulatory approvals.",
+  "newSource": null,
+  "correction": {
+   "notClosed": true
+  },
+  "note": "The 30 June 2026 release is an agreement to sell 100 percent of Cognite Holding B.V. at an enterprise value of USD 3.1 billion, not a completed deal. A search on 2026-11-12 found only announcement coverage and no report of closing (snippets only, not counted as evidence). 2026-06-30 is the signing/announcement date; USD 3.1 billion is enterprise value."
+ },
+ {
+  "id": "cognite",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "about $225 million in funding to date",
+  "newSource": null,
+  "correction": null,
+  "note": "Approximate figure (\"about\"), as of the May 19, 2021 article."
+ },
+ {
+  "id": "cognite",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "in October",
+  "newSource": null,
+  "correction": null,
+  "note": "Page says Accel led a $75 million round \"in October\" without the year; with a May 2021 article this implies October 2020. The page does not mention November."
+ },
+ {
+  "id": "cognite",
+  "key": "round:1",
+  "verdict": "corrected",
+  "quote": "The Series A round",
+  "newSource": null,
+  "correction": {
+   "type": "series-a"
+  },
+  "note": "The page names the round Series A ($150 million, led by TCV, May 19, 2021), so by the rule the type must follow the page rather than \"growth\". The record's label already flags that other sources call it Series B; that was not checked here."
+ },
+ {
+  "id": "daedalus",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "led by NGP Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated 8th February 2024; $21M Series A; \"existing investors, including Addition and Khosla Ventures\"."
+ },
+ {
+  "id": "dunia-innovations",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$11.5M (approximately €10.6M)",
+  "newSource": null,
+  "correction": null,
+  "note": "Silicon Canals, Oct 23, 2024; \"co-led by Elaia and redalpine\"; round not named. Page writes \"the EIC\"."
+ },
+ {
+  "id": "enlyze",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Enlyze in a €2.2M seed funding round.",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated 13 January 2020; no lead named. The page also shows the round value as \"USD 2.44m\" (conversion)."
+ },
+ {
+  "id": "ethonai",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "co-founded by Julian Senoner (CEO) and Bernhard Kratzwald (CTO) in 2021",
+  "newSource": null,
+  "correction": null,
+  "note": "The page does not state an HQ city (only \"Swiss startup\"); Zurich is not confirmed by this page."
+ },
+ {
+  "id": "ethonai",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$16.5m (CHF 15m)",
+  "newSource": null,
+  "correction": null,
+  "note": "Published May 30, 2024; Series A led by Index Ventures. The €15.3M equivalent in the label is not on this page."
+ },
+ {
+  "id": "fabric",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "2015",
+  "newSource": null,
+  "correction": null,
+  "note": "Page lists offices in New York City, Tel Aviv and Atlanta without naming an HQ and is datelined New York; the 2018 TechCrunch article (opened) calls it \"The Tel Aviv company\"."
+ },
+ {
+  "id": "fabric",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "$336 million",
+  "newSource": null,
+  "correction": null,
+  "note": "As of the October 26, 2021 release."
+ },
+ {
+  "id": "fabric",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "The Tel Aviv company",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch February 15, 2018: $20 million Series A led by Playground Global, with previous investors Aleph VC and Innovation Endeavors."
+ },
+ {
+  "id": "fabric",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "led by Corner Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch October 23, 2019; $110 million Series B. Page writes \"Playground Ventures\" and \"Canada Pension Plan Investment Board (CPPIB)\"."
+ },
+ {
+  "id": "fabric",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "led by existing investor Temasek",
+  "newSource": null,
+  "correction": null,
+  "note": "October 26, 2021; $200 million Series C; valuation \"more than $1 billion\"; list ends \"and others\"."
+ },
+ {
+  "id": "fast-radius",
+  "key": "founded",
+  "verdict": "corrected",
+  "quote": "Fast Radius' headquarters is located in Chicago, Illinois.",
+  "newSource": null,
+  "correction": {
+   "city": "Chicago"
+  },
+  "note": "Wikipedia: \"Fast Radius, LLC was formed in 2014 by Rick Smith and Mitch Free\", HQ Chicago; Louisville does not appear. Built In Chicago (opened) also says \"Chicago-based\" but gives \"Founded in 2015\", so the founding year is disputed between sources. Wikipedia's GlobeNewswire reference returned 403."
+ },
+ {
+  "id": "fast-radius",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "for $15.9 million",
+  "newSource": "https://3dprint.com/296366/3d-printing-bureau-fast-radius-acquired-by-sybridge-technologies-for-15-9m/",
+  "correction": null,
+  "note": "Original source (3DPrint, November 8, 2022) confirms the Chapter 11 announcement but names no buyer or price. The later 3DPrint article (December 12, 2022) confirms SyBridge Technologies as buyer at $15.9 million, then \"pending the approval of federal courts\". Court approval and closing were seen only in search snippets, not on an opened page. \"Macro\" cause matches the CEO quote on capital-market headwinds and the author's view."
+ },
+ {
+  "id": "fast-radius",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Logistics titan UPS led Tuesday's round",
+  "newSource": "https://www.builtinchicago.org/2019/04/02/fast-radius-raises-48m",
+  "correction": null,
+  "note": "Built In Chicago, Apr. 02, 2019: $48 million Series B, \"Drive Capital also participated\"; also names previous investors Jump Capital, Skydeck and Hyde Park Venture Partners. Wikipedia matches; its GlobeNewswire reference returned 403."
+ },
+ {
+  "id": "fast-radius",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "some $70 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Approximate figure. Page says the company merged with ECP Environmental Growth Opportunities Corp. and was trading on Nasdaq by February 2022."
+ },
+ {
+  "id": "fernride",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "a Munich-based startup founded in 2019",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "fernride",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "Quantum Systems today announced the acquisition of FERNRIDE.",
+  "newSource": null,
+  "correction": null,
+  "note": "Tech.eu, 17 December 2025; terms not disclosed. The article reports the acquisition as announced and does not say explicitly whether it had closed or was subject to approvals."
+ },
+ {
+  "id": "fernride",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "This brings the total funding to €75 million",
+  "newSource": null,
+  "correction": null,
+  "note": "As of 04 September 2025."
+ },
+ {
+  "id": "fernride",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "Following a pre-seed funding round in 2019",
+  "newSource": null,
+  "correction": {
+   "investors": []
+  },
+  "note": "The page confirms a 2019 pre-seed but names no investors for it. Speedinvest, Fly Ventures and UnternehmerTUM are named only as \"existing investors\" who joined the 2021 seed; assigning them to the pre-seed is an inference (plausible, not stated)."
+ },
+ {
+  "id": "fernride",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "led by Munich-based venture capital firm 10x",
+  "newSource": null,
+  "correction": null,
+  "note": "Dateline Munich, July 06, 2021 (page header July 07, 2021); €7.1 million seed."
+ },
+ {
+  "id": "fernride",
+  "key": "round:2",
+  "verdict": "corrected",
+  "quote": "The round was led by VC firms 10x Founders, Promus Ventures, Fly Ventures, Speedinvest and Push Ventures,",
+  "newSource": null,
+  "correction": {
+   "leads": [
+    "10x Founders",
+    "Promus Ventures",
+    "Fly Ventures",
+    "Speedinvest",
+    "Push Ventures"
+   ],
+   "investors": [
+    "HHLA Next",
+    "Schenker Ventures",
+    "Krone"
+   ]
+  },
+  "note": "TechCrunch June 14, 2023: $31 million Series A. The cited page says the five VC firms led, \"along with corporate investors HHLA Next, DB Schenker via Schenker Ventures and Krone\". The record's label says Sifted names HHLA Next as lead; not checked here."
+ },
+ {
+  "id": "fernride",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "closed a further $19M in its Series A funding",
+  "newSource": null,
+  "correction": null,
+  "note": "September 20, 2023; \"pushing the total round amount to $50M\"; no lead named."
+ },
+ {
+  "id": "fernride",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "raising an additional €18 million",
+  "newSource": null,
+  "correction": null,
+  "note": "04 September 2025; \"backed by Helantic\"; Thomas Müller named; no lead stated."
+ },
+ {
+  "id": "gigaton",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2020 as Carbon Re",
+  "newSource": null,
+  "correction": null,
+  "note": "\"London-based\"."
+ },
+ {
+  "id": "gigaton",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "over $35M",
+  "newSource": null,
+  "correction": null,
+  "note": "USD 35,000,000 is a floor (\"over $35M\"), as of 03 June 2026."
+ },
+ {
+  "id": "gigaton",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "from the Clean Growth Fund, UCL Technology Fund and Cambridge Enterprise Fund",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated October 6 2021; £1m seed; no lead."
+ },
+ {
+  "id": "gigaton",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Planet A Ventures, a Berlin-based climate tech venture capital firm led the investment",
+  "newSource": null,
+  "correction": null,
+  "note": "7 November 2022; £4.2 million seed funding."
+ },
+ {
+  "id": "gigaton",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "led by Plural",
+  "newSource": null,
+  "correction": null,
+  "note": "03 June 2026; $26 million Series A. The £19.3m equivalent is on the BusinessCloud page (opened), not this one. Page writes \"Cambridge Enterprise Ventures\"."
+ },
+ {
+  "id": "hadrian",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "since it was founded in 2020",
+  "newSource": null,
+  "correction": null,
+  "note": "Torrance, California is given as the HQ location."
+ },
+ {
+  "id": "hadrian",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "around $2 billion, according to PitchBook estimates",
+  "newSource": null,
+  "correction": null,
+  "note": "Approximate third-party estimate, as of August 6, 2026."
+ },
+ {
+  "id": "hadrian",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "was followed by a $90 million Series A in early 2022",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "hadrian",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "The company closed a $92 million funding round in late 2023.",
+  "newSource": null,
+  "correction": null,
+  "note": "The page gives no round name or investors. Possible duplicate: TechCrunch reports a $117 million Series B \"in a mix of equity and debt\" completed in December 2023 (round:2); the $92M may be the equity part of that same round. Neither page says so explicitly."
+ },
+ {
+  "id": "hadrian",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "closed a $117 million Series B, in a mix of equity and debt",
+  "newSource": null,
+  "correction": null,
+  "note": "\"completed last December\" in a February 21, 2024 article = December 2023. No lead named. Page also lists \"S&A\" among investors (not in the record). The page reader described the roughly $25 million equipment debt as separate from the Series B; see also the possible overlap with round:1."
+ },
+ {
+  "id": "hadrian",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "$260m Series C",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch July 17, 2025; led by Founders Fund and Lux Capital. Morgan Stanley is described as providing \"financing for the factory expansion\", not as an equity investor."
+ },
+ {
+  "id": "hadrian",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "The lead investors in the round include",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch August 6, 2026: $1.37 billion; the article body does not name the series. The company's PR Newswire release (opened) names it Series D, valuation $7.87 billion, and adds JPMorganChase's Strategic Investment Group as \"anchor co-lead\" plus Construct Capital as a participant; neither is in the record. https://www.prnewswire.com/news-releases/hadrian-raises-1-37b-series-d-to-build-highly-automated-factories-to-accelerate-americas-industrial-renewal-302844408.html"
+ },
+ {
+  "id": "hadrian",
+  "key": "round:5",
+  "verdict": "confirmed",
+  "quote": "The company raised a $9.5 million seed",
+  "newSource": null,
+  "correction": null,
+  "note": "Date not stated in the text (the linked article URL is dated 2021/04/15)."
+ },
+ {
+  "id": "heimdall-power",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2016",
+  "newSource": null,
+  "correction": null,
+  "note": "HQ not labelled; footer lists offices in Oslo, Norway and Charlotte, NC."
+ },
+ {
+  "id": "heimdall-power",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "To invest NOK 75 million in Heimdall Power",
+  "newSource": null,
+  "correction": null,
+  "note": "March 23, 2021; private placement; \"Saga Pure will hold 16,5 percent of the company following the transaction\". Saga Pure is the sole investor rather than a stated lead."
+ },
+ {
+  "id": "heimdall-power",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "The round was co-led by the international energy company Orlen",
+  "newSource": null,
+  "correction": null,
+  "note": "July 16, 2024; $25 million USD Series B; co-leads Orlen, NRP Zero and Steinsvik Family Office; existing shareholders Investinor, Eviny, Hafslund, Lyse, Sarsia Seed."
+ },
+ {
+  "id": "imubit",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "2016",
+  "newSource": null,
+  "correction": null,
+  "note": "Page does not state an HQ city; it says R&D is in Modiin and sales and support in Houston, Texas."
+ },
+ {
+  "id": "imubit",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "$50 million",
+  "newSource": null,
+  "correction": null,
+  "note": "As of the 16.08.21 article."
+ },
+ {
+  "id": "imubit",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Series B round",
+  "newSource": null,
+  "correction": null,
+  "note": "$30 million led by Zeev Ventures and Insight Partners. Page writes \"Upwest Labs\" and also names Dan Scheinman (not in the record)."
+ },
+ {
+  "id": "instrumental",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "was launched by two former Apple mechanical engineers in 2015",
+  "newSource": null,
+  "correction": null,
+  "note": "This page states no HQ city; the company's own 2020 release (opened) is datelined \"PALO ALTO\"."
+ },
+ {
+  "id": "instrumental",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "now raised over $80 million",
+  "newSource": null,
+  "correction": null,
+  "note": "USD 80,000,000 is a floor (\"over $80 million\"), as of February 16, 2022."
+ },
+ {
+  "id": "instrumental",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "also led its seed round",
+  "newSource": null,
+  "correction": null,
+  "note": "First Round Capital led the seed; amount and date not stated."
+ },
+ {
+  "id": "instrumental",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "a $7.5 million Series A in mid-2017",
+  "newSource": null,
+  "correction": null,
+  "note": "Investors Root Ventures, Eclipse Ventures, First Round Capital; \"had previously raised $10.3 million across two rounds\"."
+ },
+ {
+  "id": "instrumental",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$20 million in Series B financing",
+  "newSource": null,
+  "correction": null,
+  "note": "Company release datelined \"PALO ALTO, Jun. 30, 2020\"; led by Canaan. TechCrunch covered it on July 29, 2020."
+ },
+ {
+  "id": "instrumental",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "Series C investment was led by BAM Elevate",
+  "newSource": null,
+  "correction": null,
+  "note": "February 16, 2022; $50M; existing investors Canaan, Root Ventures, Eclipse Ventures."
+ },
+ {
+  "id": "isembard",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "as well as angels including EU Inc promoter Andreas Klinger and Space Forge founder Joshua Western.",
+  "newSource": null,
+  "correction": {
+   "investors": [
+    "201 Ventures",
+    "Basis Capital",
+    "Forward Fund",
+    "Material Ventures",
+    "Neverlift Ventures",
+    "NP-Hard Ventures",
+    "Andreas Klinger",
+    "Joshua Western"
+   ]
+  },
+  "note": "TechCrunch April 24, 2025 confirms the £7 million seed (approximately $9 million) led by Notion Capital. National Security Strategic Investment Fund, Charlie Delingpole and Salar al Khafaji do not appear on the page (checked with a second, targeted read)."
+ },
+ {
+  "id": "isembard",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "The round was led by Union Square Ventures.",
+  "newSource": null,
+  "correction": null,
+  "note": "Posted on 9 March, 2026; \"closed $50 million in Series A funding\"."
+ },
+ {
+  "id": "juna-ai",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2023",
+  "newSource": null,
+  "correction": null,
+  "note": "\"Berlin-based startup\"."
+ },
+ {
+  "id": "juna-ai",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "raised $7.5 million in a seed round from Silicon Valley venture capital firm Kleiner Perkins, Sweden-based Norrsken VC",
+  "newSource": null,
+  "correction": {
+   "leads": [],
+   "investors": [
+    "Kleiner Perkins",
+    "Norrsken VC",
+    "John Doerr"
+   ]
+  },
+  "note": "TechCrunch November 18, 2024. The article never says any investor led or co-led (checked with a second, targeted read), so Kleiner Perkins belongs in investors, not leads."
+ }
+]

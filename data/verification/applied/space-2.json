@@ -1,0 +1,954 @@
+[
+ {
+  "id": "leolabs",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2016 as a spin-off from SRI International, LeoLabs is headquartered in Menlo Park, California.",
+  "newSource": "https://venturebeat.com/2017/02/17/sri-spin-out-leolabs-raises-4-million-to-monitor-space-debris/",
+  "correction": null,
+  "note": "Wikipedia's cited VentureBeat article also says 'Founded in 2016' and 'Based in Menlo Park'."
+ },
+ {
+  "id": "leolabs",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "Horizons Ventures led this seed round, with participation from Airbus Ventures and SRI International.",
+  "newSource": "https://venturebeat.com/2017/02/17/sri-spin-out-leolabs-raises-4-million-to-monitor-space-debris/",
+  "correction": {
+   "leads": [
+    "Horizons Ventures"
+   ],
+   "investors": [
+    "SRI International",
+    "Airbus Ventures"
+   ]
+  },
+  "note": "Amount ($4m seed), year 2017 and the three investors are confirmed by the original source; the VentureBeat article (dated February 2017) additionally states Horizons Ventures led."
+ },
+ {
+  "id": "leolabs",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Weru Investment co-led a $13m series A round with aerospace manufacturer Airbus' corporate venturing arm Airbus Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 'The series A round also included Space Angels and Horizons Ventures.' Year 2018 stated."
+ },
+ {
+  "id": "leolabs",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "has completed a $65m series B round co-led by Insight Partners and VelvetSea Ventures.",
+  "newSource": null,
+  "correction": null,
+  "note": "Date is the article's publication date (7 June 2021); the SatelliteToday 2024 article also says the Series B was in June 2021."
+ },
+ {
+  "id": "leolabs",
+  "key": "round:3",
+  "verdict": "corrected",
+  "quote": "LeoLabs secured an additional $29 million in funding",
+  "newSource": null,
+  "correction": {
+   "type": "venture",
+   "label": "Additional financing (described as an 'extension'; series not named)"
+  },
+  "note": "Amount, date, lead (GP Bullhound) and all investors confirmed. The page calls it 'additional' funding and 'This extension' but never names it a Series B round/extension; the $65M Series B is mentioned only as an earlier round. AngelList Syndicate is 'led by Dylan Taylor'."
+ },
+ {
+  "id": "look-up-space",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Only one year since its inception",
+  "newSource": null,
+  "correction": null,
+  "note": "Year 2022 is inferred from 'one year since its inception' in a June 2023 article; no explicit founding date. Paris-based per the page."
+ },
+ {
+  "id": "look-up-space",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "€14 million in a seed round",
+  "newSource": null,
+  "correction": null,
+  "note": "Split EUR 7M private / EUR 7M French Tech seed fund; private part led by CosmiCapital and MIG Capital. The page names the investor 'Geodesic Expansion' (claim: 'Expansion')."
+ },
+ {
+  "id": "look-up-space",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "has secured 50 million euros ($57.26 million) in funding.",
+  "newSource": null,
+  "correction": null,
+  "note": "ETF Partners leads with a EUR 24M contribution; 'Series A' is the company's own description of the round ('one of the largest Series A rounds'). Announced June 11, 2025. Strictly, EUR 24M is stated as ETF Partners' contribution as lead; the page does not give a separate total for the equity part."
+ },
+ {
+  "id": "look-up-space",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "The funding round combines equity, bank debt, and non-dilutive public funding from the European Union.",
+  "newSource": null,
+  "correction": null,
+  "note": "EUR 15M non-dilutive EU funding for two radars in French Polynesia, announced June 11, 2025."
+ },
+ {
+  "id": "masten-space-systems",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "startup company in Mojave, California",
+  "newSource": null,
+  "correction": null,
+  "note": "Infobox: founded 2004. Wikipedia notes the company was formerly in Santa Clara, California, so Mojave is the HQ rather than necessarily the founding city."
+ },
+ {
+  "id": "masten-space-systems",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "filed for Chapter 11 bankruptcy on July 28, 2022",
+  "newSource": null,
+  "correction": null,
+  "note": "The exact filing date (July 28, 2022) comes from Wikipedia; the TechCrunch source says only 'filed for bankruptcy protection at the end of July' and 'a successful $4.5 million bid for Masten's assets in a Delaware bankruptcy court earlier this month' (September 2022). Wikipedia dates the Astrobotic asset purchase to 8 September 2022: the USD 4.5M is the asset sale price, on a different date from the filing."
+ },
+ {
+  "id": "masten-space-systems",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "NASA's Centennial Challenges program will give a $1 million first prize to Masten Space Systems of Mojave, Calif.",
+  "newSource": "https://www.nasa.gov/home/hqnews/2009/nov/HQ_09-258-Lunar_Lander.html",
+  "correction": null,
+  "note": "Winning Level Two flights (Xoie) were on Oct. 30, 2009; NASA announced the prize on 2 November 2009."
+ },
+ {
+  "id": "masten-space-systems",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "the Masten team will receive the second place prize of $150,000.",
+  "newSource": "https://www.nasa.gov/home/hqnews/2009/nov/HQ_09-258-Lunar_Lander.html",
+  "correction": null,
+  "note": "Level One qualifying flight (Xombie) on Oct. 7, 2009; NASA announced the prize on 2 November 2009."
+ },
+ {
+  "id": "masten-space-systems",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$75.9 million award",
+  "newSource": "https://www.nasa.gov/press-release/nasa-awards-contract-to-deliver-science-tech-to-moon-ahead-of-human-missions",
+  "correction": null,
+  "note": "NASA release dated Apr 08, 2020: 'Masten Space Systems will land these payloads on the Moon with its XL-1 lander', destination the Moon's South Pole."
+ },
+ {
+  "id": "momentus",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Momentus was founded in 2017 by Mikhail Kokorich and Lev Khasis.",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia gives San Jose, California as headquarters; neither statement carries an inline citation, so no primary source could be checked."
+ },
+ {
+  "id": "momentus",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "On August 12, 2021, the parties to the Merger Agreement consummated the Mergers.",
+  "newSource": "https://www.sec.gov/Archives/edgar/data/1781162/000121390021043676/ea146069-8k_momentusinc.htm",
+  "correction": null,
+  "note": "The original source (SEC press release of July 13, 2021) only says the merger was 'currently scheduled for August 2021' and does not confirm completion. The Momentus 8-K confirms closing on August 12, 2021 and Nasdaq trading (MNTS) from August 13, 2021. No price on the pages opened."
+ },
+ {
+  "id": "nanoavionics",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "founded as a spin-off from Vilnius University, Lithuania in 2014",
+  "newSource": null,
+  "correction": null,
+  "note": "The exact date '1 January 2014' appears only in the Wikipedia infobox, uncited (likely a placeholder for the year). Vilnius appears as the university and in a category, not as an explicit founding city. No primary reference available."
+ },
+ {
+  "id": "nanoavionics",
+  "key": "statusEvent",
+  "verdict": "corrected",
+  "quote": "The parties have agreed upon an enterprise value of EUR 65 million (100 per cent basis).",
+  "newSource": null,
+  "correction": {
+   "date": "2022"
+  },
+  "note": "2022-07-05 is the date the agreement was announced, not the closing: the source says the parties 'plan to close the transaction following the conclusion of customary closing conditions'. Wikipedia states 'In 2022, Kongsberg Gruppen acquired 77 per cent of the company', so the deal closed in 2022 but no page opened gives the closing date. EUR 65M is the enterprise value on a 100% basis, not the price paid: Kongsberg acquired 78% per the release (77% per Wikipedia)."
+ },
+ {
+  "id": "nanoavionics",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "AST&Science has acquired all shares from venture capital firm Practica Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "Page dated 15 March 2018; also 'made an additional investment in NanoAvionics' capital assets'. No amount disclosed."
+ },
+ {
+  "id": "northwood-space",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "brings its total funding to more than $500 million (about €450 million)",
+  "newSource": null,
+  "correction": null,
+  "note": "USD 500M is a floor ('more than'). Article dated 3 November 2026."
+ },
+ {
+  "id": "northwood-space",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "with about $6 million in initial funding raised from investors including Founders Fund, Andreessen Horowitz and Also Capital.",
+  "newSource": null,
+  "correction": {
+   "type": "venture",
+   "label": "Initial funding",
+   "amount": {
+    "value": 6000000,
+    "currency": "USD"
+   }
+  },
+  "note": "The page says 'about $6 million in initial funding', not $6.3M, and never uses the word 'seed'. Investors confirmed; article published February 19, 2024."
+ },
+ {
+  "id": "northwood-space",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$30 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Series A led by Alpine Space Ventures and Andreessen Horowitz; all listed investors and individuals appear on the page (the page writes 'Long Journey'). Published April 22, 2025."
+ },
+ {
+  "id": "northwood-space",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "led by Washington, D.C.-based firm Washington Harbour Partners",
+  "newSource": null,
+  "correction": null,
+  "note": "'$100 million Series B funding round', 'co-led by Andreessen Horowitz'. Published January 27, 2026."
+ },
+ {
+  "id": "northwood-space",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "Andreessen Horowitz (a16z) and DFJ Growth co-led the round",
+  "newSource": null,
+  "correction": null,
+  "note": "'closed a $375 million (about €337 million) Series C round'; Washington Harbour Partners, Alpine Space Ventures, Stepstone and In-Q-Tel named. Article dated 3 November 2026. A separate HSBC Innovation Banking credit facility is also mentioned."
+ },
+ {
+  "id": "oneweb",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "The company was founded in 2012 under the name WorldVu",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia says it 'was based in Britain's Channel Islands'; the word 'Jersey' does not appear on the page, so the JE country code is not explicitly supported (could equally be Guernsey as far as this page goes). Cited primary references not opened."
+ },
+ {
+  "id": "oneweb",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "completed its combination with French rival Eutelsat Thursday.",
+  "newSource": "https://www.cnbc.com/2023/09/28/eutelsat-oneweb-merge-to-create-satellite-challenger-to-musks-starlink.html",
+  "correction": null,
+  "note": "Completed 28 September 2023. This was an all-share merger: CNBC calls it a '$3.4 billion all-share combination' and Wikipedia says the July 2022 deal 'valued OneWeb at US$3.4 billion'; USD 3.4bn is a valuation, not a cash price."
+ },
+ {
+  "id": "oneweb",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "raised $500 million in funding",
+  "newSource": null,
+  "correction": null,
+  "note": "Published June 25, 2015. The article lists the eight names under 'OneWeb's investors now include' and does not say that each took part in this specific $500M round."
+ },
+ {
+  "id": "oneweb",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "In December 2016, OneWeb raised US$1 billion from SoftBank Group Corp. and US$200 million from existing investors.",
+  "newSource": null,
+  "correction": null,
+  "note": "Confirmed on Wikipedia only; the reference Wikipedia cites could not be opened (blocked/429/403). The page does not use the word 'led' for SoftBank; it is the source of USD 1bn of the USD 1.2bn."
+ },
+ {
+  "id": "oneweb",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "On 18 March 2019, OneWeb announced it had secured US$1.25 billion in funding following a successful first launch.",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia: 'from existing investors SoftBank Capital and Qualcomm, as well as Grupo Salinas and the Government of Rwanda'. Cited Bloomberg reference not opened (paywalled)."
+ },
+ {
+  "id": "oneweb",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "announced a joint plan to invest US$500 million each for equal stakes in OneWeb Global",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia dates the announcement 3 July 2020, stakes 'approximately 42% each', sale 'closed in November' 2020. Cited BBC and SpaceNews references could not be opened."
+ },
+ {
+  "id": "oneweb",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "In January 2021, a further funding round raised $400 million from SoftBank and Hughes Network Systems.",
+  "newSource": null,
+  "correction": null,
+  "note": "Confirmed on Wikipedia only; the reference Wikipedia cites could not be opened (blocked/429/403)."
+ },
+ {
+  "id": "oneweb",
+  "key": "round:5",
+  "verdict": "confirmed",
+  "quote": "In June 2021, Oneweb raised an additional US$500M from Bharti Global, increasing Bharti's holding to 38.6%.",
+  "newSource": null,
+  "correction": null,
+  "note": "Confirmed on Wikipedia only; the cited OneWeb press release URL now redirects to a generic Eutelsat page."
+ },
+ {
+  "id": "oneweb",
+  "key": "round:6",
+  "verdict": "confirmed",
+  "quote": "In August 2021, Hanwha Systems invested $300 million to purchase an 8.8% share in OneWeb.",
+  "newSource": null,
+  "correction": null,
+  "note": "Confirmed on Wikipedia only; the reference Wikipedia cites could not be opened (blocked/429/403)."
+ },
+ {
+  "id": "oq-technology",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "OQ Technology was established in Luxembourg in 2016 by telecommunications engineer Omar Qaise.",
+  "newSource": "https://merkur.lu/its-my-story/oq-technology-bringing-cell-towers-to-space",
+  "correction": null,
+  "note": "Merkur (Wikipedia's reference): 'Since its founding in 2016' and 'Headquartered in Luxembourg'."
+ },
+ {
+  "id": "oq-technology",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "In 2022, the company completed a Series A financing round of approximately €13 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia states approximately EUR 13M (claim leaves the amount null). The Merkur article Wikipedia cites for this does not mention the Series A at all, so the amount has no verified primary source. No investors named."
+ },
+ {
+  "id": "oq-technology",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Luxembourg Space Sector Development Fund, Wa'ed Ventures, and Phaistos Investment Fund",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia: convertible financing announced October 2024 as part of the Series B fundraising, no amount. The cited SpaceWatch Global reference returned 403. Quote is the investor list as relayed from the Wikipedia text."
+ },
+ {
+  "id": "oq-technology",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "a 2.5 million euros grant",
+  "newSource": null,
+  "correction": null,
+  "note": "Merkur also says 'up to 15 million euros in equity financing'. The Merkur article (published 15 April 2025) gives no award date; the year 2025 comes from Wikipedia's description of the EIC Accelerator selection."
+ },
+ {
+  "id": "orbex",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "2015; 11 years ago (2015)",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia: founded in 2015 as Moonspike Ltd; infobox HQ Forres, Scotland (HQ, not necessarily the founding city). The cited Space.com reference opened but its text was truncated and did not show the founding statement."
+ },
+ {
+  "id": "orbex",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "fundraising, merger and acquisition opportunities had all concluded unsuccessfully",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated 11 February 2026. Precisely: Orbex filed a 'notice of its intention to appoint administrators' (UK insolvency/administration), after its planned acquisition by The Exploration Company fell through; bankruptcy in the strict sense was filed only by its Danish subsidiary. The page does not state that liquidation is complete."
+ },
+ {
+  "id": "orbex",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "In 2018, Orbex secured £30 million (approximately €34.5 million) in funding.",
+  "newSource": null,
+  "correction": {
+   "date": "2018"
+  },
+  "note": "The page gives only the year 2018, not July. Investors named 'among others': UK Space Agency, Sunstone Technology Ventures, High-Tech Gründerfonds."
+ },
+ {
+  "id": "orbex",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Orbex closed a $24 million round",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: late 2020, $24 million (about €24.3 million), led by BGF and Octopus Ventures. Quote is the reader's close paraphrase of the page sentence."
+ },
+ {
+  "id": "orbex",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "In March 2021, Orbex received €7.45 million from ESA's Boost! programme.",
+  "newSource": null,
+  "correction": null,
+  "note": "Quote is a close paraphrase relayed from the page."
+ },
+ {
+  "id": "orbex",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "the successful closing of a £40.4 million (approximately €46.5 million) Series C funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "Led by the Scottish National Investment Bank; all named investors on the page. Published October 18, 2022."
+ },
+ {
+  "id": "orbex",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "£16.7 million ($20.7 million) in fresh funding",
+  "newSource": null,
+  "correction": null,
+  "note": "Page says the company is 'kicking off its Series D' with 'additional contributions from Octopus Ventures, BGF, Heartcore, EIFO and others'; so this is the opening tranche of a Series D. The Scottish National Investment Bank is also credited in the article. No lead named. Published April 18, 2024."
+ },
+ {
+  "id": "pixxel",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Pixxel was founded by Awais Ahmed and Kshitij Khandelwal in 2019.",
+  "newSource": null,
+  "correction": null,
+  "note": "Month (February 2019) is from the infobox only, uncited. Bengaluru is listed as headquarters (with El Segundo, CA)."
+ },
+ {
+  "id": "pixxel",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "brings Pixxel's total funding to $195 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Article dated 7th September 2026."
+ },
+ {
+  "id": "pixxel",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Lightspeed India Partners, Blume Ventures, GrowX Ventures, Techstars, Omnivore VC, and others",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia gives US$8 million for the August 2020 seed round but the paragraph has no inline citation, so no primary source could be checked. Quote is the investor list as relayed from the page."
+ },
+ {
+  "id": "pixxel",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "US$27 million Series A funding in March 2022.",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia names Radical Ventures, Seraphim Space Investment, Sparta LLC and other existing investors. The amount is inconsistent: Wikipedia's text says US$27M while its SpaceNews reference is titled 'Pixxel raises $25 million'; SpaceNews returned 429, so neither figure is verified."
+ },
+ {
+  "id": "pixxel",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "a Series B extension funding of US$24 million from M&G Catalyst and Glade Brook Capital Partners",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia: 'bringing the total Series B funding to US$60 Million'; references dated 9 December 2024. Cited Business Standard page returned 403."
+ },
+ {
+  "id": "pixxel",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "co-led by Temasek and Seraphim Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "'$100 million in a Series C funding round'; new investors 360 ONE Asset and IMM Investment, existing Radical Ventures and growX ventures. Dated 7th September 2026."
+ },
+ {
+  "id": "planet-labs",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "December 29, 2010; 15 years ago (2010-12-29)",
+  "newSource": null,
+  "correction": null,
+  "note": "Infobox date, cited only to planet.com. Wikipedia gives San Francisco as headquarters; it does not name a founding city (first satellite built in 'a California garage')."
+ },
+ {
+  "id": "planet-labs",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "today announced the completion of its previously announced business combination",
+  "newSource": "https://investors.planet.com/news/news-details/2021/Planet-Announces-Closing-of-Business-Combination-with-dMY-Technology-Group-Inc.-IV/default.aspx",
+  "correction": null,
+  "note": "Release dated December 7, 2021; NYSE trading began December 8, 2021. The release states 'gross proceeds of over $590 million' (claim has no amount)."
+ },
+ {
+  "id": "planet-labs",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "This now brings the total amount raised for Planet Labs to $183 million.",
+  "newSource": null,
+  "correction": null,
+  "note": "As of April 13, 2015."
+ },
+ {
+  "id": "planet-labs",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "announced the close of $118 million in Series C funding today.",
+  "newSource": null,
+  "correction": null,
+  "note": "Published April 13, 2015. Earlier $95M reported January 2015; 'The first $70 million of the funds from that round came from Data Collective'; IFC led the second closing. All listed investors named."
+ },
+ {
+  "id": "reflex-aerospace",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2021",
+  "newSource": null,
+  "correction": null,
+  "note": "The page gives no founding or HQ city; it mentions a Berlin design centre and a Munich MicroFactory. Munich as HQ is not stated on this page."
+ },
+ {
+  "id": "reflex-aerospace",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Reflex raised €9 million in seed funding in April 2023",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "reflex-aerospace",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "On 4 November, Reflex Aerospace announced that it had secured €50 million in new funding.",
+  "newSource": null,
+  "correction": null,
+  "note": "'a €50 million Series A funding round' led by Human Element, with Alpine Space Ventures, Bayern Kapital, HTGF and other German and European investors. Article published November 5, 2025."
+ },
+ {
+  "id": "rocket-lab",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Rocket Lab was founded in June 2006",
+  "newSource": null,
+  "correction": null,
+  "note": "Infobox: 'June 2006 ... in Auckland, New Zealand'. Cited Rocket Lab page returned 403."
+ },
+ {
+  "id": "rocket-lab",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "The company began trading on the Nasdaq stock exchange on 25 August 2021",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia says the transaction added $777 million in gross cash (gross proceeds, not a price) at a $4.8 billion valuation. Rocket Lab's own merger release returned 403."
+ },
+ {
+  "id": "rocket-lab",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "raised an additional US$75 million in a Series D equity round",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia (March 2017): led by Data Collective with participation from Promus Ventures and earlier investors. Cited SpaceNews reference not opened (URL truncated / site rate-limited)."
+ },
+ {
+  "id": "rocket-lab",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "has closed a Series E financing round of $140 million.",
+  "newSource": null,
+  "correction": null,
+  "note": "'was led by existing investor Future Fund'; Greenspring Associates, Khosla Ventures, Bessemer Venture Partners, DCVC (Data Collective), Promus Ventures, K1W1 and new investor ACC. Published November 15, 2018."
+ },
+ {
+  "id": "sateliot",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2018",
+  "newSource": null,
+  "correction": null,
+  "note": "The page does not name a city; Barcelona is not stated on this page."
+ },
+ {
+  "id": "sateliot",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "has closed a €70 million Series B funding round.",
+  "newSource": null,
+  "correction": null,
+  "note": "Named components: EUR 10M Hyperion, EUR 13.8M SETT, EUR 30M EIB debt facility; these sum to EUR 53.8M, the remaining EUR 16.2M is not attributed. No lead named. Note EUR 30M of the total is debt. Published March 26, 2025."
+ },
+ {
+  "id": "skynopy",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Paris-based space startup",
+  "newSource": null,
+  "correction": null,
+  "note": "Page gives the founding as October 2023."
+ },
+ {
+  "id": "skynopy",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "closed in only three weeks",
+  "newSource": null,
+  "correction": {
+   "type": "venture"
+  },
+  "note": "The page gives $3.1 million and all the named investors and individuals but does not name the round type (never calls it a seed) or a lead. Published 24 June 2024."
+ },
+ {
+  "id": "skynopy",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "€15 million funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "Led by Alven, with Expansion, Omnes, CNES (via its SpaceFounders programme) and existing investor Heartcore. Round not named. Published 30 June 2025."
+ },
+ {
+  "id": "skyroot-aerospace",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "12 June 2018",
+  "newSource": null,
+  "correction": null,
+  "note": "Exact date is in the Wikipedia infobox without citation; body says 'founded in 2018 by former ISRO scientists', headquartered in Hyderabad, Telangana."
+ },
+ {
+  "id": "skyroot-aerospace",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$11M",
+  "newSource": null,
+  "correction": null,
+  "note": "Payload states an $11M Series A in 2021; no investors named. Quote is the figure as relayed from the page."
+ },
+ {
+  "id": "skyroot-aerospace",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "led by GIC",
+  "newSource": null,
+  "correction": null,
+  "note": "$51M Series B; date is the article's publication date (September 6, 2022)."
+ },
+ {
+  "id": "skyroot-aerospace",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "led by Temasek Holdings",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia: US$27.5 million 'pre-Series C funding round' announced 30 October 2023. Cited Reuters reference could not be opened."
+ },
+ {
+  "id": "skyroot-aerospace",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "having previously extended Skyroot ₹100 crore in debt financing in March",
+  "newSource": null,
+  "correction": null,
+  "note": "₹100 crore = INR 1,000,000,000. The article (7 May 2026) says 'in March' without a year; 2026 is implied. Lender per the article is BlackRock-managed funds."
+ },
+ {
+  "id": "skyroot-aerospace",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "following its latest funding round of approximately US$60 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia gives the date (7 May 2026) and ~US$60M but names no investors. The investor names come from The Next Web (https://thenextweb.com/news/skyroot-india-space-tech-unicorn-gic-blackrock): 'a fresh round backed by GIC and BlackRock-managed funds', which also lists Temasek, Greenko and Mukesh Bansal and does not disclose the amount. USD 60M is approximate. Fortune India and The Hindu references could not be opened."
+ },
+ {
+  "id": "space-forge",
+  "key": "founded",
+  "verdict": "corrected",
+  "quote": "headquartered in Cardiff, Wales",
+  "newSource": null,
+  "correction": {
+   "city": "Cardiff"
+  },
+  "note": "Wikipedia: 'Space Forge was founded in 2018' (year confirmed) and gives Cardiff, Wales as headquarters, not Bristol; the company's press releases are also datelined Cardiff. Neither statement is cited, and no page opened mentions Bristol."
+ },
+ {
+  "id": "space-forge",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "The round was co-led by US-based SpaceFund and Type One",
+  "newSource": null,
+  "correction": null,
+  "note": "'$10.2 million' 'seed round'; World Fund also named as co-lead; all listed investors on the page. Release dated December 5, 2021. The July 2021 first close mentioned in the label was not checked on this page."
+ },
+ {
+  "id": "space-forge",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "The round was led by the NATO Innovation Fund",
+  "newSource": null,
+  "correction": null,
+  "note": "'£22.6 million (c. $30 million)' Series A, release dated May 14, 2025. All investors on the page (British Business Bank via its Regional Angels Programme; 'Stellar'; 'TypeOne')."
+ },
+ {
+  "id": "swarm-technologies",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Swarm Technologies was founded in 2016 by Sara Spangelo and Benjamin Longmier",
+  "newSource": null,
+  "correction": null,
+  "note": "Palo Alto, California is the infobox headquarters (uncited)."
+ },
+ {
+  "id": "swarm-technologies",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "In July 2021, SpaceX acquired Swarm for $524 million.",
+  "newSource": null,
+  "correction": null,
+  "note": "16 July 2021 is the date of the agreement ('On 16 July 2021, Swarm agreed to become a wholly owned subsidiary of SpaceX'); Wikipedia gives no closing date. The $524M price is cited to a 2023 Wall Street Journal article. SpaceNews reference returned 429."
+ },
+ {
+  "id": "swarm-technologies",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$25 million investment",
+  "newSource": null,
+  "correction": null,
+  "note": "Series A led by Sky Dayton and David Sacks (via Craft Ventures); Social Capital, 4DX Ventures and NJF Capital also named. Published January 24, 2019."
+ },
+ {
+  "id": "the-exploration-company",
+  "key": "founded",
+  "verdict": "corrected",
+  "quote": "TEC was founded in July 2021 by Hélène Huby.",
+  "newSource": null,
+  "correction": {
+   "city": "Gauting"
+  },
+  "note": "Date July 2021 confirmed. Wikipedia does not say Munich: it says 'TEC has dual headquarters', infobox Gauting (Germany) and Le Haillan (France), with sites in the Munich area (Gauting, Oberpfaffenhofen) and Bordeaux area. European Spaceflight says the French arm was registered June 2021 in Mérignac and the German arm July 2021 in Gilching."
+ },
+ {
+  "id": "the-exploration-company",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "approximately $680 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Approximate figure, as of the article dated September 8, 2026."
+ },
+ {
+  "id": "the-exploration-company",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "an oversubscribed €5.3 million seed round which was closed in November 2021.",
+  "newSource": null,
+  "correction": null,
+  "note": "'The round was led by Promus Ventures', 'included Cherry Ventures and Vsquared'."
+ },
+ {
+  "id": "the-exploration-company",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "co-led by EQT Ventures and Red River West",
+  "newSource": null,
+  "correction": null,
+  "note": "€40.5 Million Series A; visible article date Feb 7, 2023 (page metadata shows a later, unrelated date). No other investors named."
+ },
+ {
+  "id": "the-exploration-company",
+  "key": "round:2",
+  "verdict": "corrected",
+  "quote": "$160 million",
+  "newSource": "https://tech.eu/2024/11/18/the-exploration-company-raises-160m-series-b-for-reusable-spacecraft-development/",
+  "correction": {
+   "amount": {
+    "value": 160000000,
+    "currency": "USD"
+   },
+   "label": "Series B (USD 160M per Tech.eu; BalticVC writes 'a €151.6 round' with no unit)"
+  },
+  "note": "The original BalticVC page says only 'has led a €151.6 round' (no 'million') and never says 'Series B'. Tech.eu (18 November 2024) states $160 million Series B co-led by Balderton Capital and Plural, with Bessemer Venture Partners, NGP Capital, French Tech Souveraineté, DTCF, Bayern Kapital, EQT Ventures, Red River West, Cherry Ventures, Promus Ventures and 'Omnes Real Tech Fund' (claim: Omnes Capital). Leads, investors, date and type confirmed."
+ },
+ {
+  "id": "the-exploration-company",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "$450 million (€387 million)",
+  "newSource": null,
+  "correction": null,
+  "note": "Series C co-led by Bessemer Venture Partners, Atomico and the Scaleup Europe Fund (managed by EQT); 'Existing investors also contributed to the round.' Published September 8, 2026."
+ },
+ {
+  "id": "trustpoint",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "SpaceWERX provided the full $4 million contract",
+  "newSource": null,
+  "correction": null,
+  "note": "'$4 million Tactical Funding Increase (TACFI) contract'; published May 12, 2026 (first attempt was rate-limited, second succeeded)."
+ },
+ {
+  "id": "varda-space-industries",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in January 2021",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia: 'headquartered in El Segundo, California'. Note TechCrunch (July 2021) calls Varda an 'eight-month-old startup' and its seed was announced December 2020, which sits awkwardly with a January 2021 founding."
+ },
+ {
+  "id": "varda-space-industries",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "brought the total capital Varda's raised to $329 million",
+  "newSource": null,
+  "correction": null,
+  "note": "As of July 10, 2025."
+ },
+ {
+  "id": "varda-space-industries",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "last December",
+  "newSource": null,
+  "correction": null,
+  "note": "TechCrunch (July 29, 2021) says the $9 million seed round was announced 'last December' (linked article dated December 8, 2020); no investors named."
+ },
+ {
+  "id": "varda-space-industries",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "led by Khosla Ventures and Caffeinated Capital.",
+  "newSource": null,
+  "correction": null,
+  "note": "'$42 million Series A', with 'existing investors Lux Capital, General Catalyst and Founders Fund'. Published July 29, 2021."
+ },
+ {
+  "id": "varda-space-industries",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$90 million Series B funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "Led by Caffeinated Capital, with Lux Capital, General Catalyst, Founders Fund and Khosla Ventures. Release dated April 5, 2024."
+ },
+ {
+  "id": "varda-space-industries",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "led by venture capital firms Natural Capital and Shrug Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "'raised $187 million in Series C funding'; 'included participation from Peter Thiel, Lux Capital, Khosla Ventures and Caffeinated Capital'. Published July 10, 2025."
+ },
+ {
+  "id": "vyoma",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Vyoma was founded in 2020",
+  "newSource": null,
+  "correction": null,
+  "note": "Described as 'Munich-based'."
+ },
+ {
+  "id": "vyoma",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "The new funding brings the company’s total funding raised to date to over €16 million.",
+  "newSource": null,
+  "correction": null,
+  "note": "EUR 16M is a floor ('over'). As of April 2024."
+ },
+ {
+  "id": "vyoma",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "completes an extended Seed financing round during the Summer of 2022, led by Happiness Capital and Atlantic Labs",
+  "newSource": null,
+  "correction": null,
+  "note": "Faber Ventures also took part. No amount disclosed. The wording is ambiguous as to whether summer 2022 was the original seed or an extension of it."
+ },
+ {
+  "id": "vyoma",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "the closure of its Seed round with Safran Corporate Ventures as co-investor.",
+  "newSource": null,
+  "correction": null,
+  "note": "Announced June 20, 2023. No amount disclosed."
+ },
+ {
+  "id": "vyoma",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "On 10 April, the company announced that it had received €5 million",
+  "newSource": null,
+  "correction": null,
+  "note": "From 'an EIF-backed fund managed by existing Vyoma investor Atlantic Labs'. Round not named. Article published April 11, 2024."
+ },
+ {
+  "id": "xona-space-systems",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "We started Xona in 2019",
+  "newSource": null,
+  "correction": null,
+  "note": "The page mentions Burlingame only as the location of the spacecraft factory; it does not state the HQ or founding city."
+ },
+ {
+  "id": "xona-space-systems",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "more than $570 million",
+  "newSource": null,
+  "correction": null,
+  "note": "USD 570M is a floor ('more than'). Release dated Oct 22, 2026."
+ },
+ {
+  "id": "xona-space-systems",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$19 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Oversubscribed Series A led by Future Ventures and Seraphim Space, with NGP Capital, Industrious Ventures, Murata Electronics, Space Capital and Aloniq. Dateline May 8, 2024. Quote is the figure as relayed from the page."
+ },
+ {
+  "id": "xona-space-systems",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Today, we're announcing a total of $92 million in new unannounced funding.",
+  "newSource": null,
+  "correction": null,
+  "note": "USD 92M is the combined total, which 'includes our Series B round led by Craft Ventures' and '$20 million in non-dilutive funding' (SpaceWERX STRATFI); the page gives no separate Series B equity figure (implied about USD 72M). The page writes 'Seraphim Ventures' (claim: Seraphim Space). Dated June 26, 2025."
+ },
+ {
+  "id": "xona-space-systems",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$170 million Series C round",
+  "newSource": null,
+  "correction": null,
+  "note": "The page prints the lead as 'Mohari Ventures Natural Capital' with no separator, so it is unclear whether this is one entity or two firms (Mohari Ventures and Natural Capital); not resolved from this page. Other investors confirmed. Dated Mar 26, 2026."
+ },
+ {
+  "id": "xona-space-systems",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "The round is led by Steve Jurvetson's Future Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": "'$250 million in Series D funding' with unnamed 'new and existing investors'. Dated Oct 22, 2026."
+ }
+]

@@ -1,0 +1,29 @@
+[
+ {
+  "id": "bedrock-robotics",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Bedrock has raised nearly $1 billion since it was founded in 2024",
+  "newSource": null,
+  "correction": null,
+  "note": "Founding year 2024 is stated. The page does not state a headquarters city at all, so San Francisco is neither confirmed nor contradicted by this source."
+ },
+ {
+  "id": "bedrock-robotics",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "it's breaking cover with an $80 million funding round from investors Eclipse and 8VC",
+  "newSource": null,
+  "correction": null,
+  "note": "Page names no series and no lead, consistent with type venture and empty leads. Published July 16, 2025."
+ },
+ {
+  "id": "bedrock-robotics",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "The Series C round, co-led by CapitalG and Emergence Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "$600 million at a $4.1 billion valuation, published October 26, 2026. New investors USIT, Bessemer Venture Partners and Temasek; existing investors 8VC, Georgian, Valor Equity Partners, Xora, Eclipse, Perry Creek Capital and Nvidia: all named on the page."
+ }
+]

@@ -1,0 +1,451 @@
+[
+ {
+  "id": "palantir-founded-in-q-tel-backing",
+  "key": "event",
+  "verdict": "corrected",
+  "quote": "CIA-affiliated venture capital firm In-Q-Tel invested about $2 million.",
+  "newSource": null,
+  "correction": {
+   "detail": "The CIA-affiliated venture firm In-Q-Tel became an early backer of Palantir, investing about $2 million. Palantir was the first modern venture-backed company to become a core government and defence software supplier. Its alumni (Trae Stephens, Brian Schimpf, Joe Lonsdale) later founded or funded Anduril and Epirus."
+  },
+  "note": "Founding date May 6, 2003 is in the infobox (body says only 2003). In-Q-Tel's 1999 creation is not on the page (whole page searched), so that parenthesis is removed. Page confirms Lonsdale co-founded Epirus and names Brian Schimpf 'of Anduril Industries' and Trae Stephens; it does not spell out that Stephens or Schimpf are Palantir alumni who founded Anduril (context clause left as is)."
+ },
+ {
+  "id": "ansari-x-prize-won",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "more than $100 million was invested in new technologies in pursuit of the prize",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: prize won on October 4, 2004 by SpaceShipOne; US$10,000,000; 'launch a reusable crewed spacecraft into space twice within two weeks'."
+ },
+ {
+  "id": "darpa-grand-challenge-2005",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "None of the robot vehicles finished the route.",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: first race March 13, 2004; 2005 race on October 8, 2005 won by Stanford's Stanley with Carnegie Mellon's Sandstorm and H1ghlander second and third; prize raised to $2 million; Tartan Racing's Boss won the 2007 Urban Challenge. Bryan Salesky and Argo AI are not mentioned on the page (context clause, left unverified)."
+ },
+ {
+  "id": "nasa-cots-awards",
+  "key": "event",
+  "verdict": "corrected",
+  "quote": "COTS employed Space Act Agreements with milestone-based payments.",
+  "newSource": null,
+  "correction": {
+   "detail": "NASA paid milestone-based sums under Space Act Agreements ($278M awarded to SpaceX, $207M to Rocketplane Kistler, later replaced by Orbital Sciences) for commercial cargo vehicles instead of owning the design. It became the template for government-as-anchor-customer that later space startups pitched to investors."
+  },
+  "note": "Date 18 August 2006 and both award amounts confirmed. The page does not call the COTS agreements fixed-price (it says NASA moved to fixed-price contracts after COTS), so 'fixed-price' is removed. Kistler received only $32.1M before termination; SpaceX's award later rose to $396M."
+ },
+ {
+  "id": "universal-robots-first-cobot",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "selling the first commercially viable cobot in 2008",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 'In 2008, the first UR5 cobots were available on the Danish and German markets.' Company founded and based in Odense. The later Odense startup cluster is not described on the page (context clause)."
+ },
+ {
+  "id": "falcon-1-reaches-orbit",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "the first privately developed fully liquid-fueled launch vehicle to successfully reach orbit",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: fourth flight succeeded on September 28, 2008 'after three failed launch attempts'; Musk quoted that it was 'the last money that we had for Falcon 1'."
+ },
+ {
+  "id": "ros-1-0-release",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "ROS Box Turtle, was released on 2 March 2010",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: ROS 1.0 released in January 2010; 'They ended up awarding eleven PR2s to different institutions'; 'Linux for robotics'; 'Baxter, the first commercial robot to run ROS, was announced by Rethink Robotics' (2012 from paragraph context)."
+ },
+ {
+  "id": "industrie-4-0-hannover-2011",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "originated in 2011 from a project in the high-tech strategy of the German government",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 'publicly introduced in the same year at the Hannover Fair'; 'On 8 April 2013 at the Hannover Fair, the final report of the Working Group Industry 4.0 was presented.'"
+ },
+ {
+  "id": "amazon-acquires-kiva",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "On March 19, 2012, Amazon announced that it would acquire Kiva Systems for about $775 million in cash.",
+  "newSource": null,
+  "correction": null,
+  "note": "March 19, 2012 is the announcement date; the page gives no completion date. Page: 'had raised $33 million from investors'; 'After the acquisition, Kiva stopped marketing its systems'."
+ },
+ {
+  "id": "dragon-berths-iss",
+  "key": "event",
+  "verdict": "corrected",
+  "quote": "Berthing date 25 May 2012, 16:02 UTC",
+  "newSource": "https://en.wikipedia.org/wiki/SpaceX_COTS_Demo_Flight_2",
+  "correction": {
+   "date": "2012-05-25",
+   "detail": "COTS Demo Flight 2 launched on 22 May 2012 and Dragon was berthed to the ISS on 25 May. The berthing completed NASA's commercial cargo bet and validated public-private partnerships as a way to fund space hardware."
+  },
+  "note": "22 May 2012 is the launch date, not the berthing date. The original source gives only 22 May for the flight and has no 'first commercial' statement; the Demo Flight 2 page gives berthing on 25 May 2012 and says 'It was also the first commercial spacecraft to rendezvous and berth with another spacecraft.'"
+ },
+ {
+  "id": "alexnet-imagenet-2012",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "The network achieved a top-5 error rate of 15.3% to win the contest",
+  "newSource": null,
+  "correction": null,
+  "note": "September 30, 2012 is the date the team submitted AlexNet to ILSVRC per the page; the page gives no separate date for the announcement of the win. Page: 'more than 10.8% points better than the runner-up'; the authors 'sold the company, and the AlexNet source code along with it, to Google'."
+ },
+ {
+  "id": "google-acquires-boston-dynamics",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "On December 13, 2013, the company was acquired by Google X",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 'for an unknown price'; managed by Andy Rubin; SoftBank sale announced June 8, 2017; in December 2020 Hyundai 'acquired an 80% stake in the company from SoftBank for approximately $880 million' (completed June 2021; a reference title on the page says '$1.1B deal')."
+ },
+ {
+  "id": "google-acquires-deepmind-2014",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "for a price reportedly ranging between $400 million and $650 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 'On 26 January 2014, Google confirmed its acquisition of DeepMind'; founded in the UK on 15 November 2010, headquartered in London; 'Horizons Ventures and Founders Fund invested in the company'. 'No product' is not stated on the page."
+ },
+ {
+  "id": "russia-annexes-crimea",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "Vladimir Putin signs the treaty of accession with Russian-installed Crimean leaders in Moscow, 18 March 2014.",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 'On 27 February, Russian special forces without insignia began seizing strategic sites across Crimea' (it also mentions soldiers without insignia from 26 February). Helsing and Torsten Reil are not mentioned in the part of the page read (first 100,000 characters); that context clause is unverified."
+ },
+ {
+  "id": "google-buys-skybox",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "announced that it had entered into an agreement to be acquired by Google",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: announced 10 June 2014 for $500 million, completed 1 August 2014; founded in 2009; renamed Terra Bella on 8 March 2016; 'In 2017, Google sold Terra Bella and its SkySat satellite constellation to Planet Labs.'"
+ },
+ {
+  "id": "made-in-china-2025",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "increasing the Chinese-domestic content of core materials to 40 percent by 2020 and 70 percent by 2025",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 'signed by Chinese Premier Li Keqiang in May 2015'; 'directly inspired by Germany's proposed Industry 4.0 strategy'; robotics and IT among the ten sectors; US tariffs (2018), strengthened export control authorities and the CHIPS and Science Act (2022) are listed among US responses."
+ },
+ {
+  "id": "teradyne-acquires-universal-robots",
+  "key": "event",
+  "verdict": "corrected",
+  "quote": "A deal was consummated in May of 2015 for $285 million in cash",
+  "newSource": null,
+  "correction": {
+   "detail": "Teradyne paid $285 million in cash plus up to $65 million if performance targets were met through 2018, for a company that had run out of money and into serious debt in 2008. The exit proved the cobot market and returned capital and experienced operators to the Odense robotics cluster; Teradyne bought Mobile Industrial Robots, founded by Universal Robots alumni, three years later."
+  },
+  "note": "Date, price and earn-out confirmed. The 'DKK 10 million' rescue figure is not on the page: it says the company 'ran out of money and into serious debt' in 2008 and that the Danish Growth Fund funded it, and gives only a later '$1.5 million of equity funding'. Mobile Industrial Robots is not mentioned on the page (context clause, left unverified)."
+ },
+ {
+  "id": "oneweb-500m-round",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "says it has raised $500 million in funding",
+  "newSource": null,
+  "correction": null,
+  "note": "Published June 25, 2015. Investors on the page: Airbus Group, Bharti Enterprises, Hughes Network Systems, Intelsat, Qualcomm, Coca-Cola, Virgin Group and Totalplay (Totalplay is not in the detail). 'more than 600 satellites'; 39 Virgin Galactic launches and 21 Soyuz launches."
+ },
+ {
+  "id": "diux-established",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "DIU was launched in August 2015 as \"Defense Innovation Unit Experimental (DIUx).\"",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: founded by Ash Carter; in 2016 it 'pioneered a process called the Commercial Solutions Opening' awarding prototype contracts through Other Transaction Authority; re-designated DIU in August 2017 to indicate permanence. Shield AI and its first contract year are not on the page (context clause, left unverified)."
+ },
+ {
+  "id": "ge-digital-predix-2015",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "would generate at least $15 billion in revenue by 2020",
+  "newSource": "https://en.wikipedia.org/wiki/GE_Digital",
+  "correction": null,
+  "note": "Split across two pages. The original Predix page has 'GE invested over $7 billion' and the $15 billion by 2020 forecast (made in 2016) but no founding date and no launch date. The GE Digital page gives the founding date September 14, 2015 (infobox only) and '2016: GE launches Predix to the market'. 'Reportedly' is the record's wording; the page states the $7 billion as fact."
+ },
+ {
+  "id": "falcon-9-first-landing",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "It was the first time that the first stage of an orbital rocket made a successful return and vertical landing.",
+  "newSource": null,
+  "correction": null,
+  "note": "22 December 2015 is the UTC date (01:29 UTC; 21 December local time). Page: 'It carried 11 Orbcomm-OG2 satellites'; first stage 'landed intact at Landing Zone 1'."
+ },
+ {
+  "id": "gm-acquires-cruise-2016",
+  "key": "event",
+  "verdict": "corrected",
+  "quote": "north of $1 billion",
+  "newSource": null,
+  "correction": {
+   "detail": "Cruise had raised just over $18M and was last valued at about $90M post-money when GM bought it in a cash-and-stock deal that a source close to the situation valued at north of $1B; GM did not disclose the price. The multiple made self-driving startups a venture category: Ford committed $1B to Argo AI eleven months later."
+  },
+  "note": "Published March 11, 2016. Page confirms 'About 40 people work at Cruise Automation', 'raised over $18 million' and 'post-money valuation of around $90 million'. The '$581M' later-reported figure is not on the page and is removed. The Ford/Argo AI sentence is not on the page (context clause, left unverified)."
+ },
+ {
+  "id": "sea-hunter-christened",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "The ship was christened 7 April 2016 in Portland, Oregon.",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 'designed and built by Leidos' (manufacturing subcontracted to Christensen Shipyards, later Vigor Industrial); DARPA ACTUV program; 'built at a cost of $20 million'; reported 1 February 2018 that DARPA handed it to the Office of Naval Research. Saronic and Blue Water Autonomy are not on the page (context clause)."
+ },
+ {
+  "id": "boeing-acquires-liquid-robotics",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "On December 6, 2016, Boeing acquired Liquid Robotics",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 'designs, manufactures and sells the Wave Glider'; 'part of Boeing's Defense, Space and Security organization'; no price given. 'First notable exit' is the record's interpretation, not on the page."
+ },
+ {
+  "id": "intel-acquires-mobileye-2017",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "In March 2017, Intel announced that it would acquire Mobileye for $15.3 billion",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 'Mobileye went public on the New York Stock Exchange in 2014. It raised $890 million.' Movidius is not mentioned on the page (context clause, left unverified)."
+ },
+ {
+  "id": "yara-birkeland-announced",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "gave a grant of NOK133.6 million",
+  "newSource": null,
+  "correction": null,
+  "note": "The month May 2017 and the words 'zero emission' appear on the page only through the cited Yara press release (9 May 2017, 'The first ever zero emission, autonomous ship'); the article body says only 'Ordered: 2017'. Page: 'navigation equipment by Kongsberg Maritime'; grant from the Norwegian Government in September 2017; infobox 'In service: 2022' while a cited source says operations began in 2021 with a full crew; 'Crew: manned'."
+ },
+ {
+  "id": "transformer-paper-2017",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "authored by eight scientists and engineers working at Google",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: submitted to arXiv on 2017-06-12; 'underlies most modern large language models'; 'each of the authors left Google to join other companies or to found startups'. Vision-language-action robot models are not checked on the page (context)."
+ },
+ {
+  "id": "ge-digital-retreat-2018",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "GE announces plans to establish a new, $1.2 billion independent company",
+  "newSource": null,
+  "correction": null,
+  "note": "Page (2018, no month): the $1.2 billion independent company and 'intended sale of a majority stake of ServiceMax'; 'Following the GE October 2019 earnings call, Culp announced GE would retain its digital business'. The Predix name retirement is not on this page but is on https://en.wikipedia.org/wiki/Predix_(software): 'In 2022, the Predix name was retired.'"
+ },
+ {
+  "id": "softbank-cruise-2018",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "SoftBank's Vision Fund will invest $2.25 billion in GM Cruise Holdings LLC",
+  "newSource": null,
+  "correction": null,
+  "note": "Published May 31, 2018. The investment is staged: $900 million at closing and $1.35 billion when Cruise is ready for commercial deployment; 19.6-percent stake 'when closed'; GM adds $1.1 billion at closing. The later financings (Honda, Volkswagen/Argo AI, Toyota/Pony.ai) are not on the page (context clause, left unverified)."
+ },
+ {
+  "id": "rethink-robotics-shuts-down",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "Rethink raised $149.5 million in funding.",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 'shut down on October 3'; 'short on cash as its sales failed to meet expectations'; an acquisition 'fell through at the last minute'; robots 'not known for their precision'. Unit comparison: UR 'had sold more than 8,000 cobots by the end of 2015' against Rethink passing 'the 1,000 sales mark' in 2015; Rethink's final total is not given."
+ },
+ {
+  "id": "bright-machines-series-a-2018",
+  "key": "event",
+  "verdict": "corrected",
+  "quote": "$179 million Series A",
+  "newSource": null,
+  "correction": {
+   "detail": "Incubated inside Flex and led by Eclipse, with a former Autodesk co-CEO in charge and over 300 employees at launch, it was a landmark bet on software-driven robotics for manufacturing."
+  },
+  "note": "Published October 23, 2018; 'Eclipse led the round'; 'began life as incubated project inside Flex'. The page does not mention 'microfactories' or any SPAC, so the '2021 SPAC at $1.6B was later called off' sentence is removed as unverified on this source."
+ },
+ {
+  "id": "nasa-clps-selection",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "On November 29, 2018, NASA announced the first nine companies that would be allowed to bid on contracts",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: IDIQ contracts with 'a combined maximum contract value of $2.6 billion over ten years'; first awards to Astrobotic, Intuitive Machines and OrbitBeyond in May 2019 (the page gives both May 21 and May 31, 2019)."
+ },
+ {
+  "id": "virgin-galactic-spac-listing",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "The company raised $450 million through a SPAC merger listing.",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 'On Monday, October 28, 2019, Virgin Galactic listed on the New York Stock Exchange.' The later space SPACs (Momentus, Rocket Lab, Planet, Virgin Orbit) are not on the part of the page read (context clause, left unverified)."
+ },
+ {
+  "id": "covid-supply-chain-shock",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "In early 2020, the COVID-19 pandemic initially slowed the global supply chain",
+  "newSource": null,
+  "correction": null,
+  "note": "Page supports manufacturers pausing work in early 2020, a later demand surge, port congestion by mid-2021, the related chip shortage, and lean manufacturing cited as a source of disruption. Offshore manufacturing and the effect on automation or domestic production are not stated on the page (interpretive)."
+ },
+ {
+  "id": "imo-2020-sulphur-cap",
+  "key": "event",
+  "verdict": "corrected",
+  "quote": "This is expected to create massive changes for the shipping and oil industries.",
+  "newSource": null,
+  "correction": {
+   "detail": "The global limit on sulphur in marine fuel fell from 3.5% to 0.5%, forcing changes across the shipping and oil industries. Fuel cost and compliance pressure made efficiency measures such as hull cleaning, voyage optimisation and alternative propulsion easier to sell."
+  },
+  "note": "Date 1 January 2020 and both limits confirmed ('dropped from an allowed 3.5% sulphur in marine fuels to 0.5%', outside emission control areas). The page names the 'shipping and oil industries', not refining; minor wording correction."
+ },
+ {
+  "id": "oneweb-chapter-11",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "On 27 March 2020, OneWeb Global Limited and 18 affiliates filed for bankruptcy",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 'because of the financial impact of the COVID-19 pandemic'; US$1.7 billion raised by 2017 plus US$1.25 billion in March 2019; on 3 July 2020 the Bharti Global and UK government consortium won the auction, to 'invest US$500 million each for equal stakes'; the sale closed in November 2020."
+ },
+ {
+  "id": "gpt-3-api-2020",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "GPT-3 has 175 billion parameters",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: API beta June 11, 2020; arXiv preprint May 28, 2020 (infobox says May 29), i.e. two weeks earlier. GitHub Copilot was based on the Codex model derived from GPT-3 ('was the basis for GitHub Copilot'), not on the base GPT-3 API model."
+ },
+ {
+  "id": "aveva-acquires-osisoft",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "In August 2020, it was announced that the UK-based production company AVEVA agreed to buy OSIsoft",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 'a deal worth $5 billion' (final consideration £3,831.4 million); 'completed on 19 March 2021'. The page calls the PI System 'application software for real-time data management'; it does not use 'data historian' or say it is found in most process plants (description not verified)."
+ },
+ {
+  "id": "nagorno-karabakh-drone-war",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "Azerbaijan's widespread use of drones was seen as crucial in determining the conflict's outcome.",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 27 September – 10 November 2020; 'The war lasted for 44 days'; attack drones, loitering munitions and reconnaissance drones 'inflicting heavy losses upon Armenian tanks, artillery, air defence systems'. Page says 'heavy losses' and 'crucial', not 'decide'; the title's wording is the record's interpretation."
+ },
+ {
+  "id": "palantir-direct-listing",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "on September 30, 2020, it went public on the New York Stock Exchange",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: direct listing on the NYSE, ticker PLTR; founded 2003, so 17 years. The page also says the stock moved to Nasdaq effective November 26, 2024."
+ },
+ {
+  "id": "helsing-series-a-prima-materia",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "Helsing's previous Series A (€102.5 million) was led by Prima Materia",
+  "newSource": null,
+  "correction": null,
+  "note": "The page gives no Series A date beyond 'It was back in 2021 that we reported' on Ek using 'Prima Materia, his investment company, to back Helsing with €100 million' (so both €102.5M and €100M appear). Helsing's founding date is not on the page, so 'months-old' is unverified."
+ },
+ {
+  "id": "pandemic-labour-shortages",
+  "key": "event",
+  "verdict": "corrected",
+  "quote": "Add Soft Robotics to the long list of automation companies that have seen a boost in investment interest amid the pandemic.",
+  "newSource": null,
+  "correction": {
+   "detail": "Automation companies saw a boost in investor interest during the COVID-19 pandemic, with labour shortages and fears of disease transmission cited as drivers. Soft Robotics, for example, raised a $10M extension of its $23M Series B in June 2021, with Tyson Ventures, the investment arm of existing customer Tyson Foods, joining the round."
+  },
+  "note": "Published June 29, 2021. The page has no statement about Soft Robotics' sales, so 'the four largest sales quarters in its history' is removed. It does confirm 'due to labor shortages and fears of disease transmission' and that 'Tyson ... is an existing customer'. Food and logistics operators are not specifically named as the ones pushed toward robots."
+ },
+ {
+  "id": "uipath-ipo-2021",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "In April 2021, UiPath raised $1.3 billion in an initial public offering.",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: founded in 2005 in Bucharest; $30 million Series A in April 2017; $3 billion valuation on September 18, 2018 (and $1.1 billion in March 2018); 'became public on April 21, 2021' on the NYSE."
+ },
+ {
+  "id": "edf-regulation-in-force",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "The Fund has a budget of nearly €7.3 billion for 2021-2027.",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: 'Since the EDF Regulation came into force in May 2021'; €2.7 billion for collaborative defence research and €5.3 billion for collaborative capability development; 'a bonus system that considers SMEs, mid-caps'; 'Calls for disruptive technologies allow smaller consortia'. 'First EU-budget money for defence R&D' is not stated on the page (interpretive)."
+ },
+ {
+  "id": "cognite-tcv-unicorn-2021",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "The Series A round was led by TCV and was raised on a valuation of $1.6 billion",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated May 19, 2021; $150 million. Page calls it a Series A led by TCV, names Aker as majority shareholder and mentions 'a round led by Accel of $75 million' in October (year not stated; October 2020 would be seven months earlier)."
+ },
+ {
+  "id": "nato-agrees-diana",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "Members of the NATO alliance agreed to the creation of DIANA at the North Atlantic Council in Brussels on 14 June 2021.",
+  "newSource": null,
+  "correction": null,
+  "note": "Page: first call for proposals on 19 June 2023; 'On 30 November 2023, DIANA announced the first 44 companies selected out of 1,300 applicants'; grant of €100,000 each; 'By 14 March 2024, DIANA had 23 accelerator sites and 182 test centres.'"
+ },
+ {
+  "id": "anduril-series-d-450m",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "has landed a $450 million round of investment that values the startup at $4.6 billion just four years in",
+  "newSource": null,
+  "correction": null,
+  "note": "Published June 17, 2021. 'The new Series D round was led by angel investor and serial entrepreneur Elad Gil'; Andreessen Horowitz, Founders Fund, 8VC, General Catalyst and Lux Capital are named, along with Valor Equity Partners and D1 Capital Partners (not in the detail)."
+ },
+ {
+  "id": "zebra-acquires-fetch-robotics",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "Zebra is acquiring the other 95% of Fetch Robotics",
+  "newSource": null,
+  "correction": null,
+  "note": "July 1, 2021 is the announcement date: the page says 'The acquisition is expected to close in the third quarter of 2021', so the deal was not yet closed on that date. Page confirms $290 million, Zebra's existing 5% stake, 'had raised about $94 million' and 'annualized run-rate sales of approximately $10 million'."
+ }
+]

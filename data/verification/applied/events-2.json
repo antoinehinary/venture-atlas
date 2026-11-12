@@ -1,0 +1,447 @@
+[
+ {
+  "id": "tesla-announces-optimus",
+  "key": "event",
+  "verdict": "corrected",
+  "quote": "It was announced at the company's AI Day event on August 19, 2021 ... One prototype walked onto the stage and waved.",
+  "newSource": null,
+  "correction": {
+   "detail": "Tesla announced the Tesla Bot (Optimus) on 19 August 2021 and displayed prototypes in September 2022, one of which walked on stage. A carmaker committed publicly to a general-purpose humanoid; Figure was founded the following year and 1X turned to humanoids for the home in 2022."
+  },
+  "note": "Page says prototypes were displayed in September 2022; one walked, the second could not yet stand on its own. Figure founded 2022 (CNBC, Wikipedia Figure AI) and 1X's 2022 shift to domestic robotics (Wikipedia 1X Technologies) were checked on other pages."
+ },
+ {
+  "id": "rocket-lab-spac-listing",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "The company began trading on the Nasdaq stock exchange on 25 August 2021 ... The transaction added $777 million in gross cash.",
+  "newSource": null,
+  "correction": null,
+  "note": "Momentus/Planet are not on the source page. Planet: Wikipedia Planet Labs says 'The business combination was completed on December 7, 2021'. Momentus: Wikipedia Momentus Space supports August 2021 closing and July 2021 SEC charges only through citation titles. 'Peak of the SPAC boom' is interpretation."
+ },
+ {
+  "id": "aukus-announced",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "Initially announced on 15 September 2021 ... AUKUS Maritime Autonomy Experimentation and Exercise Series ... the ability to launch and recover undersea vehicles from torpedo tubes on current classes of submarines",
+  "newSource": null,
+  "correction": null,
+  "note": "Page says 'launch and recover undersea vehicles from torpedo tubes'. 'Grant source' is interpretation."
+ },
+ {
+  "id": "samsara-ipo-2021",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "In December 2021, Samsara held an initial public offering on the New York Stock Exchange under the ticker symbol \"IOT\" ... raising $805 million at a valuation of $11.5 billion.",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "exotec-series-d-unicorn",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "January 17, 2022 ... $335M ... Series D funding ... $2B",
+  "newSource": null,
+  "correction": null,
+  "note": "Company release confirms date, amount, valuation, Goldman Sachs Asset Management (Growth Equity) as lead, and Gap and Decathlon as customers. 'France's first industrial unicorn' is not in the release; Wikipedia Exotec says the valuation made it 'the country's first industrial unicorn'."
+ },
+ {
+  "id": "russia-invades-ukraine",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "On 24 February 2022, Russia invaded Ukraine, starting the largest and deadliest war in Europe since World War II.",
+  "newSource": null,
+  "correction": null,
+  "note": "The list of companies and the drone/EW market effect are interpretation and are not on the page (first 100k characters read)."
+ },
+ {
+  "id": "zeitenwende-speech",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "extraordinary fund of €100 billion ... promised that defence spending would exceed 2% of gross domestic product",
+  "newSource": null,
+  "correction": null,
+  "note": "Speech on 27 February 2022; page also calls it an 'off-budget €100 billion Sondervermögen Bundeswehr fund'. Later Bundeswehr contracts for the named startups are not on the page."
+ },
+ {
+  "id": "chips-and-science-act",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "signed into law by President Joe Biden on August 9, 2022 ... for which it appropriates $52.7 billion ... includes $39 billion in subsidies for chip manufacturing on U.S. soil ... 25% investment tax credits",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "inflation-reduction-act",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "$116 billion worth of 181 climate-friendly tech manufacturing investments within the United States ... as of November 14, 2024",
+  "newSource": null,
+  "correction": null,
+  "note": "Signed August 16, 2022. The 181/$116B count is attributed on the page to analyst Jack Conness and carries an 'update' tag. Page mentions the Section 45X advanced manufacturing credit."
+ },
+ {
+  "id": "nord-stream-sabotage",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "On 26 September 2022, a series of underwater explosions and consequent gas leaks occurred on 3 of 4 Nord Stream pipes.",
+  "newSource": null,
+  "correction": null,
+  "note": "Infobox: 'Central Baltic Sea, near Bornholm, Denmark'. Swedish authorities: 'remains of explosives were found at the site of the leaks' and confirmed sabotage (18 November 2022)."
+ },
+ {
+  "id": "us-chip-export-controls-2022",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "Effective October 7, 2022 ... Bureau of Industry and Security ... Adds certain advanced and high-performance computing chips ... Adds certain semiconductor manufacturing equipment and related items",
+  "newSource": null,
+  "correction": null,
+  "note": "The EuroHPC DARE / Axelera AI reference is context not on the page and was not checked."
+ },
+ {
+  "id": "argo-ai-shutdown-2022",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "has raised more than $2.6 billion ... $2.7 billion non-cash, pretax impairment on its investment in Argo AI",
+  "newSource": null,
+  "correction": null,
+  "note": "Published October 26, 2022. Page says 'more than 2,000 employees'; VW 'will no longer invest in Argo AI'; Ford to develop 'L2+ and L3 applications'."
+ },
+ {
+  "id": "sevastopol-sea-drone-attack",
+  "key": "event",
+  "verdict": "corrected",
+  "quote": "nine drones and seven autonomous marine unmanned vehicles participated in the operation",
+  "newSource": null,
+  "correction": {
+   "title": "Sea and aerial drones attack Russia's fleet in Sevastopol",
+   "detail": "On 29 October 2022 aerial drones and drone boats attacked the Black Sea Fleet in Sevastopol; the Russian-installed governor counted nine aerial drones and seven uncrewed surface vessels, and Russia blamed Ukraine. It showed that naval bases were vulnerable to low-cost drone boats and reset how navies and investors valued small uncrewed surface vessels."
+  },
+  "note": "The 9 + 7 count is a statement by the Russian-installed Sevastopol governor; GeoConfirmed estimated six to eight drone boats and at least three ships hit. In the part of the page read (first 100k characters) Russia blames Ukraine (and the UK) and no official Ukrainian claim is reported, so the title's attribution was neutralised."
+ },
+ {
+  "id": "chatgpt-release",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "reaching 100 million monthly active users two months after its release",
+  "newSource": null,
+  "correction": null,
+  "note": "Released November 30, 2022."
+ },
+ {
+  "id": "chatgpt-launch-2022",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "ChatGPT gained one million users in five days ... 100 million in two months",
+  "newSource": null,
+  "correction": null,
+  "note": "Released November 30, 2022."
+ },
+ {
+  "id": "imo-2023-ghg-strategy",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "by or around, i.e. close to 2050 ... by at least 20%, striving for 30% ... by at least 70%, striving for 80% ... at least 5%, striving for 10%",
+  "newSource": null,
+  "correction": null,
+  "note": "Adopted at MEPC 80; page gives only the year 2023. Checkpoints are relative to 2008."
+ },
+ {
+  "id": "openai-backs-1x",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "27 March 2023 ... $23.5 million ... Series A2 funding round ... OpenAI's Startup Fund ... Tiger Global ... formerly known as Halodi Robotics",
+  "newSource": "https://tech.eu/2023/03/27/norways-1x-raises-235-million-in-openai-led-round",
+  "correction": null,
+  "note": "The original TechCrunch page (6 April 2023) confirms the $23.5M round led by OpenAI's Startup Fund with Tiger Global but gives no round date or series name; tech.eu supplies March 2023 and 'Series A2'. 1X's own Medium post returned 403. '$100 million ten months later': Wikipedia 1X Technologies gives a $100 million Series B in January 2024."
+ },
+ {
+  "id": "gpt-4-release",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "GPT-4 was released on March 14, 2023. ... GitHub Copilot has announced a GPT-4 powered assistant named \"Copilot X\".",
+  "newSource": null,
+  "correction": null,
+  "note": "Page also describes AutoGPT as an autonomous agent that can iteratively write code. The PLC/CAM startup clause is interpretation."
+ },
+ {
+  "id": "virgin-orbit-bankruptcy",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "The company declared Chapter 11 bankruptcy on April 4, 2023. ... the company raised $228 million, less than half than the $483 million it expected to raise.",
+  "newSource": null,
+  "correction": null,
+  "note": "Rocket Lab $16 million, Stratolaunch $17 million, Launcher $3 million, Firefly $3.8 million (15 June) all on the page; UK launch failed on January 9, 2023; SPAC merger December 30, 2021."
+ },
+ {
+  "id": "deepmind-rt-2",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "improved performance on previously unseen scenarios by the robot, from RT-1's 32% to 62% ... on over 6,000 robotic trials",
+  "newSource": null,
+  "correction": null,
+  "note": "Published July 28, 2023. Physical Intelligence clause checked on Wikipedia (Physical Intelligence Inc.): founded February 2024, with Karol Hausman, Brian Ichter and Quan Vuong 'of Google DeepMind' among the founders."
+ },
+ {
+  "id": "european-chips-act",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "entered into force in September 2023 ... First announced in February 2022 ... a minimum of €43 billion in policy-driven public investment",
+  "newSource": null,
+  "correction": null,
+  "note": "The 20% target appears as the 'Digital Decade target of a 20% EU share in the global market value chain by revenue' by 2030; the page also reports the Court of Auditors finding it very unlikely to be met."
+ },
+ {
+  "id": "red-sea-crisis-begins",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "At least 30 ships have been damaged by Houthi attacks. ... Beginning of Operation Prosperity Guardian on 18 December 2023",
+  "newSource": null,
+  "correction": null,
+  "note": "Infobox date '19 October 2023 – present'. Four cargo ships sunk (one UK-owned, three Greek-owned); two ships hijacked. Only the first 100k characters of the page were read."
+ },
+ {
+  "id": "european-launcher-challenge-announced",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "ESA council announced the European Launcher Challenge in Seville, Spain in November 2023. ... a maximum of €169 million per company ... doubled its expected subscriptions to €900 million at the council",
+  "newSource": null,
+  "correction": null,
+  "note": "Preselection on 7 July 2025 of Isar Aerospace, MaiaSpace, Orbex, PLD Space and Rocket Factory Augsburg is on the page. The page does not give the earlier subscription figure behind 'doubled'."
+ },
+ {
+  "id": "eu-ets-extended-to-shipping",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "Since January 2024, the EU's Emissions Trading System (EU ETS) has been extended to cover CO2 emissions from all large ships (of 5 000 gross tonnage and above)",
+  "newSource": null,
+  "correction": null,
+  "note": "Phase-in on page: 2025 for 40% of 2024 emissions, 2026 for 70% of 2025 emissions, 2027 onwards 100%. Methane and N2O included from 2026. Page notes a targeted ETS revision proposed on 17 July 2026."
+ },
+ {
+  "id": "magura-v5-sinks-ivanovets",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "On 1 February 2024, several MAGURA V5 drones struck and sank the ...",
+  "newSource": null,
+  "correction": null,
+  "note": "Tsezar Kunikov (14 February 2024) and Sergey Kotov (5 March 2024) are on the page. Unit cost $273,000 is from the infobox, unsourced there."
+ },
+ {
+  "id": "figure-675m-round",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "raised $675 million at a $2.6 billion valuation",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 29 February 2024; Key Points name Jeff Bezos, Nvidia, Microsoft and OpenAI, body names Intel's venture fund; 'Founded in 2022'. $39 billion: Wikipedia Figure AI cites a Series C at $39B post-money dated 16 September 2025 (about 18.5 months later)."
+ },
+ {
+  "id": "wayve-series-c-2024",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "$1.05 billion ... Series C ... SoftBank Group ... Also participating in the raise was Nvidia and existing investor Microsoft.",
+  "newSource": null,
+  "correction": null,
+  "note": "Published May 6, 2024. Page says 'mapless' and 'end-to-end', and that Wayve 'plans to sell its autonomous driving model to a variety of auto OEMs' (no automotive partners announced at the time)."
+ },
+ {
+  "id": "nato-innovation-fund-first-investments",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "June 18, 2024 ... €1 billion Fund ... Backed by 24 NATO Allies",
+  "newSource": null,
+  "correction": null,
+  "note": "All five companies and four funds are named on the page. The later investments (Tekever, Tytan Series A co-lead, STARK Series C) are not on this page and were not checked."
+ },
+ {
+  "id": "softbank-acquires-graphcore-2024",
+  "key": "event",
+  "verdict": "corrected",
+  "quote": "Graphcore today announced that the company has been acquired by SoftBank Group Corp. ... becomes a wholly owned subsidiary of SoftBank",
+  "newSource": null,
+  "correction": {
+   "detail": "The UK AI-chip maker, valued at $2.8B in 2020, became a wholly owned SoftBank subsidiary for an undisclosed price reported at around $500M to $600M. A cautionary exit for data-centre AI chip startups competing head-on with Nvidia."
+  },
+  "note": "Company post (Jul 11, 2024) gives no price or valuation. Wikipedia Graphcore: 'agreed to acquire Graphcore for around $500 million'; artificialintelligence-news.com (July 12, 2024): 'reportedly valued at about $600 million'. The $2.8B 2020 valuation was found only as a Guardian headline in Wikipedia's references ('UK chipmaker Graphcore valued at $2.8bn after it raises $222m', 29 Dec 2020)."
+ },
+ {
+  "id": "eu-ai-act-in-force-2024",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "entered into force on 1 August 2024 ... the prohibitions applied after 6 months (2 February 2025) ... general-purpose AI models, governance and penalties applied after 12 months (2 August 2025)",
+  "newSource": null,
+  "correction": null,
+  "note": "Page says a 2026 regulation postponed high-risk obligations to 2 December 2027 (Annex III) and 2 August 2028 (Annex I)."
+ },
+ {
+  "id": "amazon-covariant-licence",
+  "key": "event",
+  "verdict": "corrected",
+  "quote": "Amazon is receiving a non-exclusive license to Covariant's robotic foundation models. ... around a quarter of Covariant's current employees",
+  "newSource": null,
+  "correction": {
+   "detail": "Amazon took a non-exclusive licence to Covariant's robot foundation models and hired three of its co-founders and about a quarter of its staff. A later whistleblower complaint reported by CNBC put the cost above $400 million; CNBC reported that a \"skeleton crew\" of about 10% to 15% of the workforce remained at Covariant."
+  },
+  "note": "Amazon page (August 30, 2024) confirms the licence, the three founders (Pieter Abbeel, Peter Chen, Rocky Duan) and about a quarter of staff. CNBC (https://www.cnbc.com/2025/08/19/how-ai-zombie-deals-work-meta-google.html) confirms 'Amazon spent more than $400 million' per the whistleblower complaint, but does not give $222 million raised (it says 'reportedly been valued at $625 million in a 2023 funding round') and does not use the phrase 'reverse acquihire' in its text; it reports a 'skeleton crew' of about 10% to 15%. The $222 million figure was not found on any page opened."
+ },
+ {
+  "id": "physical-intelligence-pi0-2024",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "has raised $400 million ... has risen to $2.4 billion",
+  "newSource": null,
+  "correction": null,
+  "note": "Published November 4, 2024; Jeff Bezos led with Thrive Capital and Lux Capital, OpenAI among investors thanked; valuation is company-reported. The page does not say when the company emerged: Wikipedia gives founding in February 2024 (nine months earlier), so 'eight months after emerging' is not verified. Later European rounds (Flexion, mimic, Sereact) not checked."
+ },
+ {
+  "id": "gm-ends-cruise-robotaxi-2024",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "In December 2024, GM stopped funding Cruise.",
+  "newSource": null,
+  "correction": null,
+  "note": "Dragging incident October 2, 2023; California DMV suspension October 24, 2023 (fourteen months before). Work 'to be incorporated into development of advanced driver assistance systems for personal vehicles'."
+ },
+ {
+  "id": "iris2-contract-signed",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "The contract with SpaceRISE was signed in Brussels on 16 December 2024. ... the estimated cost was €10.5 billion ... Initial government services are expected to start in 2030.",
+  "newSource": null,
+  "correction": null,
+  "note": "The constellation was 290 satellites at signing; the page says it was raised to 348 (330 LEO, 18 MEO) in August 2026, and the cost estimate was later revised to €15.6 billion."
+ },
+ {
+  "id": "estlink-2-cable-cut",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "disruptions to four telecommunications cables ... NATO intends to increase its military presence in the Baltic Sea as a result of the incident",
+  "newSource": null,
+  "correction": null,
+  "note": "25 December 2024; Finnish police took Eagle S into possession; anchor dragging suspected."
+ },
+ {
+  "id": "saronic-600m-series-c",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "closed a Series C round of $600 million ... bringing its valuation to $4 billion ... Elad Gil led Saronic's Series C round",
+  "newSource": null,
+  "correction": null,
+  "note": "Published February 19, 2025; General Catalyst, a16z, Caffeinated Capital, 8VC and Port Alpha on the page. The page gives no month for the $175M Series B; a separate Robot Report article on it is dated July 21, 2024, which supports 'seven months'."
+ },
+ {
+  "id": "rearm-europe-readiness-2030",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "proposed by European Commission president Ursula von der Leyen on 4 March 2025 ... seeks to mobilise up to €800 billion ... €150 billion in loans for joint defence projects",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "us-maritime-dominance-executive-order",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "Executive Order 14269 ... shall submit a Maritime Action Plan (MAP) to the President ... establish a Maritime Security Trust Fund",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated April 9, 2025. Financial incentives programme with grants, loans and loan guarantees; maritime prosperity zones; 'Improve Procurement Efficiency' section all on the page."
+ },
+ {
+  "id": "operation-spiderweb",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "a covert drone attack carried out by the Security Service of Ukraine (SBU) deep inside Russia on 1 June 2025 ... employing 117 drones ... 4,300 km (2,700 mi) from Ukraine",
+  "newSource": null,
+  "correction": null,
+  "note": "117 is the Ukrainian officials' figure. Tu-95 and Tu-22M3 'have not been produced since the dissolution of the Soviet Union in 1991'."
+ },
+ {
+  "id": "physical-intelligence-series-b",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "raised $600 million in Series B funding ... currently valued at about $5.6 billion ... has raised a total of $1.1 billion to date",
+  "newSource": null,
+  "correction": null,
+  "note": "Published November 25, 2025; CapitalG led 'with Lux Capital'. Page says 'Founded in 2024', so 'two-year-old' is generous (under two years). 'No product on sale' is not stated on the page."
+ },
+ {
+  "id": "orbex-administration",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "it had filed a notice of its intention to appoint administrators ... after a planned takeover by European space logistics startup The Exploration Company fell through",
+  "newSource": null,
+  "correction": null,
+  "note": "Published February 11, 2026. The Launcher Challenge preselection is not in this article but is confirmed by Wikipedia European Launcher Challenge (Orbex among five). Prime had not flown."
+ },
+ {
+  "id": "imo-mass-code-adopted",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "The non-mandatory MASS Code was adopted by resolution MSC.595(111) in May 2026 ... The Code came into effect on 1 July 2026.",
+  "newSource": null,
+  "correction": null,
+  "note": "RSE completed 2021; 'By 1 July 2030 – Expected adoption of the IMO's first mandatory MASS Code, for entry into force on 1 Jan 2032'."
+ },
+ {
+  "id": "anduril-series-h-5b",
+  "key": "event",
+  "verdict": "corrected",
+  "quote": "$5 billion Series H round at a $61 billion valuation ... Helsing is reportedly close to raising a new $1.2 billion round at about an $18 billion valuation",
+  "newSource": null,
+  "correction": {
+   "detail": "Led by Thrive Capital and Andreessen Horowitz, the round doubled the $30.5B valuation set in June 2025 and came as Shield AI raised a $1.5B Series G at $12.7B and Helsing was reported close to raising $1.2B at about $18B, marking the peak so far of late-stage capital in defence technology."
+  },
+  "note": "Published May 13, 2026; led by Thrive Capital and Andreessen Horowitz; Shield AI figures on page. Helsing's round is described as reported and not closed. The page dates the $30.5B valuation as 'just under a year ago' (the linked article URL is dated 2025/06/05)."
+ },
+ {
+  "id": "isar-aerospace-series-d",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "has signed a EUR 270m Series D round ... backed by new investors Island Green Capital and Molten Ventures",
+  "newSource": null,
+  "correction": null,
+  "note": "Release dated 09 Jun 2026; no lead named. The release itself only announces an upcoming qualification flight; the 5 September 2026 orbit date rests on a sidebar headline on the same page dated 05 Sep 2026 ('reaches orbit and deploys payloads on second flight'), not on an article that was opened."
+ },
+ {
+  "id": "neura-robotics-series-c",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "up to $1.4 billion in Series C funding ... According to the company, this is the largest funding round ever for a full-stack robotics company.",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 10 June 2026; all seven named investors are on the page (plus imec.xpand, Lingotto Horizon, InterAlpen Partners). Page calls it 'the German robotics company'; 'cobot and humanoid maker' is not stated there."
+ },
+ {
+  "id": "schneider-acquires-cognite",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "entered into an agreement to sell 100 percent of the shares in Cognite Holding B.V. ... based on an enterprise value of USD 3.1 billion ... approximately 20x invested capital",
+  "newSource": null,
+  "correction": null,
+  "note": "Release dated 2026-06-30; sellers are Aker and the other Cognite shareholders; subject to customary regulatory approvals. 'Largest reported exit' is not on the page."
+ },
+ {
+  "id": "kraken-technology-unicorn-series-b",
+  "key": "event",
+  "verdict": "corrected",
+  "quote": "Kraken Technology Group Ltd. this month raised $175 million in Series B funding to reach a valuation of $1 billion.",
+  "newSource": null,
+  "correction": {
+   "date": "2026-07"
+  },
+  "note": "The article is dated July 27, 2026 and says only 'this month'; the day (9 July) is not supported. DTCP lead, British Business Bank, NATO Innovation Fund, Rheinmetall and Inocea are on the page; 'unicorn' is not used. Saronic's $1.75B Series D at $9.25B is confirmed by a Robot Report article dated March 31, 2026."
+ },
+ {
+  "id": "shield-to-acquire-echodyne",
+  "key": "event",
+  "verdict": "confirmed",
+  "quote": "Shield today announced it has entered into a definitive agreement to acquire Echodyne Corp. ... in a transaction valued at $5.3 billion",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated November 5, 2026; $4.8 billion at closing, up to $500 million contingent; $1 billion Series H at $28.8 billion post-money; expected to close in early 2027."
+ }
+]

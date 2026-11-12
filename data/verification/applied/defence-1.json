@@ -1,0 +1,768 @@
+[
+ {
+  "id": "advanced-navigation",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "total amount raised to more than US 85 million (AUD 134 million)",
+  "newSource": null,
+  "correction": null,
+  "note": "Page says 'more than' USD 85M: the figure is a floor. Release dated 17 November 2022."
+ },
+ {
+  "id": "advanced-navigation",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "USD 68 million (AUD 108 million) Series B funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "Release dated 17 November 2022; says KKR 'will lead' the round."
+ },
+ {
+  "id": "alpine-eagle",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2023 by CEO Jan-Hendrik Boelens",
+  "newSource": null,
+  "correction": null,
+  "note": "Page does not state a founding/HQ city; Munich appears only as the press-release dateline ('Munich, 6th March 2025')."
+ },
+ {
+  "id": "alpine-eagle",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "along with previous investors General Catalyst and HCVC, which led Alpine Eagle's pre-seed",
+  "newSource": null,
+  "correction": null,
+  "note": "Sentence is grammatically ambiguous: 'which led' could refer to HCVC alone or to both General Catalyst and HCVC. No amount or date given."
+ },
+ {
+  "id": "alpine-eagle",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "has raised €10.25 million in seed funding led by IQ Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "Dated 6 March 2025. 'HTGF, Expeditions Fund and Sentris Capital also participated in the round, along with previous investors General Catalyst and HCVC'."
+ },
+ {
+  "id": "anduril-industries",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Anduril was incorporated in April 20, 2017 and seeded by Founders Fund.",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia states the date and Costa Mesa HQ, but the TechCrunch article it cites for that sentence (opened: techcrunch.com/2017/10/19/anduril-trae-stephens-battlefield-vr-ar/) says 'the company was incorporated in June of this year and is based out of Irvine'. The exact day 2017-04-20 is therefore not backed by the reachable primary reference; only the year 2017 is consistent across both. Treat the day/month as weakly sourced."
+ },
+ {
+  "id": "anduril-industries",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "led by angel investor and serial entrepreneur Elad Gil",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "anduril-industries",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Founders Fund has led another, enormous round ... with a $1 billion investment",
+  "newSource": null,
+  "correction": null,
+  "note": "Series G, $2.5B, published June 5, 2025. No other investors named ('Existing investors also piled in')."
+ },
+ {
+  "id": "anduril-industries",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$5 billion Series H round ... led by returning investors Thrive Capital and Andreessen Horowitz",
+  "newSource": null,
+  "correction": null,
+  "note": "Published May 13, 2026."
+ },
+ {
+  "id": "aquark-technologies",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "a €5mn seed round",
+  "newSource": null,
+  "correction": null,
+  "note": "Published September 19, 2024; led by the NATO Innovation Fund. The page writes the Danish investor as 'Export and Investment Fund of Denmark (EIFD)' rather than 'EIFO'; UKI2S and MBDA named."
+ },
+ {
+  "id": "arx-robotics",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "founded in 2022 by former Bundeswehr officers",
+  "newSource": null,
+  "correction": null,
+  "note": "Page calls it 'a Munich-based company'; it does not say where it was founded."
+ },
+ {
+  "id": "arx-robotics",
+  "key": "round:0",
+  "verdict": "corrected",
+  "quote": "led by HV Capital with participation from Omnes Capital ... significant support from existing investors NATO Innovation Fund and Project A",
+  "newSource": null,
+  "correction": {
+   "investors": [
+    "Omnes Capital",
+    "NATO Innovation Fund",
+    "Project A"
+   ]
+  },
+  "note": "'Heliad' does not appear anywhere on the source page (nor on the munich-startup.de article on the same round). Everything else matches (Series A, €31 million, 28 April 2025)."
+ },
+ {
+  "id": "auterion",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Auterion was founded in November by Dr. Lorenz Meier and Kevin Sartori in Zurich, Switzerland.",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia only (infobox year 2017); the sentence carries no citation, so no primary reference could be checked."
+ },
+ {
+  "id": "auterion",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Backing the round is Lakestar, Mosaic Ventures, Costanoa Ventures, and Tectonic Ventures.",
+  "newSource": null,
+  "correction": null,
+  "note": "$10 million seed, published September 4, 2018; no lead stated."
+ },
+ {
+  "id": "auterion",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Bessemer Venture Partners leads Auterion's $130 million Series B",
+  "newSource": null,
+  "correction": null,
+  "note": "Published Sep 23, 2025; no other investors named."
+ },
+ {
+  "id": "bavovna-ai",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2022",
+  "newSource": null,
+  "correction": null,
+  "note": "Page gives no HQ city; describes Bavovna as a 'US-Ukrainian startup'."
+ },
+ {
+  "id": "bavovna-ai",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "To date, the company has raised $2.7 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 15 November 2024."
+ },
+ {
+  "id": "bavovna-ai",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "closing of its $1.7 million late seed round ... Presto Tech Horizons is the lead investor this round",
+  "newSource": null,
+  "correction": null,
+  "note": "The ain.ua source names only Presto Tech Horizons, Network VC, Allied VC 'and a number of private investors'. The three angels (Premysl Rubes, Matej Luhový, Vojta Rocek) are named on the Vestbee page (https://vestbee.com/insights/articles/bavovna-ai-raises-2-7-m), which attributes them to the $2.7M seed overall, not specifically to the $1.7M tranche."
+ },
+ {
+  "id": "bone-ai",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "launched earlier this year",
+  "newSource": null,
+  "correction": null,
+  "note": "Article (Nov 17, 2025) gives no explicit founding year, only 'launched earlier this year'; describes the company as 'based in Seoul and Palo Alto, California'."
+ },
+ {
+  "id": "bone-ai",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "has raised a $12 million seed round led by Third Prime with participation from Kolon Group",
+  "newSource": null,
+  "correction": null,
+  "note": "DK Lee is the founder, not an outside investor: 'Lee personally committed more than 10% of the round, approximately $1.5 million'."
+ },
+ {
+  "id": "buntar-aerospace",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "total capital raised to $30 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 05 October 2026."
+ },
+ {
+  "id": "buntar-aerospace",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "led by Freedom Fund and an international growth equity investor",
+  "newSource": null,
+  "correction": null,
+  "note": "'$16 million funding round', no series named; Gardar, Iron Wolf and Autonomy Capital listed as participants."
+ },
+ {
+  "id": "castelion",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "in November 2022",
+  "newSource": null,
+  "correction": null,
+  "note": "'Based in El Segundo, California'."
+ },
+ {
+  "id": "castelion",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "raised a $100 million Series A in a mix of debt and equity",
+  "newSource": "https://news.crunchbase.com/venture/weapons-startup-defense-tech-castelion-fundraise",
+  "correction": null,
+  "note": "The original pulse2 source is dated Feb 4, 2025 and gives no January date; Crunchbase News (newSource), published January 29, 2025, confirms the date, $100M, '$30 million in venture debt from Silicon Valley Bank', Lightspeed as lead and the same investor list ('First In Ventures'). Neither page states the equity portion."
+ },
+ {
+  "id": "castelion",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "co-led by Altimeter Capital and Lightspeed Venture Partners",
+  "newSource": null,
+  "correction": null,
+  "note": "$350 million Series B, published Dec. 08, 2025."
+ },
+ {
+  "id": "castelion",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "has completed a $1 billion Series C capital raise ... includes $800 million in equity capital and a $250 million revolving credit facility",
+  "newSource": null,
+  "correction": null,
+  "note": "Published August 20, 2026. The stated components sum to $1.05B, not $1B; equity alone is $800M. Co-leads of the equity financing: JPMorgan Chase's Strategic Investment Group, Andreessen Horowitz, The Carlyle Group."
+ },
+ {
+  "id": "cx2",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Announcing our $31m Series A",
+  "newSource": null,
+  "correction": null,
+  "note": "Page dated November 5, 2025; names no lead and no investors. The a16z / 8VC / Point72 backing mentioned in the record's label was not found on this page."
+ },
+ {
+  "id": "d-fend-solutions",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2017, D-Fend Solutions is the leading provider of counter-drone solutions",
+  "newSource": null,
+  "correction": null,
+  "note": "Ra'anana, Israel appears as the release dateline, not as an explicit HQ statement."
+ },
+ {
+  "id": "d-fend-solutions",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "led D-Fend's previous fundraising in Q3 2018",
+  "newSource": null,
+  "correction": null,
+  "note": "Said of Vertex Israel; no amount stated."
+ },
+ {
+  "id": "d-fend-solutions",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "secured $28M ... The round was led by Claridge Israel",
+  "newSource": null,
+  "correction": null,
+  "note": "Release dated September 24, 2019; round not named as a series; Vertex Israel participated as current shareholder."
+ },
+ {
+  "id": "d-fend-solutions",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "successful initial closing of a $31 million investment round",
+  "newSource": null,
+  "correction": null,
+  "note": "Published December 4, 2024; led by Israel Growth Partners (IGP) 'with contributions from existing investor Vertex Ventures and new investor Vertex Growth'."
+ },
+ {
+  "id": "dedrone",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "In February 2014, Seebach, Lamprecht, and Seeber founded Dedrone",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia does not state a founding city; it only says that in 2016 Dedrone 'moved their corporate headquarters from Kassel, Germany to San Francisco'. Cited references (Washington Post, FAZ) not reachable/checked: FAZ fetch blocked."
+ },
+ {
+  "id": "dedrone",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "Dedrone is now officially part of Axon.",
+  "newSource": "https://www.securityinfowatch.com/industry-news/press-release/55234645/axon-completes-acquisition-of-dedrone",
+  "correction": null,
+  "note": "The original NBC source (May 6, 2024) only reports the deal as announced, 'expected to be completed in the second half of 2024', 'terms were not disclosed'. Completion is confirmed by the Axon press release reprinted on SecurityInfoWatch dated Oct. 10, 2024 (newSource); it gives no exact closing day and no price."
+ },
+ {
+  "id": "dedrone",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "$127 million in total from existing investors",
+  "newSource": null,
+  "correction": null,
+  "note": "Published May 6, 2024."
+ },
+ {
+  "id": "dedrone",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Earlier seed investors in Dedrone included former Internet Security Systems' CEO Tom Noonan, and Target Partners.",
+  "newSource": null,
+  "correction": null,
+  "note": "No seed amount or date on the page; 'total capital raised to date to $12.9 million'."
+ },
+ {
+  "id": "dedrone",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Menlo Ventures led the Series A investment in Dedrone",
+  "newSource": null,
+  "correction": null,
+  "note": "$10 million, published May 17, 2016."
+ },
+ {
+  "id": "dedrone",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "co-led a round of financing with VC firms in July 2022",
+  "newSource": null,
+  "correction": null,
+  "note": "Said of Axon; no amount given."
+ },
+ {
+  "id": "echodyne",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "New Enterprise Associates led the Series B investment in Echodyne",
+  "newSource": null,
+  "correction": null,
+  "note": "$29 million, May 22, 2017; investor list ends with 'and others'; 'total capital raised to $44 million'."
+ },
+ {
+  "id": "echodyne",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "The round was co-led by Bill Gates and Baillie Gifford",
+  "newSource": null,
+  "correction": null,
+  "note": "Page calls it 'The $135 million C round', June 13, 2022; writes 'NEA, Madrona Ventures, Vulcan Capital and Vanedge Capital'."
+ },
+ {
+  "id": "epirus",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "This brings the total raised by Epirus to over $550 million.",
+  "newSource": null,
+  "correction": null,
+  "note": "Page says 'over' $550M: the figure is a floor."
+ },
+ {
+  "id": "epirus",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "$200 million Series C in 2022",
+  "newSource": null,
+  "correction": null,
+  "note": "No investors named for that round."
+ },
+ {
+  "id": "epirus",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "co-led by 8VC and Washington Harbour Partners LP",
+  "newSource": null,
+  "correction": null,
+  "note": "$250 million Series D, March 4, 2025; valuation not given but 'confirmed to TechCrunch that it is over $1 billion'."
+ },
+ {
+  "id": "fortem-technologies",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Signia Venture Partners and Data Collective (DCVC) led the deal.",
+  "newSource": null,
+  "correction": null,
+  "note": "$5.5 million seed, published May 6, 2017."
+ },
+ {
+  "id": "fortem-technologies",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "led by Palo Alto-based VC firm, Data Collective (DCVC)",
+  "newSource": null,
+  "correction": null,
+  "note": "$15 million Series A, March 15, 2018; Mubadala and Boeing HorizonX named."
+ },
+ {
+  "id": "fortem-technologies",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "led the round after committing $25 million in an initial investment announced in April",
+  "newSource": null,
+  "correction": null,
+  "note": "$50 million Series B, published September 30, 2026; Unusual Machines 'also participated, along with other strategic and institutional investors'. The page does not explicitly call the $25M a tranche of the Series B."
+ },
+ {
+  "id": "frankenburg-technologies",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "founded in 2024",
+  "newSource": null,
+  "correction": null,
+  "note": "Page says 'An Estonian defence startup' but names no city; Tallinn is not stated on either source page opened."
+ },
+ {
+  "id": "frankenburg-technologies",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "The startup has now raised €40m in total.",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 24 February 2026."
+ },
+ {
+  "id": "frankenburg-technologies",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "a previous financing round in November, which valued the company at €55 million in 2024",
+  "newSource": null,
+  "correction": null,
+  "note": "No amount or investors given."
+ },
+ {
+  "id": "frankenburg-technologies",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "has secured €4 million investment",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 28 March 2025; Blossom Capital II LP invested €2 million and existing investor Shellona Ltd. 'provided additional €2 million'; no lead or series named."
+ },
+ {
+  "id": "frankenburg-technologies",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "The funding round was led by new investor Plural",
+  "newSource": null,
+  "correction": null,
+  "note": "€30m Series A, 24 February 2026; SmartCap participated."
+ },
+ {
+  "id": "gallium-defense",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "founded in Paris in April 2026",
+  "newSource": null,
+  "correction": null,
+  "note": null
+ },
+ {
+  "id": "gallium-defense",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "led by Keen Venture Partners and 360 Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "€7.1 million seed, 02 November 2026; 'with participation from Omnes Capital and Polytechnique Ventures'."
+ },
+ {
+  "id": "ghost-robotics",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2015",
+  "newSource": null,
+  "correction": null,
+  "note": "'Philadelphia-based Ghost Robotics'."
+ },
+ {
+  "id": "ghost-robotics",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "LIG Nex1 has acquired a 60% control-stake in Ghost Robotics ... for $240 million USD",
+  "newSource": null,
+  "correction": null,
+  "note": "Release 'Announce Close of Acquisition', datelined July 29, 2024. The $240M buys a 60% controlling stake, not 100% (company valued at $400 million)."
+ },
+ {
+  "id": "gotenna",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2012",
+  "newSource": null,
+  "correction": null,
+  "note": "Page does not state where the company is based; Brooklyn is not on the page."
+ },
+ {
+  "id": "gotenna",
+  "key": "statusEvent",
+  "verdict": "confirmed",
+  "quote": "Forterra acquires goTenna",
+  "newSource": null,
+  "correction": null,
+  "note": "Homepage also says 'As part of Forterra...'; no acquisition date or price given."
+ },
+ {
+  "id": "gotenna",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "brings its total funding raised to $40.8M across four rounds",
+  "newSource": null,
+  "correction": null,
+  "note": "Published Jan 11, 2021."
+ },
+ {
+  "id": "gotenna",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "seed round in 2013",
+  "newSource": null,
+  "correction": null,
+  "note": "No seed amount or investors stated."
+ },
+ {
+  "id": "gotenna",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "$7.5 million investment",
+  "newSource": null,
+  "correction": null,
+  "note": "Series A, March 2, 2016, led by Walden Venture Capital; MentorTech Ventures, BBG Ventures, Bloomberg Beta, Wareness.io named."
+ },
+ {
+  "id": "gotenna",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "Walden Venture Capital, MentorTech Ventures, Bloomberg Beta, BBG Ventures and Collaborative Fund",
+  "newSource": null,
+  "correction": null,
+  "note": "$7.5 million Series B led by Union Square Ventures, April 13, 2017."
+ },
+ {
+  "id": "gotenna",
+  "key": "round:3",
+  "verdict": "confirmed",
+  "quote": "goTenna's $24M Series C funding round was led by",
+  "newSource": null,
+  "correction": null,
+  "note": "Led by Founders Fund; page dated Jan 11, 2021; names 'Comcast Ventures, Union Square Ventures, Collaborative Fund, Walden VC, MentorTech, and Bloomberg Beta'."
+ },
+ {
+  "id": "hadean",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2015",
+  "newSource": null,
+  "correction": null,
+  "note": "'London-based deep tech start-up, Hadean'."
+ },
+ {
+  "id": "hadean",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "The round was led by White Cloud Capital",
+  "newSource": null,
+  "correction": null,
+  "note": "'seed round of $2.6m', May 8, 2017, Entrepreneur First participating."
+ },
+ {
+  "id": "hadean",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Molten Ventures led Series A",
+  "newSource": null,
+  "correction": null,
+  "note": "$30 million; dateline 'London, UK – 23/09/2022' (page publishing date shown as 14 Oct 2022). Investors: 2050 Capital, Alumni Ventures, Aster Capital, Entrepreneur First, InQTel; plus 'an investment from Epic Games'."
+ },
+ {
+  "id": "hadean",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "has secured a bridge round as it works towards its Series B",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 12 March 2026; 'Hadean did not specify the size of the bridge round'; British Business Bank 'has invested £2.1m as part of the round'; other investors Booz Allen Ventures, Entrepreneur First, Twin Track Ventures."
+ },
+ {
+  "id": "harmattan-ai",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in 2024",
+  "newSource": null,
+  "correction": null,
+  "note": "'French defense tech company'; no city given."
+ },
+ {
+  "id": "harmattan-ai",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "a seed round led by Atlantic",
+  "newSource": null,
+  "correction": null,
+  "note": "No amount or date."
+ },
+ {
+  "id": "harmattan-ai",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "a Series A led by FirstMark",
+  "newSource": null,
+  "correction": null,
+  "note": "No amount or date; '$42 million Harmattan AI had raised to date' before the Series B; other backers Motier Ventures and Sisyphus Ventures mentioned without round attribution."
+ },
+ {
+  "id": "harmattan-ai",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "$200 million Series B round led by Dassault Aviation",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 12 January 2026; no other investors named."
+ },
+ {
+  "id": "helsing",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Helsing was founded in March 2021 originally as an artificial intelligence software company",
+  "newSource": null,
+  "correction": null,
+  "note": "Wikipedia only (HQ Munich in infobox). Cited references (NZZ 402, Wired blocked) could not be opened. TechCrunch 2021-11-09 independently says 'Founded in 2021' with offices in London, Munich and Berlin."
+ },
+ {
+  "id": "helsing",
+  "key": "totalRaised",
+  "verdict": "confirmed",
+  "quote": "The company has now raised €1.37 billion altogether.",
+  "newSource": null,
+  "correction": null,
+  "note": "Published June 16, 2025."
+ },
+ {
+  "id": "helsing",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Helsing's previous Series A (€102.5 million) was led by Prima Materia.",
+  "newSource": "https://techcrunch.com/2021/11/09/daniel-eks-fund-puts-e100m-into-defence-startup-helsing-ai-to-support-democracies",
+  "correction": null,
+  "note": "The original 2023 source gives amount and lead but not the year. TechCrunch of November 9, 2021 (newSource) dates it: Series A financing, '€102.5 million in total', Prima Materia putting in €100 million."
+ },
+ {
+  "id": "helsing",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "€209 million ($223 million)",
+  "newSource": null,
+  "correction": null,
+  "note": "Series B, September 14, 2023, led by General Catalyst; Saab 'joining as a strategic investor'."
+ },
+ {
+  "id": "helsing",
+  "key": "round:2",
+  "verdict": "corrected",
+  "quote": "€450 million ... Series C ... led by General Catalyst ... Elad Gil, Accel, Saab, Lightspeed, Plural, and Greenoaks participated.",
+  "newSource": "https://tech.eu/2024/07/12/helsing-raises-eur450m-series-c-for-ai-defence-technology/",
+  "correction": {
+   "type": "series-c",
+   "label": "Series C",
+   "investors": [
+    "Elad Gil",
+    "Accel",
+    "Saab",
+    "Lightspeed Venture Partners",
+    "Plural",
+    "Greenoaks"
+   ]
+  },
+  "note": "Wikipedia supports the claim as written (€450M, 'third round' led by General Catalyst, Saab, Accel, Lightspeed 'among others') and its Bloomberg reference is paywalled (403). tech.eu (12 July 2024, newSource) names the round Series C and lists three further investors, hence the correction."
+ },
+ {
+  "id": "helsing",
+  "key": "round:3",
+  "verdict": "corrected",
+  "quote": "a €600 million investment ... led by Ek's investment firm Prima Materia",
+  "newSource": null,
+  "correction": {
+   "type": "venture"
+  },
+  "note": "The page gives no series letter (it calls it 'this even bigger round'), so 'series-d' is not supported by the source. Amount, date (June 16, 2025), lead and investors match."
+ },
+ {
+  "id": "helsing",
+  "key": "round:4",
+  "verdict": "confirmed",
+  "quote": "said Monday it has raised $1.8 billion",
+  "newSource": null,
+  "correction": null,
+  "note": "Published July 13, 2026; no lead or round name stated; 'values the German firm at $18 billion'; JPMorgan Chase, Lightspeed Venture Partners and Iconiq named."
+ },
+ {
+  "id": "himera",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "The HIMERa startup was founded in 2022 by Misha Rudominskyi and Oleksiy Oliynyk.",
+  "newSource": null,
+  "correction": null,
+  "note": "No city stated."
+ },
+ {
+  "id": "himera",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "All investors are business angels.",
+  "newSource": null,
+  "correction": null,
+  "note": "$525,000, published 11 March 2024; no lead. All ten named individuals appear; Freedom Fund VC appears via 'Otto' and 'Oleh' (no surnames)."
+ },
+ {
+  "id": "himera",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "the round is still ongoing, the total amount will be announced after the closure",
+  "newSource": null,
+  "correction": null,
+  "note": "Published 05 September 2024; 'Justin Ziff's Green Flag Ventures fund has joined the investment'. Page does not use the word 'open'."
+ },
+ {
+  "id": "himera",
+  "key": "round:2",
+  "verdict": "confirmed",
+  "quote": "more than $2.5 million",
+  "newSource": null,
+  "correction": null,
+  "note": "Page says 'more than' $2.5M: the figure is a floor. Seed round, published 23.12.25, led by Green Flag Ventures; page writes 'Freedom Fund' (not 'Freedom Fund VC')."
+ },
+ {
+  "id": "hypersonica",
+  "key": "founded",
+  "verdict": "confirmed",
+  "quote": "Founded in December 2023",
+  "newSource": null,
+  "correction": null,
+  "note": "'Munich-headquartered hypersonic systems startup Hypersonica'."
+ },
+ {
+  "id": "hypersonica",
+  "key": "round:0",
+  "verdict": "confirmed",
+  "quote": "Series A funding round",
+  "newSource": null,
+  "correction": null,
+  "note": "€23.3 million, February 10, 2026, led by Plural; SPRIND appears as 'Germany's Federal Agency for Breakthrough Innovation', plus General Catalyst and 201 Ventures."
+ },
+ {
+  "id": "hypersonica",
+  "key": "round:1",
+  "verdict": "confirmed",
+  "quote": "Die Series-B-Runde wurde von den US-Wagniskapitalfirmen Lightspeed und General Catalyst angeführt.",
+  "newSource": null,
+  "correction": null,
+  "note": "100 Mill. Euro, dated 02 November 2026; 'Beteiligt haben sich daneben erneut der britische VC-Investor Plural und der spanische VC-Investor 201 Ventures.'"
+ }
+]
