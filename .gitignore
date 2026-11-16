@@ -1,0 +1,25 @@
+# dependencies and builds
+node_modules
+dist
+*.local
+*.log
+
+# secrets: copy .env.example to .env, never commit .env
+.env
+.env.*
+!.env.example
+
+# local state (your stars, notes, review queue, refresh dates) and working files
+data/user/
+data/queue/
+data/meta.json
+data/staging/
+data/verification/todo/
+shots/
+
+# editors and OS
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.sw?
