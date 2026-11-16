@@ -85,8 +85,8 @@ function QueueCard({ item }: { item: QueueItem }) {
       <p className="dim">{c.hq.city ?? 'City unknown'}, {countryName(c.hq.country)} · founded {fmtDate(c.founded.date)} · {c.subsectors.map(subName).join(', ')} · status {c.status}</p>
       {item.kind === 'update' && <ul className="diff">{item.diff.map((d, i) => <li key={i}>{d}</li>)}</ul>}
       {c.rounds.length > 0 && (
-        <table className="tbl"><thead><tr><th>Date</th><th>Round</th><th className="num">Amount</th><th>Lead</th><th>Check</th><th>Source</th></tr></thead>
-          <tbody>{c.rounds.map((r, i) => <tr key={i}><td>{fmtDate(r.date)}</td><td>{r.label || ROUND_LABEL[r.type] || r.type}</td><td className="num">{fmtMoney(r.amount)}</td><td>{r.leads.join(', ') || <span className="unknown">unknown</span>}</td><td><Chk v={r.check} src={r.source} /></td><td><a href={r.source} target="_blank" rel="noreferrer">{new URL(r.source).hostname.replace('www.', '')} <ExternalLink size={11} /></a></td></tr>)}</tbody></table>
+        <div className="scroll-x"><table className="tbl"><thead><tr><th>Date</th><th>Round</th><th className="num">Amount</th><th>Lead</th><th>Check</th><th>Source</th></tr></thead>
+          <tbody>{c.rounds.map((r, i) => <tr key={i}><td>{fmtDate(r.date)}</td><td>{r.label || ROUND_LABEL[r.type] || r.type}</td><td className="num">{fmtMoney(r.amount)}</td><td>{r.leads.join(', ') || <span className="unknown">unknown</span>}</td><td><Chk v={r.check} src={r.source} /></td><td><a href={r.source} target="_blank" rel="noreferrer">{new URL(r.source).hostname.replace('www.', '')} <ExternalLink size={11} /></a></td></tr>)}</tbody></table></div>
       )}
       {item.verification ? (
         <details className="verif" open={item.verification.summary.removed + item.verification.summary.unconfirmed > 0}>

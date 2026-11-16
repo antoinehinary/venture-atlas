@@ -244,7 +244,11 @@ code { font: 12px var(--mono); background: var(--surface-2); padding: 1px 5px; b
   .chart-tip { max-width: calc(100vw - 16px); }
 }
 /* wide tables scroll sideways inside their panel instead of being cut off on small screens */
-@media (max-width: 1000px) { .tbl:not(.scroll-x .tbl) { display: block; overflow-x: auto; -webkit-overflow-scrolling: touch; } .tbl th { white-space: nowrap; } }
+/* wide tables scroll sideways inside their panel (.scroll-x) instead of shrinking the page on small screens */
+.scroll-x { overflow-x: auto; overscroll-behavior-x: contain; max-width: 100%; }
+@media (max-width: 1000px) { .tbl th { white-space: nowrap; } .scroll-x > .tbl { min-width: 640px; } }
+/* a stray wide element must never widen the page (iOS then zooms the whole app out) */
+html, body { overflow-x: clip; }
 /* the slanted guide line under the last timeline event must not widen the page */
 .timeline { overflow-x: clip; }
 @media (max-width: 640px) { .home-name { white-space: normal; } .home-name span { display: block; margin-left: 0; } }
