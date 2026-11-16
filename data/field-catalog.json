@@ -1,0 +1,956 @@
+[
+  {
+    "id": "defence",
+    "name": "Defence",
+    "tagline": "Security, deterrence and dual-use",
+    "keywords": [
+      "defence tech",
+      "dual-use",
+      "counter-drone",
+      "autonomy",
+      "NATO"
+    ],
+    "subsectors": [
+      {
+        "id": "defence/counter-drone",
+        "name": "Counter-drone (C-UAS)",
+        "description": "Detecting, tracking and defeating drones: sensors, effectors, interceptors"
+      },
+      {
+        "id": "defence/uas-strike",
+        "name": "Drones & loitering munitions",
+        "description": "Tactical UAS, FPV, one-way attack and strike drones"
+      },
+      {
+        "id": "defence/autonomy-software",
+        "name": "Autonomy & mission software",
+        "description": "AI pilots, mission autonomy, battle-management and defence AI platforms"
+      },
+      {
+        "id": "defence/isr-sensing",
+        "name": "ISR & sensing",
+        "description": "Radar, EO/IR, acoustic and other sensors, surveillance platforms and towers"
+      },
+      {
+        "id": "defence/ew-rf",
+        "name": "Electronic warfare & RF",
+        "description": "Jamming, spectrum sensing, signals intelligence, RF hardware"
+      },
+      {
+        "id": "defence/pnt",
+        "name": "Navigation & PNT",
+        "description": "GPS-denied navigation, inertial, visual and quantum navigation, anti-jam"
+      },
+      {
+        "id": "defence/c2-comms",
+        "name": "C2 & tactical comms",
+        "description": "Command and control, mesh radios, tactical networks, edge compute"
+      },
+      {
+        "id": "defence/ground-robotics",
+        "name": "Ground robotics",
+        "description": "Uncrewed ground vehicles and robotic land systems"
+      },
+      {
+        "id": "defence/missiles-munitions",
+        "name": "Missiles, munitions & propulsion",
+        "description": "Low-cost missiles, interceptors, energetics, hypersonics, solid rocket motors"
+      },
+      {
+        "id": "defence/defence-manufacturing",
+        "name": "Defence manufacturing & readiness",
+        "description": "Software-defined production, sustainment, simulation and training"
+      }
+    ]
+  },
+  {
+    "id": "space",
+    "name": "Space",
+    "tagline": "Launch, orbit and what flies there",
+    "keywords": [
+      "new space",
+      "launch",
+      "satellites",
+      "Earth observation"
+    ],
+    "subsectors": [
+      {
+        "id": "space/launch",
+        "name": "Launch",
+        "description": "Small, medium and heavy launch vehicles, spaceplanes"
+      },
+      {
+        "id": "space/earth-observation",
+        "name": "Earth observation",
+        "description": "Optical, SAR, hyperspectral, thermal imaging constellations and analytics"
+      },
+      {
+        "id": "space/satcom",
+        "name": "Satellite communications",
+        "description": "Broadband, IoT and direct-to-device constellations, optical links"
+      },
+      {
+        "id": "space/in-space-transport",
+        "name": "In-space transport & servicing",
+        "description": "Orbital transfer vehicles, tugs, refuelling, life extension"
+      },
+      {
+        "id": "space/satellite-systems",
+        "name": "Satellite buses & subsystems",
+        "description": "Bus makers, propulsion, avionics, components"
+      },
+      {
+        "id": "space/ssa-debris",
+        "name": "Space situational awareness & debris",
+        "description": "Tracking, traffic management, debris removal"
+      },
+      {
+        "id": "space/ground-segment",
+        "name": "Ground segment & space software",
+        "description": "Ground stations as a service, mission software, data platforms"
+      },
+      {
+        "id": "space/rf-pnt",
+        "name": "RF sensing & PNT from orbit",
+        "description": "RF geolocation, alternative PNT constellations, GNSS reflectometry"
+      },
+      {
+        "id": "space/lunar-exploration",
+        "name": "Lunar & deep space",
+        "description": "Landers, rovers, cislunar infrastructure"
+      },
+      {
+        "id": "space/stations-reentry",
+        "name": "Stations, re-entry & in-space manufacturing",
+        "description": "Commercial stations, return capsules, microgravity manufacturing"
+      }
+    ]
+  },
+  {
+    "id": "robotics",
+    "name": "Industrial robotics",
+    "tagline": "Machines that do physical work",
+    "keywords": [
+      "industrial robots",
+      "humanoids",
+      "warehouse automation",
+      "cobots"
+    ],
+    "subsectors": [
+      {
+        "id": "robotics/warehouse-logistics",
+        "name": "Warehouse & logistics robots",
+        "description": "AMRs, goods-to-person, robotic picking and sortation"
+      },
+      {
+        "id": "robotics/arms-cobots",
+        "name": "Arms, cobots & manipulation",
+        "description": "Collaborative robots, industrial arms, manipulation cells"
+      },
+      {
+        "id": "robotics/humanoids",
+        "name": "Humanoids & general-purpose robots",
+        "description": "Bipedal and wheeled general-purpose robots"
+      },
+      {
+        "id": "robotics/robot-software",
+        "name": "Robot software & brains",
+        "description": "Robot OS, programming, fleet orchestration, robot AI stacks"
+      },
+      {
+        "id": "robotics/inspection",
+        "name": "Inspection & maintenance robots",
+        "description": "Legged, crawling and flying robots for industrial inspection"
+      },
+      {
+        "id": "robotics/construction",
+        "name": "Construction robots",
+        "description": "Site layout, bricklaying, drilling, 3D printing, autonomous machines"
+      },
+      {
+        "id": "robotics/agriculture",
+        "name": "Agricultural robots",
+        "description": "Weeding, harvesting and autonomous field machines"
+      },
+      {
+        "id": "robotics/outdoor-autonomy",
+        "name": "Off-road & heavy autonomy",
+        "description": "Autonomous mining, yard, forestry and industrial vehicles"
+      },
+      {
+        "id": "robotics/components",
+        "name": "Components & end-effectors",
+        "description": "Actuators, grippers, tactile and 3D sensors"
+      },
+      {
+        "id": "robotics/manufacturing-cells",
+        "name": "Robotic manufacturing",
+        "description": "Welding, machining, assembly and finishing robots"
+      }
+    ]
+  },
+  {
+    "id": "automation",
+    "name": "Automation",
+    "tagline": "Factories, labs and operations that run themselves",
+    "keywords": [
+      "industrial automation",
+      "smart factory",
+      "lab automation",
+      "IIoT"
+    ],
+    "subsectors": [
+      {
+        "id": "automation/industrial-software",
+        "name": "Industrial software & data",
+        "description": "MES, industrial data platforms, IIoT, frontline tooling"
+      },
+      {
+        "id": "automation/machine-vision-qc",
+        "name": "Machine vision & quality",
+        "description": "Visual inspection, metrology, defect detection"
+      },
+      {
+        "id": "automation/process-control",
+        "name": "AI process control",
+        "description": "Autonomous plants, advanced control, predictive maintenance"
+      },
+      {
+        "id": "automation/software-defined-factories",
+        "name": "Software-defined factories",
+        "description": "Vertically integrated automated manufacturing"
+      },
+      {
+        "id": "automation/lab-automation",
+        "name": "Lab automation",
+        "description": "Robotic labs, liquid handling, self-driving laboratories"
+      },
+      {
+        "id": "automation/engineering-automation",
+        "name": "Engineering & PLC automation",
+        "description": "AI for CAD, PLC code, commissioning and robot programming"
+      },
+      {
+        "id": "automation/logistics-automation",
+        "name": "Logistics & fulfilment automation",
+        "description": "Automated storage, micro-fulfilment, yard and port automation"
+      },
+      {
+        "id": "automation/enterprise-automation",
+        "name": "Enterprise process automation",
+        "description": "RPA and agentic workflow automation"
+      },
+      {
+        "id": "automation/connected-operations",
+        "name": "Connected operations & IoT",
+        "description": "Fleet, asset and field operations platforms"
+      },
+      {
+        "id": "automation/energy-buildings",
+        "name": "Energy & building automation",
+        "description": "Grid, building and infrastructure control"
+      }
+    ]
+  },
+  {
+    "id": "ml-ai",
+    "name": "ML / AI",
+    "tagline": "Proposed scope: physical and perception AI first",
+    "keywords": [
+      "physical AI",
+      "computer vision",
+      "foundation models",
+      "AI chips"
+    ],
+    "subsectors": [
+      {
+        "id": "ml-ai/foundation-models",
+        "name": "Foundation model labs",
+        "description": "Frontier and open-weight general model developers"
+      },
+      {
+        "id": "ml-ai/embodied-ai",
+        "name": "Embodied AI & robot foundation models",
+        "description": "General robot policies, world models for physical agents"
+      },
+      {
+        "id": "ml-ai/computer-vision",
+        "name": "Computer vision",
+        "description": "Vision platforms, video analytics, 3D reconstruction"
+      },
+      {
+        "id": "ml-ai/perception-sensor-fusion",
+        "name": "Perception & sensor fusion",
+        "description": "Radar, lidar and multi-sensor perception stacks, SLAM, spatial AI"
+      },
+      {
+        "id": "ml-ai/autonomous-driving",
+        "name": "Autonomous driving",
+        "description": "Self-driving stacks for cars and trucks"
+      },
+      {
+        "id": "ml-ai/ai-chips-edge",
+        "name": "AI chips & edge compute",
+        "description": "Accelerators, neuromorphic and edge inference hardware"
+      },
+      {
+        "id": "ml-ai/simulation-synthetic-data",
+        "name": "Simulation & synthetic data",
+        "description": "Simulators, synthetic data, digital twins for ML"
+      },
+      {
+        "id": "ml-ai/geospatial-ai",
+        "name": "Geospatial AI",
+        "description": "Models and analytics on satellite, aerial and location data"
+      },
+      {
+        "id": "ml-ai/ml-infrastructure",
+        "name": "ML infrastructure & data",
+        "description": "Labelling, training, evaluation and deployment tooling"
+      },
+      {
+        "id": "ml-ai/ai-agents",
+        "name": "AI agents & coding",
+        "description": "Agentic software and code generation"
+      }
+    ]
+  },
+  {
+    "id": "maritime",
+    "name": "Maritime",
+    "tagline": "Ships, ports and the ocean",
+    "keywords": [
+      "maritime tech",
+      "uncrewed vessels",
+      "shipping software",
+      "ocean data"
+    ],
+    "subsectors": [
+      {
+        "id": "maritime/usv",
+        "name": "Uncrewed surface vessels",
+        "description": "Autonomous boats for defence, survey and data collection"
+      },
+      {
+        "id": "maritime/uuv",
+        "name": "Underwater vehicles",
+        "description": "AUVs, gliders, ROVs and undersea drones"
+      },
+      {
+        "id": "maritime/vessel-autonomy",
+        "name": "Vessel autonomy & navigation",
+        "description": "Autonomous navigation, collision avoidance, remote operation, perception for ships"
+      },
+      {
+        "id": "maritime/maritime-intelligence",
+        "name": "Maritime intelligence",
+        "description": "AIS and satellite analytics, dark-vessel detection, risk and compliance"
+      },
+      {
+        "id": "maritime/ocean-sensing",
+        "name": "Ocean data & sensing",
+        "description": "Sensors, buoys, seabed mapping, acoustic systems"
+      },
+      {
+        "id": "maritime/shipping-software",
+        "name": "Shipping & fleet software",
+        "description": "Voyage optimisation, fleet operations, freight platforms"
+      },
+      {
+        "id": "maritime/decarbonisation",
+        "name": "Propulsion & decarbonisation",
+        "description": "Wind assist, electric and foiling vessels, alternative fuels, efficiency tech"
+      },
+      {
+        "id": "maritime/subsea-inspection",
+        "name": "Hull, subsea & offshore robotics",
+        "description": "Hull cleaning, subsea inspection and intervention robots"
+      },
+      {
+        "id": "maritime/ports-terminals",
+        "name": "Ports & terminals",
+        "description": "Port automation, terminal software, mooring and logistics"
+      },
+      {
+        "id": "maritime/naval-shipbuilding",
+        "name": "Naval systems & shipbuilding",
+        "description": "New-generation shipyards, naval autonomy and undersea defence"
+      }
+    ]
+  },
+  {
+    "id": "climate-energy",
+    "name": "Climate & energy",
+    "tagline": "Decarbonising power, heat and industry",
+    "keywords": [
+      "climate tech",
+      "energy transition",
+      "grid",
+      "carbon removal"
+    ],
+    "subsectors": [
+      {
+        "id": "climate-energy/solar-wind",
+        "name": "Solar & wind",
+        "description": "Generation hardware, installation and operations"
+      },
+      {
+        "id": "climate-energy/storage",
+        "name": "Energy storage",
+        "description": "Batteries, long-duration and thermal storage"
+      },
+      {
+        "id": "climate-energy/grid",
+        "name": "Grid & flexibility",
+        "description": "Grid software, virtual power plants, interconnection"
+      },
+      {
+        "id": "climate-energy/carbon-removal",
+        "name": "Carbon capture & removal",
+        "description": "Direct air capture, point-source capture, MRV"
+      },
+      {
+        "id": "climate-energy/industrial-heat",
+        "name": "Industrial heat & fuels",
+        "description": "Heat pumps, hydrogen, e-fuels, green steel and cement"
+      },
+      {
+        "id": "climate-energy/climate-software",
+        "name": "Climate software",
+        "description": "Carbon accounting, climate risk and energy management"
+      }
+    ]
+  },
+  {
+    "id": "nuclear-fusion",
+    "name": "Nuclear & fusion",
+    "tagline": "New fission and the fusion race",
+    "keywords": [
+      "small modular reactor",
+      "microreactor",
+      "fusion",
+      "nuclear fuel"
+    ],
+    "subsectors": [
+      {
+        "id": "nuclear-fusion/smr",
+        "name": "Small modular & microreactors",
+        "description": "Advanced fission reactor developers"
+      },
+      {
+        "id": "nuclear-fusion/fusion",
+        "name": "Fusion",
+        "description": "Magnetic, inertial and alternative fusion concepts"
+      },
+      {
+        "id": "nuclear-fusion/fuel-cycle",
+        "name": "Fuel & supply chain",
+        "description": "Enrichment, HALEU, components and waste"
+      },
+      {
+        "id": "nuclear-fusion/nuclear-services",
+        "name": "Software & services",
+        "description": "Licensing, digital twins, operations"
+      }
+    ]
+  },
+  {
+    "id": "semiconductors",
+    "name": "Semiconductors",
+    "tagline": "Chips, tools and the fab supply chain",
+    "keywords": [
+      "semiconductors",
+      "chip design",
+      "fab equipment",
+      "photonics"
+    ],
+    "subsectors": [
+      {
+        "id": "semiconductors/chip-design",
+        "name": "Chip design",
+        "description": "Fabless processors, analog, RF and custom silicon"
+      },
+      {
+        "id": "semiconductors/photonics",
+        "name": "Photonics & optical",
+        "description": "Silicon photonics, optical interconnect, lasers"
+      },
+      {
+        "id": "semiconductors/equipment-materials",
+        "name": "Equipment & materials",
+        "description": "Fab tools, metrology, substrates and chemicals"
+      },
+      {
+        "id": "semiconductors/eda",
+        "name": "Design software",
+        "description": "EDA, verification and AI-assisted design"
+      },
+      {
+        "id": "semiconductors/packaging",
+        "name": "Packaging & test",
+        "description": "Advanced packaging, chiplets, test"
+      }
+    ]
+  },
+  {
+    "id": "quantum",
+    "name": "Quantum",
+    "tagline": "Computing, sensing and secure communication",
+    "keywords": [
+      "quantum computing",
+      "quantum sensing",
+      "qubits",
+      "post-quantum"
+    ],
+    "subsectors": [
+      {
+        "id": "quantum/hardware",
+        "name": "Quantum computers",
+        "description": "Superconducting, ion, photonic, neutral-atom and spin machines"
+      },
+      {
+        "id": "quantum/sensing",
+        "name": "Quantum sensing",
+        "description": "Gravimeters, magnetometers, clocks, inertial sensors"
+      },
+      {
+        "id": "quantum/software",
+        "name": "Quantum software",
+        "description": "Algorithms, error correction, control software"
+      },
+      {
+        "id": "quantum/communications",
+        "name": "Quantum communication & security",
+        "description": "QKD, quantum networks, post-quantum cryptography"
+      },
+      {
+        "id": "quantum/enabling",
+        "name": "Enabling technology",
+        "description": "Cryogenics, lasers, control electronics"
+      }
+    ]
+  },
+  {
+    "id": "cybersecurity",
+    "name": "Cybersecurity",
+    "tagline": "Defending systems, data and identities",
+    "keywords": [
+      "cybersecurity",
+      "zero trust",
+      "threat detection",
+      "OT security"
+    ],
+    "subsectors": [
+      {
+        "id": "cybersecurity/cloud-app",
+        "name": "Cloud & application security",
+        "description": "Cloud posture, code and API security"
+      },
+      {
+        "id": "cybersecurity/identity",
+        "name": "Identity & access",
+        "description": "Authentication, authorisation, secrets"
+      },
+      {
+        "id": "cybersecurity/detection-response",
+        "name": "Detection & response",
+        "description": "EDR, XDR, SIEM, managed detection"
+      },
+      {
+        "id": "cybersecurity/ot-iot",
+        "name": "OT & IoT security",
+        "description": "Industrial, embedded and device security"
+      },
+      {
+        "id": "cybersecurity/ai-security",
+        "name": "AI security",
+        "description": "Model and agent protection, AI-driven defence"
+      },
+      {
+        "id": "cybersecurity/data-privacy",
+        "name": "Data security & privacy",
+        "description": "Data protection, encryption, compliance"
+      }
+    ]
+  },
+  {
+    "id": "biotech",
+    "name": "Biotech",
+    "tagline": "Therapeutics, tools and engineered biology",
+    "keywords": [
+      "biotech",
+      "drug discovery",
+      "synthetic biology",
+      "gene therapy"
+    ],
+    "subsectors": [
+      {
+        "id": "biotech/ai-drug-discovery",
+        "name": "AI drug discovery",
+        "description": "Computational design of molecules and proteins"
+      },
+      {
+        "id": "biotech/cell-gene",
+        "name": "Cell & gene therapy",
+        "description": "Editing, delivery and cell therapies"
+      },
+      {
+        "id": "biotech/synbio",
+        "name": "Synthetic biology",
+        "description": "Engineered organisms, biomanufacturing"
+      },
+      {
+        "id": "biotech/tools",
+        "name": "Research tools",
+        "description": "Instruments, sequencing, lab platforms"
+      },
+      {
+        "id": "biotech/diagnostics",
+        "name": "Diagnostics",
+        "description": "Molecular, imaging and point-of-care tests"
+      }
+    ]
+  },
+  {
+    "id": "health-tech",
+    "name": "Health tech & medical devices",
+    "tagline": "Care delivery, devices and digital health",
+    "keywords": [
+      "digital health",
+      "medical devices",
+      "surgical robotics",
+      "health AI"
+    ],
+    "subsectors": [
+      {
+        "id": "health-tech/devices",
+        "name": "Medical devices",
+        "description": "Implants, wearables, monitoring hardware"
+      },
+      {
+        "id": "health-tech/surgical-robotics",
+        "name": "Surgical robotics",
+        "description": "Robotic surgery and intervention"
+      },
+      {
+        "id": "health-tech/clinical-ai",
+        "name": "Clinical AI",
+        "description": "Imaging, triage and decision support"
+      },
+      {
+        "id": "health-tech/care-delivery",
+        "name": "Care delivery",
+        "description": "Telehealth, virtual clinics, care navigation"
+      },
+      {
+        "id": "health-tech/health-infra",
+        "name": "Health infrastructure",
+        "description": "Records, billing, data platforms"
+      }
+    ]
+  },
+  {
+    "id": "fintech",
+    "name": "Fintech",
+    "tagline": "Payments, lending and financial infrastructure",
+    "keywords": [
+      "fintech",
+      "payments",
+      "neobank",
+      "embedded finance"
+    ],
+    "subsectors": [
+      {
+        "id": "fintech/payments",
+        "name": "Payments",
+        "description": "Acquiring, checkout, cross-border, B2B payments"
+      },
+      {
+        "id": "fintech/banking-lending",
+        "name": "Banking & lending",
+        "description": "Neobanks, credit, BNPL"
+      },
+      {
+        "id": "fintech/infrastructure",
+        "name": "Financial infrastructure",
+        "description": "Banking-as-a-service, ledgers, open banking"
+      },
+      {
+        "id": "fintech/wealth-insurance",
+        "name": "Wealth & insurance",
+        "description": "Investing, pensions, insurtech"
+      },
+      {
+        "id": "fintech/compliance",
+        "name": "Risk & compliance",
+        "description": "Fraud, KYC, AML, regtech"
+      }
+    ]
+  },
+  {
+    "id": "mobility",
+    "name": "Mobility & electric vehicles",
+    "tagline": "Vehicles, charging and new transport",
+    "keywords": [
+      "electric vehicles",
+      "charging",
+      "eVTOL",
+      "micromobility"
+    ],
+    "subsectors": [
+      {
+        "id": "mobility/ev-makers",
+        "name": "Vehicle makers",
+        "description": "Cars, trucks, buses and two-wheelers"
+      },
+      {
+        "id": "mobility/charging",
+        "name": "Charging & energy",
+        "description": "Charging networks, hardware, vehicle-to-grid"
+      },
+      {
+        "id": "mobility/batteries",
+        "name": "Batteries",
+        "description": "Cells, packs, materials, recycling"
+      },
+      {
+        "id": "mobility/aviation",
+        "name": "Electric & advanced aviation",
+        "description": "eVTOL, electric and hydrogen aircraft"
+      },
+      {
+        "id": "mobility/fleet-software",
+        "name": "Fleet & mobility software",
+        "description": "Telematics, routing, mobility platforms"
+      }
+    ]
+  },
+  {
+    "id": "drones-aviation",
+    "name": "Drones & aviation",
+    "tagline": "Civil uncrewed aircraft and airspace",
+    "keywords": [
+      "drones",
+      "UAS",
+      "drone delivery",
+      "airspace management"
+    ],
+    "subsectors": [
+      {
+        "id": "drones-aviation/delivery",
+        "name": "Drone delivery",
+        "description": "Medical, retail and logistics delivery"
+      },
+      {
+        "id": "drones-aviation/inspection-mapping",
+        "name": "Inspection & mapping",
+        "description": "Survey, inspection and data capture"
+      },
+      {
+        "id": "drones-aviation/airframes",
+        "name": "Airframes & components",
+        "description": "Platforms, propulsion, autopilots, payloads"
+      },
+      {
+        "id": "drones-aviation/utm",
+        "name": "Airspace & UTM",
+        "description": "Traffic management, remote ID, detect-and-avoid"
+      },
+      {
+        "id": "drones-aviation/drone-software",
+        "name": "Fleet & autonomy software",
+        "description": "Mission planning, docks, autonomy"
+      }
+    ]
+  },
+  {
+    "id": "agritech",
+    "name": "Agritech & food",
+    "tagline": "Growing, processing and replacing food",
+    "keywords": [
+      "agritech",
+      "precision agriculture",
+      "alternative protein",
+      "vertical farming"
+    ],
+    "subsectors": [
+      {
+        "id": "agritech/precision-ag",
+        "name": "Precision agriculture",
+        "description": "Sensing, analytics and farm management"
+      },
+      {
+        "id": "agritech/ag-inputs",
+        "name": "Biological inputs",
+        "description": "Biofertilisers, biopesticides, seeds"
+      },
+      {
+        "id": "agritech/indoor",
+        "name": "Indoor & vertical farming",
+        "description": "Controlled-environment growing"
+      },
+      {
+        "id": "agritech/alt-protein",
+        "name": "Alternative protein",
+        "description": "Plant-based, fermentation, cultivated"
+      },
+      {
+        "id": "agritech/supply-chain",
+        "name": "Food supply chain",
+        "description": "Traceability, marketplaces, waste reduction"
+      }
+    ]
+  },
+  {
+    "id": "construction",
+    "name": "Construction & built world",
+    "tagline": "Designing, building and running buildings",
+    "keywords": [
+      "construction tech",
+      "proptech",
+      "prefab",
+      "building materials"
+    ],
+    "subsectors": [
+      {
+        "id": "construction/design-software",
+        "name": "Design & planning software",
+        "description": "BIM, generative design, estimating"
+      },
+      {
+        "id": "construction/site-tech",
+        "name": "Site technology",
+        "description": "Site monitoring, robotics, safety"
+      },
+      {
+        "id": "construction/prefab",
+        "name": "Prefab & modular",
+        "description": "Off-site manufacturing, 3D printing"
+      },
+      {
+        "id": "construction/materials",
+        "name": "Low-carbon materials",
+        "description": "Cement, timber, insulation"
+      },
+      {
+        "id": "construction/operations",
+        "name": "Building operations",
+        "description": "Energy, maintenance, property software"
+      }
+    ]
+  },
+  {
+    "id": "advanced-materials",
+    "name": "Advanced materials",
+    "tagline": "New matter for industry",
+    "keywords": [
+      "advanced materials",
+      "materials discovery",
+      "composites",
+      "critical minerals"
+    ],
+    "subsectors": [
+      {
+        "id": "advanced-materials/discovery",
+        "name": "Materials discovery",
+        "description": "AI and high-throughput discovery"
+      },
+      {
+        "id": "advanced-materials/critical-minerals",
+        "name": "Critical minerals",
+        "description": "Extraction, refining, recycling"
+      },
+      {
+        "id": "advanced-materials/composites",
+        "name": "Composites & metals",
+        "description": "Structural materials, additive manufacturing"
+      },
+      {
+        "id": "advanced-materials/chemicals",
+        "name": "Sustainable chemicals",
+        "description": "Bio-based and low-carbon chemistry"
+      },
+      {
+        "id": "advanced-materials/coatings",
+        "name": "Coatings & membranes",
+        "description": "Functional surfaces, filtration"
+      }
+    ]
+  },
+  {
+    "id": "logistics",
+    "name": "Logistics & supply chain",
+    "tagline": "Moving and tracking goods",
+    "keywords": [
+      "logistics",
+      "freight",
+      "supply chain visibility",
+      "last mile"
+    ],
+    "subsectors": [
+      {
+        "id": "logistics/freight",
+        "name": "Freight & forwarding",
+        "description": "Digital forwarders, marketplaces, brokerage"
+      },
+      {
+        "id": "logistics/visibility",
+        "name": "Visibility & planning",
+        "description": "Tracking, forecasting, control towers"
+      },
+      {
+        "id": "logistics/last-mile",
+        "name": "Last mile",
+        "description": "Delivery networks, lockers, routing"
+      },
+      {
+        "id": "logistics/warehousing",
+        "name": "Warehousing & fulfilment",
+        "description": "Fulfilment networks and software"
+      },
+      {
+        "id": "logistics/trade",
+        "name": "Trade & customs",
+        "description": "Compliance, trade finance, documentation"
+      }
+    ]
+  },
+  {
+    "id": "consumer-hardware",
+    "name": "Consumer hardware",
+    "tagline": "Devices people wear and use",
+    "keywords": [
+      "wearables",
+      "AR glasses",
+      "smart home",
+      "consumer robotics"
+    ],
+    "subsectors": [
+      {
+        "id": "consumer-hardware/wearables",
+        "name": "Wearables",
+        "description": "Health, fitness and audio wearables"
+      },
+      {
+        "id": "consumer-hardware/xr",
+        "name": "AR & VR",
+        "description": "Headsets, glasses, spatial computing"
+      },
+      {
+        "id": "consumer-hardware/smart-home",
+        "name": "Smart home",
+        "description": "Home devices, security, energy"
+      },
+      {
+        "id": "consumer-hardware/home-robots",
+        "name": "Consumer robots",
+        "description": "Cleaning, companion and lawn robots"
+      },
+      {
+        "id": "consumer-hardware/ai-devices",
+        "name": "AI devices",
+        "description": "Assistants, pins, AI-first hardware"
+      }
+    ]
+  }
+]
