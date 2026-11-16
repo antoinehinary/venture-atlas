@@ -7,7 +7,7 @@ import { placeMarkers, useWidth, yearAxis } from '../lib/axis'
 
 export const PATTERN_TABS = [
   { id: 'waves', name: 'Founding waves' }, { id: 'speed', name: 'Speed of money' }, { id: 'investors', name: 'Investors' },
-  { id: 'whitespace', name: 'White space' }, { id: 'exits', name: 'Deaths & exits' }, { id: 'starred', name: 'Starred & notes' },
+  { id: 'whitespace', name: 'White space' }, { id: 'exits', name: 'Exits & shutdowns' }, { id: 'starred', name: 'Starred & notes' },
 ]
 type Ctx = { list: Co[]; groups: Group[]; of: (c: Co) => Group; events: AtlasEvent[]; unit: string }
 type TipState = { x: number; y: number; body: React.ReactNode } | null
@@ -228,7 +228,13 @@ function CoTable({ list }: { list: Co[] }) {
     <tbody>{[...list].sort((p, q) => (q.totalUsd ?? 0) - (p.totalUsd ?? 0)).map((c) => <tr key={c.id}><td><Name c={c} /></td><td>{fmtDate(c.founded.date)}</td><td>{c.hq.city ?? c.hq.country}</td><td className="num">{fmtUsd(c.totalUsd, c.totalPartial)}</td><td>{c.status}</td><td className="wrap">{c.wedge ?? <Unknown />}</td></tr>)}</tbody></table></div>
 }
 
-// ---- 5. Deaths & exits --------------------------------------------------------------------------
+/** Long notes in tables: three lines on small screens, the rest on tap. Full text on wider screens (CSS). */
+function Clamp({ text }: { text: string }) {
+  const [open, setOpen] = useState(false)
+  return <span className={`clamp ${open ? 'open' : ''}`} onClick={() => setOpen((o) => !o)} title={open ? undefined : 'Tap to read all'}>{text}</span>
+}
+
+// ---- 5. Exits & shutdowns -----------------------------------------------------------------------
 function Exits({ list, of }: Ctx) {
   const dead = list.filter((c) => c.status === 'dead').sort((p, q) => (q.tEnd ?? 0) - (p.tEnd ?? 0))
   const acq = list.filter((c) => c.status === 'acquired').sort((p, q) => (q.tEnd ?? 0) - (p.tEnd ?? 0))
@@ -246,22 +252,22 @@ function Exits({ list, of }: Ctx) {
         <div className="stat"><span>Shut down</span><b>{dead.length}</b><em>median life {median(dead.filter((c) => c.t0 != null && c.tEnd != null).map((c) => c.tEnd! - c.t0!))?.toFixed(1) ?? '—'} yr</em></div>
       </div>
       <div className="panel">
-        <div className="panel-head"><div><h2>What killed them</h2><p>Main cause as reported by the source for each shutdown. The atlas favours companies that mattered, so deaths are under-counted.</p></div></div>
+        <div className="panel-head"><div><h2>Why they shut down</h2><p>Main cause as reported by the source for each shutdown. The atlas favours companies that mattered, so shutdowns are under-counted.</p></div></div>
         {dead.length === 0 ? <Empty what="No shutdowns on record here." /> : <>
           <div className="hbars">{causes.map((c) => <div key={c.k} className="hbar"><span>{c.name}</span><div><i style={{ width: `${(c.cs.length / maxC) * 100}%` }} /><b>{c.cs.length}</b></div><em>{c.cs.map((x) => x.name).join(', ')}</em></div>)}</div>
           <div className="scroll-x"><table className="tbl"><thead><tr><th>Company</th><th>Segment</th><th>Lived</th><th className="num">Raised</th><th>Cause</th><th>What happened</th></tr></thead>
-            <tbody>{dead.map((c) => <tr key={c.id}><td><Name c={c} /></td><td>{of(c).name}</td><td>{fmtDate(c.founded.date)} – {fmtDate(c.statusEvent?.date)} <span className="dim">({life(c)})</span></td><td className="num">{fmtUsd(c.totalUsd, c.totalPartial)}</td><td>{c.statusEvent?.causeCategory ? CAUSE_LABEL[c.statusEvent.causeCategory] : <Unknown />}</td><td className="wrap">{c.statusEvent?.note ?? <Unknown />} {c.statusEvent?.source && <a className="src" href={c.statusEvent.source} target="_blank" rel="noreferrer">source</a>}</td></tr>)}</tbody></table></div></>}
+            <tbody>{dead.map((c) => <tr key={c.id}><td><Name c={c} /></td><td>{of(c).name}</td><td>{fmtDate(c.founded.date)} – {fmtDate(c.statusEvent?.date)} <span className="dim">({life(c)})</span></td><td className="num">{fmtUsd(c.totalUsd, c.totalPartial)}</td><td>{c.statusEvent?.causeCategory ? CAUSE_LABEL[c.statusEvent.causeCategory] : <Unknown />}</td><td className="wrap">{c.statusEvent?.note ? <Clamp text={c.statusEvent.note} /> : <Unknown />} {c.statusEvent?.source && <a className="src" href={c.statusEvent.source} target="_blank" rel="noreferrer">source</a>}</td></tr>)}</tbody></table></div></>}
       </div>
       <div className="panel">
         <div className="panel-head"><div><h2>Who acquired whom</h2><p>{acquirers.length ? <>Repeat acquirers: {acquirers.map(([n, v]) => `${n} (${v.length})`).join(', ')}.</> : 'Acquisitions of tracked companies, newest first.'}</p></div></div>
         {acq.length === 0 ? <Empty what="No acquisitions on record here." /> :
           <div className="scroll-x"><table className="tbl"><thead><tr><th>Company</th><th>Segment</th><th>Acquirer</th><th>Date</th><th className="num">Price</th><th className="num">Raised before</th><th className="num">Age at exit</th><th>Notes</th></tr></thead>
-            <tbody>{acq.map((c) => <tr key={c.id}><td><Name c={c} /></td><td>{of(c).name}</td><td>{c.statusEvent?.acquirer?.name ?? <Unknown />}</td><td>{fmtDate(c.statusEvent?.date)}</td><td className="num">{c.statusEvent?.amount ? fmtMoney(c.statusEvent.amount) : <span className="unknown">undisclosed</span>}</td><td className="num">{fmtUsd(c.totalUsd, c.totalPartial)}</td><td className="num">{life(c)}</td><td className="wrap">{c.statusEvent?.note ?? ''} {c.statusEvent?.source && <a className="src" href={c.statusEvent.source} target="_blank" rel="noreferrer">source</a>}</td></tr>)}</tbody></table></div>}
+            <tbody>{acq.map((c) => <tr key={c.id}><td><Name c={c} /></td><td>{of(c).name}</td><td>{c.statusEvent?.acquirer?.name ?? <Unknown />}</td><td>{fmtDate(c.statusEvent?.date)}</td><td className="num">{c.statusEvent?.amount ? fmtMoney(c.statusEvent.amount) : <span className="unknown">undisclosed</span>}</td><td className="num">{fmtUsd(c.totalUsd, c.totalPartial)}</td><td className="num">{life(c)}</td><td className="wrap">{c.statusEvent?.note ? <Clamp text={c.statusEvent.note} /> : ''} {c.statusEvent?.source && <a className="src" href={c.statusEvent.source} target="_blank" rel="noreferrer">source</a>}</td></tr>)}</tbody></table></div>}
       </div>
       {pub.length > 0 && <div className="panel">
         <div className="panel-head"><div><h2>Public listings</h2></div></div>
         <div className="scroll-x"><table className="tbl"><thead><tr><th>Company</th><th>Segment</th><th>Route</th><th>Date</th><th className="num">Raised privately</th><th className="num">Age at listing</th><th>Notes</th></tr></thead>
-          <tbody>{pub.map((c) => <tr key={c.id}><td><Name c={c} /></td><td>{of(c).name}</td><td>{c.statusEvent?.type?.toUpperCase() ?? <Unknown />}</td><td>{fmtDate(c.statusEvent?.date)}</td><td className="num">{fmtUsd(c.totalUsd, c.totalPartial)}</td><td className="num">{life(c)}</td><td className="wrap">{c.statusEvent?.note ?? ''} {c.statusEvent?.source && <a className="src" href={c.statusEvent.source} target="_blank" rel="noreferrer">source</a>}</td></tr>)}</tbody></table></div>
+          <tbody>{pub.map((c) => <tr key={c.id}><td><Name c={c} /></td><td>{of(c).name}</td><td>{c.statusEvent?.type?.toUpperCase() ?? <Unknown />}</td><td>{fmtDate(c.statusEvent?.date)}</td><td className="num">{fmtUsd(c.totalUsd, c.totalPartial)}</td><td className="num">{life(c)}</td><td className="wrap">{c.statusEvent?.note ? <Clamp text={c.statusEvent.note} /> : ''} {c.statusEvent?.source && <a className="src" href={c.statusEvent.source} target="_blank" rel="noreferrer">source</a>}</td></tr>)}</tbody></table></div>
       </div>}
     </>
   )

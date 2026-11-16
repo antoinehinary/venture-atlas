@@ -191,7 +191,7 @@ The seed data went through the same idea at scale: all 1,074 sourced facts and 9
 - **Home:** one slowly rotating globe per field, with companies tracked, how many are European, and money raised.
 - **Field view:** scrub or play the timeline from 2000. Filter by subsector, stage, status and country. External events (wars, policy, technology releases, landmark rounds) are marked on the timeline so you can see what triggered each wave.
 - **Dossier:** click a company for its story, founders, starting wedge versus what it became, every sourced round with time since founding, first customers, and its sources. Star it and keep notes.
-- **Pattern tabs:** founding waves, speed of money, which investors lead first rounds and who arrived early, a subsector-by-region white-space matrix, and what killed or acquired whom. Also across all fields at once.
+- **Pattern tabs:** founding waves, speed of money, which investors lead first rounds and who arrived early, a subsector-by-region white-space matrix, and exits and shutdowns: who acquired whom, who listed, and why companies closed. Also across all fields at once.
 
 ## Where things are
 

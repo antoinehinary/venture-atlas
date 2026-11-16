@@ -255,3 +255,9 @@ html, body { overflow-x: clip; }
 @media (max-width: 1000px) { .globe-layout > .globe-wrap { order: 1; } .globe-layout > .timeline { order: 2; } .globe-layout > .filters { order: 3; } }
 @media (max-width: 1000px) and (max-height: 500px) { .globe-wrap { height: 78vh; } } /* phone in landscape: the globe fills the screen */
 @media (max-width: 1000px) { .tbl td:first-child { white-space: nowrap; } }
+/* phones: notes columns get a readable width (min-width is ignored on table cells; width is honoured), short columns stay on one line */
+@media (max-width: 1000px) {
+  .scroll-x > .tbl td.wrap { width: 300px; min-width: 300px; }
+  .clamp { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; cursor: pointer; } .clamp.open { display: inline; }
+  .scroll-x > .tbl:not(.matrix):not(.ws) td:not(.wrap) { white-space: nowrap; }
+}
