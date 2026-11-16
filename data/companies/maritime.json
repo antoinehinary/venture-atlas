@@ -1095,6 +1095,209 @@
     "lastVerified": "2026-11-12"
   },
   {
+    "aliases": [
+      "Hullbot Pty Ltd"
+    ],
+    "website": "https://www.hullbot.com",
+    "statusEvent": null,
+    "story": "Tom Loefler, an industrial designer with a boat-building background, first developed the concept as his major project in UNSW's Industrial Design program. His key realisation was that preventing biofouling through frequent light cleaning works far better than removing it after it builds up. After research and customer interviews, he and co-founder Karl Watfern began building autonomous underwater robot prototypes in a garage. The company went through Startmate, joined the UNSW Founders 10x defence accelerator (D10X) in 2023, and later joined KPMG High Growth Ventures.",
+    "founders": [
+      {
+        "name": "Tom Loefler",
+        "role": "Co-founder & CEO",
+        "background": "UNSW Industrial Design alumnus; industrial designer with a background in boat building (started his career building houseboats). Developed the Hullbot concept as his major university project."
+      },
+      {
+        "name": "Karl Watfern",
+        "role": "Co-founder & CTO",
+        "background": null
+      }
+    ],
+    "product": "AI vision-guided, free-swimming underwater robots (current model H6) that proactively clean ship hulls and propellers with gentle brushes, inspect hulls and build 3D maps. It is sold as a remotely operated subscription service; the company claims average fuel savings of 15% and up to 26%.",
+    "wedge": "Paid hull-cleaning service for yachts in Sydney: an 18-month paid pilot with 400+ cleans of 52 yachts, followed by a paid pilot on 33m ferries from May 2023 that measured an 11.5% fuel reduction.",
+    "became": "A hull-grooming service for commercial ferry and small cruise fleets with more than 1,000 paid cleans, operating in Australia, the US, Mexico, Europe and Singapore. It is now developing larger platforms (the planned 'BigBot' that travels with the vessel) for bigger vessel classes.",
+    "differentiator": "Proactive, frequent cleaning of early-stage slime by an autonomous free-swimming robot, rather than infrequent reactive cleaning by divers or ROVs or reliance on toxic antifouling paint. Investor Climate Tech Partners cites full-stack autonomy, remote operation, propeller cleaning and a 100% trial-to-paid conversion rate.",
+    "competitors": [
+      "HullWiper",
+      "Greensea IQ"
+    ],
+    "rounds": [
+      {
+        "date": "2020",
+        "type": "grant",
+        "label": "Australian Government Entrepreneurs' Programme: Accelerating Commercialisation grant",
+        "amount": {
+          "value": 775410.9,
+          "currency": "AUD"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Australian Government (Entrepreneurs' Programme)"
+        ],
+        "source": "https://www.grants.gov.au/Ga/Show/fe611dab-0c90-430d-bb89-be471011bcc8",
+        "check": "unreachable",
+        "checkNote": "the amount 775,410.9 was not found on the page in any written form"
+      },
+      {
+        "date": "2025-07-15",
+        "type": "grant",
+        "label": "NSW Net Zero Manufacturing Initiative: Clean Technology Innovation grant",
+        "amount": {
+          "value": 1943218,
+          "currency": "AUD"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "NSW Government"
+        ],
+        "source": "https://www.nsw.gov.au/ministerial-releases/nsw-invests-262-million-low-emissions-clean-technology",
+        "checkNote": "The page gives the amount as \"$\" without naming the currency (AUD is implied by the NSW Government source), and 15 July 2025 is the publication date of the ministerial release announcing the grants.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-11-04",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 16000000,
+          "currency": "AUD"
+        },
+        "valuation": null,
+        "leads": [
+          "Regeneration.VC"
+        ],
+        "investors": [
+          "Katapult Ocean",
+          "Climate Tech Partners",
+          "Folklore Ventures",
+          "Trinity Ventures",
+          "Rypples",
+          "NewSouth Innovations",
+          "Artesian",
+          "Impact Ventures/Ocean Impact Collective",
+          "Bandera Capital"
+        ],
+        "source": "https://www.katapultocean.com/articles/katapult-ocean-backs-hullbot-in-usd-10-6m-round-to-scale-sustainable-shipping",
+        "checkNote": "November 4, 2025 is the article's publication date, not a stated closing date; the page also gives the round as USD $10.6 million.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "Yacht owners (unnamed)",
+        "date": null,
+        "note": "18-month paid pilot: 400+ cleans of 52 unique yachts. No dates given.",
+        "source": "https://unswfounders.com/demo-day-profiles/hullbot"
+      },
+      {
+        "name": "Ferry operator (unnamed)",
+        "date": "2023-05",
+        "note": "Paid pilot cleaning 33m ferries, with a measured 11.5% reduction in fuel consumption.",
+        "source": "https://unswfounders.com/demo-day-profiles/hullbot"
+      },
+      {
+        "name": "NRMA Marine",
+        "date": null,
+        "note": "Operator of Manly Fast Ferry, Fantasea Cruising, Palm Beach Hopper, Gordon River Cruises and Coral Expeditions; named as a customer in November 2025, start date not given.",
+        "source": "https://www.startupdaily.net/topic/funding/shipping-climate-tech-startup-hullbot-steams-ahead-with-16-million-series-a/"
+      },
+      {
+        "name": "Sydney Ferries",
+        "date": null,
+        "note": "Named as a customer in November 2025; start date not given.",
+        "source": "https://www.thedcn.com.au/news/hull-of-a-win-for-sydney-robots"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.startupdaily.net/topic/funding/shipping-climate-tech-startup-hullbot-steams-ahead-with-16-million-series-a/",
+        "title": "Shipping climate tech startup Hullbot steams ahead with $16 million Series A - Startup Daily"
+      },
+      {
+        "url": "https://www.katapultocean.com/articles/katapult-ocean-backs-hullbot-in-usd-10-6m-round-to-scale-sustainable-shipping",
+        "title": "Katapult Ocean Backs Hullbot in USD $10.6M Round to Scale Sustainable Shipping"
+      },
+      {
+        "url": "https://www.climatetech.partners/news/investment-note-hullbot",
+        "title": "Investment Note: Hullbot - Climate Tech Partners"
+      },
+      {
+        "url": "https://www.forbes.com.au/covers/entrepreneurs/hullbot-raises-16m-from-the-bottom-of-the-harbour/",
+        "title": "Hullbot raises $16m from the bottom of the harbour - Forbes Australia"
+      },
+      {
+        "url": "https://www.thedcn.com.au/news/hull-of-a-win-for-sydney-robots",
+        "title": "Hull of a win for Sydney robots - Daily Cargo News"
+      },
+      {
+        "url": "https://smartcompany.com.au/startupsmart/aussie-startup-hullbot-nets-16-million-to-take-its-hull-cleaning-robots-global/",
+        "title": "Aussie startup Hullbot nets $16 million to take its hull-cleaning robots global - SmartCompany"
+      },
+      {
+        "url": "https://www.australianmanufacturing.com.au/hullbot-raises-16m-to-expand-robotic-hull-cleaning-ops-globally/",
+        "title": "Hullbot raises $16M to expand robotic hull-cleaning ops globally - Australian Manufacturing"
+      },
+      {
+        "url": "https://www.roboausnet.com.au/news/hullbot-has-raised-aud-16-million-in-series-a-funding-to-take-its-innovative-hull-cleaning-robots-global",
+        "title": "Hullbot has raised AUD $16 million in Series A funding - Robotics Australia Network"
+      },
+      {
+        "url": "https://unswfounders.com/demo-day-profiles/hullbot",
+        "title": "Hullbot (D10x) - UNSW Founders"
+      },
+      {
+        "url": "https://www.unsw.edu.au/newsroom/news/2025/10/unsw-spinout-awarded-national-design-award-beating-global-giants",
+        "title": "UNSW spinout awarded national design award, beating global giants"
+      },
+      {
+        "url": "https://www.climatetechdistillery.com/p/83-hullbot",
+        "title": "#83 Hullbot - Climate Tech Distillery"
+      },
+      {
+        "url": "https://www.nsw.gov.au/ministerial-releases/nsw-invests-262-million-low-emissions-clean-technology",
+        "title": "NSW invests $26.2 million in low-emissions clean technology"
+      },
+      {
+        "url": "https://www.hullbot.com/about",
+        "title": "Hullbot - About"
+      },
+      {
+        "url": "https://www.grants.gov.au/Ga/Show/fe611dab-0c90-430d-bb89-be471011bcc8",
+        "title": "GrantConnect grant award: Hullbot Pty Ltd, Accelerating Commercialisation (read via search result only; page returned 403)"
+      }
+    ],
+    "id": "hullbot",
+    "name": "Hullbot",
+    "pitch": "Autonomous underwater robots that clean and inspect ship hulls often enough to stop biofouling, cutting fuel use and emissions.",
+    "domains": [
+      "maritime",
+      "robotics"
+    ],
+    "subsectors": [
+      "maritime/decarbonisation",
+      "maritime/subsea-inspection",
+      "robotics/inspection"
+    ],
+    "founded": {
+      "date": "2014",
+      "source": "https://www.startupdaily.net/topic/funding/shipping-climate-tech-startup-hullbot-steams-ahead-with-16-million-series-a/",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Sydney",
+      "country": "AU",
+      "lat": -33.87,
+      "lon": 151.21
+    },
+    "status": "active",
+    "confidence": "medium",
+    "lastVerified": "2026-11-16"
+  },
+  {
     "id": "kraken-technology-group",
     "name": "Kraken Technology Group",
     "aliases": [

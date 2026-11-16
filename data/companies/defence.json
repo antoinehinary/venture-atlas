@@ -398,6 +398,209 @@
     "confidence": "medium"
   },
   {
+    "aliases": [
+      "ANELLO Photonics",
+      "ANELLO"
+    ],
+    "website": "https://www.anellophotonics.com",
+    "statusEvent": null,
+    "story": "Anello was founded in 2018 by Mario Paniccia, who had led Intel's silicon photonics programme, and Mike Horton, a gyro and sensor expert who had earlier started Crossbow. It was incubated in close collaboration with Catapult Ventures. According to Paniccia, the company was founded to close a gap in the industry: fiber-optic gyroscopes are accurate but large and expensive, while MEMS gyros are cheap but drift. The aim was a fiber-optic-class gyro built on a silicon photonic chip for mass-market use.",
+    "founders": [
+      {
+        "name": "Mario Paniccia",
+        "role": "CEO and co-founder",
+        "background": "Spent over two decades at Intel, where he became an Intel Fellow and led its silicon photonics programme. Ph.D. in solid-state physics from Purdue; member of the U.S. National Academy of Engineering."
+      },
+      {
+        "name": "Mike Horton",
+        "role": "Chief Strategy Officer and co-founder",
+        "background": "Sensor and gyro expert who earlier started Crossbow (per The Robot Report)."
+      }
+    ],
+    "product": "The Silicon Photonics Optical Gyroscope (SiPhOG), an optical gyroscope on an integrated photonic chip, and the inertial products built around it: the ANELLO IMU+, an evaluation kit and GPS-denied inertial navigation systems for land, air and maritime platforms.",
+    "wedge": "A first-generation SiPhOG sensor aimed at safety-critical navigation, in trials in 2021 with customers in automotive, trucking, aerospace and national security.",
+    "became": "A supplier of solid-state inertial navigation systems for GPS-denied operation across construction, agriculture, robotics, unmanned air and underwater vehicles and defence. It holds U.S. Army and U.S. Navy SBIR awards and a $20M Department of War APFIT award (January 2026) to scale production and fielding.",
+    "differentiator": "Claimed the world's first integrated silicon photonic optical gyroscope: fiber-optic-gyro-class performance (drift below 0.5°/hour) in a golf-ball-sized, low-power package manufacturable on a chip.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2021-10-20",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 28000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "New Legacy Ventures"
+        ],
+        "investors": [
+          "Lockheed Martin Ventures",
+          "Catapult Ventures",
+          "JS Capital",
+          "Hardware Club"
+        ],
+        "source": "https://anellophotonics.com/anello-photonics-completes-28m-series-a-funding-for-worlds-first-integrated-siphog",
+        "checkNote": "The date is the press release date (Oct. 20, 2021), on which the company announced it had completed the $28M round; the page also mentions unnamed individual investors.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2024-11-18",
+        "type": "series-b",
+        "label": null,
+        "amount": null,
+        "valuation": null,
+        "leads": [
+          "Lockheed Martin Ventures",
+          "Catapult Ventures",
+          "One Madison Group"
+        ],
+        "investors": [
+          "New Legacy Ventures",
+          "Build Collective",
+          "Trousdale Ventures",
+          "In-Q-Tel",
+          "K2 Access Fund",
+          "Purdue Strategic Ventures",
+          "Santuri Ventures",
+          "Handshake Ventures",
+          "IronGate Capital",
+          "Mana Ventures"
+        ],
+        "source": "https://www.anellophotonics.com/anello-photonics-secures-series-b-funding",
+        "checkNote": "2024-11-18 is the date the page announced the round's closure; the page gives no amount and writes the investors as \"Lockheed Martin\" (Lockheed Martin Ventures is named further down), \"New Legacy\" and \"Irongate Capital\".",
+        "check": "confirmed"
+      },
+      {
+        "date": "2026-05-04",
+        "type": "series-b",
+        "label": "Series B-2",
+        "amount": {
+          "value": 25000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "MESH"
+        ],
+        "investors": [
+          "Washington Harbour Partners",
+          "Lockheed Martin Ventures",
+          "Catapult Ventures",
+          "New Legacy Ventures",
+          "One Madison Group",
+          "IronGate Capital",
+          "Mana Ventures"
+        ],
+        "source": "https://www.anellophotonics.com/anello-closes-series-b-2-funding-round",
+        "checkNote": "The date is the press release announcement date (May 4, 2026), and the page describes the amount as an \"additional $25 million in a Series B-2 financing round\".",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": {
+      "kind": "pilot",
+      "note": "At the first publicly sourced raise (Series A, October 2021) the company said it was \"engaged in trials with market-leading customers\" in automotive, trucking, aerospace and national security. Any earlier incubation or seed funding from Catapult Ventures is not documented in the sources found.",
+      "source": "https://anellophotonics.com/anello-photonics-completes-28m-series-a-funding-for-worlds-first-integrated-siphog"
+    },
+    "firstCustomers": [
+      {
+        "name": "Unnamed trial customers (automotive, trucking, aerospace, national security)",
+        "date": "2021-10",
+        "note": "Trials reported in the Series A release; no customers named.",
+        "source": "https://anellophotonics.com/anello-photonics-completes-28m-series-a-funding-for-worlds-first-integrated-siphog"
+      },
+      {
+        "name": "U.S. Army",
+        "date": "2024-11-12",
+        "note": "18-month Phase II SBIR contract after completing a Phase I; xTech Search 7 open topic finalist. Amount not stated.",
+        "source": "https://www.anellophotonics.com/us-army-awards-anello-photonics-contract-phase"
+      },
+      {
+        "name": "Unnamed orchard and indoor-robot customers",
+        "date": "2024-11",
+        "note": "Company said it was \"shipping to customers now in orchards\"; none named.",
+        "source": "https://www.therobotreport.com/anello-photonics-secures-funding-inertial-navigation-gps-denied-environments/"
+      },
+      {
+        "name": "U.S. Navy",
+        "date": "2025-09",
+        "note": "Phase II SBIR contract following a Phase I under NAVAIR open topic N234-P02. Taken from search-result summaries; the release page itself was not opened.",
+        "source": "https://www.anellophotonics.com/us-navy-awards-anello-photonics-contract-phase-ii"
+      },
+      {
+        "name": "U.S. Department of War (APFIT programme)",
+        "date": "2026-01-22",
+        "note": "$20M APFIT award to fast-track procurement, production and scaling of its GPS-denied navigation technology.",
+        "source": "https://www.anellophotonics.com/anello-awarded-apfit-defense-contract"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://anellophotonics.com/anello-photonics-completes-28m-series-a-funding-for-worlds-first-integrated-siphog",
+        "title": "Anello Photonics Completes $28M Series A Funding for World's First Integrated SiPhOG (company press release)"
+      },
+      {
+        "url": "https://www.anellophotonics.com/anello-photonics-secures-series-b-funding",
+        "title": "ANELLO Photonics Secures Series B Funding (company press release)"
+      },
+      {
+        "url": "https://www.anellophotonics.com/anello-closes-series-b-2-funding-round",
+        "title": "ANELLO closes Series B-2 funding round (company press release)"
+      },
+      {
+        "url": "https://www.anellophotonics.com/anello-awarded-apfit-defense-contract",
+        "title": "ANELLO awarded $20M APFIT funding (company press release)"
+      },
+      {
+        "url": "https://www.anellophotonics.com/us-army-awards-anello-photonics-contract-phase",
+        "title": "U.S. Army awards ANELLO Photonics Phase II SBIR contract (company press release)"
+      },
+      {
+        "url": "https://www.anellophotonics.com/us-navy-awards-anello-photonics-contract-phase-ii",
+        "title": "U.S. Navy awards ANELLO Photonics Phase II SBIR contract (company press release; search result only)"
+      },
+      {
+        "url": "https://www.therobotreport.com/anello-photonics-secures-funding-inertial-navigation-gps-denied-environments/",
+        "title": "The Robot Report: ANELLO Photonics secures funding for inertial navigation in GPS-denied environments"
+      },
+      {
+        "url": "https://www.gpsworld.com/anello-photonics-advances-autonomous-applications/",
+        "title": "GPS World: ANELLO Photonics advances autonomous applications"
+      },
+      {
+        "url": "https://www.unite.ai/?p=220537",
+        "title": "Unite.AI interview with Mario Paniccia"
+      }
+    ],
+    "id": "anello-photonics",
+    "name": "Anello Photonics",
+    "pitch": "Chip-scale silicon photonic optical gyroscopes (SiPhOG) and inertial navigation systems for GPS-denied navigation.",
+    "domains": [
+      "defence",
+      "robotics"
+    ],
+    "subsectors": [
+      "defence/pnt",
+      "robotics/components"
+    ],
+    "founded": {
+      "date": "2018",
+      "source": "https://www.therobotreport.com/anello-photonics-secures-funding-inertial-navigation-gps-denied-environments/",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Santa Clara",
+      "country": "US",
+      "lat": 37.3541,
+      "lon": -121.9552
+    },
+    "status": "active",
+    "confidence": "high",
+    "lastVerified": "2026-11-16"
+  },
+  {
     "id": "aquark-technologies",
     "name": "Aquark Technologies",
     "aliases": [],
