@@ -10,7 +10,9 @@ Pick a field, press play, and watch its companies appear at their founding place
 
 ## Quick start
 
-You need [Node.js](https://nodejs.org) 20.12 or newer.
+You need [Node.js](https://nodejs.org) 22.12 or newer (24 LTS recommended).
+
+> **Tested on:** a MacBook (macOS, Chrome and Safari) and an iPhone (installed from Safari, over Tailscale). It is written to work the same on Windows and Linux laptops, Android phones and a Raspberry Pi with a 64-bit OS, but those have not been tried yet. If something breaks there, please open an issue.
 
 ```bash
 git clone <this repo> venture-atlas
@@ -22,6 +24,63 @@ npm run dev
 Open http://localhost:5173. That is all: the atlas ships with 265 companies, 691 funding rounds and 96 timeline events across six fields, and runs entirely on your machine. No account, no database, no key.
 
 A key is only needed for the two buttons that research the web, **Fetch latest** and **Add a company** (next section).
+
+## Phone app
+
+The atlas installs on a phone (iPhone or Android) as an app, straight from the browser, with no app store. Tested on iPhone; Android should work the same but has not been tried yet.
+
+- **With no connection at all** it opens and shows the data built into it, or the last data it fetched from one of your servers.
+- **When one of your machines is running the atlas and the phone is on Tailscale**, it uses that machine: live data, your stars and notes, the review queue, and "Fetch latest" / "Add a company". Research runs on that machine with its keys; nothing secret is on the phone.
+
+It tries the server that opened the page first, then your saved servers in order (say the Raspberry Pi, then the laptop), and uses the first that answers. It checks again each time you bring the app back to the front.
+
+### 1. Make a machine reachable (laptop, Raspberry Pi…)
+
+On each machine that should serve the phone, with [Tailscale](https://tailscale.com/download) installed and logged in:
+
+```bash
+npm install
+npm run build
+npm start                    # keep it running (on Linux/RPi: see deploy/venture-atlas.service)
+tailscale serve --bg 5173    # once; remembered across restarts
+```
+
+`tailscale serve` prints an address like `https://my-laptop.tail1234.ts.net`. It is HTTPS with a real certificate, reachable only from devices on your tailnet. The first time, Tailscale may ask you to enable **MagicDNS** and **HTTPS certificates** in its admin console.
+
+The server itself still listens on `127.0.0.1` only; Tailscale forwards to it.
+
+### A Raspberry Pi (or any Linux box) as an always-on server
+
+The atlas does not need your laptop (this setup is untested so far; it was written for, but not yet run on, a Pi): a Raspberry Pi 4 or 5 (2 GB+, **64-bit** Raspberry Pi OS) or a small cloud VM with Tailscale works on its own. On it:
+
+```bash
+git clone https://github.com/antoinehinary/venture-atlas.git && cd venture-atlas
+bash deploy/setup-linux.sh
+```
+
+The script checks Node.js and Tailscale, builds the app, installs a systemd service that starts on boot and restarts after crashes, runs `tailscale serve`, and prints the address for your phone. Put an AI key in its `.env` (`ANTHROPIC_API_KEY` is simplest on a Pi) for research. Update later with `git pull && bash deploy/setup-linux.sh`.
+
+If `tailscale serve` already publishes something else on port 443 of a machine, give the atlas its own port: `tailscale serve --bg --https=8443 5173`, then use `https://….ts.net:8443`.
+
+### 2. Install the app on the phone
+
+Install Tailscale on the phone and log in with the same account. Then open the app from either of:
+
+- **GitHub Pages:** `https://<your-github-username>.github.io/venture-atlas/`. Works from anywhere. Deployed by `.github/workflows/pages.yml` on every push to `main` (one-time: repo Settings → Pages → Source: *GitHub Actions*). Add `ATLAS_APP_ORIGINS=https://<your-github-username>.github.io` to the `.env` of each server so it accepts calls from that page.
+- **One of your servers:** its `https://….ts.net` address. Nothing public, but you need Tailscale on to install or update the app.
+
+Then:
+
+- **iPhone (Safari):** Share → **Add to Home Screen**.
+- **Android (Chrome):** menu → **Install app** (or **Add to Home screen**). Chrome may ask to allow access to devices on your local network: allow it, that is your Tailscale server.
+
+Open the app, tap the status dot (top right), and add each server's `https://….ts.net` address. A green dot means it answers.
+
+Notes:
+
+- Each machine keeps its own data. A star or a research run on the laptop does not appear on the Raspberry Pi. Pick one machine as the main one, or sync `data/` with git.
+- Without a server, stars and notes are shown but read-only, so two copies never drift apart.
+- iPhone home-screen *widgets* need a native app; this is an app icon that opens full screen.
 
 ## Connect an AI provider
 
@@ -100,22 +159,30 @@ The catalog of suggested fields is `data/field-catalog.json`; edit it freely.
 | `data/schema/` | JSON Schemas for companies and events |
 | `data/verification/` | Verification report and the raw verdicts with supporting quotes |
 | `server/` | API, AI providers (`providers.mjs`), web access (`web.mjs`), verification (`verify.mjs`), research pipeline |
-| `src/` | React app; `src/globe/engine.ts` renders every globe in one WebGL canvas |
+| `src/` | React app; `src/globe/engine.ts` renders every globe in one WebGL canvas; `src/lib/api.ts` finds a server or falls back to offline data |
+| `public/` | Phone-app files: manifest, icons, `sw.js` (offline support) |
+| `deploy/` | systemd service for Linux and Raspberry Pi |
 
 Local-only and git-ignored: `.env`, your stars and notes (`data/user/`), the review queue (`data/queue/`).
 
 ## Commands
 
 ```bash
-npm run dev        # API + app on http://localhost:5173 (PORT=5174 npm run dev for another port)
+npm run dev        # API + app on http://localhost:5173
 npm test           # verification logic, providers (against a mock), URL safety, data integrity
 npm run validate   # check every data file against the schemas
-npm run build && npm start   # production build served by the same server
+npm run build && npm start   # production build served by the same server (use this for the phone app)
+npm run icons      # re-render the app icons in public/ (needs Chrome, Edge, Brave or Chromium)
 ```
+
+Another port: `PORT=5174 npm run dev` on macOS and Linux, `$env:PORT=5174; npm run dev` in Windows PowerShell, or `PORT=5174` in `.env` anywhere.
+
+On Windows, if you use the Claude Code CLI as the AI provider and it is not found, set `CLAUDE_BIN` in `.env` to the full path of `claude.exe` (or `claude.cmd`).
 
 ## Safety notes
 
-- The server listens on `127.0.0.1` only.
+- The server listens on `127.0.0.1` only. Other devices reach it only through `tailscale serve`, so only your tailnet can.
+- Browsers may call it from another address only if that address is on the same tailnet as the server, or listed in `ATLAS_APP_ORIGINS` (`server/origins.mjs`).
 - The page fetcher refuses local and private addresses, so a model cannot be steered into reading services on your network.
 - Research runs can only search and read the web. They cannot write files; the server validates what comes back and writes it itself.
 

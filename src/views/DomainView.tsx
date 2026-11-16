@@ -1,4 +1,5 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useWidth, yearAxis } from '../lib/axis'
+import { useEffect, useMemo, useState } from 'react'
 import { ArrowLeft, Minus, Pause, Play, Plus, Search, SkipForward, Star } from 'lucide-react'
 import { useAtlas } from '../lib/store'
 import { buildScene, getEngine } from '../globe/Stage'
@@ -142,9 +143,10 @@ export function DomainView({ domainId, tab }: { domainId: string; tab: string })
 }
 
 function Timeline({ t, setT, companies, events, playing, onPlay, speed, setSpeed, toEnd }: { t: number; setT: (t: number) => void; companies: Co[]; events: AtlasEvent[]; playing: boolean; onPlay: () => void; speed: number; setSpeed: (s: number) => void; toEnd: () => void }) {
-  const ref = useRef<HTMLDivElement>(null)
+  const [ref, trackW] = useWidth()
   const [tip, setTip] = useState<AtlasEvent | null>(null)
   const END = Math.ceil(NOW)
+  const axis = yearAxis(T_START, END, trackW, { canRotate: false })
   const pct = (v: number) => ((v - T_START) / (END - T_START)) * 100
   const years = Array.from({ length: END - T_START }, (_, i) => T_START + i)
   const hist = useMemo(() => { const m = new Map<number, number>(); for (const c of companies) if (c.t0 != null) m.set(Math.floor(c.t0), (m.get(Math.floor(c.t0)) ?? 0) + 1); return m }, [companies])
@@ -162,7 +164,7 @@ function Timeline({ t, setT, companies, events, playing, onPlay, speed, setSpeed
       </div>
       <div className="tl-track" ref={ref} onPointerDown={down} onPointerMove={move} onKeyDown={key} tabIndex={0} role="slider" aria-label="Timeline" aria-valuemin={T_START} aria-valuemax={Math.floor(NOW)} aria-valuenow={Math.floor(t)}>
         <div className="tl-bars">{years.map((y) => <i key={y} className={y + 1 <= t ? 'past' : y < t ? 'cur' : ''} style={{ left: `${pct(y)}%`, width: `${100 / years.length}%`, height: `${((hist.get(y) ?? 0) / max) * 100}%` }} title={`${y}: ${hist.get(y) ?? 0} founded`} />)}</div>
-        <div className="tl-axis">{years.filter((y) => y % 2 === 0).map((y) => <span key={y} style={{ left: `${pct(y)}%` }}>{y}</span>)}</div>
+        <div className="tl-axis">{years.filter(axis.show).map((y) => <span key={y} style={{ left: `${pct(y)}%` }}>{y}</span>)}</div>
         <div className="tl-events">{events.map((e) => { const et = toT(e.date)!; if (et < T_START) return null; return (
           <button key={e.id} className={`tl-event ${et <= t ? 'past' : ''}`} style={{ left: `${pct(et)}%`, '--k': EVENT_KIND[e.kind]?.color } as React.CSSProperties}
             onPointerDown={(ev) => ev.stopPropagation()} onClick={() => setT(Math.min(NOW, et + 0.02))} onMouseEnter={() => setTip(e)} onMouseLeave={() => setTip(null)} onFocus={() => setTip(e)} onBlur={() => setTip(null)} aria-label={`${fmtDate(e.date)}: ${e.title}`} />

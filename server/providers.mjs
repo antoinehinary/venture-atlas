@@ -24,18 +24,30 @@ const PRESETS = {
 }
 const MAX_SEARCHES = Number(process.env.ATLAS_MAX_SEARCHES || 30), MAX_FETCHES = Number(process.env.ATLAS_MAX_FETCHES || 45), MAX_TURNS = 60
 
-/** Finds the Claude Code binary: $CLAUDE_BIN, PATH, the usual install paths, then editor extension bundles. */
+/** Finds the Claude Code binary: $CLAUDE_BIN, PATH, the usual install paths, then editor extension bundles. Works on macOS, Linux and Windows. */
 export function findClaudeCli(env = process.env) {
   if (env.CLAUDE_BIN) return fs.existsSync(env.CLAUDE_BIN) ? env.CLAUDE_BIN : null
-  try { const p = execFileSync('/bin/sh', ['-lc', 'command -v claude'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).trim(); if (p) return p } catch { /* not on PATH */ }
+  const win = process.platform === 'win32'
+  try {
+    const out = win
+      ? execFileSync('where', ['claude'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'], windowsHide: true })
+      : execFileSync('/bin/sh', ['-lc', 'command -v claude'], { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] })
+    // `where` lists every match (claude, claude.cmd, claude.ps1…): prefer something we can start
+    const hits = out.split(/\r?\n/).map((l) => l.trim()).filter(Boolean)
+    const p = win ? hits.find((h) => /\.(exe|cmd)$/i.test(h)) : hits[0]
+    if (p) return p
+  } catch { /* not on PATH */ }
   const home = os.homedir()
-  for (const p of [path.join(home, '.claude/local/claude'), path.join(home, '.local/bin/claude'), '/opt/homebrew/bin/claude', '/usr/local/bin/claude']) if (fs.existsSync(p)) return p
+  const candidates = win
+    ? [path.join(home, '.local/bin/claude.exe'), path.join(home, '.claude/local/claude.exe'), env.APPDATA && path.join(env.APPDATA, 'npm/claude.cmd')]
+    : [path.join(home, '.claude/local/claude'), path.join(home, '.local/bin/claude'), '/opt/homebrew/bin/claude', '/usr/local/bin/claude']
+  for (const p of candidates) if (p && fs.existsSync(p)) return p
   for (const base of ['.vscode/extensions', '.cursor/extensions', '.vscode-insiders/extensions']) {
     const dir = path.join(home, base)
     if (!fs.existsSync(dir)) continue
     const ver = (n) => (n.match(/(\d+)\.(\d+)\.(\d+)/) || []).slice(1).map(Number)
     const exts = fs.readdirSync(dir).filter((n) => n.startsWith('anthropic.claude-code-')).sort((a, b) => { const x = ver(a), y = ver(b); return y[0] - x[0] || y[1] - x[1] || y[2] - x[2] })
-    for (const e of exts) { const p = path.join(dir, e, 'resources/native-binary/claude'); if (fs.existsSync(p)) return p }
+    for (const e of exts) { const p = path.join(dir, e, 'resources/native-binary', win ? 'claude.exe' : 'claude'); if (fs.existsSync(p)) return p }
   }
   return null
 }
@@ -166,7 +178,12 @@ function cliRun(d, prompt, { onLog = () => {}, signal } = {}, tools) {
   return new Promise((resolve, reject) => {
     const args = ['-p', '--output-format', 'stream-json', '--verbose', '--tools', tools ? 'WebSearch,WebFetch' : '', ...(tools ? ['--allowedTools', 'WebSearch,WebFetch'] : [])]
     if (d.model) args.push('--model', d.model)
-    const child = spawn(d.bin, args, { cwd: os.tmpdir(), env: { ...process.env, CLAUDECODE: undefined, CLAUDE_CODE_ENTRYPOINT: undefined }, stdio: ['pipe', 'pipe', 'pipe'] })
+    // On Windows an npm-installed CLI is a .cmd script, which Node only starts through the shell; the arguments are fixed
+    // flags and the model name, quoted so the empty --tools value survives. The prompt itself goes through stdin.
+    const viaShell = process.platform === 'win32' && /\.(cmd|bat)$/i.test(d.bin)
+    const child = viaShell
+      ? spawn(`"${d.bin}"`, args.map((a) => `"${String(a).replace(/"/g, '')}"`), { shell: true, windowsHide: true, cwd: os.tmpdir(), env: { ...process.env, CLAUDECODE: undefined, CLAUDE_CODE_ENTRYPOINT: undefined }, stdio: ['pipe', 'pipe', 'pipe'] })
+      : spawn(d.bin, args, { cwd: os.tmpdir(), windowsHide: true, env: { ...process.env, CLAUDECODE: undefined, CLAUDE_CODE_ENTRYPOINT: undefined }, stdio: ['pipe', 'pipe', 'pipe'] })
     signal?.addEventListener('abort', () => child.kill('SIGTERM'), { once: true })
     child.stdin.end(prompt)
     let buf = '', final = null, stderr = '', failed = null

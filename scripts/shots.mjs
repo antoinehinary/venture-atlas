@@ -2,11 +2,11 @@
 // Takes screenshots of the running app for visual checks:  node scripts/shots.mjs [baseUrl] [outDir]
 import puppeteer from 'puppeteer-core'
 import fs from 'node:fs'
+import { findChrome, gpuArgs } from './chrome.mjs'
 const base = process.argv[2] || 'http://localhost:5173', out = process.argv[3] || 'shots'
 const only = process.argv[4]
 fs.mkdirSync(out, { recursive: true })
-const chrome = ['/Applications/Google Chrome.app/Contents/MacOS/Google Chrome', '/Applications/Brave Browser.app/Contents/MacOS/Brave Browser', '/usr/bin/google-chrome', '/usr/bin/chromium'].find((p) => fs.existsSync(p))
-const browser = await puppeteer.launch({ executablePath: chrome, headless: 'new', args: ['--enable-webgl', '--ignore-gpu-blocklist', '--use-angle=metal', '--window-size=1500,950'] })
+const browser = await puppeteer.launch({ executablePath: findChrome(), headless: 'new', args: [...gpuArgs(), '--window-size=1500,950'] })
 const page = await browser.newPage()
 await page.setViewport({ width: 1500, height: 950, deviceScaleFactor: 1 })
 const errors = []

@@ -2,12 +2,14 @@
 import './env.mjs'
 import fs from 'node:fs'
 import http from 'node:http'
+import os from 'node:os'
 import path from 'node:path'
 import express from 'express'
 import { DATA, ROOT, readJson, writeJson, taxonomy, loadCompanies } from './validate.mjs'
 import { startJob, listJobs, getJob, cancelJob, readQueue, resolveQueueItem, verifyQueueItem, readMeta } from './pipeline.mjs'
 import { describeProvider, getProvider } from './providers.mjs'
 import { availableFields, addField, deleteField, fieldImpact } from './fields.mjs'
+import { appOrigins, originAllowed } from './origins.mjs'
 
 const aiStatus = () => { const d = describeProvider(); return { available: !d.problem, provider: d.label, model: d.model ?? null, search: d.search ?? null, problem: d.problem ?? null } }
 
@@ -18,6 +20,24 @@ const USER = path.join(DATA, 'user/annotations.json')
 const app = express()
 const server = http.createServer(app)
 app.use(express.json({ limit: '2mb' }))
+
+// ---- cross-origin access, for the installed phone app (rules in origins.mjs) ----
+const APP_ORIGINS = appOrigins()
+app.use('/api', (req, res, next) => {
+  // The server only listens on 127.0.0.1, so X-Forwarded-Host can only come from a local proxy such as `tailscale serve`.
+  const origin = req.headers.origin, host = req.headers['x-forwarded-host'] || req.headers.host
+  const ok = originAllowed(origin, host, APP_ORIGINS)
+  if (ok) {
+    res.set({ 'Access-Control-Allow-Origin': origin, Vary: 'Origin', 'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE', 'Access-Control-Allow-Headers': 'Content-Type', 'Access-Control-Max-Age': '600' })
+    // Chrome asks before a public page may call a private (100.x Tailscale) address
+    if (req.headers['access-control-request-private-network']) res.set('Access-Control-Allow-Private-Network', 'true')
+  }
+  if (req.method === 'OPTIONS') return res.sendStatus(ok ? 204 : 403)
+  next()
+})
+
+// The app probes this to find which of your machines is up.
+app.get('/api/health', (_req, res) => res.set('Cache-Control', 'no-store').json({ app: 'venture-atlas', name: os.hostname().replace(/\.local$/, ''), ai: aiStatus().available }))
 
 const wrap = (fn) => (req, res) => { try { fn(req, res) } catch (e) { res.status(400).json({ error: e.message }) } }
 
@@ -84,9 +104,9 @@ if (PROD) {
   app.use((_req, res) => res.sendFile(path.join(dist, 'index.html')))
 } else {
   const { createServer } = await import('vite')
-  const vite = await createServer({ root: ROOT, appType: 'spa', server: { middlewareMode: true, hmr: { server } } })
+  const vite = await createServer({ root: ROOT, appType: 'spa', server: { middlewareMode: true, hmr: { server }, allowedHosts: ['.ts.net'] } })
   app.use(vite.middlewares)
 }
 
 server.on('error', (e) => { if (e.code === 'EADDRINUSE') { console.error(`\n  Port ${PORT} is already in use (an old "vite" dev server?). Stop it, or start on another port:  PORT=5174 npm run dev\n`); process.exit(1) } throw e })
-server.listen(PORT, '127.0.0.1', () => console.log(`\n  Venture Atlas  →  http://localhost:${PORT}\n  AI provider: ${aiStatus().available ? `${aiStatus().provider}${aiStatus().model ? ' · ' + aiStatus().model : ''} · search: ${aiStatus().search}` : 'not set up (' + aiStatus().problem + ')'}\n`))
+server.listen(PORT, '127.0.0.1', () => console.log(`\n  Venture Atlas  →  http://localhost:${PORT}\n  Phone & other devices: tailscale serve --bg ${PORT}   (README, "Phone app")\n  AI provider: ${aiStatus().available ? `${aiStatus().provider}${aiStatus().model ? ' · ' + aiStatus().model : ''} · search: ${aiStatus().search}` : 'not set up (' + aiStatus().problem + ')'}\n`))

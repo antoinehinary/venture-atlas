@@ -8,6 +8,7 @@ import { DomainView } from './views/DomainView'
 import { Patterns, PATTERN_TABS } from './views/Patterns'
 import { Dossier } from './views/Dossier'
 import { JobDock, QueuePage } from './views/Refresh'
+import { ConnectionPill, OfflineBanner } from './views/Connection'
 
 function Shell() {
   const a = useAtlas()
@@ -20,11 +21,13 @@ function Shell() {
         <a className="brand" href="#/"><span className="brand-mark" />Venture Atlas</a>
         <nav>
           <a href="#/" className={route.view === 'home' || route.view === 'domain' ? 'on' : ''}>Globes</a>
-          <a href="#/patterns" className={route.view === 'patterns' ? 'on' : ''}>Cross-domain patterns</a>
-          <a href="#/queue" className={route.view === 'queue' ? 'on' : ''}><Inbox size={14} /> Review queue{a.queue.length > 0 && <b className="badge">{a.queue.length}</b>}</a>
+          <a href="#/patterns" className={route.view === 'patterns' ? 'on' : ''}><span className="nav-long">Cross-domain patterns</span><span className="nav-short">Patterns</span></a>
+          <a href="#/queue" className={route.view === 'queue' ? 'on' : ''}><Inbox size={14} /> <span className="nav-long">Review queue</span><span className="nav-short">Queue</span>{a.queue.length > 0 && <b className="badge">{a.queue.length}</b>}</a>
         </nav>
+        <ConnectionPill />
       </header>
-      {a.error && <div className="banner error">Could not load data: {a.error}. Is the server running (<code>npm run dev</code>)?</div>}
+      {a.error && <div className="banner error">Could not load data: {a.error}. Start the server (<code>npm run dev</code>), or on a phone check that Tailscale is on and your servers are set up.</div>}
+      <OfflineBanner />
       {a.loading ? <div className="loading">Loading atlas…</div> : (
         <>
           {route.view === 'home' && <Home />}

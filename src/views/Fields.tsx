@@ -1,18 +1,14 @@
 import { useEffect, useState } from 'react'
 import { Plus, Trash2, X } from 'lucide-react'
 import { useAtlas } from '../lib/store'
+import { api } from '../lib/api'
 
 type CatalogField = { id: string; name: string; tagline: string; keywords: string[]; subsectors: string[] }
-const api = async (url: string, init?: RequestInit) => {
-  const r = await fetch(url, init && { ...init, headers: { 'Content-Type': 'application/json' } })
-  const j = await r.json().catch(() => ({}))
-  if (!r.ok) throw new Error(j.error || `${r.status} ${r.statusText}`)
-  return j
-}
 
 /** The tile at the end of the home grid, and the dialog it opens. */
 export function AddFieldTile() {
   const [open, setOpen] = useState(false)
+  if (!useAtlas().live) return null
   return (<>
     <button className="home-cell add-field" onClick={() => setOpen(true)}><span><Plus size={26} /></span><b>Add a field</b><i>Pick one from the list or define your own</i></button>
     {open && <AddFieldDialog close={() => setOpen(false)} />}
@@ -66,12 +62,12 @@ function AddFieldDialog({ close }: { close: () => void }) {
 
 /** "Delete field" button with a confirmation that says exactly what will be removed. */
 export function DeleteField({ id, name }: { id: string; name: string }) {
-  const { reload, go, tax } = useAtlas()
+  const { reload, go, tax, live } = useAtlas()
   const [impact, setImpact] = useState<{ companiesRemoved: number; companiesKept: number; eventsRemoved: number } | null>(null)
   const [open, setOpen] = useState(false), [busy, setBusy] = useState(false), [err, setErr] = useState<string | null>(null)
   const ask = () => { setOpen(true); setErr(null); api(`/api/fields/${id}/impact`).then(setImpact).catch((e) => setErr(e.message)) }
   const del = async () => { setBusy(true); try { await api(`/api/fields/${id}`, { method: 'DELETE' }); go('#/'); await reload() } catch (e) { setErr((e as Error).message); setBusy(false) } }
-  if (tax.domains.length <= 1) return null
+  if (tax.domains.length <= 1 || !live) return null
   return (<>
     <button className="btn ghost danger" onClick={ask} title="Remove this field and its data"><Trash2 size={13} /> Delete field</button>
     {open && <>

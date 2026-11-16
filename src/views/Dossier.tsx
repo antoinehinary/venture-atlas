@@ -25,7 +25,7 @@ function Field({ label, children }: { label: string; children: React.ReactNode }
 const Text = ({ v }: { v?: string | null }) => (v ? <p>{v}</p> : <p><Unknown /></p>)
 
 export function Dossier() {
-  const { selected: c, select, stars, toggleStar, notes, setNote, byName, tax } = useAtlas()
+  const { selected: c, select, stars, toggleStar, notes, setNote, byName, tax, live } = useAtlas()
   useEffect(() => { const k = (e: KeyboardEvent) => { if (e.key === 'Escape') select(null) }; window.addEventListener('keydown', k); return () => window.removeEventListener('keydown', k) }, [select])
   if (!c) return null
   const subs = tax.domains.flatMap((d) => d.subsectors.map((s) => ({ ...s, domain: d })))
@@ -42,7 +42,7 @@ export function Dossier() {
             <p className="pitch">{c.pitch}</p>
           </div>
           <div className="dossier-actions">
-            <button className={`btn icon ${starred ? 'starred' : ''}`} onClick={() => toggleStar(c.id)} aria-pressed={starred} aria-label={starred ? 'Remove star' : 'Star this company'}><Star size={16} fill={starred ? 'currentColor' : 'none'} /></button>
+            <button className={`btn icon ${starred ? 'starred' : ''}`} onClick={() => toggleStar(c.id)} disabled={!live} title={live ? undefined : 'Stars can be changed when one of your servers is reachable'} aria-pressed={starred} aria-label={starred ? 'Remove star' : 'Star this company'}><Star size={16} fill={starred ? 'currentColor' : 'none'} /></button>
             <button className="btn icon" onClick={() => select(null)} aria-label="Close dossier"><X size={16} /></button>
           </div>
         </header>
@@ -96,8 +96,8 @@ export function Dossier() {
           {c.firstCustomers?.length ? <ul className="plain">{c.firstCustomers.map((f, i) => <li key={i}><b>{f.name}</b>{f.date ? ` · ${fmtDate(f.date)}` : ''}{f.note ? `: ${f.note}` : ''} <Src url={f.source} /></li>)}</ul> : <p><Unknown /></p>}
         </Field>
         <Field label="My notes">
-          <textarea value={notes[c.id] ?? ''} onChange={(e) => setNote(c.id, e.target.value)} placeholder="Why this one matters, what to copy, what to avoid…" rows={4} />
-          <p className="dim small">Saved automatically to data/user/annotations.json</p>
+          <textarea value={notes[c.id] ?? ''} onChange={(e) => setNote(c.id, e.target.value)} readOnly={!live} placeholder={live ? 'Why this one matters, what to copy, what to avoid…' : 'No note. Notes can be written when one of your servers is reachable.'} rows={4} />
+          <p className="dim small">{live ? 'Saved automatically to data/user/annotations.json on the server' : 'Read-only: no server reachable'}</p>
         </Field>
         <Field label={`Sources (${c.sources.length})`}>
           {c.sources.length ? <ul className="plain sources">{c.sources.map((s) => <li key={s.url}><a href={s.url} target="_blank" rel="noreferrer">{s.title || host(s.url)}</a> <span className="dim">{host(s.url)}</span></li>)}</ul> : <p className="dim">No sources recorded.</p>}

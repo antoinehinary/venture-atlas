@@ -1,0 +1,21 @@
+# Keeps Venture Atlas running on a Linux machine or Raspberry Pi (64-bit OS), restarted after crashes and reboots.
+# Easiest: run  bash deploy/setup-linux.sh  which fills this in for you. By hand:
+#   1. Edit User= and WorkingDirectory= below, then:
+#   2. sudo cp deploy/venture-atlas.service /etc/systemd/system/ && sudo systemctl daemon-reload && sudo systemctl enable --now venture-atlas
+#   3. tailscale serve --bg 5173        (once; it is remembered across reboots)
+#   Logs: journalctl -u venture-atlas -f
+[Unit]
+Description=Venture Atlas
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=pi
+WorkingDirectory=/home/pi/venture-atlas
+ExecStart=/usr/bin/env node server/index.mjs --prod
+Environment=NODE_ENV=production
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target

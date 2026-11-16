@@ -104,7 +104,13 @@ function QueueCard({ item }: { item: QueueItem }) {
 }
 
 export function QueuePage() {
-  const { queue, tax, meta } = useAtlas()
+  const { queue, tax, meta, live } = useAtlas()
+  if (!live) return (
+    <main className="page narrow">
+      <div className="page-head"><div><p className="eyebrow">Nothing is merged without your approval</p><h1>Review queue</h1></div></div>
+      <div className="empty"><p>The review queue lives on your server. Connect to one (Tailscale on, server running) to see and approve records.</p></div>
+    </main>
+  )
   return (
     <main className="page narrow">
       <div className="page-head"><div><p className="eyebrow">Nothing is merged without your approval</p><h1>Review queue</h1></div></div>

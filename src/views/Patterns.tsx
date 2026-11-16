@@ -1,8 +1,9 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useMemo, useState } from 'react'
 import { useAtlas } from '../lib/store'
 import { CAUSE_LABEL, NOW, REGION_NAMES, ROUND_LABEL, T_START, fmtDate, fmtMoney, fmtMonths, fmtUsd, groupFor, median, normInvestor, toT, type AtlasEvent, type Co, type Group } from '../lib/model'
 import { EVENT_KIND } from './DomainView'
 import { Unknown } from './Dossier'
+import { placeMarkers, useWidth, yearAxis } from '../lib/axis'
 
 export const PATTERN_TABS = [
   { id: 'waves', name: 'Founding waves' }, { id: 'speed', name: 'Speed of money' }, { id: 'investors', name: 'Investors' },
@@ -11,12 +12,7 @@ export const PATTERN_TABS = [
 type Ctx = { list: Co[]; groups: Group[]; of: (c: Co) => Group; events: AtlasEvent[]; unit: string }
 type TipState = { x: number; y: number; body: React.ReactNode } | null
 
-function useWidth() {
-  const ref = useRef<HTMLDivElement>(null), [w, setW] = useState(900)
-  useEffect(() => { const el = ref.current!; const ro = new ResizeObserver(() => setW(el.clientWidth)); ro.observe(el); setW(el.clientWidth); return () => ro.disconnect() }, [])
-  return [ref, w] as const
-}
-const Tip = ({ tip }: { tip: TipState }) => (tip ? <div className="chart-tip" style={{ left: Math.min(tip.x + 14, window.innerWidth - 300), top: tip.y + 14 }}>{tip.body}</div> : null)
+const Tip = ({ tip }: { tip: TipState }) => (tip ? <div className="chart-tip" style={{ left: Math.max(8, Math.min(tip.x + 14, window.innerWidth - 300)), top: tip.y + 14 }}>{tip.body}</div> : null)
 const Legend = ({ groups, extra }: { groups: Group[]; extra?: React.ReactNode }) => <div className="legend">{groups.map((g) => <span key={g.id}><i style={{ background: g.color }} />{g.name}</span>)}{extra}</div>
 const Name = ({ c }: { c: Co }) => { const { select } = useAtlas(); return <button className="link name" onClick={() => select(c.id)}>{c.name}{c.unverified && <span className="tag unverified">unverified</span>}</button> }
 const Seg = <T extends string>({ value, set, options }: { value: T; set: (v: T) => void; options: [T, string][] }) => <div className="seg" role="group">{options.map(([v, l]) => <button key={v} className={v === value ? 'on' : ''} aria-pressed={v === value} onClick={() => set(v)}>{l}</button>)}</div>
@@ -46,8 +42,9 @@ function Waves({ list, groups, of, events: allEvents, unit }: Ctx) {
   const [offKinds, setOffKinds] = useState<Set<string>>(() => new Set(unit === 'domain' ? ['round', 'exit', 'market', 'technology'] : []))
   const events = allEvents.filter((e) => !offKinds.has(e.kind))
   const [ref, W] = useWidth(), [tip, setTip] = useState<TipState>(null)
-  const H = 400, m = { l: 48, r: 12, t: 56, b: 28 }
   const y0 = T_START, y1 = Math.floor(NOW), years = Array.from({ length: y1 - y0 + 1 }, (_, i) => y0 + i)
+  const ml = 48, mr = 12, axis = yearAxis(y0, y1 + 1, W - ml - mr)
+  const H = W < 560 ? 340 : 400, m = { l: ml, r: mr, t: 56, b: axis.height + 8 }
   const data = useMemo(() => years.map((yr) => groups.map((g) => {
     if (mode === 'founded') { const cs = list.filter((c) => c.t0 != null && Math.floor(c.t0) === yr && of(c).id === g.id); return { v: cs.length, cs } }
     const cs: Co[] = []; let v = 0
@@ -60,6 +57,8 @@ function Waves({ list, groups, of, events: allEvents, unit }: Ctx) {
   const bw = (W - m.l - m.r) / years.length, x = (t: number) => m.l + (t - y0) * bw, y = (v: number) => H - m.b - (v / top) * (H - m.t - m.b)
   const undated = list.filter((c) => c.t0 == null).length
   const fmtV = (v: number) => (mode === 'founded' ? String(v) : fmtUsd(v))
+  const markers = placeMarkers(events.map((e, i) => ({ x: x(toT(e.date)!), id: i + 1 })), { minX: m.l - 9, maxX: W })
+  const eventTip = (ids: number[]) => <>{ids.map((id) => { const e = events[id - 1]; return <div key={id} className="tip-ev"><b>{id}. {fmtDate(e.date)} · {e.title}</b>{ids.length === 1 && e.detail && <p>{e.detail}</p>}<p className="dim">{EVENT_KIND[e.kind]?.name}</p></div> })}</>
   return (
     <div className="panel">
       <div className="panel-head">
@@ -77,14 +76,16 @@ function Waves({ list, groups, of, events: allEvents, unit }: Ctx) {
               {data[i].map((d, gi) => { if (!d.v) return null; const yy = y(acc + d.v), hh = y(acc) - yy; acc += d.v
                 return <rect key={gi} x={x(yr) + bw * 0.14} y={yy + 1} width={bw * 0.72} height={Math.max(1, hh - 2)} rx={Math.min(3, hh / 3)} fill={groups[gi].color}
                   onMouseMove={(e) => setTip({ x: e.clientX, y: e.clientY, body: <><b>{yr} · {groups[gi].name}</b><p>{mode === 'founded' ? `${d.v} founded` : `${fmtUsd(d.v, true)} raised by ${d.cs.length}`}</p><p className="dim">{d.cs.slice(0, 12).map((c) => c.name).join(', ')}{d.cs.length > 12 ? '…' : ''}</p></> })} onMouseLeave={() => setTip(null)} /> })}
-              {(yr % 2 === 0 || bw > 34) && <text x={x(yr) + bw / 2} y={H - 8} textAnchor="middle" className="axis">{bw > 34 ? yr : `’${String(yr).slice(2)}`}</text>}
+              {axis.show(yr) && (axis.rotate
+                ? <text x={x(yr) + bw / 2} y={H - m.b + 14} textAnchor="end" transform={`rotate(-40 ${x(yr) + bw / 2} ${H - m.b + 14})`} className="axis">{yr}</text>
+                : <text x={x(yr) + bw / 2} y={H - m.b + 16} textAnchor="middle" className="axis">{yr}</text>)}
             </g>
           })}
-          {events.map((e, i) => { const ex = x(toT(e.date)!); return (
-            <g key={e.id} className="ev" onMouseMove={(ev) => setTip({ x: ev.clientX, y: ev.clientY, body: <><b>{fmtDate(e.date)} · {e.title}</b>{e.detail && <p>{e.detail}</p>}<p className="dim">{EVENT_KIND[e.kind]?.name}</p></> })} onMouseLeave={() => setTip(null)}>
-              <line x1={ex} x2={ex} y1={m.t - 6} y2={H - m.b} stroke={EVENT_KIND[e.kind]?.color} strokeDasharray="2 4" opacity={0.7} />
-              <circle cx={ex} cy={m.t - 16 - (i % 2) * 21} r={9} fill="var(--surface)" stroke={EVENT_KIND[e.kind]?.color} strokeWidth={1.5} />
-              <text x={ex} y={m.t - 12.5 - (i % 2) * 21} textAnchor="middle" className="ev-n">{i + 1}</text>
+          {events.map((e) => { const ex = x(toT(e.date)!); return <line key={e.id} x1={ex} x2={ex} y1={m.t - 6} y2={H - m.b} stroke={EVENT_KIND[e.kind]?.color} strokeDasharray="2 4" opacity={0.7} pointerEvents="none" /> })}
+          {markers.map((mk) => { const e = events[mk.ids[0] - 1], cy = m.t - 16 - mk.row * 21, col = mk.ids.length === 1 ? EVENT_KIND[e.kind]?.color : 'var(--text-2)'; return (
+            <g key={mk.ids[0]} className="ev" onMouseMove={(ev) => setTip({ x: ev.clientX, y: ev.clientY, body: eventTip(mk.ids) })} onMouseLeave={() => setTip(null)} onClick={(ev) => setTip({ x: ev.clientX, y: ev.clientY, body: eventTip(mk.ids) })}>
+              <rect x={mk.left} y={cy - 9} width={mk.width} height={18} rx={9} fill="var(--surface)" stroke={col} strokeWidth={1.5} />
+              <text x={mk.left + mk.width / 2} y={cy + 3.5} textAnchor="middle" className="ev-n">{mk.label}</text>
             </g>) })}
         </svg>
       </div>
@@ -102,8 +103,9 @@ function Speed({ list, groups, of, unit }: Ctx) {
   const { select } = useAtlas()
   const [ref, W] = useWidth(), [tip, setTip] = useState<TipState>(null)
   const pts = list.filter((c) => c.t0 != null && c.monthsToFirst != null && c.first)
-  const H = 400, m = { l: 52, r: 16, t: 14, b: 34 }, CAP = 84
   const x0 = Math.max(T_START, Math.floor(Math.min(NOW - 12, ...pts.map((c) => c.t0!)))), x1 = Math.ceil(NOW)
+  const axis = yearAxis(x0, x1, W - 52 - 16)
+  const H = W < 560 ? 340 : 400, m = { l: 52, r: 16, t: 14, b: axis.height + 14 }, CAP = 84
   const x = (t: number) => m.l + ((Math.max(x0, t) - x0) / (x1 - x0)) * (W - m.l - m.r), y = (mo: number) => H - m.b - (Math.min(mo, CAP) / CAP) * (H - m.t - m.b)
   const maxUsd = Math.max(1e6, ...pts.map((c) => c.first!.usd ?? 0)), r = (usd: number | null) => (usd == null ? 4 : 4 + 20 * Math.sqrt(usd / maxUsd))
   const rows = groups.map((g) => { const cs = pts.filter((c) => of(c).id === g.id); return { g, n: cs.length, months: median(cs.map((c) => c.monthsToFirst!)), size: median(cs.map((c) => c.first!.usd).filter((v): v is number => v != null)), cohorts: COHORTS.map(([, f]) => { const cc = cs.filter((c) => f(c.t0!)); return { n: cc.length, months: median(cc.map((c) => c.monthsToFirst!)), size: median(cc.map((c) => c.first!.usd).filter((v): v is number => v != null)) } }) } })
@@ -117,7 +119,9 @@ function Speed({ list, groups, of, unit }: Ctx) {
       <div ref={ref} className="chart">
         <svg width={W} height={H} role="img" aria-label="Months from founding to first round by founding year">
           {[0, 12, 24, 36, 48, 60, 72, 84].map((v) => <g key={v}><line x1={m.l} x2={W - m.r} y1={y(v)} y2={y(v)} className="grid" /><text x={m.l - 8} y={y(v) + 4} textAnchor="end" className="axis">{v === CAP ? '7 yr+' : v === 0 ? '0' : `${v / 12} yr`}</text></g>)}
-          {Array.from({ length: x1 - x0 + 1 }, (_, i) => x0 + i).filter((yr) => (x1 - x0 > 14 ? yr % 2 === 0 : true)).map((yr) => <text key={yr} x={x(yr)} y={H - 10} textAnchor="middle" className="axis">{yr}</text>)}
+          {Array.from({ length: x1 - x0 + 1 }, (_, i) => x0 + i).filter(axis.show).map((yr) => axis.rotate
+            ? <text key={yr} x={x(yr)} y={H - m.b + 16} textAnchor="end" transform={`rotate(-40 ${x(yr)} ${H - m.b + 16})`} className="axis">{yr}</text>
+            : <text key={yr} x={x(yr)} y={H - m.b + 18} textAnchor="middle" className="axis">{yr}</text>)}
           <text x={m.l} y={H - 0.5} className="axis" />
           {[...pts].sort((p, q) => (q.first!.usd ?? 0) - (p.first!.usd ?? 0)).map((c) => { const g = of(c), known = c.first!.usd != null
             return <circle key={c.id} cx={x(c.t0!)} cy={y(c.monthsToFirst!)} r={r(c.first!.usd)} fill={known ? g.color : 'transparent'} fillOpacity={0.72} stroke={known ? 'var(--surface)' : g.color} strokeWidth={known ? 2 : 1.5} className="dot"
