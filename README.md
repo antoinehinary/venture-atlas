@@ -1,6 +1,8 @@
 # Venture Atlas
 
-A local, open-source tracker of who is raising what, where, and why it worked — shown as one globe per technology field.
+An open-source tracker of who is raising what, where, and why it worked, shown as one globe per technology field.
+
+**[▶ Open the live demo](https://antoinehinary.github.io/venture-atlas/)**: runs in the browser, and installs on a phone as an app. Nothing to sign up for.
 
 Pick a field, press play, and watch its companies appear at their founding place and date, grow as they raise, and change when they are acquired, go public or shut down. Every funding figure links to the page that states it, and nothing reaches the atlas without being checked against that page.
 
@@ -8,22 +10,74 @@ Pick a field, press play, and watch its companies appear at their founding place
 
 ![A field replayed on its timeline](docs/domain.png)
 
-## Quick start
+## Three ways to use it
 
-You need [Node.js](https://nodejs.org) 22.12 or newer (24 LTS recommended).
+| | What you get | What you need |
+|---|---|---|
+| **[Try the demo](https://antoinehinary.github.io/venture-atlas/)** | The six built-in fields (265 companies, 691 funding rounds, 96 events) to browse, replay and compare. Read-only. | A browser |
+| **[Run your own atlas](#run-your-own-atlas)** | Your own fields and research: the AI finds companies and funding rounds in the domains you choose, every figure is checked against its source, and you approve what goes in. Stars and notes. | Node.js, and an AI key for research |
+| **[Use it on your phone](#phone-app)** | The app on your home screen. Offline it shows the built-in or last-synced data; on [Tailscale](https://tailscale.com) it connects to your own atlas (laptop or Raspberry Pi) with live data and research. | A phone, plus Tailscale for live data |
 
-> **Tested on:** a MacBook (macOS, Chrome and Safari) and an iPhone (installed from Safari, over Tailscale). It is written to work the same on Windows and Linux laptops, Android phones and a Raspberry Pi with a 64-bit OS, but those have not been tried yet. If something breaks there, please open an issue.
+> **Tested on:** a MacBook (macOS, Chrome and Safari) and an iPhone (installed from Safari, over Tailscale). It is written to work the same on Windows and Linux laptops, Android phones and a Raspberry Pi with a 64-bit OS, but those have not been tried yet. If something breaks there, please [open an issue](https://github.com/antoinehinary/venture-atlas/issues).
+
+## Install the demo on your phone
+
+No server, no account:
+
+1. Open **https://antoinehinary.github.io/venture-atlas/** on the phone.
+2. **iPhone (Safari):** Share → **Add to Home Screen**. **Android (Chrome):** menu → **Install app**.
+3. Open it from the home screen. It works offline too.
+
+The demo shows the data in this repository as of its last update. To research your own fields, run your own atlas.
+
+## Run your own atlas
+
+### 1. Get the code
+
+To keep your research in your own GitHub repository (recommended), **fork** this repo first (Fork button, top right), then clone your fork. To just try it locally, clone this one:
 
 ```bash
-git clone <this repo> venture-atlas
+git clone https://github.com/<you>/venture-atlas.git    # your fork, or antoinehinary/venture-atlas
 cd venture-atlas
 npm install
 npm run dev
 ```
 
-Open http://localhost:5173. That is all: the atlas ships with 265 companies, 691 funding rounds and 96 timeline events across six fields, and runs entirely on your machine. No account, no database, no key.
+You need [Node.js](https://nodejs.org) 22.12 or newer (24 LTS recommended). Open http://localhost:5173: the atlas starts with the six built-in fields and runs entirely on your machine. No account, no database.
 
-A key is only needed for the two buttons that research the web, **Fetch latest** and **Add a company** (next section).
+### 2. Connect an AI provider
+
+Browsing needs nothing. Research ("Fetch latest", "Add a company") needs one AI provider: copy `.env.example` to `.env`, fill in one key, restart. Claude, OpenAI, Gemini, DeepSeek, Mistral, Groq, OpenRouter, local models (Ollama, LM Studio) and the Claude Code CLI all work; see [Connect an AI provider](#connect-an-ai-provider) for the details.
+
+### 3. Make it about the fields you care about
+
+Each globe is a field (a domain), and fields are data, not code: you change them from the app.
+
+1. **Remove what you don't need.** Open a field and press **Delete field**. The dialog says how many companies and events will be deleted. Companies that also belong to another field stay there.
+2. **Add your field.** On the home page press **Add a field**. Pick one from the list, or choose **Custom field…** and name your own (say "Ocean energy" or "Longevity biotech").
+3. **Steer the research with keywords.** Add a few keywords ("tidal turbines, wave power, floating wind"). They tell the research what to look for. For a custom field you can list subsectors, or leave them empty and the AI proposes some.
+4. **Fill it.** On the new, empty globe press **Fetch latest**. The AI searches the web for companies and funding rounds, the server checks every figure against its source page, and the results appear on the globe or in the review queue.
+5. **Add specific companies.** Press **Add a company** and give a name or a website.
+6. **Review.** Anything not fully confirmed waits in the **Review queue** with each claim, the verdict and the supporting quote. Approve or reject.
+7. **Fine-tune.** Edit `data/taxonomy.json` to rename subsectors or hide one (`"enabled": false`), and `data/field-catalog.json` to change the fields offered in "Add a field".
+
+Your research is saved as plain JSON under `data/`. Commit it to your fork to keep it and see every change in git:
+
+```bash
+git add data && git commit -m "Research: ocean energy" && git push
+```
+
+Stars, notes and the review queue stay local (git-ignored).
+
+### 4. Publish your own demo (optional)
+
+A fork can publish its own copy of the app, with your fields in it, at `https://<you>.github.io/venture-atlas/`:
+
+1. In your fork, **Actions** tab: enable workflows (GitHub turns them off on forks).
+2. **Settings → Pages → Source: GitHub Actions**.
+3. Push to `main`. The workflow in `.github/workflows/pages.yml` runs the tests, builds the app with your data, and publishes it. It does this again on every push.
+
+Only the data in your repository is published. Your keys, stars, notes and review queue never are.
 
 ## Phone app
 
@@ -41,7 +95,7 @@ On each machine that should serve the phone, with [Tailscale](https://tailscale.
 ```bash
 npm install
 npm run build
-npm start                    # keep it running (on Linux/RPi: see deploy/venture-atlas.service)
+npm start                    # keep it running (on Linux/RPi: see below)
 tailscale serve --bg 5173    # once; remembered across restarts
 ```
 
@@ -49,25 +103,25 @@ tailscale serve --bg 5173    # once; remembered across restarts
 
 The server itself still listens on `127.0.0.1` only; Tailscale forwards to it.
 
+If `tailscale serve` already publishes something else on port 443 of a machine, give the atlas its own port: `tailscale serve --bg --https=8443 5173`, then use `https://….ts.net:8443`.
+
 ### A Raspberry Pi (or any Linux box) as an always-on server
 
-The atlas does not need your laptop (this setup is untested so far; it was written for, but not yet run on, a Pi): a Raspberry Pi 4 or 5 (2 GB+, **64-bit** Raspberry Pi OS) or a small cloud VM with Tailscale works on its own. On it:
+The atlas does not need your laptop: a Raspberry Pi 4 or 5 (2 GB+, **64-bit** Raspberry Pi OS) or a small cloud VM with Tailscale can run it on its own. This setup is written but not yet tested on a Pi. On it:
 
 ```bash
-git clone https://github.com/antoinehinary/venture-atlas.git && cd venture-atlas
+git clone https://github.com/<you>/venture-atlas.git && cd venture-atlas
 bash deploy/setup-linux.sh
 ```
 
 The script checks Node.js and Tailscale, builds the app, installs a systemd service that starts on boot and restarts after crashes, runs `tailscale serve`, and prints the address for your phone. Put an AI key in its `.env` (`ANTHROPIC_API_KEY` is simplest on a Pi) for research. Update later with `git pull && bash deploy/setup-linux.sh`.
 
-If `tailscale serve` already publishes something else on port 443 of a machine, give the atlas its own port: `tailscale serve --bg --https=8443 5173`, then use `https://….ts.net:8443`.
+### 2. Install the app on the phone and connect it
 
-### 2. Install the app on the phone
+Install Tailscale on the phone and log in with the same account. Then install the app from either of:
 
-Install Tailscale on the phone and log in with the same account. Then open the app from either of:
-
-- **GitHub Pages:** `https://<your-github-username>.github.io/venture-atlas/`. Works from anywhere. Deployed by `.github/workflows/pages.yml` on every push to `main` (one-time: repo Settings → Pages → Source: *GitHub Actions*). Add `ATLAS_APP_ORIGINS=https://<your-github-username>.github.io` to the `.env` of each server so it accepts calls from that page.
-- **One of your servers:** its `https://….ts.net` address. Nothing public, but you need Tailscale on to install or update the app.
+- **A GitHub Pages copy:** [this repo's demo](https://antoinehinary.github.io/venture-atlas/) or your fork's (`https://<you>.github.io/venture-atlas/`). Works from anywhere. Add that page's origin to the `.env` of each server so the server accepts calls from it, e.g. `ATLAS_APP_ORIGINS=https://antoinehinary.github.io`, and restart the server.
+- **One of your servers:** its `https://….ts.net` address. Nothing public and no extra setting, but you need Tailscale on to install or update the app.
 
 Then:
 
@@ -132,15 +186,6 @@ The seed data went through the same idea at scale: all 1,074 sourced facts and 9
 - **Narrative fields are not fact-checked:** story, wedge, founder backgrounds, competitor lists and the "why it mattered" line on events are the researcher's reading of the sources.
 - **Totals across currencies** ("≈$…") use fixed indicative rates and are for comparison only. Dossiers show amounts as the source reports them.
 
-## Add or remove a field
-
-Each globe is a field, and fields are data, not code.
-
-- **Add:** on the home page, press **Add a field**. Choose one from the list (fields already on your atlas are not offered) or pick "Custom field…" and name your own. Add a few keywords, press Save, and a new, empty globe appears. Press **Fetch latest** on it to research and verify its first companies.
-- **Remove:** open a field and press **Delete field**. The dialog tells you how many companies and events will be deleted from disk. Companies that also belong to another field stay there.
-
-The catalog of suggested fields is `data/field-catalog.json`; edit it freely.
-
 ## What you can do in the app
 
 - **Home:** one slowly rotating globe per field, with companies tracked, how many are European, and money raised.
@@ -161,7 +206,8 @@ The catalog of suggested fields is `data/field-catalog.json`; edit it freely.
 | `server/` | API, AI providers (`providers.mjs`), web access (`web.mjs`), verification (`verify.mjs`), research pipeline |
 | `src/` | React app; `src/globe/engine.ts` renders every globe in one WebGL canvas; `src/lib/api.ts` finds a server or falls back to offline data |
 | `public/` | Phone-app files: manifest, icons, `sw.js` (offline support) |
-| `deploy/` | systemd service for Linux and Raspberry Pi |
+| `deploy/` | `setup-linux.sh` and the systemd service for an always-on Linux or Raspberry Pi server |
+| `.github/workflows/pages.yml` | Builds and publishes the app to GitHub Pages on every push to `main` |
 
 Local-only and git-ignored: `.env`, your stars and notes (`data/user/`), the review queue (`data/queue/`).
 
