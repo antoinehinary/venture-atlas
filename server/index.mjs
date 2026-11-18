@@ -9,7 +9,7 @@ import { DATA, ROOT, readJson, writeJson, taxonomy, loadCompanies } from './vali
 import { startJob, listJobs, getJob, cancelJob, readQueue, resolveQueueItem, verifyQueueItem, readMeta } from './pipeline.mjs'
 import { describeProvider, getProvider } from './providers.mjs'
 import { availableFields, addField, deleteField, fieldImpact } from './fields.mjs'
-import { appOrigins, originAllowed } from './origins.mjs'
+import { appOrigins, originAllowed, hostAllowed, sameOrigin } from './origins.mjs'
 
 const aiStatus = () => { const d = describeProvider(); return { available: !d.problem, provider: d.label, model: d.model ?? null, search: d.search ?? null, problem: d.problem ?? null } }
 
@@ -26,7 +26,10 @@ const APP_ORIGINS = appOrigins()
 app.use('/api', (req, res, next) => {
   // The server only listens on 127.0.0.1, so X-Forwarded-Host can only come from a local proxy such as `tailscale serve`.
   const origin = req.headers.origin, host = req.headers['x-forwarded-host'] || req.headers.host
-  const ok = originAllowed(origin, host, APP_ORIGINS)
+  if (!hostAllowed(host)) return res.status(403).json({ error: `This server does not answer to "${host}". Use localhost or its Tailscale name, or add the name to ATLAS_ALLOWED_HOSTS.` })
+  const ok = !!origin && (sameOrigin(origin, host) || originAllowed(origin, host, APP_ORIGINS))
+  // A web page from anywhere else may not change anything: browsers always send Origin with such requests.
+  if (origin && !ok && !['GET', 'HEAD', 'OPTIONS'].includes(req.method)) return res.status(403).json({ error: 'Requests from this web address are not allowed (see ATLAS_APP_ORIGINS)' })
   if (ok) {
     res.set({ 'Access-Control-Allow-Origin': origin, Vary: 'Origin', 'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE', 'Access-Control-Allow-Headers': 'Content-Type', 'Access-Control-Max-Age': '600' })
     // Chrome asks before a public page may call a private (100.x Tailscale) address
@@ -39,7 +42,7 @@ app.use('/api', (req, res, next) => {
 // The app probes this to find which of your machines is up.
 app.get('/api/health', (_req, res) => res.set('Cache-Control', 'no-store').json({ app: 'venture-atlas', name: os.hostname().replace(/\.local$/, ''), ai: aiStatus().available }))
 
-const wrap = (fn) => (req, res) => { try { fn(req, res) } catch (e) { res.status(400).json({ error: e.message }) } }
+const wrap = (fn) => (req, res) => { try { fn(req, res) } catch (e) { res.status(e.status || 400).json({ error: e.message }) } }
 
 app.get('/api/data', wrap((_req, res) => {
   res.json({ taxonomy: taxonomy(), companies: loadCompanies(), events: readJson(path.join(DATA, 'events.json'), []), meta: { ...readMeta(), ai: aiStatus() } })
@@ -48,8 +51,10 @@ app.get('/api/data', wrap((_req, res) => {
 app.get('/api/user', wrap((_req, res) => res.json(readJson(USER, { stars: [], notes: {} }))))
 app.put('/api/user', wrap((req, res) => {
   const { stars, notes } = req.body || {}
-  if (!Array.isArray(stars) || typeof notes !== 'object') throw new Error('Expected {stars: [], notes: {}}')
-  writeJson(USER, { stars, notes }); res.json({ ok: true })
+  const okStars = Array.isArray(stars) && stars.length <= 5000 && stars.every((s) => typeof s === 'string' && s.length <= 120)
+  const okNotes = notes && typeof notes === 'object' && !Array.isArray(notes) && Object.keys(notes).length <= 5000 && Object.entries(notes).every(([k, v]) => k.length <= 120 && typeof v === 'string' && v.length <= 20000)
+  if (!okStars || !okNotes) throw new Error('Expected {stars: [company ids], notes: {company id: text}}')
+  writeJson(USER, { stars: [...new Set(stars)], notes }); res.json({ ok: true })
 }))
 
 app.get('/api/queue', wrap((_req, res) => res.json(readQueue().filter((q) => q.state === 'pending'))))

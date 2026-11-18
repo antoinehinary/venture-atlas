@@ -3,7 +3,7 @@
 import fs from 'node:fs'
 import path from 'node:path'
 import { getProvider } from './providers.mjs'
-import { verifyRecord } from './verify.mjs'
+import { verifyRecord, stripChecks } from './verify.mjs'
 import { DATA, ROOT, readJson, writeJson, taxonomy, validateCompany, findDuplicate, loadCompanies, saveCompanies, slugify } from './validate.mjs'
 
 const QUEUE = path.join(DATA, 'queue/queue.json')
@@ -12,6 +12,9 @@ const today = () => new Date().toISOString().slice(0, 10)
 
 export const readQueue = () => readJson(QUEUE, [])
 const saveQueue = (q) => writeJson(QUEUE, q)
+// Most records one research run may file, and most research runs at once (both cost searches, downloads and model calls).
+const MAX_RECORDS = 12
+const MAX_JOBS = 1
 export const readMeta = () => readJson(META, { lastRefresh: {} })
 
 function buildPrompt(job) {
@@ -95,13 +98,18 @@ const AUTO_APPROVE = () => (process.env.ATLAS_AUTO_APPROVE || 'verified').toLowe
 
 export async function fileResults(job, payload, log, { complete, signal, verify = verifyRecord, merged = { n: 0 } } = {}) {
   const existing = loadCompanies()
-  const queue = readQueue()
   let added = 0
-  for (const raw of payload.companies || []) {
+  const list = Array.isArray(payload.companies) ? payload.companies : []
+  if (list.length > MAX_RECORDS) log(`The researcher returned ${list.length} records; only the first ${MAX_RECORDS} are checked.`, 'note')
+  // The queue is re-read before every write, so approvals made while this run is checking are never overwritten.
+  const enqueue = (entry) => { const q = readQueue(); q.push(entry); saveQueue(q) }
+  for (const raw of list.slice(0, MAX_RECORDS)) {
     if (!raw || typeof raw !== 'object' || !raw.name) continue
-    const c = { aliases: [], website: null, statusEvent: null, story: null, founders: [], product: null, wedge: null, became: null, differentiator: null, competitors: [], rounds: [], totalRaised: null, firstRaiseEvidence: null, firstCustomers: [], sources: [], ...raw }
+    const c = { aliases: [], website: null, statusEvent: null, story: null, founders: [], product: null, wedge: null, became: null, differentiator: null, competitors: [], rounds: [], totalRaised: null, firstRaiseEvidence: null, firstCustomers: [], sources: [], ...structuredClone(raw) }
+    // Only this server's own checks may mark a fact as confirmed: drop any mark the researcher wrote itself.
+    stripChecks(c)
     c.id = c.id || slugify(c.name)
-    if (queue.some((q) => q.state === 'pending' && findDuplicate(c, [q.record]))) { log(`· ${c.name}: already waiting in the review queue, skipped`); continue }
+    if (readQueue().some((q) => q.state === 'pending' && findDuplicate(c, [q.record]))) { log(`· ${c.name}: already waiting in the review queue, skipped`); continue }
     // Second pass: nothing the researcher claimed is kept unless the cited page, fetched by this server, backs it up.
     let verification = null
     if (complete) {
@@ -124,13 +132,12 @@ export async function fileResults(job, payload, log, { complete, signal, verify 
       const all = loadCompanies(), i = all.findIndex((x) => x.id === (item.existingId || item.record.id))
       if (i >= 0) all[i] = item.record; else all.push(item.record)
       saveCompanies(all); existing.splice(0, existing.length, ...all)
-      queue.push({ id: `${Date.now().toString(36)}-${c.id}`, state: 'approved', auto: true, jobId: job.id, createdAt: new Date().toISOString(), resolvedAt: new Date().toISOString(), notes: payload.notes || null, verification, ...item })
-      saveQueue(queue); merged.n++
+      enqueue({ id: `${Date.now().toString(36)}-${c.id}`, state: 'approved', auto: true, jobId: job.id, createdAt: new Date().toISOString(), resolvedAt: new Date().toISOString(), notes: payload.notes || null, verification, ...item })
+      merged.n++
       log(`✓ added to the atlas: ${item.record.name} (${verification.summary.checked} fact${verification.summary.checked > 1 ? 's' : ''} confirmed on source)`, 'done')
       continue
     }
-    queue.push({ id: `${Date.now().toString(36)}-${c.id}`, state: 'pending', jobId: job.id, createdAt: new Date().toISOString(), notes: payload.notes || null, verification, ...item })
-    saveQueue(queue)
+    enqueue({ id: `${Date.now().toString(36)}-${c.id}`, state: 'pending', jobId: job.id, createdAt: new Date().toISOString(), notes: payload.notes || null, verification, ...item })
     added++
     log(`${item.kind === 'new' ? '＋ new' : '△ update'}: ${item.record.name}${item.problems.length ? ` (${item.problems.length} schema problem${item.problems.length > 1 ? 's' : ''}: needs fixing before approval)` : ''}`)
   }
@@ -144,8 +151,8 @@ export async function verifyQueueItem(id) {
   if (!item) throw new Error('No such pending item')
   for (const f of [...item.record.rounds, item.record.founded, item.record.statusEvent, item.record.totalRaised]) if (f && f.check !== 'confirmed') { delete f.check; delete f.checkNote }
   const v = await verifyRecord(item.record, { complete: provider.complete })
-  const queue = readQueue(), i = queue.findIndex((q) => q.id === id)
-  if (i < 0) throw new Error('The item was resolved while it was being checked')
+  const queue = readQueue(), i = queue.findIndex((q) => q.id === id && q.state === 'pending')
+  if (i < 0) throw new Error('The item was approved or rejected while it was being checked')
   queue[i] = { ...queue[i], record: v.record, verification: { summary: v.summary, results: v.results }, problems: validateCompany(v.record) }
   saveQueue(queue)
   return queue[i]
@@ -179,6 +186,12 @@ export const getJob = (id) => jobs.get(id)
 export function startJob({ type, domain, query }) {
   const running = [...jobs.values()].find((j) => j.state === 'running' && j.type === type && j.domain === domain && j.query === query)
   if (running) return running
+  // One research run at a time: each one makes many searches, page downloads and model calls.
+  const busy = [...jobs.values()].filter((j) => j.state === 'running').length
+  if (busy >= MAX_JOBS) throw Object.assign(new Error('A research run is already in progress. Wait for it to finish or cancel it.'), { status: 429 })
+  // Keep the last 50 finished jobs in memory, no more.
+  const finished = [...jobs.values()].filter((j) => j.state !== 'running').sort((a, b) => a.startedAt.localeCompare(b.startedAt))
+  for (const j of finished.slice(0, Math.max(0, finished.length - 50))) jobs.delete(j.id)
   const abort = new AbortController()
   const job = { id: `${Date.now().toString(36)}${Math.random().toString(36).slice(2, 6)}`, type, domain: domain || null, query: query || null, state: 'running', startedAt: new Date().toISOString(), finishedAt: null, log: [], queued: 0, merged: 0, listeners: new Set(), abort }
   jobs.set(job.id, job)

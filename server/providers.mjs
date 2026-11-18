@@ -22,7 +22,10 @@ const PRESETS = {
   groq: { key: 'GROQ_API_KEY', base: 'https://api.groq.com/openai/v1', label: 'Groq' },
   custom: { key: 'ATLAS_API_KEY', base: null, label: 'Custom endpoint' },
 }
-const MAX_SEARCHES = Number(process.env.ATLAS_MAX_SEARCHES || 30), MAX_FETCHES = Number(process.env.ATLAS_MAX_FETCHES || 45), MAX_TURNS = 60
+// Per research run. Invalid or missing values fall back to the defaults (a typo must never remove a limit).
+const posInt = (v, d) => { const n = parseInt(v, 10); return Number.isFinite(n) && n > 0 ? n : d }
+const MAX_SEARCHES = posInt(process.env.ATLAS_MAX_SEARCHES, 30), MAX_FETCHES = posInt(process.env.ATLAS_MAX_FETCHES, 45), MAX_TURNS = 60
+const RUN_TIMEOUT_MS = posInt(process.env.ATLAS_RUN_TIMEOUT_MIN, 20) * 60000
 
 /** Finds the Claude Code binary: $CLAUDE_BIN, PATH, the usual install paths, then editor extension bundles. Works on macOS, Linux and Windows. */
 export function findClaudeCli(env = process.env) {
@@ -94,14 +97,21 @@ async function anthropicRun(d, prompt, { onLog = () => {}, signal } = {}, tools)
   }
   // Server-side fallback: if a safety classifier declines a request, the API re-runs it on a fallback model in the same call.
   let useFallback = !process.env.ATLAS_NO_FALLBACK
+  // max_uses applies per request, and a long run continues over several requests: count across all of them.
+  const used = { search: 0, fetch: 0 }
   for (let turn = 0; turn < 12; turn++) {
+    if (tools) {
+      const left = { search: MAX_SEARCHES - used.search, fetch: MAX_FETCHES - used.fetch }
+      if (left.search <= 0 && left.fetch <= 0) throw new Error(`The research run used its ${MAX_SEARCHES} searches and ${MAX_FETCHES} page reads without finishing`)
+      base.tools = [{ type: 'web_search_20260209', name: 'web_search', max_uses: Math.max(1, left.search), blocked_domains: BLOCKED_SOURCES }, { type: 'web_fetch_20260209', name: 'web_fetch', max_uses: Math.max(1, left.fetch) }]
+    }
     let message
     const open = () => (useFallback ? client.beta.messages.stream({ ...base, betas: ['server-side-fallback-2026-07-01'], fallbacks: 'default' }, { signal }) : client.messages.stream(base, { signal }))
     const run = async () => {
       const stream = open()
       stream.on('contentBlock', (b) => {
-        if (b.type === 'server_tool_use' && b.name === 'web_search') onLog(`Searching: ${b.input?.query ?? ''}`)
-        else if (b.type === 'server_tool_use' && b.name === 'web_fetch') onLog(`Reading: ${b.input?.url ?? ''}`)
+        if (b.type === 'server_tool_use' && b.name === 'web_search') { used.search++; onLog(`Searching: ${b.input?.query ?? ''}`) }
+        else if (b.type === 'server_tool_use' && b.name === 'web_fetch') { used.fetch++; onLog(`Reading: ${b.input?.url ?? ''}`) }
       })
       return stream.finalMessage()
     }
@@ -174,16 +184,23 @@ async function openaiRun(d, prompt, { onLog = () => {}, signal } = {}, tools, en
 }
 
 // ---- Claude Code CLI ------------------------------------------------------------------------------
+// What the CLI child process may see: system basics and its own login, not the other keys in your .env.
+const CLI_ENV_KEEP = /^(PATH|PATHEXT|HOME|USERPROFILE|USER|USERNAME|LOGNAME|SHELL|LANG|LC_[A-Z]+|TMPDIR|TEMP|TMP|SYSTEMROOT|SystemRoot|COMSPEC|APPDATA|LOCALAPPDATA|PROGRAMDATA|XDG_[A-Z_]+|HTTPS?_PROXY|NO_PROXY|https?_proxy|no_proxy|NODE_EXTRA_CA_CERTS|ANTHROPIC_[A-Z_]+|CLAUDE_CONFIG_DIR|CLAUDE_CODE_USE_[A-Z]+|AWS_[A-Z_]+|GOOGLE_[A-Z_]+|CLOUD_ML_REGION)$/
+const cliEnv = () => Object.fromEntries(Object.entries(process.env).filter(([k]) => CLI_ENV_KEEP.test(k)))
 function cliRun(d, prompt, { onLog = () => {}, signal } = {}, tools) {
   return new Promise((resolve, reject) => {
-    const args = ['-p', '--output-format', 'stream-json', '--verbose', '--tools', tools ? 'WebSearch,WebFetch' : '', ...(tools ? ['--allowedTools', 'WebSearch,WebFetch'] : [])]
+    // Isolated run: only the web tools (none for checking), none of your MCP servers, settings, hooks or permission rules,
+    // no saved session, a turn limit, and (below) a time limit and an environment without your other API keys.
+    const args = ['-p', '--output-format', 'stream-json', '--verbose', '--tools', tools ? 'WebSearch,WebFetch' : '', ...(tools ? ['--allowedTools', 'WebSearch,WebFetch'] : []), '--strict-mcp-config', '--setting-sources', '', '--no-session-persistence', '--max-turns', String(tools ? MAX_TURNS : 3)]
     if (d.model) args.push('--model', d.model)
     // On Windows an npm-installed CLI is a .cmd script, which Node only starts through the shell; the arguments are fixed
     // flags and the model name, quoted so the empty --tools value survives. The prompt itself goes through stdin.
     const viaShell = process.platform === 'win32' && /\.(cmd|bat)$/i.test(d.bin)
     const child = viaShell
-      ? spawn(`"${d.bin}"`, args.map((a) => `"${String(a).replace(/"/g, '')}"`), { shell: true, windowsHide: true, cwd: os.tmpdir(), env: { ...process.env, CLAUDECODE: undefined, CLAUDE_CODE_ENTRYPOINT: undefined }, stdio: ['pipe', 'pipe', 'pipe'] })
-      : spawn(d.bin, args, { cwd: os.tmpdir(), windowsHide: true, env: { ...process.env, CLAUDECODE: undefined, CLAUDE_CODE_ENTRYPOINT: undefined }, stdio: ['pipe', 'pipe', 'pipe'] })
+      ? spawn(`"${d.bin}"`, args.map((a) => `"${String(a).replace(/"/g, '')}"`), { shell: true, windowsHide: true, cwd: os.tmpdir(), env: cliEnv(), stdio: ['pipe', 'pipe', 'pipe'] })
+      : spawn(d.bin, args, { cwd: os.tmpdir(), windowsHide: true, env: cliEnv(), stdio: ['pipe', 'pipe', 'pipe'] })
+    let timedOut = false
+    const timer = setTimeout(() => { timedOut = true; child.kill('SIGTERM') }, tools ? RUN_TIMEOUT_MS : 180000)
     signal?.addEventListener('abort', () => child.kill('SIGTERM'), { once: true })
     child.stdin.end(prompt)
     let buf = '', final = null, stderr = '', failed = null
@@ -198,7 +215,9 @@ function cliRun(d, prompt, { onLog = () => {}, signal } = {}, tools) {
     child.stderr.on('data', (c) => { stderr += c })
     child.on('error', (e) => reject(new Error(`Could not start Claude Code: ${e.message}`)))
     child.on('close', (code) => {
+      clearTimeout(timer)
       if (signal?.aborted) return reject(new Error('Cancelled'))
+      if (timedOut) return reject(new Error(`Claude Code did not finish within the time limit (${tools ? RUN_TIMEOUT_MS / 60000 + ' min' : '3 min'})`))
       if (failed) return reject(new Error(`Claude Code reported an error: ${failed}`))
       if (final == null) return reject(new Error(`Claude Code exited (code ${code}) without a result. ${stderr.trim().slice(0, 300)}`))
       resolve(final)

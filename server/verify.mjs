@@ -7,6 +7,8 @@
 //      and that the page mentions the company. A "confirmed" from the model that fails these checks is not accepted.
 // Outcome per fact: confirmed (kept, marked), corrected (rewritten from the page), unsupported (removed), unreachable (kept, flagged).
 import { fetchPage, excerpt, isBlockedSource, sourceTier } from './web.mjs'
+// Most pages a single record may send to the checker (each one is a page download plus a model call).
+const MAX_SOURCES = Math.max(1, parseInt(process.env.ATLAS_MAX_SOURCES_PER_RECORD, 10) || 10)
 
 const norm = (s) => String(s ?? '').toLowerCase().normalize('NFKD').replace(/[̀-ͯ]/g, '').replace(/[‘’‚′]/g, "'").replace(/[“”„″]/g, '"').replace(/[‐-―−]/g, '-').replace(/[  -​ ]/g, ' ').replace(/\s+/g, ' ').trim()
 
@@ -41,7 +43,19 @@ export function companyOnPage(company, pageText) {
   let host = null
   try { host = company.website ? new URL(company.website).hostname.replace(/^www\./, '').split('.')[0] : null } catch { /* ignore */ }
   const first = norm(company.name).split(/[ .]/)[0]
-  return names.some((n) => page.includes(n)) || (first.length >= 5 && page.includes(first)) || !!(host && host.length >= 4 && page.includes(host))
+  // A distinctive first word ("Hullbot Ltd" → "hullbot") counts; a generic one ("Space Forge" → "space") does not.
+  const firstOk = first.length >= 5 && !GENERIC.has(first) && page.includes(first)
+  return names.some((n) => page.includes(n)) || firstOk || !!(host && host.length >= 5 && !GENERIC.has(host) && page.includes(host))
+}
+
+const GENERIC = new Set(['space', 'robotics', 'robot', 'global', 'international', 'systems', 'technologies', 'technology', 'quantum', 'digital', 'ocean', 'energy', 'fusion', 'nuclear', 'defence', 'defense', 'marine', 'maritime', 'aerospace', 'orbital', 'automation', 'industries', 'labs', 'group', 'capital', 'ventures', 'advanced', 'applied', 'general', 'national', 'united', 'american', 'european', 'first', 'smart', 'cloud', 'data', 'micro', 'nano', 'power', 'solar', 'water', 'green', 'blue', 'north', 'south'])
+
+/** Removes any verification marks from a record that came from the researcher: only this server's checks may set them. */
+export function stripChecks(c) {
+  for (const f of [c.founded, c.statusEvent, c.totalRaised, ...(Array.isArray(c.rounds) ? c.rounds : [])]) if (f && typeof f === 'object') { delete f.check; delete f.checkNote }
+  // confidence and lastVerified are set by verifyRecord from the actual checks; until then the record is unverified.
+  c.confidence = 'low'; c.lastVerified = null
+  return c
 }
 
 const money = (m) => (m ? `${m.currency} ${m.value}` : 'not disclosed')
@@ -110,7 +124,10 @@ export async function verifyRecord(record, { complete, fetch = fetchPage, onLog 
     if (isBlockedSource(f.source)) { done(f, 'unsupported', 'source is an aggregator, profile or social page, which is not accepted as evidence'); continue }
     bySource.set(f.source, [...(bySource.get(f.source) ?? []), f])
   }
+  // Bound the work per record: at most MAX_SOURCES pages are opened and judged. Facts citing further pages stay unconfirmed.
+  let opened = 0
   for (const [url, group] of bySource) {
+    if (++opened > MAX_SOURCES) { for (const f of group) done(f, 'unreachable', `not checked: the record cites more than ${MAX_SOURCES} different pages`); continue }
     onLog(`Checking ${group.length} fact${group.length > 1 ? 's' : ''} against ${url}`)
     const page = await fetch(url)
     if (!page.ok) { for (const f of group) done(f, 'unreachable', `the page could not be opened (${page.error})`); continue }
@@ -123,7 +140,8 @@ export async function verifyRecord(record, { complete, fetch = fetchPage, onLog 
       if (!v || !['confirmed', 'corrected', 'unsupported'].includes(v.verdict)) { done(f, 'unreachable', 'the checking model gave no usable verdict'); continue }
       if (v.verdict === 'unsupported') { done(f, 'unsupported', v.note || 'the page does not state this'); continue }
       if (!quoteOnPage(v.quote, page.text)) { done(f, 'unreachable', 'the checker’s supporting quote is not on the page, so its verdict was not accepted', v.quote ?? null); continue }
-      if (v.verdict === 'corrected' && v.correction && typeof v.correction === 'object') {
+      if (v.verdict === 'corrected' && !(v.correction && typeof v.correction === 'object')) { done(f, 'unreachable', 'the checker said the page differs but gave no correction', v.quote); continue }
+      if (v.verdict === 'corrected') {
         if (f.key === 'statusEvent' && v.correction.notClosed) { done(f, 'unsupported', 'the page only announces the deal; it does not say it was completed', v.quote); continue }
         applyCorrection(f, v.correction)
       }

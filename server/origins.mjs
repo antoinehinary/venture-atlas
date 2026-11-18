@@ -17,3 +17,20 @@ export function originAllowed(origin, host, allowed = appOrigins()) {
   const mine = tailnetOf(host)
   return o.protocol === 'https:' && mine != null && tailnetOf(o.host) === mine
 }
+
+// Which Host names the API answers to. The server only listens on 127.0.0.1, but a web page can point its own domain at
+// 127.0.0.1 ("DNS rebinding") and then talk to it as if it were that page's own server. Its requests still carry the
+// page's own domain in the Host header, so answering only to these names closes that door:
+//   localhost / 127.0.0.1 / [::1], any *.ts.net name (your machine through `tailscale serve`; nobody else can point
+//   a ts.net name at your computer), and the names in ATLAS_ALLOWED_HOSTS (comma-separated).
+export const allowedHosts = (env = process.env) => (env.ATLAS_ALLOWED_HOSTS || '').split(',').map((s) => s.trim().toLowerCase()).filter(Boolean)
+export function hostAllowed(host, extra = allowedHosts()) {
+  const h = String(host || '').toLowerCase().replace(/:\d+$/, '').replace(/^\[|\]$/g, '')
+  if (!h) return false
+  return h === 'localhost' || h === '127.0.0.1' || h === '::1' || /^[a-z0-9-]+\.[a-z0-9-]+\.ts\.net$/.test(h) || extra.includes(h)
+}
+
+/** A request from a page on the same address as the server (the app talking to the server that served it). */
+export function sameOrigin(origin, host) {
+  try { return new URL(origin).host.toLowerCase() === String(host || '').toLowerCase() } catch { return false }
+}

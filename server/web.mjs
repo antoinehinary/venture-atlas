@@ -4,6 +4,9 @@
 // The verification layer uses fetchPage directly, so "the page says X" is always checked against text we fetched ourselves.
 import dns from 'node:dns/promises'
 import net from 'node:net'
+import http from 'node:http'
+import https from 'node:https'
+import zlib from 'node:zlib'
 
 const UA = 'Mozilla/5.0 (compatible; VentureAtlas/1.0; +https://github.com/)'
 const TIMEOUT = 20000
@@ -24,9 +27,20 @@ export function sourceTier(url, company) {
   return 'press'
 }
 
-function isPrivateIp(ip) {
-  if (net.isIPv4(ip)) { const [a, b] = ip.split('.').map(Number); return a === 10 || a === 127 || a === 0 || (a === 172 && b >= 16 && b <= 31) || (a === 192 && b === 168) || (a === 169 && b === 254) || (a === 100 && b >= 64 && b <= 127) }
-  if (net.isIPv6(ip)) { const l = ip.toLowerCase(); return l === '::1' || l === '::' || l.startsWith('fc') || l.startsWith('fd') || l.startsWith('fe80') || l.startsWith('::ffff:127.') || l.startsWith('::ffff:10.') || l.startsWith('::ffff:192.168.') }
+// Every reserved, private, loopback, link-local, carrier-grade NAT (incl. Tailscale 100.64/10), benchmark, multicast and
+// future range. net.BlockList also matches IPv4-mapped IPv6 (::ffff:127.0.0.1 and its hex form ::ffff:7f00:1).
+const BLOCK = new net.BlockList()
+for (const [a, p] of [['0.0.0.0', 8], ['10.0.0.0', 8], ['100.64.0.0', 10], ['127.0.0.0', 8], ['169.254.0.0', 16], ['172.16.0.0', 12], ['192.0.0.0', 24], ['192.0.2.0', 24], ['192.88.99.0', 24], ['192.168.0.0', 16], ['198.18.0.0', 15], ['198.51.100.0', 24], ['203.0.113.0', 24], ['224.0.0.0', 4], ['240.0.0.0', 4]]) BLOCK.addSubnet(a, p, 'ipv4')
+for (const [a, p] of [['::', 128], ['::1', 128], ['64:ff9b::', 96], ['100::', 64], ['2001::', 32], ['2001:db8::', 32], ['2002::', 16], ['fc00::', 7], ['fe80::', 10], ['fec0::', 10], ['ff00::', 8]]) BLOCK.addSubnet(a, p, 'ipv6')
+export function isPrivateIp(ip) {
+  const v = net.isIP(ip)
+  if (v === 4) return BLOCK.check(ip, 'ipv4')
+  if (v === 6) {
+    // An IPv4-mapped address is judged by the IPv4 it carries: public ones stay allowed, private ones are refused.
+    const l = ip.toLowerCase(), m = l.match(/^(?:0{0,4}:){0,5}:?ffff:(?:(\d+\.\d+\.\d+\.\d+)|([0-9a-f]{1,4}):([0-9a-f]{1,4}))$/)
+    if (m) { const v4 = m[1] ?? [parseInt(m[2], 16) >> 8, parseInt(m[2], 16) & 255, parseInt(m[3], 16) >> 8, parseInt(m[3], 16) & 255].join('.'); return BLOCK.check(v4, 'ipv4') }
+    return BLOCK.check(ip, 'ipv6')
+  }
   return true
 }
 /** The model chooses which URLs to open, so refuse anything that is not a public http(s) address. */
@@ -34,11 +48,44 @@ export async function assertPublicUrl(raw) {
   let u
   try { u = new URL(raw) } catch { throw new Error('not a valid URL') }
   if (u.protocol !== 'http:' && u.protocol !== 'https:') throw new Error('only http and https URLs can be opened')
+  if (u.username || u.password) throw new Error('URLs with credentials cannot be opened')
   const host = u.hostname.replace(/^\[|\]$/g, '')
-  if (host === 'localhost' || host.endsWith('.local') || host.endsWith('.internal') || host.endsWith('.ts.net')) throw new Error('local addresses cannot be opened')
+  if (host === 'localhost' || host.endsWith('.localhost') || host.endsWith('.local') || host.endsWith('.internal') || host.endsWith('.ts.net') || host.endsWith('.home.arpa')) throw new Error('local addresses cannot be opened')
   const ips = net.isIP(host) ? [host] : (await dns.lookup(host, { all: true })).map((a) => a.address)
   if (!ips.length || ips.some(isPrivateIp)) throw new Error('local or private addresses cannot be opened')
   return u
+}
+
+// The address is checked again at the moment of connecting, on the exact IP the socket uses. Without this, a hostname
+// could resolve to a public IP for the check above and to a private one for the download (DNS rebinding).
+function pinnedLookup(hostname, options, cb) {
+  dns.lookup(hostname, { all: true }).then((addrs) => {
+    const bad = addrs.find((a) => isPrivateIp(a.address))
+    if (!addrs.length || bad) return cb(Object.assign(new Error('local or private addresses cannot be opened'), { code: 'EPRIVATE' }))
+    if (options?.all) cb(null, addrs); else cb(null, addrs[0].address, addrs[0].family)
+  }, (e) => cb(e))
+}
+
+const MAX_BYTES = 3_000_000
+/** One HTTP(S) GET without following redirects. Reads at most MAX_BYTES of the body, then stops downloading. */
+function getOnce(url, signal) {
+  return new Promise((resolve, reject) => {
+    const u = new URL(url), mod = u.protocol === 'https:' ? https : http
+    const req = mod.request(u, { method: 'GET', lookup: pinnedLookup, signal, headers: { 'User-Agent': UA, Accept: 'text/html,application/xhtml+xml,text/plain;q=0.9,*/*;q=0.5', 'Accept-Language': 'en,*;q=0.5', 'Accept-Encoding': 'gzip, deflate, br' } }, (res) => {
+      const status = res.statusCode ?? 0, headers = res.headers
+      if (status >= 300 && status < 400) { res.resume(); return resolve({ status, headers, body: '' }) }
+      const len = Number(headers['content-length'] || 0)
+      if (len > MAX_BYTES * 4) { res.destroy(); return resolve({ status, headers, body: '', tooBig: true }) }
+      const enc = String(headers['content-encoding'] || '').toLowerCase()
+      const stream = enc === 'gzip' ? res.pipe(zlib.createGunzip()) : enc === 'br' ? res.pipe(zlib.createBrotliDecompress()) : enc === 'deflate' ? res.pipe(zlib.createInflate()) : res
+      const chunks = []; let size = 0, done = false
+      const finish = () => { if (done) return; done = true; resolve({ status, headers, body: Buffer.concat(chunks).toString('utf8') }) }
+      stream.on('data', (c) => { if (done) return; chunks.push(c); size += c.length; if (size >= MAX_BYTES) { finish(); res.destroy(); stream.destroy?.() } })
+      stream.on('end', finish); stream.on('error', (e) => (done ? null : (done = true, reject(e))))
+    })
+    req.on('error', reject)
+    req.end()
+  })
 }
 
 const ENT = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', euro: '€', pound: '£', yen: '¥', mdash: '—', ndash: '–', rsquo: '’', lsquo: '‘', rdquo: '”', ldquo: '“', hellip: '…' }
@@ -59,22 +106,24 @@ export async function fetchPage(url, { maxChars = 200000 } = {}) {
   let out
   try {
     let current = (await assertPublicUrl(url)).toString(), res
+    const signal = AbortSignal.timeout(TIMEOUT)
     for (let hop = 0; hop < 6; hop++) {
-      res = await fetch(current, { redirect: 'manual', signal: AbortSignal.timeout(TIMEOUT), headers: { 'User-Agent': UA, Accept: 'text/html,application/xhtml+xml,text/plain;q=0.9,*/*;q=0.5', 'Accept-Language': 'en,*;q=0.5' } })
-      if (res.status >= 300 && res.status < 400 && res.headers.get('location')) { current = (await assertPublicUrl(new URL(res.headers.get('location'), current).toString())).toString(); continue }
+      res = await getOnce(current, signal)
+      if (res.status >= 300 && res.status < 400 && res.headers.location) { current = (await assertPublicUrl(new URL(res.headers.location, current).toString())).toString(); continue }
       break
     }
-    if (!res.ok) out = { ok: false, url, error: `HTTP ${res.status}` }
+    if (res.tooBig) out = { ok: false, url, error: 'page is too large' }
+    else if (res.status < 200 || res.status >= 300) out = { ok: false, url, error: `HTTP ${res.status}` }
     else {
-      const type = res.headers.get('content-type') || ''
+      const type = String(res.headers['content-type'] || '')
       if (!/text\/|html|xml|json/.test(type)) out = { ok: false, url, error: `not a text page (${type || 'unknown type'})` }
       else {
-        const body = (await res.text()).slice(0, 3_000_000)
+        const body = res.body
         const { title, text } = /html|xml/.test(type) || /<html|<body/i.test(body.slice(0, 2000)) ? htmlToText(body) : { title: '', text: body }
         out = text.length < 200 ? { ok: false, url, error: 'page has no readable text (needs JavaScript or is blocked)' } : { ok: true, url: current, title, text: text.slice(0, maxChars) }
       }
     }
-  } catch (e) { out = { ok: false, url, error: e.name === 'TimeoutError' ? 'timed out' : e.message } }
+  } catch (e) { out = { ok: false, url, error: e.name === 'TimeoutError' || e.name === 'AbortError' ? 'timed out' : e.message } }
   if (pageCache.size > 300) pageCache.delete(pageCache.keys().next().value)
   pageCache.set(url, out)
   return out

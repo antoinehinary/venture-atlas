@@ -24,3 +24,10 @@ test('long pages are cut around the terms asked for', () => {
   const e = excerpt(text, ['Northwind'], 3000)
   assert.ok(e.length < 4000); assert.match(e, /Acme raised \$12 million/)
 })
+
+import { isPrivateIp } from '../server/web.mjs'
+test('private, reserved and disguised addresses are refused; public ones are not', () => {
+  for (const ip of ['127.0.0.1', '10.0.0.1', '172.16.5.4', '192.168.1.1', '169.254.169.254', '100.100.100.100', '198.18.0.1', '0.0.0.0', '224.0.0.1', '::1', 'fe80::1', 'fd12::1', '::ffff:127.0.0.1', '::ffff:7f00:1', '::ffff:a9fe:a9fe', '64:ff9b::7f00:1', '2002:7f00:1::'])
+    assert.equal(isPrivateIp(ip), true, ip)
+  for (const ip of ['8.8.8.8', '104.20.23.154', '2606:4700:10::6814:179a', '::ffff:8.8.8.8', '::ffff:808:808']) assert.equal(isPrivateIp(ip), false, ip)
+})

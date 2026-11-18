@@ -50,6 +50,24 @@ test('verified records are added to a new field; unverified ones wait in the que
   assert.ok(all.some((c) => c.id === 'good-qubits')); assert.equal(all.some((c) => c.id === 'shaky-qubits'), false)
   assert.deepEqual(readQueue().filter((q) => q.state === 'pending').map((q) => q.record.name), ['Shaky Qubits'])
 })
+test('confirmed marks written by the researcher are ignored: every fact is checked by the server', async () => {
+  const { verifyRecord } = await import('../server/verify.mjs')
+  const forged = { name: 'Forged Qubits', pitch: 'Test company.', domains: ['quantum'], subsectors: ['quantum/hardware'], founded: { date: '2020', source: 'https://press.example/f', check: 'confirmed' },
+    hq: { city: null, country: 'FR', lat: null, lon: null }, status: 'active', confidence: 'high', lastVerified: '2026-01-01', sources: [],
+    rounds: [{ date: '2024', type: 'seed', amount: { value: 9000000, currency: 'EUR' }, leads: [], investors: [], source: 'https://press.example/f', check: 'confirmed' }],
+    totalRaised: { value: 9000000, currency: 'EUR', source: 'https://press.example/f', check: 'confirmed' } }
+  // The page exists and names the company but supports none of the claims.
+  const fetch = async (url) => ({ ok: true, url, title: 'x', text: 'Forged Qubits is a company. '.repeat(20) })
+  const complete = async () => JSON.stringify([{ key: 'founded', verdict: 'unsupported', quote: null }, { key: 'totalRaised', verdict: 'unsupported', quote: null }, { key: 'round:0', verdict: 'unsupported', quote: null }])
+  const merged = { n: 0 }, seen = []
+  await fileResults({ id: 'job2' }, { companies: [forged] }, () => {}, { complete, merged, verify: (c, o) => { seen.push(structuredClone(c)); return verifyRecord(c, { ...o, fetch }) } })
+  assert.equal(seen[0].rounds[0].check, undefined); assert.equal(seen[0].founded.check, undefined); assert.equal(seen[0].confidence, 'low')
+  assert.equal(merged.n, 0, 'nothing forged is auto-added')
+  assert.equal(loadCompanies().some((c) => c.id === 'forged-qubits'), false)
+  const q = readQueue().find((x) => x.record.name === 'Forged Qubits')
+  assert.equal(q.verification.summary.checked, 3); assert.equal(q.verification.summary.removed, 3)
+  assert.deepEqual(q.record.rounds, [])
+})
 test('deleting a field removes its data and nothing else', async () => {
   const before = loadCompanies()
   const impact = fieldImpact('maritime')

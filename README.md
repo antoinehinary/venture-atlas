@@ -14,7 +14,7 @@ Pick a field, press play, and watch its companies appear at their founding place
 
 | | What you get | What you need |
 |---|---|---|
-| **[Try the demo](https://antoinehinary.github.io/venture-atlas/)** | The six built-in fields (265 companies, 691 funding rounds, 96 events) to browse, replay and compare. Read-only. | A browser |
+| **[Try the demo](https://antoinehinary.github.io/venture-atlas/)** | The six built-in fields (267 companies, 697 funding rounds, 96 events) to browse, replay and compare. Read-only. | A browser |
 | **[Run your own atlas](#run-your-own-atlas)** | Your own fields and research: the AI finds companies and funding rounds in the domains you choose, every figure is checked against its source, and you approve what goes in. Stars and notes. | Node.js, and an AI key for research |
 | **[Use it on your phone](#phone-app)** | The app on your home screen. Offline it shows the built-in or last-synced data; on [Tailscale](https://tailscale.com) it connects to your own atlas (laptop or Raspberry Pi) with live data and research. | A phone, plus Tailscale for live data |
 
@@ -183,14 +183,19 @@ The seed data went through the same idea at scale: all 1,074 sourced facts and 9
 ### What "confirmed" does not mean
 
 - **It does not mean complete.** The check proves that what is recorded is on the page. It cannot find a round nobody recorded, and early rounds are the usual gap, so totals are lower bounds for many companies.
-- **Narrative fields are not fact-checked:** story, wedge, founder backgrounds, competitor lists and the "why it mattered" line on events are the researcher's reading of the sources.
+- **Only dated, sourced facts are checked:** the founding date, each funding round (type, date, amount, and the investors named on the page), the total raised, and the exit or shutdown (type, date, price, acquirer). Everything else is the researcher's reading of its sources and is **not** checked against a page: the story, wedge, founders, competitors, first customers, headquarters city and map position, website, which field and subsector a company belongs to, and the "why it mattered" line on events.
+- **Investors and lead investors** are judged by the checking model against the page text, but unlike amounts and quotes there is no separate code check that their names appear on it.
+- **An amount must appear on the page, but its currency is not cross-checked by code**, only by the checking model.
 - **Totals across currencies** ("≈$…") use fixed indicative rates and are for comparison only. Dossiers show amounts as the source reports them.
 
-## What you can do in the app
+## Finding your way around the app
 
-- **Home:** one slowly rotating globe per field, with companies tracked, how many are European, and money raised.
-- **Field view:** scrub or play the timeline from 2000. Filter by subsector, stage, status and country. External events (wars, policy, technology releases, landmark rounds) are marked on the timeline so you can see what triggered each wave.
-- **Dossier:** click a company for its story, founders, starting wedge versus what it became, every sourced round with time since founding, first customers, and its sources. Star it and keep notes.
+- **Top bar:** *Globes* (home), *Patterns* (comparisons across all fields), *Queue* (records waiting for your approval, with a count), and on the right the **status dot**: green with a machine name when connected to a server, amber "Offline" otherwise. Tap it to manage your servers.
+- **Home:** one slowly rotating globe per field, with companies tracked, how many are European, and money raised. Tap a globe to open the field. **Fetch latest** and **Add a company** start research; **Add a field** is the last tile.
+- **Field view:** the globe first (drag to turn it, +/− to zoom), then the timeline: press ▶ to replay from 2000, or drag along it to jump to a year. Diamonds on the timeline are external events: tap one to read it. Below are the filters (subsector, stage, status, country, starred only), and tabs across the top for the field's patterns.
+- **Company dossier:** tap a company (on the globe, in a list or in a table) to open it: its story, every sourced round with a green tick when it was confirmed on its source, first customers, sources, a star and your notes.
+- **Charts and tables on a phone:** tap a bar, dot or numbered event marker to see what it is. A marker like "14–18" groups events that are too close to show separately; tap it to list them. Wide tables scroll sideways inside their panel, and long notes open on tap.
+- **Review queue:** each waiting record shows every claim, the checker's verdict, the reason and the quote from the page. Approve or reject; a record queued without a source check has a button to run it.
 - **Pattern tabs:** founding waves, speed of money, which investors lead first rounds and who arrived early, a subsector-by-region white-space matrix, and exits and shutdowns: who acquired whom, who listed, and why companies closed. Also across all fields at once.
 
 ## Where things are
@@ -227,10 +232,20 @@ On Windows, if you use the Claude Code CLI as the AI provider and it is not foun
 
 ## Safety notes
 
-- The server listens on `127.0.0.1` only. Other devices reach it only through `tailscale serve`, so only your tailnet can.
-- Browsers may call it from another address only if that address is on the same tailnet as the server, or listed in `ATLAS_APP_ORIGINS` (`server/origins.mjs`).
-- The page fetcher refuses local and private addresses, so a model cannot be steered into reading services on your network.
-- Research runs can only search and read the web. They cannot write files; the server validates what comes back and writes it itself.
+**Who can reach the server**
+- It listens on `127.0.0.1` only. Other devices reach it only through `tailscale serve`, so only devices on your tailnet can.
+- It only answers to the names `localhost`, `127.0.0.1` and `*.ts.net` (plus any in `ATLAS_ALLOWED_HOSTS`). A website that points its own domain at your computer ("DNS rebinding") is refused.
+- Web pages may call it from another address only if that address is on the same tailnet, or listed in `ATLAS_APP_ORIGINS`. A page from anywhere else cannot start research, approve, delete or change anything (`server/origins.mjs`).
+
+**What the AI can and cannot do**
+- Research can only search and read the web. It cannot write files: the server validates what comes back against the schema and writes it itself.
+- Only the server can mark a fact as confirmed. Any "confirmed" mark in the researcher's own output is removed, and the fact is checked like any other.
+- The page fetcher refuses local, private and reserved addresses, including disguised forms such as `[::ffff:127.0.0.1]`. It checks the address again at the moment of connecting, so a site cannot switch to a private address after the check. Downloads stop at 3 MB, and each page has a 20-second limit.
+- With the Claude Code CLI provider, web pages are read by the CLI's own WebFetch tool, not by this server's fetcher. The CLI runs isolated: only its web tools, none of your MCP servers, settings or hooks, a turn and time limit, and without the other keys in your `.env`. Verification still fetches every cited page through this server.
+
+**Limits on cost**
+- One research run at a time. A second request while one is running is refused, and you can cancel a run from the progress panel.
+- Per run: 30 searches and 45 page reads (`ATLAS_MAX_SEARCHES`, `ATLAS_MAX_FETCHES`), a 20-minute limit (`ATLAS_RUN_TIMEOUT_MIN`), at most 12 companies checked, and at most 10 different source pages per company (`ATLAS_MAX_SOURCES_PER_RECORD`). An invalid value falls back to the default rather than removing the limit.
 
 ## Licence
 
