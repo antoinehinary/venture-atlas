@@ -1,0 +1,1799 @@
+[
+  {
+    "aliases": [
+      "CFS"
+    ],
+    "website": "https://cfs.energy",
+    "statusEvent": null,
+    "story": "CFS was formed in 2018 as a spin-off from MIT's Plasma Science and Fusion Center. Its goal was to use new high-temperature superconductor (YBCO) magnets to build a far smaller, higher-field tokamak. MIT and CFS agreed to jointly design and build SPARC, a compact tokamak meant to show net energy. Eni put in $50M at launch.",
+    "founders": [
+      {
+        "name": "Bob Mumgaard",
+        "role": "CEO",
+        "background": "MIT PSFC researcher (SM, PhD 2015)"
+      },
+      {
+        "name": "Dan Brunner",
+        "role": "CTO",
+        "background": "MIT PSFC researcher (PhD 2013)"
+      },
+      {
+        "name": "Brandon Sorbom",
+        "role": "Chief Science Officer",
+        "background": "MIT PSFC researcher (PhD 2017)"
+      }
+    ],
+    "product": "High-field tokamak fusion systems based on HTS magnets: the SPARC demonstrator and the ARC commercial power plant.",
+    "wedge": "HTS (YBCO) magnet development with MIT, the first roughly three-year phase of the SPARC programme.",
+    "became": "The best-funded fusion company, building SPARC in Massachusetts and planning ARC in Virginia, with offtake deals from Google (200 MW) and Eni.",
+    "differentiator": "HTS magnets producing fields about four times stronger than existing fusion experiments, allowing a much smaller tokamak.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2018-03",
+        "type": "strategic",
+        "label": "Initial investment",
+        "amount": {
+          "value": 50000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Eni"
+        ],
+        "source": "https://news.mit.edu/2018/mit-newly-formed-company-launch-novel-approach-fusion-power-0309",
+        "checkNote": "The page names Eni as the investor but does not say Eni led the round, and 2018-03 is the announcement date (March 9, 2018), not necessarily the closing date.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2019",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 115000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Eni",
+          "The Engine",
+          "Breakthrough Energy Ventures",
+          "Future Ventures",
+          "Khosla Ventures",
+          "Lowercase Capital",
+          "Moore Strategic Ventures",
+          "Safar Partners",
+          "Schooner Capital",
+          "Starlight Ventures"
+        ],
+        "checkNote": "The page names Lowercase Capital, not Lowercarbon Capital, among the series A investors. It dates the close only as mid-2019.",
+        "source": "https://globalventuring.com/corporate/commonwealth-fusion-systems-sparks-1-8bn",
+        "check": "confirmed"
+      },
+      {
+        "date": "2020-05",
+        "type": "series-a",
+        "label": "Series A2",
+        "amount": {
+          "value": 84000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Temasek"
+        ],
+        "investors": [
+          "Equinor",
+          "Eni Next",
+          "The Engine",
+          "Devonshire Investors",
+          "Hostplus",
+          "Breakthrough Energy Ventures",
+          "Future Ventures",
+          "Khosla Ventures",
+          "Moore Strategic Ventures",
+          "Safar Partners",
+          "Schooner Capital",
+          "Starlight Ventures"
+        ],
+        "source": "https://globalventuring.com/corporate/commonwealth-fusion-systems-sparks-1-8bn",
+        "checkNote": "The page also says undisclosed others took part in the series A2 round.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2021-12-01",
+        "type": "series-b",
+        "label": null,
+        "amount": {
+          "value": 1800000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Tiger Global"
+        ],
+        "investors": [
+          "GV",
+          "Eni",
+          "Equinor Ventures",
+          "Jimco Technology Fund",
+          "The Engine",
+          "Coatue",
+          "DFJ Growth",
+          "Emerson Collective",
+          "Footprint Coalition",
+          "JS Capital",
+          "Time Ventures",
+          "Future Ventures",
+          "Senator Investment Group",
+          "Breakthrough Energy Ventures",
+          "Fine Structure Ventures",
+          "Khosla Ventures",
+          "Lowercarbon Capital",
+          "Moore Strategic Ventures",
+          "Safar Partners",
+          "Schooner Capital",
+          "Soros Fund Management",
+          "Starlight Ventures",
+          "Temasek",
+          "Hostplus",
+          "Bill Gates",
+          "John Doerr"
+        ],
+        "checkNote": "The amount is \"more than $1.8bn\". The date is the article's publication date (\"today\"). The page names the lead as Tiger Global Management and the investor as \"Lowercarbon\", without \"Capital\".",
+        "source": "https://globalventuring.com/corporate/commonwealth-fusion-systems-sparks-1-8bn",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-08-28",
+        "type": "series-b",
+        "label": "Series B2",
+        "amount": {
+          "value": 863000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Breakthrough Energy Ventures",
+          "Emerson Collective",
+          "Eni",
+          "Future Ventures",
+          "Gates Frontier",
+          "Google",
+          "Hostplus",
+          "Khosla Ventures",
+          "Lowercarbon Capital",
+          "Safar Partners",
+          "Eric Schmidt",
+          "Starlight Ventures",
+          "Tiger Global",
+          "Brevan Howard",
+          "Counterpoint Global",
+          "Stanley Druckenmiller",
+          "FFA Private Bank",
+          "Galaxy Interactive",
+          "Gigascale Capital",
+          "HOF Capital",
+          "Neva SGR",
+          "NVentures",
+          "Planet First Partners",
+          "Woori Venture Partners US",
+          "Mitsui & Co.",
+          "Mitsubishi Corporation"
+        ],
+        "checkNote": "The date is the article's publication date (August 28, 2025), and Mitsui & Co. and Mitsubishi Corporation are described as leading a consortium of 12 Japanese companies, not the round.",
+        "source": "https://techcrunch.com/2025/08/28/nvidia-google-and-bill-gates-help-commonwealth-fusion-systems-raise-863m",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": {
+      "kind": "research",
+      "note": "SPARC concept and HTS magnet approach from MIT PSFC research; the company launched with Eni's $50M while seeking further investors",
+      "source": "https://news.mit.edu/2018/mit-newly-formed-company-launch-novel-approach-fusion-power-0309"
+    },
+    "firstCustomers": [
+      {
+        "name": "Google",
+        "date": "2025-06",
+        "note": "Agreement to buy 200 MW from ARC",
+        "source": "https://techcrunch.com/2025/08/28/nvidia-google-and-bill-gates-help-commonwealth-fusion-systems-raise-863m"
+      },
+      {
+        "name": "Eni",
+        "date": "2025-09",
+        "note": "About $1B power purchase deal for ARC output (per Wikipedia citing TechCrunch/MIT Technology Review)",
+        "source": "https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://news.mit.edu/2018/mit-newly-formed-company-launch-novel-approach-fusion-power-0309",
+        "title": "MIT News: newly formed company to launch novel approach to fusion power"
+      },
+      {
+        "url": "https://globalventuring.com/corporate/commonwealth-fusion-systems-sparks-1-8bn",
+        "title": "Global Venturing: CFS sparks $1.8bn series B"
+      },
+      {
+        "url": "https://techcrunch.com/2025/08/28/nvidia-google-and-bill-gates-help-commonwealth-fusion-systems-raise-863m",
+        "title": "TechCrunch: CFS raises $863M"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems",
+        "title": "Wikipedia: Commonwealth Fusion Systems"
+      }
+    ],
+    "id": "commonwealth-fusion-systems",
+    "name": "Commonwealth Fusion Systems",
+    "pitch": "MIT spin-out building compact high-field tokamaks with HTS magnets: SPARC demonstrator, then the ARC power plant in Virginia.",
+    "domains": [
+      "nuclear-fusion"
+    ],
+    "subsectors": [
+      "nuclear-fusion/fusion"
+    ],
+    "founded": {
+      "date": "2018",
+      "source": "https://en.wikipedia.org/wiki/Commonwealth_Fusion_Systems",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Cambridge",
+      "country": "US",
+      "lat": 42.37,
+      "lon": -71.11
+    },
+    "status": "active",
+    "confidence": "medium",
+    "lastVerified": "2026-11-18"
+  },
+  {
+    "aliases": [],
+    "website": "https://generalmatter.com",
+    "statusEvent": null,
+    "story": "Scott Nolan, a former SpaceX engineer and Founders Fund partner since 2011, left in 2023 to build General Matter. The goal was to restore US uranium enrichment capacity, where Russia and China dominate HALEU production. Founders Fund incubated the company for about a year, and it was selected for the DOE's HALEU enrichment programme in 2024. It emerged with a $50M Series A in April 2025, with Peter Thiel joining the board.",
+    "founders": [
+      {
+        "name": "Scott Nolan",
+        "role": "CEO",
+        "background": "Former SpaceX engineer (Merlin engines, Dragon); Founders Fund partner 2011–2023"
+      },
+      {
+        "name": "Lee Robinson",
+        "role": "COO",
+        "background": "Previously led energy investments at the Defense Innovation Unit"
+      },
+      {
+        "name": "Ashby Bridges",
+        "role": "Co-founder",
+        "background": null
+      },
+      {
+        "name": "Drew DeWalt",
+        "role": "Co-founder",
+        "background": null
+      }
+    ],
+    "product": "Uranium enrichment to HALEU (up to 19.75%) and LEU for advanced and existing reactors.",
+    "wedge": "DOE HALEU enrichment IDIQ contract (2024), the first step to a commercial enrichment plant.",
+    "became": "Developing a roughly $1.5B commercial enrichment facility on a 100-acre DOE-leased parcel at Paducah, Kentucky, with a $900M DOE HALEU contract (Jan 2026).",
+    "differentiator": "A new private US enricher entering a market served in the US only to a limited degree by Centrus, with heavyweight Founders Fund backing.",
+    "competitors": [
+      "Centrus Energy",
+      "Urenco",
+      "Orano"
+    ],
+    "rounds": [
+      {
+        "date": "2025-04-14",
+        "type": "venture",
+        "label": null,
+        "amount": {
+          "value": 50000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Founders Fund"
+        ],
+        "investors": [],
+        "source": "https://www.energyconnects.com/news/renewables/2025/april/peter-thiel-joins-board-of-enriched-uranium-startup-general-matter",
+        "checkNote": "The page names no series, and \"the firm\" refers to Founders Fund from the previous sentence; 2025-04-14 is the article publication date, not necessarily the close date.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": {
+      "kind": "contract",
+      "note": "DOE had already selected General Matter as one of four companies for its domestic HALEU enrichment programme in 2024",
+      "source": "https://www.energyconnects.com/news/renewables/2025/april/peter-thiel-joins-board-of-enriched-uranium-startup-general-matter"
+    },
+    "firstCustomers": [
+      {
+        "name": "US Department of Energy",
+        "date": "2024",
+        "note": "Selected for DOE HALEU enrichment IDIQ programme",
+        "source": "https://www.energyconnects.com/news/renewables/2025/april/peter-thiel-joins-board-of-enriched-uranium-startup-general-matter"
+      },
+      {
+        "name": "US Department of Energy",
+        "date": "2026-01",
+        "note": "$900M contract to supply domestic HALEU via the Paducah facility",
+        "source": "https://en.wikipedia.org/wiki/General_Matter"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.energyconnects.com/news/renewables/2025/april/peter-thiel-joins-board-of-enriched-uranium-startup-general-matter",
+        "title": "Bloomberg via Energy Connects: Peter Thiel joins board of General Matter"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/General_Matter",
+        "title": "Wikipedia: General Matter"
+      }
+    ],
+    "id": "general-matter",
+    "name": "General Matter",
+    "pitch": "Founders Fund-incubated US uranium enrichment company producing HALEU and LEU at the former Paducah diffusion plant site.",
+    "domains": [
+      "nuclear-fusion"
+    ],
+    "subsectors": [
+      "nuclear-fusion/fuel-cycle"
+    ],
+    "founded": {
+      "date": "2024-01",
+      "source": "https://en.wikipedia.org/wiki/General_Matter",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Los Angeles",
+      "country": "US",
+      "lat": 34.05,
+      "lon": -118.24
+    },
+    "status": "active",
+    "confidence": "medium",
+    "lastVerified": "2026-11-18"
+  },
+  {
+    "aliases": [
+      "Helion"
+    ],
+    "website": "https://www.helionenergy.com",
+    "statusEvent": null,
+    "story": "Helion was founded in 2013 to build on inductive plasmoid accelerator experiments carried out from 2005 to 2012. It built six prototype fusion generators before Polaris, its seventh. Sam Altman has been an investor and chairman since 2015 and led the $500M Series E in 2021.",
+    "founders": [
+      {
+        "name": "David Kirtley",
+        "role": "Co-founder and CEO",
+        "background": null
+      },
+      {
+        "name": "John Slough",
+        "role": "Co-founder",
+        "background": null
+      },
+      {
+        "name": "Chris Pihl",
+        "role": "Co-founder and CTO",
+        "background": null
+      },
+      {
+        "name": "George Votroubek",
+        "role": "Co-founder, principal scientist",
+        "background": null
+      }
+    ],
+    "product": "Pulsed fusion generators (Polaris prototype; Orion 50 MW plant) designed to produce electricity directly.",
+    "wedge": "A series of fusion prototypes leading to Polaris, intended to be the first demonstration of fusion electricity.",
+    "became": "Building Orion, a 50 MW fusion plant in Malaga, Washington, under a 2023 power purchase agreement with Microsoft, plus a 500 MW plant agreement with Nucor.",
+    "differentiator": "Signed the first commercial fusion power purchase agreement (Microsoft, 2023) and pursues direct electricity recovery rather than steam turbines.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2021-11-05",
+        "type": "series-e",
+        "label": null,
+        "amount": {
+          "value": 500000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Sam Altman"
+        ],
+        "investors": [
+          "Dustin Moskovitz",
+          "Mithril Capital",
+          "Capricorn Investment Group"
+        ],
+        "checkNote": "The page also mentions an additional $1.7 billion tied to performance milestones, which is not part of the $500 million figure.",
+        "source": "https://helionenergy.com/newsroom/helion-raises-500m",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-01-28",
+        "type": "series-f+",
+        "label": "Series F",
+        "amount": {
+          "value": 425000000,
+          "currency": "USD"
+        },
+        "valuation": {
+          "value": 5425000000,
+          "currency": "USD"
+        },
+        "leads": [],
+        "investors": [
+          "Lightspeed Venture Partners",
+          "SoftBank Vision Fund 2",
+          "Sam Altman",
+          "Mithril Capital",
+          "Capricorn Investment Group",
+          "Good Ventures",
+          "Nucor"
+        ],
+        "checkNote": "The page names no lead investor, lists Good Ventures as \"Good Ventures Foundation\" (via Dustin Moskovitz) along with an unnamed university endowment, and the date is the announcement date.",
+        "source": "https://www.helionenergy.com/newsroom/helion-announces-425m-series-f-investment-to-scale-commercialized-fusion-power",
+        "check": "confirmed"
+      },
+      {
+        "date": "2026-06-04",
+        "type": "series-f+",
+        "label": "Series G",
+        "amount": {
+          "value": 500000000,
+          "currency": "USD"
+        },
+        "valuation": {
+          "value": 15500000000,
+          "currency": "USD"
+        },
+        "leads": [
+          "Thrive Capital"
+        ],
+        "investors": [
+          "Alta Park Capital",
+          "Anti Fund",
+          "BoxGroup",
+          "Lux Capital",
+          "Peak XV Partners",
+          "Bill Ford",
+          "Capricorn Technology Impact Funds",
+          "Lightspeed Venture Partners",
+          "Mithril Capital",
+          "Dustin Moskovitz",
+          "Good Ventures Foundation",
+          "SoftBank Vision Fund 2"
+        ],
+        "checkNote": "$465M was the initial close announced June 4, 2026; the page's update says the round closed at $500M in September 2026, and it names 'Capricorn Technology Impact Funds' rather than 'Capricorn Investment Group'.",
+        "source": "https://helionenergy.com/newsroom/helion-raises-465-million-series-g-funding-round-to-meet-surging-global-demand-for-power",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": {
+      "value": 1500000000,
+      "currency": "USD",
+      "asOf": "2026-06",
+      "source": "https://helionenergy.com/newsroom/helion-raises-465-million-series-g-funding-round-to-meet-surging-global-demand-for-power",
+      "checkNote": "The $1.5 billion is as of the June 4, 2026 announcement; the page later says the Series G closed at $500M rather than $465M, but gives no updated total.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "Microsoft",
+        "date": "2023",
+        "note": "PPA for electricity from a 50 MW fusion plant starting in 2028 (Orion); Wikipedia reports full power slipping to 2029–2030",
+        "source": "https://www.helionenergy.com/newsroom/helion-announces-425m-series-f-investment-to-scale-commercialized-fusion-power"
+      },
+      {
+        "name": "Nucor",
+        "date": "2023-10",
+        "note": "Agreement to develop a 500 MW fusion plant; Nucor is also an investor",
+        "source": "https://en.wikipedia.org/wiki/Helion_Energy"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://helionenergy.com/newsroom/helion-raises-500m",
+        "title": "Helion raises $500 million (Series E)"
+      },
+      {
+        "url": "https://www.helionenergy.com/newsroom/helion-announces-425m-series-f-investment-to-scale-commercialized-fusion-power",
+        "title": "Helion $425M Series F"
+      },
+      {
+        "url": "https://helionenergy.com/newsroom/helion-raises-465-million-series-g-funding-round-to-meet-surging-global-demand-for-power",
+        "title": "Helion $465M Series G"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Helion_Energy",
+        "title": "Wikipedia: Helion Energy"
+      }
+    ],
+    "id": "helion-energy",
+    "name": "Helion Energy",
+    "pitch": "Pulsed magneto-inertial fusion generators recovering electricity directly; building the Orion plant to supply Microsoft.",
+    "domains": [
+      "nuclear-fusion"
+    ],
+    "subsectors": [
+      "nuclear-fusion/fusion"
+    ],
+    "founded": {
+      "date": "2013",
+      "source": "https://en.wikipedia.org/wiki/Helion_Energy",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Everett",
+      "country": "US",
+      "lat": 47.98,
+      "lon": -122.2
+    },
+    "status": "active",
+    "confidence": "medium",
+    "lastVerified": "2026-11-18"
+  },
+  {
+    "aliases": [],
+    "website": "https://marvelfusion.com",
+    "statusEvent": null,
+    "story": "Marvel Fusion was founded in Munich in 2019 to pursue non-thermal, laser-driven fusion. Its approach uses precisely controlled short-pulse laser energy to accelerate fuel particles through nanostructured targets, building on the Nobel-winning chirped-pulse amplification work of Strickland and Mourou. The founding team brought nanotechnology, plasma physics, optics and short-pulse laser physics expertise.",
+    "founders": [
+      {
+        "name": "Moritz von der Linden",
+        "role": "Co-founder and CEO",
+        "background": null
+      },
+      {
+        "name": "Karl-Georg Schlesinger",
+        "role": "Co-founder",
+        "background": null
+      },
+      {
+        "name": "Georg Korn",
+        "role": "Co-founder",
+        "background": null
+      },
+      {
+        "name": "Pasha Shabalin",
+        "role": "Co-founder",
+        "background": null
+      }
+    ],
+    "product": "Inertial (laser) fusion technology using femtosecond lasers and nanostructured targets with hydrogen-boron and mixed fuels.",
+    "wedge": "Two 100-joule laser prototypes at a demonstration facility built with Colorado State University; initial prototype funding came from SPRIND.",
+    "became": "Developer of high-energy laser systems and a joint conceptual fusion power plant design with Siemens Energy.",
+    "differentiator": "Non-thermal, short-pulse laser approach using nanostructured targets, with industrial technology partners (Siemens Energy, TRUMPF, Thales) from early on.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2022-02-03",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 35000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [
+          "Earlybird"
+        ],
+        "investors": [
+          "PRIMEPULSE",
+          "Thistledown Capital",
+          "Taavet Hinrikus",
+          "Sten Tamkivi",
+          "Nicolas Berggruen Charitable Trust",
+          "Heinz Dürr Invest",
+          "Hartmut Neven",
+          "Albert Wenger",
+          "Possible Ventures"
+        ],
+        "source": "https://tech.eu/2022/02/03/marvel-fusion-generates-e35-million-in-new-funding-round-as-it-focuses-in-on-the-holy-grail-of-energy-production/",
+        "checkNote": "The date is the article's publication date (03 February 2022), not a stated closing date; Taavet Hinrikus and Sten Tamkivi invested via OÜ Notorius, and other undisclosed investors also took part.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2024-09-25",
+        "type": "series-b",
+        "label": null,
+        "amount": {
+          "value": 62800000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [
+          "HV Capital"
+        ],
+        "investors": [
+          "b2venture",
+          "Bayern Kapital",
+          "Deutsche Telekom",
+          "Earlybird",
+          "SPRIND",
+          "Tengelmann Ventures"
+        ],
+        "source": "https://techcrunch.com/2024/09/25/marvel-fusion-lands-70m-for-laser-powered-fusion-bet/",
+        "checkNote": "The date is the article's publication date (September 25, 2024), which the page says was when the round was announced as 'recently raised', not when it closed.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-03-27",
+        "type": "series-b",
+        "label": "Series B extension",
+        "amount": {
+          "value": 50000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "EQT Ventures",
+          "Siemens Energy Ventures",
+          "EIC Fund",
+          "Tengelmann Ventures",
+          "Bayern Kapital"
+        ],
+        "checkNote": "EUR 50m is the extension only; the full Series B totals EUR 113m, and Tengelmann Ventures and Bayern Kapital are described as existing investors who contributed again.",
+        "source": "https://marvelfusion.com/series-b/",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": {
+      "value": 385000000,
+      "currency": "EUR",
+      "asOf": "2025-03",
+      "source": "https://marvelfusion.com/series-b/",
+      "checkNote": "The EUR 385m total includes EUR 215m from public cooperation projects, not only equity investment.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": null,
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://tech.eu/2022/02/03/marvel-fusion-generates-e35-million-in-new-funding-round-as-it-focuses-in-on-the-holy-grail-of-energy-production/",
+        "title": "Tech.eu: Marvel Fusion €35M"
+      },
+      {
+        "url": "https://techcrunch.com/2024/09/25/marvel-fusion-lands-70m-for-laser-powered-fusion-bet/",
+        "title": "TechCrunch: Marvel Fusion lands $70M"
+      },
+      {
+        "url": "https://marvelfusion.com/series-b/",
+        "title": "Marvel Fusion Series B extension"
+      },
+      {
+        "url": "https://tech.eu/2025/03/27/marvel-fusion-secures-eur50m-series-b-extension-for-fusion-energy-development/",
+        "title": "Tech.eu: Marvel Fusion €50M Series B extension"
+      }
+    ],
+    "id": "marvel-fusion",
+    "name": "Marvel Fusion",
+    "pitch": "Laser-driven fusion using short-pulse lasers and nanostructured fuel targets, building a laser facility with Colorado State University.",
+    "domains": [
+      "nuclear-fusion"
+    ],
+    "subsectors": [
+      "nuclear-fusion/fusion"
+    ],
+    "founded": {
+      "date": "2019",
+      "source": "https://tech.eu/2022/02/03/marvel-fusion-generates-e35-million-in-new-funding-round-as-it-focuses-in-on-the-holy-grail-of-energy-production/",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Munich",
+      "country": "DE",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "status": "active",
+    "confidence": "high",
+    "lastVerified": "2026-11-18"
+  },
+  {
+    "aliases": [
+      "NAAREA"
+    ],
+    "website": null,
+    "statusEvent": null,
+    "story": "Naarea was founded in 2020, with co-founder Jean-Luc Alexandre, to build compact molten-salt reactors deployed directly at factories for heat and power. The reactors would burn plutonium and uranium recovered from French spent fuel. It was among the first startups backed by the French state's France 2030 innovative reactor programme.",
+    "founders": [
+      {
+        "name": "Jean-Luc Alexandre",
+        "role": "Co-founder",
+        "background": "Described as a veteran engineer"
+      }
+    ],
+    "product": "XAMR (eXtrasmall Advanced Modular Reactor), a 40 MWe / 80 MWth fast-neutron molten-salt reactor.",
+    "wedge": "Digital twin of the XAMR (July 2023) and a France 2030 grant, with a full-scale prototype targeted for 2028.",
+    "became": "Insolvent; ordered sold to Eneris Fuels, which then filed for its bankruptcy (Jan 2026).",
+    "differentiator": "Promised to turn French plutonium and nuclear waste into fuel for on-site industrial microreactors.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": null,
+        "type": "pre-seed",
+        "label": null,
+        "amount": {
+          "value": 50000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [],
+        "checkNote": "The page names no specific investors, only unnamed wealth management offices, and gives no date for the round.",
+        "source": "https://siecledigital.fr/2023/11/28/naarea-cherche-a-lever-150-millions-deuros-pour-le-developpement-de-son-petit-reacteur-nucleaire/",
+        "check": "confirmed"
+      },
+      {
+        "date": null,
+        "type": "grant",
+        "label": "France 2030 'Réacteurs Nucléaires Innovants'",
+        "amount": {
+          "value": 10000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "France 2030"
+        ],
+        "source": "https://siecledigital.fr/2023/11/28/naarea-cherche-a-lever-150-millions-deuros-pour-le-developpement-de-son-petit-reacteur-nucleaire/",
+        "checkNote": "The page says the funding came from the French government through the France 2030 programme, and it gives no date.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://siecledigital.fr/2023/11/28/naarea-cherche-a-lever-150-millions-deuros-pour-le-developpement-de-son-petit-reacteur-nucleaire/",
+        "title": "Siècle Digital: Naarea cherche à lever 150 M€"
+      },
+      {
+        "url": "https://www.maddyness.com/2026/01/20/nucleaire-eneris-debranche-naarea/",
+        "title": "Maddyness: Eneris débranche Naarea"
+      },
+      {
+        "url": "https://www.frenchtechjournal.com/essential-summer-reads-2-nuclear-meltdown-how-naarea-burned-through-eur90-million-and-collapsed-in-spectacular-fashion/",
+        "title": "French Tech Journal: How NAAREA burned through €90 million"
+      }
+    ],
+    "id": "naarea",
+    "name": "Naarea",
+    "pitch": "French startup developing XAMR, a small fast-neutron molten-salt reactor burning recycled plutonium; collapsed in 2026.",
+    "domains": [
+      "nuclear-fusion"
+    ],
+    "subsectors": [
+      "nuclear-fusion/smr"
+    ],
+    "founded": {
+      "date": "2020",
+      "source": "https://www.maddyness.com/2026/01/20/nucleaire-eneris-debranche-naarea/",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": null,
+      "country": "FR",
+      "lat": null,
+      "lon": null
+    },
+    "status": "active",
+    "confidence": "high",
+    "lastVerified": "2026-11-18"
+  },
+  {
+    "aliases": [
+      "Newcleo"
+    ],
+    "website": "https://www.newcleo.com",
+    "statusEvent": {
+      "type": "spac",
+      "date": "2026-09-22",
+      "amount": null,
+      "acquirer": null,
+      "note": "Business combination with NewHold Investment Corp III. Shares began trading on Nasdaq Global Select Market as NWCL at about $2.4B pre-money equity value. Gross proceeds were about $247M ($216M PIPE plus $31M from trust).",
+      "checkNote": "The page confirms the SPAC business combination with NewHold Investment Corp III was completed and that trading began on Nasdaq on September 22, 2026, but it states no USD 247,000,000 figure.",
+      "source": "https://www.financialcontent.com/article/gnwcq-2026-9-22-newcleo-begins-trading-on-nasdaq-under-symbol-nwcl",
+      "check": "confirmed"
+    },
+    "story": "newcleo was launched in September 2021 by Stefano Buono, Luciano Cinotti and Elisabeth Rizzotti with a €100M founding round. Its aim is to develop small lead-cooled fast reactors running on MOX fuel made from plutonium and uranium recovered from spent fuel. It raised a further €300M equity round by June 2022 and studied MOX production with Orano. The holding HQ moved from London to Paris in September 2024.",
+    "founders": [
+      {
+        "name": "Stefano Buono",
+        "role": "Co-founder, CEO and chairman",
+        "background": null
+      },
+      {
+        "name": "Luciano Cinotti",
+        "role": "Co-founder, chief scientific officer",
+        "background": null
+      },
+      {
+        "name": "Elisabeth Rizzotti",
+        "role": "Co-founder, COO",
+        "background": null
+      }
+    ],
+    "product": "Lead-cooled fast reactors (LFR, including LFR-AS-200 and a 30 MWe unit) and MOX fuel from recycled spent fuel.",
+    "wedge": "PRECURSOR, a 10 MWth non-nuclear demonstrator at ENEA's Brasimone centre in Italy, alongside a vertically integrated supply chain built through acquisitions.",
+    "became": "Nasdaq-listed advanced reactor developer operating in seven countries, expanding into the US (including a MOX fuel facility partnership with Oklo).",
+    "differentiator": "Very large early equity raises (€400M within a year of founding) and a combined reactor and fuel-recycling strategy.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2021-08",
+        "type": "venture",
+        "label": "Founding capital round",
+        "amount": {
+          "value": 100000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [],
+        "checkNote": "The page does not call this a seed or 'Founding capital' round, and the August 2021 date is inferred from 'August of last year' in an article dated 20 June 2022.",
+        "source": "https://tech.eu/2022/06/20/with-a-new-approach-to-nuclear-london-s-newcleo-clears-300-million-in-equity-raise",
+        "check": "confirmed"
+      },
+      {
+        "date": "2022-06",
+        "type": "venture",
+        "label": "Equity raise",
+        "amount": {
+          "value": 300000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [],
+        "source": "https://tech.eu/2022/06/20/with-a-new-approach-to-nuclear-london-s-newcleo-clears-300-million-in-equity-raise",
+        "checkNote": "The date is the article's publication date (20 June 2022), and the investors it names are earlier backers, not stated participants in this round.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2026-02-04",
+        "type": "venture",
+        "label": null,
+        "amount": {
+          "value": 85000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Kairos",
+          "Indaco Ventures",
+          "Azimut Investments",
+          "CERN Pension Fund",
+          "Walter Tosto",
+          "Danieli",
+          "Cementir",
+          "Orion Valves"
+        ],
+        "checkNote": "2026-02-04 is the article's publication date, not a stated closing date; no lead is named; Orion Valves invested through its vehicle Ecoline.",
+        "source": "https://www.nucnet.org/news/european-nuclear-company-newcleo-closes-latest-funding-round-of-usd85-million-2-3-2026",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": {
+      "value": 755000000,
+      "currency": "USD",
+      "asOf": "2026-02",
+      "source": "https://www.nucnet.org/news/european-nuclear-company-newcleo-closes-latest-funding-round-of-usd85-million-2-3-2026",
+      "checkNote": "The page gives the figure as \"over $755m\", so it is a lower bound.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": null,
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://tech.eu/2022/06/20/with-a-new-approach-to-nuclear-london-s-newcleo-clears-300-million-in-equity-raise",
+        "title": "Tech.eu: newcleo clears €300M"
+      },
+      {
+        "url": "https://en.wikipedia.org/wiki/Newcleo",
+        "title": "Wikipedia: Newcleo"
+      },
+      {
+        "url": "https://www.nucnet.org/news/european-nuclear-company-newcleo-closes-latest-funding-round-of-usd85-million-2-3-2026",
+        "title": "NucNet: newcleo closes $85M round"
+      },
+      {
+        "url": "https://www.nucnet.org/news/merger-will-support-european-company-s-push-into-us-market-5-3-2026",
+        "title": "NucNet: SPAC merger announcement"
+      },
+      {
+        "url": "https://dealroom.co/news/155225-nuclear-startup-newcleo-lists-on-nasdaq-with-250m-spac-deal/",
+        "title": "Dealroom: newcleo lists on Nasdaq"
+      },
+      {
+        "url": "https://www.financialcontent.com/article/gnwcq-2026-9-22-newcleo-begins-trading-on-nasdaq-under-symbol-nwcl",
+        "title": "newcleo begins trading on Nasdaq (GlobeNewswire)"
+      }
+    ],
+    "id": "newcleo",
+    "name": "newcleo",
+    "pitch": "Lead-cooled fast reactors fuelled with MOX from recycled nuclear waste; Nasdaq-listed since September 2026.",
+    "domains": [
+      "nuclear-fusion"
+    ],
+    "subsectors": [
+      "nuclear-fusion/smr",
+      "nuclear-fusion/fuel-cycle"
+    ],
+    "founded": {
+      "date": "2021-09",
+      "source": "https://en.wikipedia.org/wiki/Newcleo",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "London",
+      "country": "GB",
+      "lat": 51.51,
+      "lon": -0.13
+    },
+    "status": "public",
+    "confidence": "medium",
+    "lastVerified": "2026-11-18"
+  },
+  {
+    "aliases": [],
+    "website": "https://www.proximafusion.com",
+    "statusEvent": null,
+    "story": "Proxima Fusion is the first spin-out from the Max Planck Institute for Plasma Physics (IPP). It builds on results from the publicly funded Wendelstein 7-X stellarator. Engineering optimisation and superconducting-magnet work began in April 2023, and the team was assembled from IPP, MIT, Harvard, Google, Tesla, SpaceX and McLaren.",
+    "founders": [
+      {
+        "name": "Francesco Sciortino",
+        "role": "Co-founder and CEO",
+        "background": "Leads the first spin-out from the Max Planck Institute for Plasma Physics; further background not stated in the sources opened"
+      },
+      {
+        "name": "Martin Kubie",
+        "role": "Co-founder",
+        "background": null
+      }
+    ],
+    "product": "Quasi-isodynamic (QI) stellarator fusion power plant designs using high-temperature superconducting magnets, developed with simulation-driven engineering (StarFinder framework).",
+    "wedge": "Stellarator design and HTS magnet engineering, first validated with a Stellarator Model Coil targeted for 2027.",
+    "became": "Developer of Alpha, a net-energy stellarator demonstrator near Munich backed by the State of Bavaria, IPP and RWE, with an agreement with RWE for a first stellarator power plant at Gundremmingen.",
+    "differentiator": "Direct lineage from the Wendelstein 7-X programme and the first IPP spin-out, pursuing stellarators rather than tokamaks; it raised Europe's largest private fusion rounds.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2023",
+        "type": "pre-seed",
+        "label": null,
+        "amount": {
+          "value": 7500000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [],
+        "checkNote": "The page gives no date for the pre-seed round; 2023 is only implied by 'less than one year' before the April 10, 2024 announcement and the company starting in April 2023.",
+        "source": "https://www.proximafusion.com/press-news/proxima-fusion-raises-eu20m-seed-to-accelerate-timeline-to-fusion-power",
+        "check": "confirmed"
+      },
+      {
+        "date": "2024-04-10",
+        "type": "seed",
+        "label": null,
+        "amount": {
+          "value": 20000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [
+          "redalpine"
+        ],
+        "investors": [
+          "Bayern Kapital",
+          "DeepTech & Climate Fonds",
+          "Max Planck Foundation",
+          "Plural",
+          "UVC Partners",
+          "High-Tech Gründerfonds",
+          "Wilbe",
+          "Visionaries Club"
+        ],
+        "source": "https://www.proximafusion.com/press-news/proxima-fusion-raises-eu20m-seed-to-accelerate-timeline-to-fusion-power",
+        "checkNote": "The date is the announcement date; redalpine led, and the page names Plural, UVC Partners, High-Tech Gründerfonds, Wilbe and TOMORROW of Visionaries Club as existing investors who reinvested.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-06-11",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 130000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [
+          "Cherry Ventures",
+          "Balderton Capital"
+        ],
+        "investors": [
+          "UVC Partners",
+          "DeepTech & Climate Fonds",
+          "Plural",
+          "Leitmotif",
+          "Lightspeed",
+          "Visionaries Tomorrow",
+          "Bayern Kapital",
+          "HTGF",
+          "Club degli Investitori",
+          "OMNES Capital",
+          "Elaia Partners",
+          "redalpine"
+        ],
+        "source": "https://tech.eu/2025/06/11/proxima-fusion-raises-eur130m-for-europes-largest-private-fusion-investment/",
+        "checkNote": "The page names 'Visionaries Tomorrow' (not 'Visionaries Club') and 'HTGF' only by abbreviation; the date 2025-06-11 is the article publication date, not a stated closing date.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2026-07-07",
+        "type": "venture",
+        "label": null,
+        "amount": {
+          "value": 411000000,
+          "currency": "EUR"
+        },
+        "valuation": {
+          "value": 2400000000,
+          "currency": "EUR"
+        },
+        "leads": [
+          "XTX Ventures",
+          "East X Ventures"
+        ],
+        "investors": [
+          "RWE",
+          "Google",
+          "Burda Principal Investments",
+          "Plural",
+          "UVC Partners",
+          "Balderton Capital",
+          "Cherry Ventures",
+          "DST Global Partners",
+          "Brevan Howard Macro Venture",
+          "Lightspeed",
+          "DeepTech & Climate Fonds",
+          "redalpine",
+          "Leitmotif",
+          "Elaia Partners",
+          "CDP Venture Capital",
+          "Bayern Kapital",
+          "EIC Fund",
+          "KfW Capital",
+          "SPRIND"
+        ],
+        "checkNote": "The date is the article's announcement date (7 July 2026), and the page names some investors in short form (\"Balderton\", \"Elaia\", \"DeepTech & Climate Fonds (DTCF)\").",
+        "source": "https://www.htgf.de/en/proxima-fusion-raises-411-million-for-alpha/",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": {
+      "value": 650000000,
+      "currency": "EUR",
+      "asOf": "2026-07",
+      "source": "https://www.htgf.de/en/proxima-fusion-raises-411-million-for-alpha/",
+      "checkNote": "The page says \"more than\" €650 million, and this total includes €95 million in public grants.",
+      "check": "confirmed"
+    },
+    "firstRaiseEvidence": {
+      "kind": "research",
+      "note": "Spun out of IPP on the basis of decades of stellarator research and the 2022 W7-X optimisation results; engineering work began in April 2023.",
+      "source": "https://www.proximafusion.com/press-news/proxima-fusion-raises-eu20m-seed-to-accelerate-timeline-to-fusion-power"
+    },
+    "firstCustomers": [
+      {
+        "name": "RWE",
+        "date": "2026",
+        "note": "Agreement to build the first stellarator fusion power plant at Gundremmingen, Bavaria; RWE is also a strategic investor",
+        "source": "https://www.htgf.de/en/proxima-fusion-raises-411-million-for-alpha/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.proximafusion.com/press-news/proxima-fusion-raises-eu20m-seed-to-accelerate-timeline-to-fusion-power",
+        "title": "Proxima Fusion raises €20M seed"
+      },
+      {
+        "url": "https://tech.eu/2025/06/11/proxima-fusion-raises-eur130m-for-europes-largest-private-fusion-investment/",
+        "title": "Tech.eu: Proxima Fusion raises €130M"
+      },
+      {
+        "url": "https://www.htgf.de/en/proxima-fusion-raises-411-million-for-alpha/",
+        "title": "HTGF: Proxima Fusion raises €411 million for Alpha"
+      }
+    ],
+    "id": "proxima-fusion",
+    "name": "Proxima Fusion",
+    "pitch": "Max Planck spin-out designing quasi-isodynamic stellarator fusion power plants with high-temperature superconducting magnets.",
+    "domains": [
+      "nuclear-fusion"
+    ],
+    "subsectors": [
+      "nuclear-fusion/fusion"
+    ],
+    "founded": {
+      "date": "2023",
+      "source": "https://tech.eu/2025/06/11/proxima-fusion-raises-eur130m-for-europes-largest-private-fusion-investment/",
+      "checkNote": "The page describes 2023 as the year of the spin-out from IPP, not explicitly as an incorporation date.",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Munich",
+      "country": "DE",
+      "lat": 48.14,
+      "lon": 11.58
+    },
+    "status": "active",
+    "confidence": "high",
+    "lastVerified": "2026-11-18"
+  },
+  {
+    "aliases": [
+      "Radiant Industries",
+      "Radiant Nuclear"
+    ],
+    "website": "https://radiantnuclear.com",
+    "statusEvent": null,
+    "story": "Radiant was founded in 2020 by Doug Bernauer and Bob Urberger. Their combined experience spans SpaceX, McMaster-Carr and US national labs. The aim was to replace diesel generators with portable 1 MW reactors that need no grid infrastructure. a16z led its Series B in 2023 to fund a full-scale prototype.",
+    "founders": [
+      {
+        "name": "Doug Bernauer",
+        "role": "Founder and CEO",
+        "background": "Team experience includes SpaceX, McMaster-Carr and US national labs (a16z)"
+      },
+      {
+        "name": "Bob Urberger",
+        "role": "Co-founder",
+        "background": "Team experience includes SpaceX, McMaster-Carr and US national labs (a16z)"
+      }
+    ],
+    "product": "Kaleidos, a 1 MW helium-cooled TRISO-fuelled microreactor packaged in a shipping container, designed for about 20 years of power.",
+    "wedge": "Kaleidos Demonstration Unit, to be tested at Idaho National Laboratory's DOME facility, targeting remote sites, emergency response and military installations.",
+    "became": "Building the R-50 microreactor factory in Oak Ridge, Tennessee, with initial customer deployments targeted from 2028.",
+    "differentiator": "Mass-produced, transportable microreactor aimed at displacing diesel, with an openly 'anti-stealth' approach to its design.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2023-04-24",
+        "type": "series-b",
+        "label": null,
+        "amount": null,
+        "valuation": null,
+        "leads": [
+          "Andreessen Horowitz"
+        ],
+        "investors": [],
+        "checkNote": "The page does not state the round amount, and the date is the post's publication date (April 24, 2023), not necessarily the closing date.",
+        "source": "https://a16z.com/announcement/investing-in-radiant/",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-06",
+        "type": "series-c",
+        "label": null,
+        "amount": {
+          "value": 165000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "DCVC"
+        ],
+        "investors": [
+          "StepStone",
+          "Giant Ventures",
+          "Hanwha Asset Management Venture Fund",
+          "SGA",
+          "Crossbeam Venture Partners",
+          "Align Ventures",
+          "ARK Venture Fund",
+          "Gigascale Capital",
+          "HartBeat Ventures",
+          "Pax Ventures"
+        ],
+        "checkNote": "The only date on the page is the article date (June.03.2025), not a stated closing date, and a lawyer bio on the same page describes the Series C as $160 million.",
+        "source": "https://www.orrick.com/en/News/2025/06/Radiant-Closes-165-Million-in-Series-C-Funding",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-12-17",
+        "type": "series-d",
+        "label": null,
+        "amount": {
+          "value": 300000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Draper Associates",
+          "Boost VC"
+        ],
+        "investors": [
+          "Align Ventures",
+          "Andreessen Horowitz",
+          "ARK Invest",
+          "DCVC",
+          "Friends & Family Capital",
+          "Founders Fund",
+          "Giant",
+          "StepStone",
+          "Washington Harbour Partners"
+        ],
+        "checkNote": "The page calls Chevron's participant only \"Chevron’s tech venture arm\" and names \"Giant\" rather than \"Giant Ventures\". Its headline says Series C, but the body says the $300M round is Series D, with the $165M Series C six months earlier. December 17, 2025 is the announcement date (\"Radiant said Wednesday\").",
+        "source": "https://www.washingtontechnology.com/companies/2025/12/radiant-closes-300m-series-c-round-aid-small-nuclear-reactor-production/410228",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://a16z.com/announcement/investing-in-radiant/",
+        "title": "a16z: Investing in Radiant"
+      },
+      {
+        "url": "https://www.orrick.com/en/News/2025/06/Radiant-Closes-165-Million-in-Series-C-Funding",
+        "title": "Orrick: Radiant closes $165M Series C"
+      },
+      {
+        "url": "https://www.orrick.com/en/News/2025/12/Radiant-Closes-Over-300-Million-in-Series-D-Funding",
+        "title": "Orrick: Radiant closes over $300M Series D"
+      },
+      {
+        "url": "https://www.washingtontechnology.com/companies/2025/12/radiant-closes-300m-series-c-round-aid-small-nuclear-reactor-production/410228",
+        "title": "Washington Technology: Radiant closes $300M"
+      }
+    ],
+    "id": "radiant",
+    "name": "Radiant",
+    "pitch": "Factory-built 1 MW portable microreactors (Kaleidos) in a shipping container to replace diesel generators.",
+    "domains": [
+      "nuclear-fusion"
+    ],
+    "subsectors": [
+      "nuclear-fusion/smr"
+    ],
+    "founded": {
+      "date": "2020",
+      "source": "https://www.washingtontechnology.com/companies/2025/12/radiant-closes-300m-series-c-round-aid-small-nuclear-reactor-production/410228",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "El Segundo",
+      "country": "US",
+      "lat": 33.92,
+      "lon": -118.42
+    },
+    "status": "active",
+    "confidence": "high",
+    "lastVerified": "2026-11-18"
+  },
+  {
+    "aliases": [
+      "Steady Energy Oy",
+      "Steady Energy Plc"
+    ],
+    "website": "https://www.steadyenergy.com",
+    "statusEvent": {
+      "type": "ipo",
+      "date": "2026-10",
+      "amount": {
+        "value": 5000000,
+        "currency": "EUR"
+      },
+      "acquirer": null,
+      "note": "Reverse listing: 3North Partners Plc acquired all Steady Energy shares through a share exchange, and the combined company (renamed Steady Energy Plc) listed on Nasdaq First North Growth Market Finland under the ticker STEADY. The offer raised €5M gross, alongside a €69.8M private placement.",
+      "checkNote": "Closing was resolved on 30 September 2026 and trading is only expected to start on or about 2 October 2026; the EUR 5 million is gross proceeds of the Offering, not a share price.",
+      "source": "https://www.inderes.se/releases/steady-energy-oys-combination-with-3north-partners-plc-and-listing-of-the-combined-company-will-be-completed-as-planned-the-offering-was-oversubscribed-and-trading-in-the-series-a-shares-is-expected-to-commence-on-or-about-2-october-2026",
+      "check": "confirmed"
+    },
+    "story": "Steady Energy was spun out of VTT Technical Research Centre of Finland in 2023 to commercialise the LDR-50 district-heating reactor, which VTT had developed since 2020. The company was incubated through VTT LaunchPad, and the reactor's passive heat-removal design was patented in 2021. The aim was to decarbonise residential and district heating with a reactor running at about 150°C and below 10 bar.",
+    "founders": [
+      {
+        "name": "Tommi Nyman",
+        "role": "CEO",
+        "background": "Named as CEO in the VTT spin-out seed announcement; the source does not explicitly call him a founder"
+      },
+      {
+        "name": "Hannes Haapalahti",
+        "role": "CTO",
+        "background": "Named as CTO in the VTT seed announcement; the source does not explicitly call him a founder"
+      }
+    ],
+    "product": "LDR-50, a 50 MW heat-only low-temperature, low-pressure small modular reactor for district heating and industrial heat.",
+    "wedge": "Nuclear heat for Finnish district-heating networks, demonstrated with a full-scale non-nuclear pilot plant at a decommissioned coal plant in Helsinki.",
+    "became": "Listed SMR company (Steady Energy Plc) with preliminary agreements for up to 15 reactors in Finland and EIB financing; first commercial plant construction slated for 2029.",
+    "differentiator": "A heat-only reactor at about 150°C and below 10 bar, far gentler conditions than power reactors, targeting heat rather than electricity markets.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2023-06-27",
+        "type": "seed",
+        "label": null,
+        "amount": {
+          "value": 2000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [
+          "VTT",
+          "Yes VC",
+          "Lifeline Ventures"
+        ],
+        "investors": [],
+        "source": "https://www.vttresearch.com/en/news-and-ideas/steady-energy-raises-2-million-euros-decarbonise-residential-heating-small-modular",
+        "checkNote": "The date 2023-06-27 is the press release date (27.06.2023), not necessarily the date the round closed.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2024-03-21",
+        "type": "venture",
+        "label": null,
+        "amount": {
+          "value": 10000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [
+          "Lifeline Ventures",
+          "Yes VC"
+        ],
+        "investors": [],
+        "source": "https://bebeez.eu/2024/03/21/finnish-steady-energy-secures-e10-million-investment-to-transform-energy-sector-with-innovative-nuclear-solutions",
+        "checkNote": "The date is the publication date of a republished Arctic Startup article, not necessarily the date the round closed.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-03-05",
+        "type": "venture",
+        "label": null,
+        "amount": {
+          "value": 22000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [
+          "92 Ventures"
+        ],
+        "investors": [
+          "Lifeline Ventures"
+        ],
+        "source": "https://bebeez.eu/2025/03/05/finlands-steady-energy-raises-e22m-to-advance-small-modular-reactor-for-district-heating/",
+        "checkNote": "The page names no series or tranche, and 2025-03-05 is the article's publication date rather than a stated closing date.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-07-01",
+        "type": "venture",
+        "label": "€32M funding round",
+        "amount": {
+          "value": 32000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [
+          "92 Capital"
+        ],
+        "investors": [
+          "LocalTapiola",
+          "Tesi",
+          "Move Energy",
+          "Valo Ventures",
+          "92 Capital"
+        ],
+        "checkNote": "The page names no series, and 92 Capital (formerly 92 Ventures) is said to have led the €22M first portion in March 2025; 2025-07-01 is the article's publication date.",
+        "source": "https://siliconcanals.com/steady-energy-secures-e32m/",
+        "check": "confirmed"
+      },
+      {
+        "date": "2026-09-15",
+        "type": "debt",
+        "label": "EIB senior unsecured convertible loan (up to)",
+        "amount": {
+          "value": 40000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "European Investment Bank"
+        ],
+        "checkNote": "The EIB is the only investor named but the page never says it led; the amount is a ceiling ('up to') and 2026-09-15 is the article date, not a confirmed closing date.",
+        "source": "https://world-nuclear-news.org/articles/first-smr-investment-by-european-investment-bank",
+        "check": "confirmed"
+      },
+      {
+        "date": "2026-09-30",
+        "type": "venture",
+        "label": "Private placement alongside First North listing",
+        "amount": {
+          "value": 69800000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "Elo Mutual Pension Insurance Company",
+          "Fortum Energy Holding B.V.",
+          "Ilmarinen Mutual Pension Insurance Company",
+          "Mininvest Oy",
+          "Move Energy SMR Holding B.V.",
+          "Orlen VC sp. z o.o.",
+          "Finnish Industry Investment Ltd (Tesi)",
+          "Varma Mutual Pension Insurance Company",
+          "Yes VC Select, LP"
+        ],
+        "source": "https://www.inderes.se/releases/steady-energy-oys-combination-with-3north-partners-plc-and-listing-of-the-combined-company-will-be-completed-as-planned-the-offering-was-oversubscribed-and-trading-in-the-series-a-shares-is-expected-to-commence-on-or-about-2-october-2026",
+        "checkNote": "The amount is approximate, the shares were issued by 3NP (the combined company), and the date is when the commitments were accepted at closing.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2026-09-30",
+        "type": "ipo",
+        "label": "Public offering on Nasdaq First North Growth Market Finland",
+        "amount": {
+          "value": 5000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [],
+        "source": "https://www.inderes.se/releases/steady-energy-oys-combination-with-3north-partners-plc-and-listing-of-the-combined-company-will-be-completed-as-planned-the-offering-was-oversubscribed-and-trading-in-the-series-a-shares-is-expected-to-commence-on-or-about-2-october-2026",
+        "checkNote": "The offering was made by 3NP, which is now Steady Energy Plc; trading is expected to start on or about 2 October 2026.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": {
+      "kind": "research",
+      "note": "LDR-50 design developed at VTT since 2020, with the passive heat-removal design patented in 2021",
+      "source": "https://www.vttresearch.com/en/news-and-ideas/steady-energy-raises-2-million-euros-decarbonise-residential-heating-small-modular"
+    },
+    "firstCustomers": [
+      {
+        "name": "Unnamed Finnish heat utilities",
+        "date": "2025",
+        "note": "Preliminary agreements for up to 15 reactors in Finland; buyers not named",
+        "source": "https://siliconcanals.com/steady-energy-secures-e32m/"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://www.vttresearch.com/en/news-and-ideas/steady-energy-raises-2-million-euros-decarbonise-residential-heating-small-modular",
+        "title": "VTT: Steady Energy raises €2M"
+      },
+      {
+        "url": "https://bebeez.eu/2024/03/21/finnish-steady-energy-secures-e10-million-investment-to-transform-energy-sector-with-innovative-nuclear-solutions",
+        "title": "BeBeez: Steady Energy €10M"
+      },
+      {
+        "url": "https://bebeez.eu/2025/03/05/finlands-steady-energy-raises-e22m-to-advance-small-modular-reactor-for-district-heating/",
+        "title": "BeBeez: Steady Energy €22M"
+      },
+      {
+        "url": "https://siliconcanals.com/steady-energy-secures-e32m/",
+        "title": "Silicon Canals: Steady Energy secures €32M"
+      },
+      {
+        "url": "https://world-nuclear-news.org/articles/first-smr-investment-by-european-investment-bank",
+        "title": "WNN: First SMR funding agreed by EIB"
+      },
+      {
+        "url": "https://www.inderes.se/releases/steady-energy-oys-combination-with-3north-partners-plc-and-listing-of-the-combined-company-will-be-completed-as-planned-the-offering-was-oversubscribed-and-trading-in-the-series-a-shares-is-expected-to-commence-on-or-about-2-october-2026",
+        "title": "Release: combination with 3North Partners and listing"
+      }
+    ],
+    "id": "steady-energy",
+    "name": "Steady Energy",
+    "pitch": "VTT spin-out building the LDR-50, a low-temperature small modular reactor for district heating.",
+    "domains": [
+      "nuclear-fusion"
+    ],
+    "subsectors": [
+      "nuclear-fusion/smr"
+    ],
+    "founded": {
+      "date": "2023",
+      "source": "https://bebeez.eu/2025/03/05/finlands-steady-energy-raises-e22m-to-advance-small-modular-reactor-for-district-heating/",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Espoo",
+      "country": "FI",
+      "lat": 60.21,
+      "lon": 24.66
+    },
+    "status": "public",
+    "confidence": "high",
+    "lastVerified": "2026-11-18"
+  },
+  {
+    "aliases": [],
+    "website": "https://www.stellaria.tech",
+    "statusEvent": null,
+    "story": "Stellaria was founded in 2023 by the French CEA and Schneider Electric to develop a fast-neutron molten-salt reactor. The design can burn uranium, plutonium, MOX, minor actinides or thorium. It won €10M from France 2030's innovative reactors call and targets electricity-intensive industrial sites.",
+    "founders": [
+      {
+        "name": "Nicolas Breyton",
+        "role": "CEO",
+        "background": "CEO of the CEA/Schneider Electric spin-off; founder status not explicitly stated in source"
+      }
+    ],
+    "product": "Stellarium, a fast-neutron chloride molten-salt reactor with fuel dissolved in the coolant.",
+    "wedge": "Technical and regulatory studies toward a first molten-salt facility able to sustain fission in 2029.",
+    "became": null,
+    "differentiator": "Corporate and state-lab parentage (CEA, Schneider Electric) and a design claimed to consume more long-lived waste than it produces (company claim).",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": null,
+        "type": "seed",
+        "label": null,
+        "amount": {
+          "value": 1700000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [],
+        "checkNote": "The page gives no date for the seed round, only that it came a little under two years before the July 2025 Series A, so the year 2023 is not stated.",
+        "source": "https://www.maddyness.com/2025/07/17/nouveau-nucleaire-stellaria-leve-23-millions-deuros-pour-developper-son-reacteur/",
+        "check": "confirmed"
+      },
+      {
+        "date": null,
+        "type": "grant",
+        "label": "France 2030 'Réacteurs innovants'",
+        "amount": {
+          "value": 10000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [],
+        "investors": [
+          "France 2030"
+        ],
+        "source": "https://www.maddyness.com/2025/07/17/nouveau-nucleaire-stellaria-leve-23-millions-deuros-pour-developper-son-reacteur/",
+        "checkNote": "The grant was reported alongside the Series A in a 2025-07-17 article, but the page gives no award date.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-07-17",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 23000000,
+          "currency": "EUR"
+        },
+        "valuation": null,
+        "leads": [
+          "Supernova Invest",
+          "At One Ventures"
+        ],
+        "investors": [
+          "CEA Investissement",
+          "Schneider Electric",
+          "Exergon",
+          "Technip Energies"
+        ],
+        "source": "https://www.maddyness.com/2025/07/17/nouveau-nucleaire-stellaria-leve-23-millions-deuros-pour-developper-son-reacteur/",
+        "checkNote": "The date is the article's publication date, and the page spells the lead investor both \"At One Ventures\" and \"At One Venture\"; Technip Energies is listed right after the quoted passage.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [],
+    "sources": [
+      {
+        "url": "https://www.maddyness.com/2025/07/17/nouveau-nucleaire-stellaria-leve-23-millions-deuros-pour-developper-son-reacteur/",
+        "title": "Maddyness: Stellaria lève 23 millions d'euros"
+      },
+      {
+        "url": "https://www.nucnet.org/news/french-startup-raises-eur23-million-in-bid-to-develop-fast-neutron-molten-salt-reactor-7-5-2025",
+        "title": "NucNet: French startup raises €23 million"
+      }
+    ],
+    "id": "stellaria",
+    "name": "Stellaria",
+    "pitch": "CEA and Schneider Electric spin-off developing Stellarium, a compact fast-neutron chloride molten-salt reactor for industry.",
+    "domains": [
+      "nuclear-fusion"
+    ],
+    "subsectors": [
+      "nuclear-fusion/smr"
+    ],
+    "founded": {
+      "date": "2023",
+      "source": "https://www.maddyness.com/2025/07/17/nouveau-nucleaire-stellaria-leve-23-millions-deuros-pour-developper-son-reacteur/",
+      "check": "confirmed"
+    },
+    "hq": {
+      "city": "Grenoble",
+      "country": "FR",
+      "lat": 45.19,
+      "lon": 5.72
+    },
+    "status": "active",
+    "confidence": "high",
+    "lastVerified": "2026-11-18"
+  },
+  {
+    "aliases": [],
+    "website": "https://valaratomics.com",
+    "statusEvent": null,
+    "story": "Founder Isaiah Taylor, a self-taught software founder whose grandfather worked on the Manhattan Project, set out to bring manufacturing economics to nuclear power through repeatable 'gigasites'. He recruited former Ultra Safe Nuclear and Pebble Bed veterans including chief nuclear officer Mark Mitchell. The company emerged from stealth in February 2025 with a thermal test unit and an initial contract with the Philippines Nuclear Research Institute.",
+    "founders": [
+      {
+        "name": "Isaiah Taylor",
+        "role": "Founder and CEO",
+        "background": "Left high school at 16, studied software systems, and founded earlier startups; grandfather was a Manhattan Project nuclear physicist"
+      }
+    ],
+    "product": "Helium-cooled HTGR small modular reactors (Ward 250; NOVA core) built at production-style gigasites for data centres and industry.",
+    "wedge": "Thermal test unit plus a pilot reactor contract with the Philippines Nuclear Research Institute; later selected for two DOE pilot programmes.",
+    "became": "Reached self-sustaining criticality with Ward 250 (18 June 2026), powered an NVIDIA Blackwell system, and is shifting to manufacturing reactors at scale.",
+    "differentiator": "Speed: Ward 250 reached criticality seven months after build start, described as the first company to take a reactor critical outside a national lab.",
+    "competitors": [],
+    "rounds": [
+      {
+        "date": "2025-02-20",
+        "type": "seed",
+        "label": null,
+        "amount": {
+          "value": 19000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Riot Ventures"
+        ],
+        "investors": [
+          "AlleyCorp",
+          "Initialized Capital",
+          "Day One Ventures",
+          "Steel Atlas"
+        ],
+        "checkNote": "The date 2025-02-20 is the article's publication date, not a stated closing date.",
+        "source": "https://techcrunch.com/2025/02/20/valar-atomics-comes-out-of-stealth-with-19m-and-a-pilot-reactor-site",
+        "check": "confirmed"
+      },
+      {
+        "date": "2025-11",
+        "type": "series-a",
+        "label": null,
+        "amount": {
+          "value": 130000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Snowpoint",
+          "Day One",
+          "Dream"
+        ],
+        "investors": [],
+        "source": "https://www.ans.org/news/article-7540/new-financing-round-benefits-valar/",
+        "checkNote": "The page gives only the article's publication date (November 13, 2025) and says the raise was 'recently announced', so the exact day is unconfirmed; the page names the leads only as 'Snowpoint, Day One, and Dream', without 'Ventures'.",
+        "check": "confirmed"
+      },
+      {
+        "date": "2026-08-04",
+        "type": "series-b",
+        "label": null,
+        "amount": {
+          "value": 1000000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Sequoia Capital"
+        ],
+        "investors": [
+          "Apandion",
+          "Atreides Management",
+          "Conviction",
+          "Dream Ventures",
+          "HOF Capital",
+          "Point72",
+          "Riot Ventures",
+          "Snowpoint Ventures",
+          "Valor Equity Partners"
+        ],
+        "checkNote": "The date is the post's publication date (August 4, 2026), and the page also lists \"other both new and longtime investors\" without naming them.",
+        "source": "https://valaratomics.com/docs/Announcing-our-1B-Series-B-Led-By-Sequoia",
+        "check": "confirmed"
+      },
+      {
+        "date": "2026-08-04",
+        "type": "debt",
+        "label": "Credit facility",
+        "amount": {
+          "value": 200000000,
+          "currency": "USD"
+        },
+        "valuation": null,
+        "leads": [
+          "Erebor Bank",
+          "J.P. Morgan"
+        ],
+        "investors": [
+          "Crescent Cove",
+          "Hercules Capital"
+        ],
+        "source": "https://valaratomics.com/docs/Announcing-our-1B-Series-B-Led-By-Sequoia",
+        "checkNote": "The date is the post's publication date (August 4, 2026), not a separately stated closing date.",
+        "check": "confirmed"
+      }
+    ],
+    "totalRaised": null,
+    "firstRaiseEvidence": null,
+    "firstCustomers": [
+      {
+        "name": "Philippines Nuclear Research Institute",
+        "date": "2025-02",
+        "note": "Initial contract for a test-scale pilot reactor, then two full-scale reactors",
+        "source": "https://techcrunch.com/2025/02/20/valar-atomics-comes-out-of-stealth-with-19m-and-a-pilot-reactor-site"
+      }
+    ],
+    "sources": [
+      {
+        "url": "https://techcrunch.com/2025/02/20/valar-atomics-comes-out-of-stealth-with-19m-and-a-pilot-reactor-site",
+        "title": "TechCrunch: Valar Atomics comes out of stealth with $19M"
+      },
+      {
+        "url": "https://www.ans.org/news/article-7540/new-financing-round-benefits-valar/",
+        "title": "ANS: New financing round benefits Valar"
+      },
+      {
+        "url": "https://valaratomics.com/docs/Announcing-our-1B-Series-B-Led-By-Sequoia",
+        "title": "Valar: Announcing our $1B Series B"
+      },
+      {
+        "url": "https://www.trendingtopics.eu/sequoia-leads-billion-dollar-round-for-nuclear-startup-valar-atomics/",
+        "title": "Trending Topics: Sequoia leads $1B round"
+      }
+    ],
+    "id": "valar-atomics",
+    "name": "Valar Atomics",
+    "pitch": "Vertically integrated builder of helium-cooled high-temperature gas reactors; took Ward 250 critical outside a national lab.",
+    "domains": [
+      "nuclear-fusion"
+    ],
+    "subsectors": [
+      "nuclear-fusion/smr"
+    ],
+    "founded": {
+      "date": null,
+      "source": null
+    },
+    "hq": {
+      "city": "Hawthorne",
+      "country": "US",
+      "lat": 33.92,
+      "lon": -118.35
+    },
+    "status": "active",
+    "confidence": "high",
+    "lastVerified": "2026-11-18"
+  }
+]

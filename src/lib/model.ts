@@ -151,3 +151,6 @@ export const median = (xs: number[]) => { if (!xs.length) return null; const s =
 export const CAUSE_LABEL: Record<string, string> = { 'ran-out-of-cash': 'Ran out of cash', 'no-market': 'No market', 'technology-failed': 'Technology failed', outcompeted: 'Outcompeted', regulatory: 'Regulatory', 'customer-concentration': 'Customer concentration', 'unit-economics': 'Unit economics', 'founder-conflict': 'Founder conflict', macro: 'Macro / funding climate', other: 'Other' }
 export const ROUND_LABEL: Record<string, string> = { grant: 'Grant', 'pre-seed': 'Pre-seed', seed: 'Seed', 'series-a': 'Series A', 'series-b': 'Series B', 'series-c': 'Series C', 'series-d': 'Series D', 'series-e': 'Series E', 'series-f+': 'Series F+', growth: 'Growth', venture: 'Venture', debt: 'Debt', strategic: 'Strategic', ipo: 'IPO', contract: 'Contract', unknown: 'Round' }
 export const normInvestor = (s: string) => s.trim().replace(/\s+/g, ' ').replace(/^a16z$/i, 'Andreessen Horowitz').replace(/^Andreessen Horowitz \(a16z\)$/i, 'Andreessen Horowitz')
+
+/** 7 → "seven" for counts in sentences (up to twelve), digits beyond. */
+export const countWord = (n: number) => ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'][n] ?? String(n)

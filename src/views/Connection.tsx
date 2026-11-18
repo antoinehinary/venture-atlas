@@ -11,9 +11,10 @@ export function ConnectionPill() {
   const { source, connecting } = useAtlas()
   const [open, setOpen] = useState(false)
   const live = source?.kind === 'live'
-  const label = connecting ? 'Connecting…' : live ? source.server.name : 'Offline'
+  const demo = source?.kind === 'snapshot' && getServers().length === 0
+  const label = connecting ? 'Connecting…' : live ? source.server.name : demo ? 'Demo' : 'Offline'
   return (<>
-    <button className={`conn-pill ${live ? 'live' : 'off'}`} onClick={() => setOpen(true)} title={live ? `Live data from ${source.server.name}` : 'Not connected to any of your servers. Tap to set them up.'}>
+    <button className={`conn-pill ${live ? 'live' : demo ? 'demo' : 'off'}`} onClick={() => setOpen(true)} title={live ? `Live data from ${source.server.name}` : 'Not connected to any of your servers. Tap to set them up.'}>
       {connecting ? <Loader2 size={12} className="spin" /> : <i />}<span>{label}</span>
     </button>
     {open && <ServersDialog close={() => setOpen(false)} />}
@@ -21,10 +22,20 @@ export function ConnectionPill() {
 }
 
 /** Shown under the top bar when the data on screen is not live. */
+const REPO = 'https://github.com/antoinehinary/venture-atlas'
+
 export function OfflineBanner() {
   const { source, reconnect, connecting } = useAtlas()
   const [open, setOpen] = useState(false)
   if (!source || source.kind === 'live') return null
+  // Someone opening the public demo who has never connected to a server of their own: a welcome, not a warning.
+  if (source.kind === 'snapshot' && getServers().length === 0) return (
+    <div className="banner demo">
+      <span><b>Demo</b> · Browse, replay and compare the built-in data ({fmtDate(source.at.slice(0, 10))}). To research the fields you care about, <a href={`${REPO}#run-your-own-atlas`} target="_blank" rel="noreferrer">run your own atlas</a>.</span>
+      <span className="banner-actions"><a className="btn" href={REPO} target="_blank" rel="noreferrer">GitHub</a><button className="btn" onClick={() => setOpen(true)}>Connect a server</button></span>
+      {open && <ServersDialog close={() => setOpen(false)} />}
+    </div>
+  )
   return (
     <div className="banner offline">
       <span>{source.kind === 'saved' ? <>Offline: showing the data saved on this device on {when(source.at)}.</> : <>Offline: showing the data built into the app ({fmtDate(source.at.slice(0, 10))}).</>} Research, the review queue and notes need one of your servers.</span>

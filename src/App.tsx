@@ -8,6 +8,7 @@ import { DomainView } from './views/DomainView'
 import { Patterns, PATTERN_TABS } from './views/Patterns'
 import { Dossier } from './views/Dossier'
 import { JobDock, QueuePage } from './views/Refresh'
+import { countWord } from './lib/model'
 import { ConnectionPill, OfflineBanner } from './views/Connection'
 
 function Shell() {
@@ -34,7 +35,7 @@ function Shell() {
           {route.view === 'domain' && (a.tax.domains.some((d) => d.id === route.domain) ? <DomainView key={route.domain} domainId={route.domain} tab={route.tab} /> : <div className="loading">Unknown domain. <a href="#/">Back to the globes</a></div>)}
           {route.view === 'patterns' && (
             <main className="page">
-              <div className="page-head"><div><p className="eyebrow">All six domains</p><h1>Cross-domain patterns</h1></div></div>
+              <div className="page-head"><div><p className="eyebrow">All {countWord(a.tax.domains.length)} fields</p><h1>Cross-domain patterns</h1></div></div>
               <div className="tabs">{PATTERN_TABS.map((t) => <a key={t.id} href={`#/patterns/${t.id}`} className={route.tab === t.id ? 'on' : ''}>{t.name}</a>)}</div>
               <Patterns domainId={null} tab={route.tab} />
             </main>

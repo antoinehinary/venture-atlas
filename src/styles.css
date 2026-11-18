@@ -261,3 +261,5 @@ html, body { overflow-x: clip; }
   .clamp { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; line-clamp: 3; overflow: hidden; cursor: pointer; } .clamp.open { display: inline; }
   .scroll-x > .tbl:not(.matrix):not(.ws) td:not(.wrap) { white-space: nowrap; }
 }
+.banner.demo { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; justify-content: space-between; border-color: #1f4f78; } .banner.demo a:not(.btn) { color: var(--accent); }
+.conn-pill.demo i { background: var(--accent); }

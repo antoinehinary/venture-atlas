@@ -6,7 +6,7 @@ An open-source tracker of who is raising what, where, and why it worked, shown a
 
 Pick a field, press play, and watch its companies appear at their founding place and date, grow as they raise, and change when they are acquired, go public or shut down. Every funding figure links to the page that states it, and nothing reaches the atlas without being checked against that page.
 
-![Six globes, one per field](docs/home.png)
+![Seven globes, one per field](docs/home.png)
 
 ![A field replayed on its timeline](docs/domain.png)
 
@@ -14,7 +14,7 @@ Pick a field, press play, and watch its companies appear at their founding place
 
 | | What you get | What you need |
 |---|---|---|
-| **[Try the demo](https://antoinehinary.github.io/venture-atlas/)** | The six built-in fields (267 companies, 697 funding rounds, 96 events) to browse, replay and compare. Read-only. | A browser |
+| **[Try the demo](https://antoinehinary.github.io/venture-atlas/)** | The seven built-in fields (278 companies, 735 funding rounds, 96 events) to browse, replay and compare. Read-only. | A browser |
 | **[Run your own atlas](#run-your-own-atlas)** | Your own fields and research: the AI finds companies and funding rounds in the domains you choose, every figure is checked against its source, and you approve what goes in. Stars and notes. | Node.js, and an AI key for research |
 | **[Use it on your phone](#phone-app)** | The app on your home screen. Offline it shows the built-in or last-synced data; on [Tailscale](https://tailscale.com) it connects to your own atlas (laptop or Raspberry Pi) with live data and research. | A phone, plus Tailscale for live data |
 
@@ -43,7 +43,7 @@ npm install
 npm run dev
 ```
 
-You need [Node.js](https://nodejs.org) 22.12 or newer (24 LTS recommended). Open http://localhost:5173: the atlas starts with the six built-in fields and runs entirely on your machine. No account, no database.
+You need [Node.js](https://nodejs.org) 22.12 or newer (24 LTS recommended). Open http://localhost:5173: the atlas starts with the seven built-in fields and runs entirely on your machine. No account, no database.
 
 ### 2. Connect an AI provider
 

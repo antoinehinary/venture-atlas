@@ -302,7 +302,7 @@
     {
       "id": "ml-ai",
       "name": "ML / AI",
-      "tagline": "Proposed scope: physical and perception AI first",
+      "tagline": "Perception and physical AI first",
       "color": "#3ddc97",
       "subsectors": [
         {
@@ -445,6 +445,44 @@
         "uncrewed vessels",
         "shipping software",
         "ocean data"
+      ]
+    },
+    {
+      "id": "nuclear-fusion",
+      "name": "Nuclear & fusion",
+      "tagline": "New fission and the fusion race",
+      "color": "#ff7ab6",
+      "keywords": [
+        "small modular reactor",
+        "microreactor",
+        "fusion",
+        "nuclear fuel"
+      ],
+      "subsectors": [
+        {
+          "id": "nuclear-fusion/smr",
+          "name": "Small modular & microreactors",
+          "description": "Advanced fission reactor developers",
+          "enabled": true
+        },
+        {
+          "id": "nuclear-fusion/fusion",
+          "name": "Fusion",
+          "description": "Magnetic, inertial and alternative fusion concepts",
+          "enabled": true
+        },
+        {
+          "id": "nuclear-fusion/fuel-cycle",
+          "name": "Fuel & supply chain",
+          "description": "Enrichment, HALEU, components and waste",
+          "enabled": true
+        },
+        {
+          "id": "nuclear-fusion/nuclear-services",
+          "name": "Software & services",
+          "description": "Licensing, digital twins, operations",
+          "enabled": true
+        }
       ]
     }
   ]

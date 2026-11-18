@@ -1,7 +1,7 @@
 import { useEffect, useMemo } from 'react'
 import { useAtlas } from '../lib/store'
 import { buildScene, getEngine } from '../globe/Stage'
-import { NOW, fmtUsd, groupFor, EUROPE } from '../lib/model'
+import { NOW, fmtUsd, groupFor, EUROPE, countWord } from '../lib/model'
 import { RefreshControls } from './Refresh'
 import { AddFieldTile } from './Fields'
 
@@ -30,7 +30,7 @@ export function Home() {
   return (
     <main className="home">
       <div className="home-intro">
-        <h1>How {stats.length === 6 ? 'six' : stats.length} field{stats.length === 1 ? ' was' : 's were'} built, company by company.</h1>
+        <h1>How {countWord(stats.length)} field{stats.length === 1 ? ' was' : 's were'} built, company by company.</h1>
         <p>{total} companies tracked. Pick a globe to replay its history, or compare them all in <a href="#/patterns">cross-domain patterns</a>.</p>
       </div>
       <div className={`home-grid n${Math.min(stats.length + 1, 9)}`}>
